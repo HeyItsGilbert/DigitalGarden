@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "ea4370c8e7b5fa38",
+    "type": "split",
+    "children": [
+      {
+        "id": "0ee4f8bdd6bd0f77",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "72a53ea1dd017e19",
+    "type": "split",
+    "children": [
+      {
+        "id": "1c1d369d3cea30f0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d4cbfd36852cd023",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "9b0cb2194d44bb74",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bb6c35e40eadc304",
+    "type": "split",
+    "children": [
+      {
+        "id": "2891ea737618933d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "515eb620a78ccf78",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "0ee4f8bdd6bd0f77",
+  "lastOpenFiles": [
+    "Dialectics.md",
+    "_index.md",
+    "Installing MQTT.md",
+    "templates/Atomic.md",
+    "atomics/Obsidian.md",
+    "atomics/digital garden.md"
+  ]
+}

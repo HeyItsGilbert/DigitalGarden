@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/Atomic.md",
+                "file": "articles/PowerShell.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "templates/Atomic.md",
+                "file": "articles/PowerShell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,10 +115,14 @@
   },
   "active": "0ee4f8bdd6bd0f77",
   "lastOpenFiles": [
+    "LICENSE",
+    "articles/Obsidian.md",
+    "articles/Hugo.md",
+    "articles/DigitalGarden.md",
+    "templates/Atomic.md",
     "_index.md",
     "Installing MQTT.md",
     "Dialectics.md",
-    "templates/Atomic.md",
     "atomics/Obsidian.md",
     "atomics/digital garden.md"
   ]

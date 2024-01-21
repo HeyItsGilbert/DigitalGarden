@@ -3,7 +3,7 @@ share: true
 date: 2023-01-02
 ---
 
-I've needed to install [[mqtt|mqtt]] DLL's to call them from [[PowerShell|PowerShell]] and this is how I did it.
+I've needed to install [[MQTT|MQTT]] DLL's to call them from [[PowerShell|PowerShell]] and this is how I did it.
 ```
 $> nuget sources add -Name "nuget.org" -Source https://api.nuget.org/v3/index.json
 Package source with Name: nuget.org added successfully.

@@ -20,7 +20,7 @@ import MobileOnly from "./MobileOnly"
 import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
-import FolderExporer from "./FolderExplorer"
+import FolderExplorer from "./FolderExplorer"
 
 export {
   ArticleTitle,
@@ -45,4 +45,5 @@ export {
   NotFound,
   Breadcrumbs,
   Comments,
+  FolderExplorer,
 }

@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "⚗️ Hey, It's Gilbert's Digital Garden!",
+    pageTitle: "🌱 HeyItsGilbert's Digital Garden!",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -15,7 +15,7 @@ const config: QuartzConfig = {
     theme: {
       typography: {
         header: "Titillium Web",
-        body: "Bricolage Grotesque",
+        body: "Bitter",
         code: "JetBrains Mono",
       },
       colors: {
@@ -30,14 +30,14 @@ const config: QuartzConfig = {
           highlight: "rgba(143, 159, 169, 0.15)",
         },
         darkMode: {
-          light: "#1a1915",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#5d7da5",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          light: "#100F0F",
+          lightgray: "#282726",
+          gray: "#343331",
+          darkgray: "#CECDC3",
+          dark: "#E6E4D9",
+          secondary: "#5E409D",
+          tertiary: "#8B7EC8",
+          highlight: "rgba(94, 64, 157, 0.15)",
         },
       },
     },

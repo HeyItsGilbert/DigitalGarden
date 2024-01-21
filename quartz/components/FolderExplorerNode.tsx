@@ -155,14 +155,14 @@ export class FileNode {
   }
 }
 
-type ExplorerNodeProps = {
+type FolderExplorerNodeProps = {
   node: FileNode
   opts: Options
   fileData: QuartzPluginData
   fullPath?: string
 }
 
-export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodeProps) {
+export function FolderExplorerNode({ node, opts, fullPath, fileData }: FolderExplorerNodeProps) {
 
   // Calculate current folderPath
   let folderPath = ""

@@ -6,7 +6,6 @@ tags:
   - tech
 ---
 
-# PowerShell
 PowerShell is a cross platform shell that leverages .Net while also creating an easy to use experience for end users. It has access to all existing applications in the path like any other shell.
 
 ## Functions aka Cmdlets

@@ -6,7 +6,6 @@ tags:
 share: true
 ---
 
-# Cost of Attrition
 When people leave a company the cost isn't just felt in the immediate team.
 When people move between teams, it actually improves the interconnectedness.
 

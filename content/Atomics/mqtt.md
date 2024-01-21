@@ -4,7 +4,6 @@ share: true
 title: MQTT
 ---
 
-# MQTT
 A lightweight pub/sub model that allows various tools to communicate their state to be used in a larger context. You can subscribe to topics to learn when a state changes.
 
 This is heavily used by IOT devices.

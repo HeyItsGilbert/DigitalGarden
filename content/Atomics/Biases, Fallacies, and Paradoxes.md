@@ -1,5 +1,5 @@
 ---
-Date: 2022-12-29
+date: 2022-12-29
 tags:
   - psychology
 aliases:

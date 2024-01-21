@@ -1,5 +1,5 @@
 ---
-Date: 2022-02-15
+date: 2022-02-15
 tags:
   - ideas
   - leadership

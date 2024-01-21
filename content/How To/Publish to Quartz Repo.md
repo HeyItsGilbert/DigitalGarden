@@ -7,7 +7,7 @@ So I discovered Quartz after I finished setting up the Mkdocs Obsidian template.
 ## Quick Guide
 
 1. Create a repo from the [quartz repo](https://github.com/jackyzha0/quartz) template.
-2. You can remove the docs folder (optional)
+2. You can remove the `docs` folder (optional)
 3. Install the [GitHub Publisher](https://github.com/ObsidianPublisher/obsidian-github-publisher) [[Obsidian|Obsidian]] extension.
 4. You can click "Import Settings" and use the settings below.
 5. You will need to update with your own token and repo.
@@ -96,3 +96,7 @@ So I discovered Quartz after I finished setting up the Mkdocs Obsidian template.
 ```
 
 A few notes:
+- This keeps the obisidian folder structure (my preference)
+- The extension takes some plugins that generate markdown (i.e. Dataview), and use that current version of that. This also means that you need to republish the note if the data changes.
+- The default folder to publish content to is `content`.
+- There are probably some left over cruft from my various testing (e.g. `docs/assets/img` 😬) 

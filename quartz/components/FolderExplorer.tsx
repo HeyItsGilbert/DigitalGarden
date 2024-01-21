@@ -6,10 +6,10 @@ import explorerStyle from "./styles/explorer.scss"
 
 // @ts-ignore
 import script from "./scripts/explorer.inline"
-import { ExplorerNode, FileNode, Options } from "./ExplorerNode"
+import { FolderExplorerNode, FileNode, Options } from "./FolderExplorerNode"
 import { QuartzPluginData } from "../plugins/vfile"
 
-// Options interface defined in `ExplorerNode` to avoid circular dependency
+// Options interface defined in `FolderExplorerNode` to avoid circular dependency
 const defaultOptions = {
   useSavedState: true,
   mapFn: (node) => {
@@ -81,7 +81,7 @@ export default ((userOpts?: Partial<Options>) => {
       <div class={`folderexplorer ${displayClass ?? ""}`}>
         <div id="explorer-content">
           <ul class="overflow" id="explorer-ul">
-            <ExplorerNode node={fileTree} opts={opts} fileData={fileData} />
+            <FolderExplorerNode node={fileTree} opts={opts} fileData={fileData} />
             <li id="explorer-end" />
           </ul>
         </div>

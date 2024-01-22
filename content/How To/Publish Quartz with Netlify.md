@@ -6,7 +6,7 @@ share: true
 
 
 > [!NOTE] Obisidian to Quartz
-> You can see how I push my [[Obsidian|Obsidian]] note to [[Quartz|Quartz]] at [[Publish Quartz with Netlify|Publish Quartz with Netlify]]
+> You can see how I push my [[Obsidian|Obsidian]] note to [[Quartz|Quartz]] at [[Publish to Quartz Repo|Publish to Quartz Repo]]
 
 The beautiful thing about Quartz is the build command is very straight forward. [Netlify](https://netlify.com) is a great way to build and host static sites for free.
 

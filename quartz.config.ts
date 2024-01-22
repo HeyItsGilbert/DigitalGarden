@@ -7,7 +7,8 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "google",
+      tagId: "G-FD48XZZQHK"
     },
     baseUrl: "garden.gilbertsanchez.com",
     ignorePatterns: ["private", "templates", ".obsidian"],

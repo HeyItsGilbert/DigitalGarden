@@ -28,4 +28,4 @@ Benjami also kept an optimal schedule[^1]. This included questions to write abou
 
 ![[Pasted image 20240122155725.png|Benjamin's Defined Scheduled]]
 
-^1: https://www.journalinghabit.com/journal-tips-benjamin-franklin/
+[^1]: https://www.journalinghabit.com/journal-tips-benjamin-franklin/

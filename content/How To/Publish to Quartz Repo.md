@@ -99,4 +99,4 @@ A few notes:
 - This keeps the obisidian folder structure (my preference)
 - The extension takes some plugins that generate markdown (i.e. Dataview), and use that current version of that. This also means that you need to republish the note if the data changes.
 - The default folder to publish content to is `content`.
-- There are probably some left over cruft from my various testing (e.g. `docs/assets/img` 😬) 
+- There are probably some leftover cruft from my various testing (e.g. `docs/assets/img` 😬) 

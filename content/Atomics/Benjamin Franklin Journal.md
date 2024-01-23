@@ -4,7 +4,7 @@ tags:
   - learning
   - journal
   - stoic
-modified: 2024-01-22T15:58:09-08:00
+modified: 2024-01-22T17:08:02-08:00
 share: true
 ---
 
@@ -24,8 +24,6 @@ Ben Franklin has a famous approach to his journal. He had a list of virtues, a h
 12. CHASTITY. Rarely use venery but for health or offspring, never to dullness, weakness, or the injury of your own or another’s peace or reputation.
 13. HUMILITY. Imitate Jesus and Socrates.
 ## Defined Schedule
-![[Pasted image 20240122155725.png|Pasted image 20240122155725.png]]
+![[Pasted image 20240122155725.png|Benjamin's Defined Scheduled]][^1]
 
----
-## References
-- https://www.journalinghabit.com/journal-tips-benjamin-franklin/
+^1: https://www.journalinghabit.com/journal-tips-benjamin-franklin/

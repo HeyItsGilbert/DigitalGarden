@@ -5,6 +5,7 @@ tags:
   - journal
   - stoic
 modified: 2024-01-22T17:10:55-08:00
+modified: 2024-01-22T17:10:55-08:00
 share: true
 ---
 

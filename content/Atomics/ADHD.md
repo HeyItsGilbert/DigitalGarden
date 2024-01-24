@@ -1,10 +1,11 @@
 ---
-modified: 2024-01-22T16:51:43-08:00
+modified: 2024-01-24T06:41:45-08:00
 tags:
   - adhd
 aliases:
   - Attention Deficit Hyperactive Disorder
 share: true
+description: A note on ADHD with a lot of links to other notes.
 ---
 
 

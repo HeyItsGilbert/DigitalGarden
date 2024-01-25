@@ -1,9 +1,10 @@
 ---
 date: 2024-01-20
 share: true
+modified: 2024-01-25T09:36:48-08:00
 ---
 
-So I discovered Quartz after I finished setting up the Mkdocs Obsidian template. I was constantly running into issues. Mkdocs is finicky with URL's case and that meant I would have to rename folders and files. Quartz didn't have those issues PLUS I was able to keep using the Publisher extension which I thought was great.
+So I discovered Quartz after I finished setting up the Mkdocs Obsidian template. I was constantly running into issues with [[Mkdocs|Mkdocs]]. [[Mkdocs|Mkdocs]] is finicky with URL's case sensitivity and that meant I would have to rename folders and files. Quartz didn't have those issues PLUS I was able to keep using the Publisher extension which I thought was great.
 ## Quick Guide
 
 1. Create a repo from the [quartz repo](https://github.com/jackyzha0/quartz) template.

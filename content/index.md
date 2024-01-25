@@ -2,6 +2,7 @@
 date: 2022-07-06
 share: true
 title: Home
+modified: 2024-01-24T16:06:00-08:00
 ---
 
 # Hey! It's Gilbert's Digital Garden 🌱

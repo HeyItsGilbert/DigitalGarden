@@ -4,10 +4,10 @@ export default (() => {
   function Footer() {
     return (
       <script src="https://giscus.app/client.js"
-        data-repo="HeyItsGilbert/PKM"
-        data-repo-id="R_kgDOK_O8yA"
-        data-category="Announcements"
-        data-category-id="DIC_kwDOK_O8yM4CcHlb"
+        data-repo="HeyItsGilbert/DigitalGarden"
+        data-repo-id="R_kgDOLHgRUg"
+        data-category="General"
+        data-category-id="DIC_kwDOLHgRUs4CcuXv"
         data-mapping="pathname"
         data-strict="0"
         data-reactions-enabled="1"

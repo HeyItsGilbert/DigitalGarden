@@ -13,4 +13,6 @@ Unlike my [blog](https://gilbertsanchez.com/) the idea is that these are notes a
 
 At some point I'll document how I built this site with [[Obsidian|Obsidian]] and [Quartz](https://quartz.jzhao.xyz/). I went through various iterations using [[PowerShell|PowerShell]] scripts, [[Hugo|Hugo]], and [[MkDocs|MkDocs]].
 
-<a href="./MOC/Learning MOC"><img src="./Files/learning.svg" height="100" width="auto"></a>
+<div class="moc">
+    <a href="./MOC/Learning MOC"><img src="./Files/learning.svg" height="100" width="auto"></a>
+</div>

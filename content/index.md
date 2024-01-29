@@ -2,7 +2,7 @@
 date: 2022-07-06
 share: true
 title: Home
-modified: 2024-01-29T06:27:34-08:00
+modified: 2024-01-29T09:20:28-08:00
 ---
 
 # Hey! It's Gilbert's Digital Garden 🌱
@@ -13,4 +13,4 @@ Unlike my [blog](https://gilbertsanchez.com/) the idea is that these are notes a
 
 At some point I'll document how I built this site with [[Obsidian|Obsidian]] and [Quartz](https://quartz.jzhao.xyz/). I went through various iterations using [[PowerShell|PowerShell]] scripts, [[Hugo|Hugo]], and [[MkDocs|MkDocs]].
 
-[![[learning.svg|100]]]([[MOC/Learning MOC|MOC/Learning MOC]])
+<a href="./MOC/Learning MOC"><img src="./Files/learning.svg" height="100" width="auto"></a>

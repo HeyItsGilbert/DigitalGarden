@@ -2,7 +2,7 @@
 date: 2022-07-06
 share: true
 title: Home
-modified: 2024-01-24T16:06:00-08:00
+modified: 2024-01-28T20:57:48-08:00
 ---
 
 # Hey! It's Gilbert's Digital Garden 🌱
@@ -13,4 +13,12 @@ Unlike my [blog](https://gilbertsanchez.com/) the idea is that these are notes a
 
 At some point I'll document how I built this site with [[Obsidian|Obsidian]] and [Quartz](https://quartz.jzhao.xyz/). I went through various iterations using [[PowerShell|PowerShell]] scripts, [[Hugo|Hugo]], and [[MkDocs|MkDocs]].
 
-![[MOC's.svg|MOC's.svg]]
+## Map's of Content
+I have a few (ha!) interests and this is sort of how I break them down.
+
+
+[![[learning.svg|80]][^1])]([[Learning MOC|Learning MOC]])
+
+
+^1: Learning by Komkrit Noenpoempisut from <a href="https://thenounproject.com/browse/icons/term/learning/" target="_blank" title="Learning Icons">Noun Project</a> (CC BY 3.0)
+

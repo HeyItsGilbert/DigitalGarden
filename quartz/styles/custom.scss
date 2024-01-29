@@ -1,3 +1,14 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+// These are my MOC images
+[saved-theme="dark"] div.moc img {
+    filter: invert(70%);
+    margin: 0 0 0 0;
+}
+
+// Code says `none` but it should be unset
+div.moc a {
+    background-color: unset;
+}

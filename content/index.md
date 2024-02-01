@@ -2,7 +2,7 @@
 date: 2022-07-06
 share: true
 title: Home
-modified: 2024-01-29T09:20:28-08:00
+modified: 2024-01-31T16:33:09-08:00
 ---
 
 # Hey! It's Gilbert's Digital Garden 🌱
@@ -13,6 +13,49 @@ Unlike my [blog](https://gilbertsanchez.com/) the idea is that these are notes a
 
 At some point I'll document how I built this site with [[Obsidian|Obsidian]] and [Quartz](https://quartz.jzhao.xyz/). I went through various iterations using [[PowerShell|PowerShell]] scripts, [[Hugo|Hugo]], and [[MkDocs|MkDocs]].
 
+## Map's of Content
+I have a few (ha!) interests and these are the categories of how I break them down.
 <div class="moc">
-    <a href="./MOC/Learning MOC"><img src="./Files/learning.svg" height="100" width="auto"></a>
+    <div class="mocitem">
+        <a href="./MOC/Learning MOC">
+            Learning
+            <img src="./Files/machine-learning.svg" height="100" width="auto">
+        </a>
+    </div>
+    <div class="mocitem">
+        <a href="./MOC/Coding MOC">
+            Coding
+            <img src="./Files/code.svg" height="100" width="auto">
+        </a>
+    </div>
+    <div class="mocitem">
+        <a href="./MOC/FLow MOC">
+            Flow
+            <img src="./Files/forward.svg" height="100" width="auto">
+        </a>
+    </div>
+    <div class="mocitem">
+        <a href="./MOC/Leadership MOC">
+            Leadership
+            <img src="./Files/leadership.svg" height="100" width="auto">
+        </a>
+    </div>
+    <div class="mocitem">
+        <a href="./MOC/Habits MOC">
+            Habits
+            <img src="./Files/lifestyle.svg" height="100" width="auto">
+        </a>
+    </div>
+     <div class="mocitem">
+        <a href="./MOC/Philosophy MOC">
+            Habits
+            <img src="./Files/philosopher.svg" height="100" width="auto">
+        </a>
+    </div>
+    <div class="mocitem">
+        <a href="./MOC/Work MOC">
+            Work
+            <img src="./Files/briefcase.svg" height="100" width="auto">
+        </a>
+    </div>
 </div>

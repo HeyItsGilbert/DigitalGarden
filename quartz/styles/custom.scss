@@ -9,9 +9,7 @@ div.moc {
   flex-wrap: wrap;
   place-content: center space-between;
   justify-content: center;
-  font-size: 1.2rem;
-  font-family: var(--headerFont);
-  color: var(--dark);
+
 
   img {
     margin: 1rem;
@@ -21,6 +19,9 @@ div.moc {
     background-color: unset;
     display: flex;
     flex-direction: column;
+    font-size: 1.2rem;
+    font-family: var(--headerFont);
+    color: var(--dark);
   }
 }
 

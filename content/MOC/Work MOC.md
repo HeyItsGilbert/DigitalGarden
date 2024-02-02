@@ -1,14 +1,14 @@
 ---
 banner: "![[Pasted image 20221228113753.png|Pasted image 20221228113753.png]]"
 banner_y: 0.34
-modified: 2024-02-02T05:54:01-08:00
+modified: 2024-02-02T07:11:15-08:00
 share: true
 ---
 
-## Notes
-[[Technical Leadership and Glue work|Technical Leadership and Glue work]]
-[[Cost of Attrition|Cost of Attrition]]
-
+## Remote Work
+- 
+## Diversity, Equity, and Inclusion (DEI)
+- [[Technical Leadership and Glue work|Technical Leadership and Glue work]]
 ## Tagged with Work
 | File                                                                  |
 | --------------------------------------------------------------------- |

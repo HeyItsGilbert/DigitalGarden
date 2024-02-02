@@ -1,7 +1,10 @@
 ---
-modified: 2024-01-22T07:58:47-08:00
+modified: 2024-02-01T17:35:15-08:00
 date: 2024-01-22
 share: true
+tags:
+  - coding
+  - technology
 ---
 
 

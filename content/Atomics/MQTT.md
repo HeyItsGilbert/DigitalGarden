@@ -2,6 +2,9 @@
 date: 2024-01-02
 share: true
 title: MQTT
+tags:
+  - technology
+modified: 2024-02-01T17:35:50-08:00
 ---
 
 A lightweight pub/sub model that allows various tools to communicate their state to be used in a larger context. You can subscribe to topics to learn when a state changes.

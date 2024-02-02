@@ -1,6 +1,10 @@
 ---
 share: true
 date: 2023-01-02
+tags:
+  - technology
+  - PowerShell
+modified: 2024-02-01T16:17:56-08:00
 ---
 
 I've needed to install [[MQTT|MQTT]] DLL's to call them from [[PowerShell|PowerShell]] and this is how I did it.

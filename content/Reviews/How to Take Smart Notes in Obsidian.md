@@ -1,6 +1,10 @@
 ---
 date: 2024-01-07
 share: true
+tags:
+  - technology
+  - books
+modified: 2024-02-01T16:17:05-08:00
 ---
 
 **Original**: https://a.co/d/846JhRj

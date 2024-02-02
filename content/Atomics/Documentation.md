@@ -1,6 +1,10 @@
 ---
 date: 2024-01-02
 share: true
+tags:
+  - learning
+  - coding
+modified: 2024-02-01T17:57:19-08:00
 ---
 
 Documentation can take many forms and can be hot button issue.

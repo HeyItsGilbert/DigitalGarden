@@ -2,6 +2,11 @@
 share: true
 date: 2024-01-03
 review: incomplete
+tags:
+  - creativity
+  - work
+  - habits
+modified: 2024-02-01T16:17:19-08:00
 ---
 
 **Original**: https://www.goodreads.com/book/show/17606014-manage-your-day-to-day

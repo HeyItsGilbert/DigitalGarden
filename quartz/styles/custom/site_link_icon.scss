@@ -1,5 +1,10 @@
-a[href*="github"]:after {
+/* 00a0 is a non-breaking space, f09b is the github symbol */
+a[href*="github"]:before {
   font-family: FontAwesome;
   content: "\00a0\f09b";
-  /* 00a0 is a non-breaking space, f09b is the github symbol */
+}
+
+a[href="http://gilbertsanchez.com"]:before {
+  font-family: FontAwesome;
+  content: "\00a0\f5ac";
 }

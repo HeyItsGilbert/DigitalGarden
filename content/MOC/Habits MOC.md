@@ -12,5 +12,5 @@ My passion around this has existed for a while. I understand that some of my str
 | File                                                          |
 | ------------------------------------------------------------- |
 | [[Reviews/Manage Your Day-to-Day.md\|Manage Your Day-to-Day]] |
-| [[Atomics/Habits MOC.md\|Habits MOC]]                         |
+| [[MOC/Habits MOC.md\|Habits MOC]]                             |
 

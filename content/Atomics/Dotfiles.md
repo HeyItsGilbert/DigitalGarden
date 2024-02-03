@@ -7,13 +7,15 @@ tags:
   - coding
   - flow
 aliases: 
-modified: 2024-02-02T17:34:58-08:00
+modified: 2024-02-02T17:36:06-08:00
 cssclasses:
   - wiki-right
 ---
 
 These are the files or folders that live your home directory that configure your applications. Some examples are: `.config/`, `.zshrc`, etc.
 Because these are typically flat files they can easily be stored in a [[git|git]] repository you can easily copy them between your different machines.
+
+You can find my dotfiles at: https://github.com/HeyItsGilbert/dotfiles
 ## Value of Dotfiles
 The value of maintaing a dotfiles repository is that you can create a 
 ## Managing Dotfiles

@@ -13,9 +13,14 @@ tags:
 [[Cost of Attrition|Cost of Attrition]]
 
 ## Tagged with Leadership
-| File                                                      |
-| --------------------------------------------------------- |
-| [[Atomics/Cost of Attrition.md\|Cost of Attrition]]       |
-| [[Atomics/Eisenhower Principle.md\|Eisenhower Principle]] |
-| [[MOC/Leadership MOC.md\|Leadership MOC]]                 |
+| File                                                            |
+| --------------------------------------------------------------- |
+| [[MOC/Leadership MOC.md\|Leadership MOC]]                       |
+| [[Atomics/Writing.md\|Writing]]                                 |
+| [[Atomics/Values to Actions-KPI's.md\|Values to Actions-KPI's]] |
+| [[Atomics/S.M.A.R.T Goals.md\|S.M.A.R.T Goals]]                 |
+| [[Atomics/Output Management.md\|Output Management]]             |
+| [[Atomics/MOSCOW ranking.md\|MOSCOW ranking]]                   |
+| [[Atomics/Eisenhower Principle.md\|Eisenhower Principle]]       |
+| [[Atomics/Cost of Attrition.md\|Cost of Attrition]]             |
 

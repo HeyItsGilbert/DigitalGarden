@@ -4,11 +4,11 @@ date: 2023-01-02
 tags:
   - technology
   - PowerShell
-modified: 2024-02-01T16:17:56-08:00
+modified: 2024-02-02T18:10:21-08:00
 ---
 
-I've needed to install [[MQTT|MQTT]] DLL's to call them from [[PowerShell|PowerShell]] and this is how I did it.
-```
+I've needed to install [[MQTT|MQTT]] DLL's to call them from [[PowerShell|PowerShell]] and this is how I did it. I got the original idea from Jack Gruber[^1].
+```powershell
 $> nuget sources add -Name "nuget.org" -Source https://api.nuget.org/v3/index.json
 Package source with Name: nuget.org added successfully.
 $> nuget install m2mqtt -o .
@@ -38,6 +38,4 @@ Executing nuget actions took 980 ms
 
 I used this in my [Controlling a Cheap "Neon" LED, Pt 2](https://gilbertsanchez.com/posts/controlling-a-cheap-neon-led-pt-2/)
 
----
-## References
-https://jackgruber.github.io/2019-06-05-ps-mqtt/
+[^1]: https://jackgruber.github.io/2019-06-05-ps-mqtt/

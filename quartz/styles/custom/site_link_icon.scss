@@ -1,0 +1,5 @@
+a[href*="github"]:after {
+  font-family: FontAwesome;
+  content: "\00a0\f09b";
+  /* 00a0 is a non-breaking space, f09b is the github symbol */
+}

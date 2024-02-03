@@ -2,7 +2,7 @@
 date: 2022-07-06
 share: true
 title: Home
-modified: 2024-01-31T16:33:09-08:00
+modified: 2024-02-02T16:04:28-08:00
 ---
 
 # Hey! It's Gilbert's Digital Garden 🌱
@@ -48,7 +48,7 @@ I have a few (ha!) interests and these are the categories of how I break them do
     </div>
      <div class="mocitem">
         <a href="./MOC/Philosophy MOC">
-            Habits
+            Philosophy
             <img src="./Files/philosopher.svg" height="100" width="auto">
         </a>
     </div>

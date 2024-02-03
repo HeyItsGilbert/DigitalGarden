@@ -8,3 +8,8 @@ a[href*="https://gilbertsanchez.com"]:before {
   font-family: FontAwesome;
   content: "\f5ac\00a0";
 }
+
+a[href*="obsidian://"]:before {
+  font-family: FontAwesome;
+  content: "\f019\00a0";
+}

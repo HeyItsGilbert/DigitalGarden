@@ -4,7 +4,7 @@ a[href*="github"]:before {
   content: "\f09b\00a0";
 }
 
-a[href="https://gilbertsanchez.com"]:before {
+a[href*="https://gilbertsanchez.com"]:before {
   font-family: FontAwesome;
   content: "\f5ac\00a0";
 }

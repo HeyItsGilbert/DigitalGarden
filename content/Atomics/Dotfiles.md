@@ -17,7 +17,7 @@ The value of maintaing a dotfiles repository is that you can create a
 ## Managing Dotfiles
 Most management is done by a set of tools that either copy or symlink your dotfiles.
 ### Chezmoi
-> [!wiki]
+> [!wiki|tbl]]
 > | | |
 > | --- | --- |
 > | Support OS | ![[linux.svg|20]]![[apple.svg|20]]![[windows.svg|20]] |

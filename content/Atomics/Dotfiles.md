@@ -7,7 +7,7 @@ tags:
   - coding
   - flow
 aliases: 
-modified: 2024-02-02T07:09:06-08:00
+modified: 2024-02-02T17:09:53-08:00
 ---
 
 These are the files or folders that live your home directory that configure your applications. Some examples are: `.config/`, `.zshrc`, etc.
@@ -17,7 +17,11 @@ The value of maintaing a dotfiles repository is that you can create a
 ## Managing Dotfiles
 Most management is done by a set of tools that either copy or symlink your dotfiles.
 ### Chezmoi
-![[linux.svg|20]]![[apple.svg|20]]![[windows.svg|20]]
+> [!wiki]
+> | | |
+> | --- | --- |
+> | Support OS | ![[linux.svg|20]]![[apple.svg|20]]![[windows.svg|20]] |
+
 I was first introduced chezmoi by Jaykul. Chezmoi works by creating a clone of your dotile
 https://www.chezmoi.io/
 ### GNU Stow

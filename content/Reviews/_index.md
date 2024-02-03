@@ -1,6 +1,11 @@
 ---
 date: 2024-01-03
 share: true
+tags:
+  - books
+  - readwise
+  - youtube
+modified: 2024-02-02T16:10:23-08:00
 title: Reviews
 ---
 

@@ -30,3 +30,8 @@ div.mocitem {
     float: left;
     text-align: center;
 }
+
+// Recent notes on the sidebar should be smaller size
+div.left.sidebar>.recent-notes>ul.recent-ul {
+    font-size: small;
+}

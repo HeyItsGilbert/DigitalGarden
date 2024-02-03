@@ -1,6 +1,6 @@
 ---
 share: true
-modified: 2024-02-02T16:09:52-08:00
+modified: 2024-02-02T21:54:54-08:00
 tags:
   - coding
 ---
@@ -11,8 +11,15 @@ tags:
 ## Tagged with Coding
 | File                                                                   |
 | ---------------------------------------------------------------------- |
-| [[How To/Publish Quartz with Netlify.md\|Publish Quartz with Netlify]] |
-| [[How To/Publish to Quartz Repo.md\|Publish to Quartz Repo]]           |
-| [[Atomics/Documentation.md\|Documentation]]                            |
-| [[Atomics/Dotfiles.md\|Dotfiles]]                                      |
 | [[MOC/Coding MOC.md\|Coding MOC]]                                      |
+| [[How To/Publish to Quartz Repo.md\|Publish to Quartz Repo]]           |
+| [[How To/Publish Quartz with Netlify.md\|Publish Quartz with Netlify]] |
+| [[Atomics/Rust.md\|Rust]]                                              |
+| [[Atomics/Documentation.md\|Documentation]]                            |
+| [[Atomics/Control Flow.md\|Control Flow]]                              |
+
+
+## Tagged with Programming
+| File |
+| ---- |
+ 

@@ -27,8 +27,6 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
-    Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer({ folderClickBehavior: "link" })),
     Component.DesktopOnly(
       Component.RecentNotes({
@@ -38,6 +36,8 @@ export const defaultContentPageLayout: PageLayout = {
     ),
   ],
   right: [
+    Component.Search(),
+    Component.Darkmode(),
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),

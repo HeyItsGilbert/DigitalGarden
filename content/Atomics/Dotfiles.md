@@ -7,7 +7,7 @@ tags:
   - coding
   - flow
 aliases: 
-modified: 2024-02-02T17:16:39-08:00
+modified: 2024-02-02T17:27:26-08:00
 cssclasses:
   - wiki-right
 ---
@@ -20,11 +20,20 @@ The value of maintaing a dotfiles repository is that you can create a
 Most management is done by a set of tools that either copy or symlink your dotfiles.
 ### Chezmoi
 > [!wiki]
-> **OS**: ![[linux.svg|20]]![[apple.svg|20]]![[windows.svg|20]] 
+> #### Info 
+> |  |  |
+> | --- | --- |
+> | **OS** | ![[linux.svg|20]]![[apple.svg|20]]![[windows.svg|20]] |
+> | **Site** | https://www.chezmoi.io/ |
+> | **Github** | https://github.com/twpayne/chezmoi |
 
 I was first introduced chezmoi by Jaykul. Chezmoi works by creating a clone of your dotile
-https://www.chezmoi.io/
 ### GNU Stow
-![[linux.svg|20]]![[apple.svg|20]]
+> [!wiki]
+> #### Info 
+> |  |  |
+> | --- | --- |
+> | **OS** | ![[linux.svg|20]]![[apple.svg|20]] |
+> | **Site** | https://www.gnu.org/software/stow/ |
+
 This is a "symlink farm manager". Not available on Windows.
-https://www.gnu.org/software/stow/

@@ -4,9 +4,8 @@ date: 2023-01-02
 tags:
   - technology
   - PowerShell
-modified: 2024-02-02T22:31:40-08:00
+modified: 2024-02-04T11:17:52-08:00
 ---
-
 I've needed to install [[MQTT|MQTT]] DLL's to call them from [[PowerShell|PowerShell]] and this is how I did it. I got the original idea from Jack Gruber[^1].
 ```powershell
 $> nuget sources add -Name "nuget.org" -Source https://api.nuget.org/v3/index.json

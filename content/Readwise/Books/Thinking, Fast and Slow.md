@@ -5,39 +5,6 @@ title: Thinking, Fast and Slow
 author: Daniel Kahneman
 share: true
 readwise_url: https://readwise.io/bookreview/31893672
-tags:
-  - books
-  - heuristics
-  - intuition
-  - problem_solving
-  - perception
-  - favorite
-  - fallacy
-  - writing
-  - knowledge
-  - learning
-  - cognition
-  - temperance
-  - stress
-  - tasks
-  - intelligence
-  - memory
-  - effect
-  - flow
-  - autism
-  - religion
-  - systems
-  - bias
-  - prediction
-  - health
-  - luck
-  - statistics
-  - confidence
-  - finance
-  - judgment
-  - logic
-  - technology
-  - algorithm
 ---
 
 %%

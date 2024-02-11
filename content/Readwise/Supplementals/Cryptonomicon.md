@@ -5,18 +5,6 @@ title: Cryptonomicon
 author: Neal Stephenson
 share: true
 readwise_url: https://readwise.io/bookreview/16899921
-tags:
-  - supplementals
-  - perception
-  - perspective
-  - favorite
-  - ideas
-  - chaos
-  - patterns
-  - speaking
-  - security
-  - secrets
-  - technology
 ---
 
 %%

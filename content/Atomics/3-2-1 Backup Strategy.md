@@ -7,7 +7,6 @@ tags:
   - technology
 aliases: 
 ---
-
 You should have 3 copies of your data (one active and two copies), across two different backup mediums (disk & tape), and one copy off site.
 
 This could be:

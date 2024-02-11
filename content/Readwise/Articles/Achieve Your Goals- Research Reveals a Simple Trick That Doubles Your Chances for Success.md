@@ -5,14 +5,6 @@ title: Achieve Your Goals- Research Reveals a Simple Trick That Doubles Your Cha
 author: James Clear
 share: true
 readwise_url: https://readwise.io/bookreview/22497355
-tags:
-  - articles
-  - habits
-  - favorite
-  - progress
-  - motivation
-  - systems
-  - goals
 ---
 
 %%

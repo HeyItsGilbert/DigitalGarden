@@ -5,11 +5,6 @@ title: Algorithms to Live By
 author: Brian Christian, Tom Griffiths
 share: true
 readwise_url: https://readwise.io/bookreview/36654368
-tags:
-  - supplementals
-  - efficiency
-  - algorithm
-  - expense
 ---
 
 %%

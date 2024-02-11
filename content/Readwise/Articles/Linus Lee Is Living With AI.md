@@ -5,8 +5,6 @@ title: Linus Lee Is Living With AI
 author: Dan Shipper
 share: true
 readwise_url: https://readwise.io/bookreview/21862105
-tags:
-  - articles
 ---
 
 %%

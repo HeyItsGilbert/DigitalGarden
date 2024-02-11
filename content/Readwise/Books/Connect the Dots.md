@@ -5,21 +5,6 @@ title: Connect the Dots
 author: Paul Jun
 share: true
 readwise_url: https://readwise.io/bookreview/21427865
-tags:
-  - books
-  - knowledge
-  - favorite
-  - learning
-  - stoic
-  - writing
-  - reading
-  - motivation
-  - creativity
-  - adhd
-  - habits
-  - work
-  - productivity
-  - mindfulness
 ---
 
 %%

@@ -7,7 +7,6 @@ modified: 2024-02-02T21:32:14-08:00
 share: true
 ---
 
-
 ![[Pasted image 20221114094754.png|Pasted image 20221114094754.png]]
 A way to better understand what to prioritize regarding features. 
 1. Must Have

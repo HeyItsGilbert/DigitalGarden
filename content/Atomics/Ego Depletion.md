@@ -7,7 +7,6 @@ tags:
 aliases: 
 modified: 2024-01-22T16:35:52-08:00
 ---
-
 The expenditure of a finite amount of will. This can result in poor self-control choices. 
 
 > Baumeister’s group has repeatedly found that an effort of will or self-control is tiring; if you have had to force yourself to do something, you are less willing or less able to exert self-control when the next challenge comes around. The phenomenon has been named ego depletion. - Daniel Kahneman, _[[Reviews/Thinking, Fast and Slow|Thinking, Fast and Slow]]_

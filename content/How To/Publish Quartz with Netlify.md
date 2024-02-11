@@ -7,7 +7,6 @@ tags:
   - technology
 ---
 
-
 > [!NOTE] Obisidian to Quartz
 > You can see how I push my [[Obsidian|Obsidian]] note to [[Quartz|Quartz]] at [[Publish to Quartz Repo|Publish to Quartz Repo]]
 

@@ -5,10 +5,6 @@ title: Reimagining How We Think About Career Development  the Quiet Part Out Lou
 author: Amy Chantasirivisal
 share: true
 readwise_url: https://readwise.io/bookreview/18032520
-tags:
-  - articles
-  - career
-  - work
 ---
 
 %%

@@ -5,12 +5,6 @@ title: All Systems Red
 author: Martha Wells
 share: true
 readwise_url: https://readwise.io/bookreview/37359656
-tags:
-  - supplementals
-  - ai
-  - fighting
-  - favorite
-  - technology
 ---
 
 %%

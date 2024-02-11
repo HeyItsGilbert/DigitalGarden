@@ -5,18 +5,6 @@ title: A Respected MIT Professor Said Your Success Will Be Determined by 3 Thing
 author: inc.com
 share: true
 readwise_url: https://readwise.io/bookreview/17007178
-tags:
-  - articles
-  - Communication
-  - Speaking
-  - favorite
-  - communication
-  - motivation
-  - speaking
-  - leadership
-  - writing
-  - knowledge
-  - exercise
 ---
 
 %%

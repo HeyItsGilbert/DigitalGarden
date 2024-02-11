@@ -5,8 +5,6 @@ title: Obsidian Callouts - Fork My Brain
 author: window.siteInfo={"uid":"186a0d1b800fa85e50d49cb464898e4c","host":"publish-01.obsidian.md","status":"active","slug":null,"redirect":1,"customurl":"notes.nicolevanderhoeven.com"};
 share: true
 readwise_url: https://readwise.io/bookreview/18095450
-tags:
-  - articles
 ---
 
 %%

@@ -5,24 +5,6 @@ title: Smarter Faster Better
 author: Charles Duhigg
 share: true
 readwise_url: https://readwise.io/bookreview/17994050
-tags:
-  - supplementals
-  - teamwork
-  - work
-  - favorite
-  - leadership
-  - perception
-  - motivation
-  - systems
-  - habits
-  - health
-  - control
-  - learning
-  - decisions
-  - conflict
-  - technology
-  - creativity
-  - cognition
 ---
 
 %%

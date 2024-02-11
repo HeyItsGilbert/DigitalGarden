@@ -5,8 +5,6 @@ title: Getting Started With Reader
 author: Daniel Doyon
 share: true
 readwise_url: https://readwise.io/bookreview/21540081
-tags:
-  - articles
 ---
 
 %%

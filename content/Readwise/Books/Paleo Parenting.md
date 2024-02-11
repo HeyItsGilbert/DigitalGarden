@@ -5,8 +5,6 @@ title: Paleo Parenting
 author: Dr. Chris Morano
 share: true
 readwise_url: https://readwise.io/bookreview/16901976
-tags:
-  - books
 ---
 
 %%

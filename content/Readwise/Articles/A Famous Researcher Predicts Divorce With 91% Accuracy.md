@@ -5,8 +5,6 @@ title: A Famous Researcher Predicts Divorce With 91% Accuracy
 author: mattschnuck
 share: true
 readwise_url: https://readwise.io/bookreview/22541613
-tags:
-  - articles
 ---
 
 %%

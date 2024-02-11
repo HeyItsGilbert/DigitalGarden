@@ -5,8 +5,6 @@ title: The Institute
 author: Stephen King
 share: true
 readwise_url: https://readwise.io/bookreview/16901968
-tags:
-  - books
 ---
 
 %%

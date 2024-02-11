@@ -5,16 +5,6 @@ title: A Gathering of Shadows
 author: V. E. Schwab
 share: true
 readwise_url: https://readwise.io/bookreview/35065893
-tags:
-  - supplementals
-  - death
-  - strength
-  - magic
-  - perspective
-  - power
-  - weakness
-  - religion
-  - balance
 ---
 
 %%

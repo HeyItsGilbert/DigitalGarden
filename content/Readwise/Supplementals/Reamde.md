@@ -5,11 +5,6 @@ title: Reamde
 author: Neal Stephenson
 share: true
 readwise_url: https://readwise.io/bookreview/16899922
-tags:
-  - supplementals
-  - favorite
-  - religion
-  - work
 ---
 
 %%

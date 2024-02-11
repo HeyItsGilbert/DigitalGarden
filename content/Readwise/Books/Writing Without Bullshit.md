@@ -5,14 +5,6 @@ title: Writing Without Bullshit
 author: Josh Bernoff
 share: true
 readwise_url: https://readwise.io/bookreview/25800160
-tags:
-  - books
-  - writing
-  - work
-  - favorite
-  - stoic
-  - preparation
-  - feedback
 ---
 
 %%

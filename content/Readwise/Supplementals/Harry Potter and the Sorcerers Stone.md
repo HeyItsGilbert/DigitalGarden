@@ -5,8 +5,6 @@ title: Harry Potter and the Sorcerers Stone
 author: J.K. Rowling
 share: true
 readwise_url: https://readwise.io/bookreview/16899913
-tags:
-  - supplementals
 ---
 
 %%

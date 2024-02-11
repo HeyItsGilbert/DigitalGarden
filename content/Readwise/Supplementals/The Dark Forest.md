@@ -5,20 +5,6 @@ title: The Dark Forest
 author: Cixin Liu
 share: true
 readwise_url: https://readwise.io/bookreview/16899901
-tags:
-  - supplementals
-  - perception
-  - civilization
-  - stoic
-  - survival
-  - motivation
-  - favorite
-  - space
-  - perspective
-  - learning
-  - career
-  - problem_solving
-  - love
 ---
 
 %%

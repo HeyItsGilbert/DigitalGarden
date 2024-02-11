@@ -5,8 +5,6 @@ title: What Happens When a Company Adopts AI
 author: Planet Money
 share: true
 readwise_url: https://readwise.io/bookreview/27389572
-tags:
-  - articles
 ---
 
 %%

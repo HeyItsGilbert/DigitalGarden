@@ -5,12 +5,6 @@ title: These Companies Ran an Experiment- Pay Workers Their Full Salary to Work 
 author: instapaper.com
 share: true
 readwise_url: https://readwise.io/bookreview/21271387
-tags:
-  - articles
-  - work
-  - productivity
-  - favorite
-  - management
 ---
 
 %%

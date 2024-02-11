@@ -5,27 +5,6 @@ title: Tao Te Ching
 author: Lao Tzu
 share: true
 readwise_url: https://readwise.io/bookreview/16899900
-tags:
-  - supplementals
-  - perspective
-  - favorite
-  - present
-  - wisdom
-  - work
-  - stress
-  - boundaries
-  - progress
-  - failing
-  - stoic
-  - perception
-  - gratitude
-  - speaking
-  - intelligence
-  - influence
-  - leadership
-  - problem_solving
-  - knowledge
-  - virtues
 ---
 
 %%

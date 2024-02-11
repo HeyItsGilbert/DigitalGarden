@@ -5,10 +5,6 @@ title: Happy Doomsday
 author: David Sosnowski
 share: true
 readwise_url: https://readwise.io/bookreview/16901971
-tags:
-  - books
-  - legacy
-  - technology
 ---
 
 %%

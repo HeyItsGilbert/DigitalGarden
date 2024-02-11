@@ -5,7 +5,6 @@ tags:
   - books
   - psychology
 ---
-
 **Original**: https://goodreads.com/book/show/2612.The_Tipping_Point
 
 The Tipping Point is a book by Malcolm Gladwell that talks about social epidemics.

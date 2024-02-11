@@ -5,10 +5,6 @@ title: How to Use Readwise
 author: Readwise Team
 share: true
 readwise_url: https://readwise.io/bookreview/16899983
-tags:
-  - books
-  - h1
-  - h2
 ---
 
 %%

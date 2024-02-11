@@ -5,9 +5,6 @@ title: Twitter Architecture 2022 vs 2012
 author: Alex Xu
 share: true
 readwise_url: https://readwise.io/bookreview/22069363
-tags:
-  - articles
-  - technology
 ---
 
 %%

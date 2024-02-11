@@ -5,8 +5,6 @@ title: The Hunger Games
 author: Suzanne Collins
 share: true
 readwise_url: https://readwise.io/bookreview/16899872
-tags:
-  - supplementals
 ---
 
 %%

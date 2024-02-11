@@ -4,9 +4,9 @@ share: true
 tags:
   - technology
   - PowerShell
-modified: 2024-02-01T16:16:42-08:00
+  - coding
+modified: 2024-02-11T07:59:37-08:00
 ---
-
 PowerShell is a cross platform shell that leverages .Net while also creating an easy to use experience for end users. It has access to all existing applications in the path like any other shell.
 
 ## Functions aka Cmdlets

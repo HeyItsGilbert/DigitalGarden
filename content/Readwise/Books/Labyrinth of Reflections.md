@@ -5,12 +5,6 @@ title: Labyrinth of Reflections
 author: Sergei Lukyanenko
 share: true
 readwise_url: https://readwise.io/bookreview/29577651
-tags:
-  - books
-  - favorite
-  - technology
-  - perception
-  - religion
 ---
 
 %%

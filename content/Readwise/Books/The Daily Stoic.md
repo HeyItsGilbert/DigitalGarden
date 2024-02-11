@@ -5,24 +5,6 @@ title: The Daily Stoic
 author: Ryan Holiday, Stephen Hanselman
 share: true
 readwise_url: https://readwise.io/bookreview/16901940
-tags:
-  - books
-  - stress
-  - stoic
-  - journal
-  - perception
-  - motivation
-  - favorite
-  - self-care
-  - peace
-  - strength
-  - problem_solving
-  - humility
-  - learning
-  - knowledge
-  - perspective
-  - present
-  - exercise
 ---
 
 %%

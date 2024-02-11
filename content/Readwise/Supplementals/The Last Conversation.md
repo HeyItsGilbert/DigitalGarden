@@ -5,9 +5,6 @@ title: The Last Conversation
 author: Paul Tremblay
 share: true
 readwise_url: https://readwise.io/bookreview/27905596
-tags:
-  - supplementals
-  - perception
 ---
 
 %%

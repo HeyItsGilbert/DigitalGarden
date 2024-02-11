@@ -5,12 +5,6 @@ title: A Darker Shade of Magic
 author: V. E. Schwab
 share: true
 readwise_url: https://readwise.io/bookreview/16899918
-tags:
-  - supplementals
-  - stoic
-  - motivation
-  - favorite
-  - perspective
 ---
 
 %%

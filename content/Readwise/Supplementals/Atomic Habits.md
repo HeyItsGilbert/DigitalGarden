@@ -5,21 +5,6 @@ title: Atomic Habits
 author: James Clear
 share: true
 readwise_url: https://readwise.io/bookreview/16899869
-tags:
-  - supplementals
-  - habits
-  - motivation
-  - identity
-  - health
-  - goals
-  - favorite
-  - systems
-  - progress
-  - perspective
-  - work
-  - effect
-  - practice
-  - leadership
 ---
 
 %%

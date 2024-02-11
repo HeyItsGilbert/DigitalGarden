@@ -5,14 +5,6 @@ title: Algorithms to Live By
 author: Brian Christian, Tom Griffiths
 share: true
 readwise_url: https://readwise.io/bookreview/36467675
-tags:
-  - books
-  - data
-  - bias
-  - favorite
-  - performance
-  - fallacy
-  - habits
 ---
 
 %%

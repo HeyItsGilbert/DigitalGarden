@@ -5,12 +5,6 @@ title: Shell of an Idea
 author: Don Jones
 share: true
 readwise_url: https://readwise.io/bookreview/17231893
-tags:
-  - articles
-  - career
-  - favorite
-  - perspective
-  - perception
 ---
 
 %%

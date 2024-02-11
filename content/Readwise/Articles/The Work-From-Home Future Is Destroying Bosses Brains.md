@@ -5,11 +5,6 @@ title: The Work-From-Home Future Is Destroying Bosses Brains
 author: Ed Zitron
 share: true
 readwise_url: https://readwise.io/bookreview/29314142
-tags:
-  - articles
-  - work
-  - teamwork
-  - favorite
 ---
 
 %%

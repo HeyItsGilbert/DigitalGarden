@@ -5,8 +5,6 @@ title:
 author: The Knowledge Project with Shane Parrish
 share: true
 readwise_url: https://readwise.io/bookreview/30722240
-tags:
-  - podcasts
 ---
 ---
 id: 30722240

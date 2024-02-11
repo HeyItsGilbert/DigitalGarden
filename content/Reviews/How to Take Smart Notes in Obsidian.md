@@ -6,7 +6,6 @@ tags:
   - books
 modified: 2024-02-01T16:17:05-08:00
 ---
-
 **Original**: https://a.co/d/846JhRj
 
 Book by [Josh Duffney](https://duffney.io/) about taking notes in [[Obsidian|Obsidian]]. 

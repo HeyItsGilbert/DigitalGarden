@@ -5,11 +5,6 @@ title: Why You Shouldnt Nest Your Code
 author: youtu.be
 share: true
 readwise_url: https://readwise.io/bookreview/22535210
-tags:
-  - articles
-  - favorite
-  - work
-  - technology
 ---
 
 %%

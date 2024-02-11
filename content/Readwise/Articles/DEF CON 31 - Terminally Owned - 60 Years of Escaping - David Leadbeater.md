@@ -5,8 +5,6 @@ title: DEF CON 31 - Terminally Owned - 60 Years of Escaping - David Leadbeater
 author: youtube.com
 share: true
 readwise_url: https://readwise.io/bookreview/32920586
-tags:
-  - articles
 ---
 
 %%

@@ -5,8 +5,6 @@ title: How to Combine Highlights on-the-Fly With Readwise
 author: Daniel Doyon
 share: true
 readwise_url: https://readwise.io/bookreview/22311807
-tags:
-  - articles
 ---
 
 %%

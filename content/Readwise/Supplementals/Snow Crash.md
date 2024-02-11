@@ -5,18 +5,6 @@ title: Snow Crash
 author: Neal Stephenson
 share: true
 readwise_url: https://readwise.io/bookreview/16899919
-tags:
-  - supplementals
-  - perspective
-  - favorite
-  - act
-  - cognition
-  - religion
-  - systems
-  - language
-  - culture
-  - respect
-  - wisdom
 ---
 
 %%

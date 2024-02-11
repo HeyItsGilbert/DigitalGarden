@@ -5,31 +5,6 @@ title: The Obstacle Is the Way
 author: Ryan Holiday
 share: true
 readwise_url: https://readwise.io/bookreview/16899888
-tags:
-  - supplementals
-  - stoic
-  - favorite
-  - perception
-  - act
-  - work
-  - motivation
-  - stress
-  - present
-  - problem_solving
-  - existentialism
-  - knowledge
-  - emotions
-  - progress
-  - process
-  - systems
-  - perspective
-  - persistence
-  - courage
-  - practice
-  - control
-  - discipline
-  - crisis
-  - opportunity
 ---
 
 %%

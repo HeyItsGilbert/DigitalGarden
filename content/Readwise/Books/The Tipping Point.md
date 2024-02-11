@@ -5,13 +5,6 @@ title: The Tipping Point
 author: Malcolm Gladwell
 share: true
 readwise_url: https://readwise.io/bookreview/34984843
-tags:
-  - books
-  - influence
-  - favorite
-  - epidemics
-  - bias
-  - stories
 ---
 
 %%

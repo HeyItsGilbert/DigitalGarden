@@ -5,21 +5,6 @@ title: Anathem
 author: Neal Stephenson
 share: true
 readwise_url: https://readwise.io/bookreview/31728317
-tags:
-  - supplementals
-  - love
-  - strength
-  - perception
-  - life
-  - fallacy
-  - priorities
-  - work
-  - compromise
-  - negotiation
-  - wisdom
-  - favorite
-  - perspective
-  - problem_solving
 ---
 
 %%

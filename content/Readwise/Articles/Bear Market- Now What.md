@@ -5,8 +5,6 @@ title: Bear Market- Now What
 author: asset class
 share: true
 readwise_url: https://readwise.io/bookreview/17034578
-tags:
-  - articles
 ---
 
 %%

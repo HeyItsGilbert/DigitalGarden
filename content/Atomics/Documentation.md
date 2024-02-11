@@ -6,7 +6,6 @@ tags:
   - coding
 modified: 2024-02-01T17:57:19-08:00
 ---
-
 Documentation can take many forms and can be hot button issue.
 ## Types
 My favorite take on this subject has been [Daniele Procida's talk at PyCon Australia 2017](https://www.youtube.com/watch?v=t4vKPhjcMZg). He argues that there are four types: Tutorials, How-To Guides, Discussions, and Reference. 

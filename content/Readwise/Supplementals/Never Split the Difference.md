@@ -5,23 +5,6 @@ title: Never Split the Difference
 author: Chris Voss and Tahl Raz
 share: true
 readwise_url: https://readwise.io/bookreview/16899927
-tags:
-  - supplementals
-  - negotiation
-  - favorite
-  - influence
-  - problem_solving
-  - stoic
-  - perception
-  - positivity
-  - motivation
-  - communication
-  - disagreement
-  - tasks
-  - knowledge
-  - leadership
-  - perspective
-  - speaking
 ---
 
 %%

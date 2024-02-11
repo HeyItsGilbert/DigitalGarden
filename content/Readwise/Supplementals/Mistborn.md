@@ -5,14 +5,6 @@ title: Mistborn
 author: Brandon Sanderson
 share: true
 readwise_url: https://readwise.io/bookreview/34828763
-tags:
-  - supplementals
-  - persistence
-  - economics
-  - funny
-  - power
-  - systems
-  - favorite
 ---
 
 %%

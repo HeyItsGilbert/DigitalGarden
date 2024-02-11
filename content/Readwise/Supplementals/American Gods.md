@@ -5,14 +5,6 @@ title: American Gods
 author: Neil Gaiman
 share: true
 readwise_url: https://readwise.io/bookreview/16899880
-tags:
-  - supplementals
-  - favorite
-  - ideas
-  - existentialism
-  - perception
-  - humility
-  - stoic
 ---
 
 %%

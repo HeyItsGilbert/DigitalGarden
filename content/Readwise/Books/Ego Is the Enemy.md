@@ -5,15 +5,6 @@ title: Ego Is the Enemy
 author: Ryan Holiday
 share: true
 readwise_url: https://readwise.io/bookreview/35726932
-tags:
-  - books
-  - perspective
-  - self
-  - favorite
-  - stoic
-  - strength
-  - ego
-  - love
 ---
 
 %%

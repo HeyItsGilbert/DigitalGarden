@@ -7,7 +7,6 @@ aliases:
   - fallacy
 share: true
 ---
-
 I enjoy learning about and observing biases. They impact our day-to-day lives and can be insideous if not kept in check. By learning about these, I can try to be more aware of them to reduce them in both myself and call them out in others (politely of course!).
 # Bias
 ## Confirmation Bias

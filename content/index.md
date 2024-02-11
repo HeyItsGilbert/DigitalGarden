@@ -4,7 +4,6 @@ share: true
 title: Home
 modified: 2024-02-02T16:04:28-08:00
 ---
-
 # Hey! It's Gilbert's Digital Garden 🌱
 
 Hi all, welcome to my [[DigitalGarden|DigitalGarden]]. I've been taking a lot of notes in [[Obsidian|Obsidian]] and I came across some Digital Garden's. I love the idea of learning in Public, so I decided to give it a go.

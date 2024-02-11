@@ -5,24 +5,6 @@ title: Dune
 author: Frank Herbert
 share: true
 readwise_url: https://readwise.io/bookreview/16899886
-tags:
-  - supplementals
-  - fear
-  - favorite
-  - stoic
-  - perspective
-  - leadership
-  - perception
-  - strategy
-  - virtues
-  - parenting
-  - progress
-  - work
-  - stress
-  - problem_solving
-  - exercise
-  - anger
-  - growth
 ---
 
 %%

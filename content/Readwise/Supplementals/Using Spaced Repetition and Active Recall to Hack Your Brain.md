@@ -5,8 +5,6 @@ title: Using Spaced Repetition and Active Recall to Hack Your Brain
 author: 
 share: true
 readwise_url: https://readwise.io/bookreview/20746911
-tags:
-  - supplementals
 ---
 
 %%

@@ -5,10 +5,6 @@ title: EP37- Process vs Thread
 author: Alex Xu
 share: true
 readwise_url: https://readwise.io/bookreview/23268226
-tags:
-  - articles
-  - fallacy
-  - favorite
 ---
 
 %%

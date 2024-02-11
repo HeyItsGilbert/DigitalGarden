@@ -5,8 +5,6 @@ title: Token Stamp 2 - RollAdvantage
 author: Home
 share: true
 readwise_url: https://readwise.io/bookreview/21349514
-tags:
-  - articles
 ---
 
 %%

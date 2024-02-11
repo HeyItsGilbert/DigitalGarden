@@ -5,42 +5,6 @@ title: Manage Your Day-to-Day
 author: Jocelyn K. Glei, 99U
 share: true
 readwise_url: https://readwise.io/bookreview/22169785
-tags:
-  - books
-  - work
-  - habits
-  - information
-  - strategy
-  - systems
-  - h1
-  - h2
-  - creativity
-  - h3
-  - favorite
-  - motivation
-  - stress
-  - productivity
-  - adhd
-  - stoic
-  - present
-  - practice
-  - mastery
-  - success
-  - career
-  - self-care
-  - flow
-  - focus
-  - perspective
-  - knowledge
-  - wellness
-  - unplugging
-  - learning
-  - influence
-  - journal
-  - problem_solving
-  - technology
-  - exercise
-  - progress
 ---
 
 %%

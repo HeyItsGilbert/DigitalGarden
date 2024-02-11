@@ -5,20 +5,6 @@ title: The Art of Intelligence
 author: Henry A. Crumpton
 share: true
 readwise_url: https://readwise.io/bookreview/16899874
-tags:
-  - supplementals
-  - leadership
-  - perspective
-  - favorite
-  - strategy
-  - problem_solving
-  - knowledge
-  - present
-  - ego
-  - conflict
-  - perception
-  - communication
-  - intelligence
 ---
 
 %%

@@ -5,14 +5,6 @@ title: McKinsey Developer Productivity
 author: dannorth.net
 share: true
 readwise_url: https://readwise.io/bookreview/32887631
-tags:
-  - articles
-  - technology
-  - productivity
-  - work
-  - effect
-  - leadership
-  - performance
 ---
 
 %%

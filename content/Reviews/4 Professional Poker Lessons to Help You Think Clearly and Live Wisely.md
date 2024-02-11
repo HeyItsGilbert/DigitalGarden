@@ -4,7 +4,6 @@ share: true
 tags:
   - youtube
 ---
-
 **Original**: https://youtu.be/FVamrGf8UYA
 
 Liv Boeree covers some biases that show up in our day-to-day lives that we often can see in poker.

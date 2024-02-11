@@ -5,24 +5,6 @@ title: The Way of Kings
 author: Brandon Sanderson
 share: true
 readwise_url: https://readwise.io/bookreview/20947589
-tags:
-  - supplementals
-  - favorite
-  - problem_solving
-  - stoic
-  - ignorance
-  - motivation
-  - act
-  - virtues
-  - perception
-  - leadership
-  - experience
-  - youth
-  - respect
-  - ideas
-  - health
-  - learning
-  - knowledge
 ---
 
 %%

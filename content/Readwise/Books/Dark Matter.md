@@ -5,14 +5,6 @@ title: Dark Matter
 author: Blake Crouch
 share: true
 readwise_url: https://readwise.io/bookreview/29852370
-tags:
-  - books
-  - perspective
-  - favorite
-  - motivation
-  - virtues
-  - stoic
-  - gratitude
 ---
 
 %%

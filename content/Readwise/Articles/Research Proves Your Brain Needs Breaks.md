@@ -5,12 +5,6 @@ title: Research Proves Your Brain Needs Breaks
 author: microsoft.com
 share: true
 readwise_url: https://readwise.io/bookreview/21271388
-tags:
-  - articles
-  - work
-  - stress
-  - wellness
-  - favorite
 ---
 
 %%

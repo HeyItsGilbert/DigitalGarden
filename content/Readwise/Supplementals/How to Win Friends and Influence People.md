@@ -5,23 +5,6 @@ title: How to Win Friends and Influence People
 author: Dale Carnegie
 share: true
 readwise_url: https://readwise.io/bookreview/16899866
-tags:
-  - supplementals
-  - communication
-  - negotiation
-  - disagreement
-  - motivation
-  - perspective
-  - ego
-  - problem_solving
-  - favorite
-  - justice
-  - temperance
-  - courage
-  - perception
-  - influence
-  - stoic
-  - leadership
 ---
 
 %%

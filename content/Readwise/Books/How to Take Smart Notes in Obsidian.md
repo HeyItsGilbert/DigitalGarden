@@ -5,14 +5,6 @@ title: How to Take Smart Notes in Obsidian
 author: Joshua Duffney
 share: true
 readwise_url: https://readwise.io/bookreview/22420461
-tags:
-  - books
-  - learning
-  - writing
-  - knowledge
-  - favorite
-  - pkm
-  - systems
 ---
 
 %%

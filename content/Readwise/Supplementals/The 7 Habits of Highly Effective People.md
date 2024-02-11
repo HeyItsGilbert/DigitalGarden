@@ -5,19 +5,6 @@ title: The 7 Habits of Highly Effective People
 author: Stephen R. Covey
 share: true
 readwise_url: https://readwise.io/bookreview/16899873
-tags:
-  - supplementals
-  - stoic
-  - favorite
-  - progress
-  - perception
-  - cognition
-  - leadership
-  - management
-  - habits
-  - initiative
-  - responsibility
-  - work
 ---
 
 %%

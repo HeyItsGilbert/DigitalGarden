@@ -5,15 +5,6 @@ title: Anathem
 author: Neal Stephenson
 share: true
 readwise_url: https://readwise.io/bookreview/31464551
-tags:
-  - books
-  - favorite
-  - negotiation
-  - perception
-  - problem_solving
-  - symbolism
-  - religion
-  - poetry
 ---
 
 %%

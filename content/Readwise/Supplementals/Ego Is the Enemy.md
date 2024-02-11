@@ -5,12 +5,6 @@ title: Ego Is the Enemy
 author: Ryan Holiday
 share: true
 readwise_url: https://readwise.io/bookreview/36783852
-tags:
-  - supplementals
-  - ego
-  - cognition
-  - relationships
-  - learning
 ---
 
 %%

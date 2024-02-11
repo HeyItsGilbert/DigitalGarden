@@ -5,13 +5,6 @@ title: A Conjuring of Light
 author: V.E. Schwab
 share: true
 readwise_url: https://readwise.io/bookreview/35716652
-tags:
-  - supplementals
-  - negotiation
-  - self
-  - life
-  - chaos
-  - time
 ---
 
 %%

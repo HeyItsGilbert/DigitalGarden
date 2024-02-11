@@ -5,8 +5,6 @@ title: Ready Player One
 author: Ernest Cline
 share: true
 readwise_url: https://readwise.io/bookreview/16901978
-tags:
-  - books
 ---
 
 %%

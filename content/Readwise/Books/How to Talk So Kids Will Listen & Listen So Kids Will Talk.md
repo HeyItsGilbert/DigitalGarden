@@ -5,12 +5,6 @@ title: How to Talk So Kids Will Listen & Listen So Kids Will Talk
 author: Adele Faber, Elaine Mazlish
 share: true
 readwise_url: https://readwise.io/bookreview/16901964
-tags:
-  - books
-  - kids
-  - disagreement
-  - perspective
-  - problem_solving
 ---
 
 %%

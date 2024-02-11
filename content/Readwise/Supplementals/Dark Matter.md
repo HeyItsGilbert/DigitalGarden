@@ -5,22 +5,6 @@ title: Dark Matter
 author: Blake Crouch
 share: true
 readwise_url: https://readwise.io/bookreview/29918582
-tags:
-  - supplementals
-  - favorite
-  - writing
-  - ideas
-  - perception
-  - potential
-  - youth
-  - reality
-  - physics
-  - quantum_mechanics
-  - science
-  - perspective
-  - self-care
-  - present
-  - life
 ---
 
 %%

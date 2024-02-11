@@ -5,19 +5,6 @@ title: The Joy of Craft
 author: Zane Claes
 share: true
 readwise_url: https://readwise.io/bookreview/16901973
-tags:
-  - books
-  - creativity
-  - career
-  - stress
-  - self-care
-  - wellness
-  - motivation
-  - positivity
-  - favorite
-  - stoic
-  - perception
-  - progress
 ---
 
 %%

@@ -5,10 +5,6 @@ title: Authentication (AuthN) Versus Authorization (AuthZ) - Cyral
 author: Modern Authentication Mechanisms
 share: true
 readwise_url: https://readwise.io/bookreview/17047476
-tags:
-  - articles
-  - security
-  - work
 ---
 
 %%

@@ -5,13 +5,6 @@ title: Summer Frost
 author: Blake Crouch
 share: true
 readwise_url: https://readwise.io/bookreview/27818942
-tags:
-  - supplementals
-  - perception
-  - ai
-  - favorite
-  - psychology
-  - information
 ---
 
 %%

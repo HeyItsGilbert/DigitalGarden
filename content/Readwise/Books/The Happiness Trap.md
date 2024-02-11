@@ -5,16 +5,6 @@ title: The Happiness Trap
 author: Russ Harris and Steven Hayes
 share: true
 readwise_url: https://readwise.io/bookreview/20836056
-tags:
-  - books
-  - favorite
-  - act
-  - perception
-  - stress
-  - virtues
-  - determination
-  - success
-  - optimism
 ---
 
 %%

@@ -5,9 +5,6 @@ title: A Conjuring of Light
 author: V.E. Schwab
 share: true
 readwise_url: https://readwise.io/bookreview/35406922
-tags:
-  - books
-  - love
 ---
 
 %%

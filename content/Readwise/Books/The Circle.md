@@ -5,10 +5,6 @@ title: The Circle
 author: Dave Eggers
 share: true
 readwise_url: https://readwise.io/bookreview/16901980
-tags:
-  - books
-  - favorite
-  - perception
 ---
 
 %%

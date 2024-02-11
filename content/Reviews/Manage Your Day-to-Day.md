@@ -8,7 +8,6 @@ tags:
   - habits
 modified: 2024-02-01T16:17:19-08:00
 ---
-
 **Original**: https://www.goodreads.com/book/show/17606014-manage-your-day-to-day
 Review: Incomplete
 

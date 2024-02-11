@@ -5,17 +5,6 @@ title: Words of Radiance
 author: Brandon Sanderson
 share: true
 readwise_url: https://readwise.io/bookreview/26620323
-tags:
-  - supplementals
-  - motivation
-  - habits
-  - knowledge
-  - perception
-  - communication
-  - creativity
-  - systems
-  - art
-  - speaking
 ---
 
 %%

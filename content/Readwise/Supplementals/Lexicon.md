@@ -5,17 +5,6 @@ title: Lexicon
 author: Max Barry
 share: true
 readwise_url: https://readwise.io/bookreview/16899860
-tags:
-  - supplementals
-  - desire
-  - negotiation
-  - perception
-  - influence
-  - favorite
-  - misinformation
-  - leadership
-  - security
-  - technology
 ---
 
 %%

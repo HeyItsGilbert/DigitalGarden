@@ -5,21 +5,6 @@ title: Sapiens
 author: Yuval Noah Harari
 share: true
 readwise_url: https://readwise.io/bookreview/20706235
-tags:
-  - supplementals
-  - favorite
-  - history
-  - culture
-  - religion
-  - problem_solving
-  - civilization
-  - perception
-  - experience
-  - evolution
-  - teamwork
-  - cooperation
-  - systems
-  - money
 ---
 
 %%

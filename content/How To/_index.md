@@ -6,5 +6,4 @@ tags:
   - folder_note
 title: How To
 ---
-
 These are simple guides that assume you have some familiarity. I follow a certain approach to [[Documentation|Documentation]]. 

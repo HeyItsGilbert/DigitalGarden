@@ -5,12 +5,6 @@ title: Replacing Self-Care With a Practice of Caring – Lyra
 author: Lyra Blog
 share: true
 readwise_url: https://readwise.io/bookreview/17061292
-tags:
-  - articles
-  - Liked
-  - self-care
-  - habits
-  - stress
 ---
 
 %%

@@ -5,16 +5,6 @@ title: Recursion
 author: Blake Crouch
 share: true
 readwise_url: https://readwise.io/bookreview/29557946
-tags:
-  - supplementals
-  - favorite
-  - existentialism
-  - perception
-  - metaphysics
-  - failing
-  - fear
-  - stoic
-  - perspective
 ---
 
 %%

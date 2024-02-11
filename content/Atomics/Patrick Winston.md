@@ -6,7 +6,6 @@ aliases:
 modified: 2024-02-02T21:56:21-08:00
 share: true
 ---
-
 MIT professor of Communication5.
 
 > Your success in life will be determined largely by your ability to speak, your ability to write, and the quality of your ideas, in that order.

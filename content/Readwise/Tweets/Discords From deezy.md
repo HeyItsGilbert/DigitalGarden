@@ -5,13 +5,6 @@ title: Discords From deezy
 author: deezy#6969
 share: true
 readwise_url: https://readwise.io/bookreview/27987270
-tags:
-  - tweets
-  - favorite
-  - perception
-  - work
-  - technology
-  - problem_solving
 ---
 
 %%

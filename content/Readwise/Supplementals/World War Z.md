@@ -5,12 +5,6 @@ title: World War Z
 author: Max Brooks
 share: true
 readwise_url: https://readwise.io/bookreview/16899862
-tags:
-  - supplementals
-  - stress
-  - motivation
-  - transparency
-  - favorite
 ---
 
 %%

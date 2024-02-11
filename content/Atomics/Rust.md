@@ -3,10 +3,9 @@ date: 2022-12-03
 tags:
   - coding
 aliases: 
-modified: 2024-02-02T21:37:45-08:00
+modified: 2024-02-11T07:59:11-08:00
 share: true
 ---
-
 ## Variables
 - Variables are set with `let`.
 - A variable is not mutable by default. To make a var mutable you need to append `mut` after `let`.
@@ -147,6 +146,3 @@ https://stackoverflow.com/a/74674243/1585481
 Similar to most languages [[Control Flow|Control Flow]].
 
 Instead of case there's `match`. There is also `if let` and `while let`.
-```
-
-```

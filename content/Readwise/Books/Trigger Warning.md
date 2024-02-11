@@ -5,10 +5,6 @@ title: Trigger Warning
 author: Neil Gaiman
 share: true
 readwise_url: https://readwise.io/bookreview/16901974
-tags:
-  - books
-  - present
-  - favorite
 ---
 
 %%

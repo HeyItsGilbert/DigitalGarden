@@ -5,8 +5,6 @@ title: Randomize
 author: Andy Weir
 share: true
 readwise_url: https://readwise.io/bookreview/28126889
-tags:
-  - supplementals
 ---
 
 %%

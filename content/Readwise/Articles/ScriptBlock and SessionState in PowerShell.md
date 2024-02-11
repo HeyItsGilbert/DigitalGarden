@@ -5,11 +5,6 @@ title: ScriptBlock and SessionState in PowerShell
 author: MDGRS Factory
 share: true
 readwise_url: https://readwise.io/bookreview/27390957
-tags:
-  - articles
-  - powershell
-  - coding
-  - work
 ---
 
 %%

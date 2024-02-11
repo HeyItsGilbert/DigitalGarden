@@ -5,8 +5,6 @@ title: The Lowdown on PSResourceGet —  an Exclusive With Sydney Smith
 author: The PowerShell Podcast
 share: true
 readwise_url: https://readwise.io/bookreview/30722241
-tags:
-  - podcasts
 ---
 
 %%

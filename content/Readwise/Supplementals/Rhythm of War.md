@@ -5,14 +5,6 @@ title: Rhythm of War
 author: Brandon Sanderson
 share: true
 readwise_url: https://readwise.io/bookreview/29416144
-tags:
-  - supplementals
-  - perspective
-  - death
-  - present
-  - history
-  - war
-  - integrity
 ---
 
 %%

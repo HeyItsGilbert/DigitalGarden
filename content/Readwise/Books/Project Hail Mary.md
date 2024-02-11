@@ -5,9 +5,6 @@ title: Project Hail Mary
 author: Andy Weir
 share: true
 readwise_url: https://readwise.io/bookreview/16901948
-tags:
-  - books
-  - favorite
 ---
 
 %%

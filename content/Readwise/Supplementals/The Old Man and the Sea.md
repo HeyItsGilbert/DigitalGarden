@@ -5,10 +5,6 @@ title: The Old Man and the Sea
 author: Ernest Hemingway
 share: true
 readwise_url: https://readwise.io/bookreview/16899882
-tags:
-  - supplementals
-  - perspective
-  - problem_solving
 ---
 
 %%

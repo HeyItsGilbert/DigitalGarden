@@ -5,8 +5,6 @@ title: Devops Weekly
 author: Devops Weekly
 share: true
 readwise_url: https://readwise.io/bookreview/25995231
-tags:
-  - articles
 ---
 ---
 id: 25995231

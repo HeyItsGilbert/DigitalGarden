@@ -5,17 +5,6 @@ title: Being Glue — No Idea Blog
 author: noidea.dog
 share: true
 readwise_url: https://readwise.io/bookreview/17047477
-tags:
-  - articles
-  - Liked
-  - dei
-  - career
-  - work
-  - stress
-  - influence
-  - motivation
-  - perception
-  - tasks
 ---
 
 %%

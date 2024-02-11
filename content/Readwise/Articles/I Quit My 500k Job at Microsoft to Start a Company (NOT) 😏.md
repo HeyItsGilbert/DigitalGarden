@@ -5,17 +5,6 @@ title: I Quit My 500k Job at Microsoft to Start a Company (NOT) 😏
 author: theknowledgeworker.substack.com
 share: true
 readwise_url: https://readwise.io/bookreview/17021569
-tags:
-  - articles
-  - knowledge
-  - favorite
-  - stress
-  - self-care
-  - progress
-  - career
-  - problem_solving
-  - journal
-  - tasks
 ---
 
 %%

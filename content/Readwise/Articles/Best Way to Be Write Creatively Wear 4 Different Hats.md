@@ -5,10 +5,6 @@ title: Best Way to Be Write Creatively Wear 4 Different Hats
 author: Consultant's Mind
 share: true
 readwise_url: https://readwise.io/bookreview/23176527
-tags:
-  - articles
-  - writing
-  - favorite
 ---
 
 %%

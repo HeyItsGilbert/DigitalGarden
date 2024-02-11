@@ -5,15 +5,6 @@ title: The Hierarchy Is Bullshit
 author: charity.wtf
 share: true
 readwise_url: https://readwise.io/bookreview/20161240
-tags:
-  - articles
-  - work
-  - career
-  - growth
-  - stress
-  - favorite
-  - leadership
-  - progress
 ---
 
 %%

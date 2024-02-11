@@ -5,25 +5,6 @@ title: Oathbringer
 author: Brandon Sanderson
 share: true
 readwise_url: https://readwise.io/bookreview/26620324
-tags:
-  - supplementals
-  - stoic
-  - favorite
-  - motivation
-  - responsibility
-  - growth
-  - perspective
-  - change
-  - failing
-  - perception
-  - love
-  - habits
-  - problem_solving
-  - illusion
-  - confidence
-  - control
-  - power
-  - truth
 ---
 ---
 id: 26620324

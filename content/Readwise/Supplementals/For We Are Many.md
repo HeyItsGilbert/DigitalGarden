@@ -5,9 +5,6 @@ title: For We Are Many
 author: Dennis E. Taylor
 share: true
 readwise_url: https://readwise.io/bookreview/16899924
-tags:
-  - supplementals
-  - favorite
 ---
 
 %%

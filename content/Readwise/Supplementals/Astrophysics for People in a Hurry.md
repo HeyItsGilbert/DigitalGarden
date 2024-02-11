@@ -5,11 +5,6 @@ title: Astrophysics for People in a Hurry
 author: Neil deGrasse Tyson
 share: true
 readwise_url: https://readwise.io/bookreview/16899926
-tags:
-  - supplementals
-  - favorite
-  - knowledge
-  - physics
 ---
 
 %%

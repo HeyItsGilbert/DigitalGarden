@@ -5,9 +5,6 @@ title: Writing Markdown
 author: flagrant.garden
 share: true
 readwise_url: https://readwise.io/bookreview/22311867
-tags:
-  - articles
-  - favorite
 ---
 
 %%

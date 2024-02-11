@@ -5,10 +5,6 @@ title: The Enemies of Gratitude
 author: Hidden Brain
 share: true
 readwise_url: https://readwise.io/bookreview/33639701
-tags:
-  - podcasts
-  - gratitude
-  - habits
 ---
 
 %%

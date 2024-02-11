@@ -5,11 +5,6 @@ title: The Elves Leave Middle Earth – Sodas Are No Longer Free
 author: steve blank
 share: true
 readwise_url: https://readwise.io/bookreview/27506459
-tags:
-  - articles
-  - work
-  - career
-  - favorite
 ---
 
 %%

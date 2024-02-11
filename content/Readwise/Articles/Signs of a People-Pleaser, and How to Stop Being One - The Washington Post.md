@@ -5,10 +5,6 @@ title: Signs of a People-Pleaser, and How to Stop Being One - The Washington Pos
 author: Allyson Chiu
 share: true
 readwise_url: https://readwise.io/bookreview/16941219
-tags:
-  - articles
-  - motivation
-  - stress
 ---
 
 %%

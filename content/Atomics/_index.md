@@ -6,7 +6,6 @@ tags:
   - folder_note
 modified: 2024-02-01T17:56:45-08:00
 ---
-
 Atomic notes are single ideas. These can refer to other things, but should be able to convey the idea without REQUIRING to refer to other things.
 
 Because atomic notes are self contained it makes them useful for composing a new idea by combining multiple atomic ideas.

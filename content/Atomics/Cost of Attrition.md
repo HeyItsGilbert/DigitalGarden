@@ -7,7 +7,6 @@ tags:
 share: true
 modified: 2024-02-01T16:12:48-08:00
 ---
-
 When people leave a company the cost isn't just felt in the immediate team.
 When people move between teams, it actually improves the interconnectedness.
 

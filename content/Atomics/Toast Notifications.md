@@ -2,12 +2,10 @@
 date: 2022-08-05
 tags:
   - "#PowerShell"
-  - PowerShell
 aliases: 
 modified: 2024-01-25T07:40:16-08:00
 share: true
 ---
-
 These are the pop-ups that show up on users computers. These can be triggered by apps, but also with [[Windows Notification Service|Windows Notification Service]] and BurntToast.
 ## Burnt Toast
 Written by Josh King in PowerShell. It generates an XML file that creates an appropriate toast notifcation. With v1 coming soon, there will be some breaking changes and will require PowerShell 7.

@@ -5,8 +5,6 @@ title: 4 Professional Poker Lessons to Help You Think Clearly and Live Wisely  L
 author: youtu.be
 share: true
 readwise_url: https://readwise.io/bookreview/22581088
-tags:
-  - articles
 ---
 
 %%

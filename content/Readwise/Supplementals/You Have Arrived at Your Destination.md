@@ -5,11 +5,6 @@ title: You Have Arrived at Your Destination
 author: Amor Towles
 share: true
 readwise_url: https://readwise.io/bookreview/27905594
-tags:
-  - supplementals
-  - stress
-  - motivation
-  - progress
 ---
 
 %%

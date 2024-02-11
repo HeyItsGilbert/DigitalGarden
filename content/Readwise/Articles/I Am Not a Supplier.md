@@ -5,10 +5,6 @@ title: I Am Not a Supplier
 author: Thomas Depierre
 share: true
 readwise_url: https://readwise.io/bookreview/23176809
-tags:
-  - articles
-  - technology
-  - work
 ---
 
 %%

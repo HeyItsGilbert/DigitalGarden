@@ -5,10 +5,6 @@ title: The Future of Ops Careers
 author: Charity Majors
 share: true
 readwise_url: https://readwise.io/bookreview/21546147
-tags:
-  - articles
-  - technology
-  - work
 ---
 
 %%

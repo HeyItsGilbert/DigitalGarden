@@ -7,7 +7,6 @@ aliases:
 share: true
 modified: 2024-02-01T16:13:07-08:00
 ---
-
 Also known as the Urgent-Important matrix.
 ![[Pasted image 20221020150711.png|Pasted image 20221020150711.png]][^1]
 # In Tech Work

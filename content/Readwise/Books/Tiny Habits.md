@@ -5,16 +5,6 @@ title: Tiny Habits
 author: BJ Fogg
 share: true
 readwise_url: https://readwise.io/bookreview/16901953
-tags:
-  - books
-  - habits
-  - fallacy
-  - knowledge
-  - favorite
-  - environment
-  - exercise
-  - ego
-  - motivation
 ---
 
 %%

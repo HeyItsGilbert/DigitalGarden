@@ -6,7 +6,14 @@ tags:
   - psychology
 aliases: 
 ---
-
+---
+date: 2024-01-04
+title: PERMAV
+share: true
+tags:
+  - psychology
+aliases:
+---
 Created by Psychologist Martin Seligman.
 - P: Positive Emotions
 - E: Engagament

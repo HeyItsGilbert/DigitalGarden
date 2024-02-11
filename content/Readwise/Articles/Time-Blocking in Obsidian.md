@@ -5,11 +5,6 @@ title: Time-Blocking in Obsidian
 author: theknowledgeworker.substack.com
 share: true
 readwise_url: https://readwise.io/bookreview/17034577
-tags:
-  - articles
-  - tasks
-  - writing
-  - habits
 ---
 
 %%

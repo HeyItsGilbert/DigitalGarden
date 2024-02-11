@@ -5,12 +5,6 @@ title: Why Your Bad Boss Will Probably Lose the Remote-Work Wars
 author: instapaper.com
 share: true
 readwise_url: https://readwise.io/bookreview/20402522
-tags:
-  - articles
-  - performance
-  - favorite
-  - career
-  - work
 ---
 
 %%

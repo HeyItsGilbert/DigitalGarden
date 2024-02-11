@@ -5,9 +5,6 @@ title: The Giver
 author: Lois Lowry
 share: true
 readwise_url: https://readwise.io/bookreview/16899902
-tags:
-  - supplementals
-  - perception
 ---
 
 %%

@@ -5,8 +5,6 @@ title: Zero Day
 author: Mark Russinovich and Howard Schmidt
 share: true
 readwise_url: https://readwise.io/bookreview/16899915
-tags:
-  - supplementals
 ---
 
 %%

@@ -5,23 +5,6 @@ title: Kill It With Fire
 author: Marianne Bellotti
 share: true
 readwise_url: https://readwise.io/bookreview/32989151
-tags:
-  - books
-  - development
-  - technology
-  - work
-  - legacy
-  - creativity
-  - favorite
-  - negotiation
-  - design
-  - adoption
-  - testing
-  - o11y
-  - luck
-  - bias
-  - management
-  - teamwork
 ---
 
 %%

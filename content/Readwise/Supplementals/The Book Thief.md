@@ -5,8 +5,6 @@ title: The Book Thief
 author: Markus Zusak
 share: true
 readwise_url: https://readwise.io/bookreview/16899929
-tags:
-  - supplementals
 ---
 
 %%

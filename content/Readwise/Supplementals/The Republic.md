@@ -5,14 +5,6 @@ title: The Republic
 author: Plato and Benjamin Jowett
 share: true
 readwise_url: https://readwise.io/bookreview/16899912
-tags:
-  - supplementals
-  - stoic
-  - knowledge
-  - present
-  - leadership
-  - health
-  - learning
 ---
 
 %%

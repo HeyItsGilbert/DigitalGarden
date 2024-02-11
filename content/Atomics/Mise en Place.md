@@ -8,7 +8,6 @@ aliases:
 share: true
 modified: 2024-02-02T21:26:34-08:00
 ---
-
 Mise en place can be an excellent metaphor about the value of preparing before you start. 
 
 > There are 5 steps to mise en place:

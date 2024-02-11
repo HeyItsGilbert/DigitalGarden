@@ -5,8 +5,6 @@ title: Modern Romance
 author: Aziz Ansari, Eric Klinenberg
 share: true
 readwise_url: https://readwise.io/bookreview/16899855
-tags:
-  - supplementals
 ---
 
 %%

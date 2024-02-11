@@ -5,15 +5,6 @@ title: The Tipping Point
 author: Malcolm Gladwell
 share: true
 readwise_url: https://readwise.io/bookreview/35197986
-tags:
-  - supplementals
-  - favorite
-  - algorithm
-  - connection
-  - epidemics
-  - environment
-  - perception
-  - cognition
 ---
 
 %%

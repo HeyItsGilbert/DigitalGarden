@@ -5,8 +5,6 @@ title: Harry Potter and the Chamber of Secrets
 author: J.K. Rowling
 share: true
 readwise_url: https://readwise.io/bookreview/16899914
-tags:
-  - supplementals
 ---
 
 %%

@@ -5,10 +5,6 @@ title: Artificial Condition
 author: Martha Wells
 share: true
 readwise_url: https://readwise.io/bookreview/37455766
-tags:
-  - books
-  - ai
-  - intelligence
 ---
 
 %%

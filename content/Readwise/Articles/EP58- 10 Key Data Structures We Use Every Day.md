@@ -5,8 +5,6 @@ title: EP58- 10 Key Data Structures We Use Every Day
 author: Alex Xu
 share: true
 readwise_url: https://readwise.io/bookreview/27389573
-tags:
-  - articles
 ---
 
 %%

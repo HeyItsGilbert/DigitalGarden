@@ -5,10 +5,6 @@ title: Idempotency
 author: Joshua Wright
 share: true
 readwise_url: https://readwise.io/bookreview/16901969
-tags:
-  - books
-  - perspective
-  - moderation
 ---
 
 %%

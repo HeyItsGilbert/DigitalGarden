@@ -5,12 +5,6 @@ title: Use the 85 Percent Rule to Learn Anything Way Faster
 author: inc.com
 share: true
 readwise_url: https://readwise.io/bookreview/17198891
-tags:
-  - articles
-  - learning
-  - failing
-  - motivation
-  - progress
 ---
 
 %%

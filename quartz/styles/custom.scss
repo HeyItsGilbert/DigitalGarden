@@ -3,6 +3,58 @@
 @use "./custom/site_link_icon.scss";
 // put your custom CSS here!
 
+// Custom var colors - These are based on Flexoki
+$base-black: #100F0F;
+$base-950: #1C1B1A;
+$base-900: #282726;
+$base-850: #343331;
+$base-800: #403E3C;
+$base-700: #575653;
+$base-600: #6F6E69;
+$base-500: #878580;
+$base-300: #B7B5AC;
+$base-200: #CECDC3;
+$base-150: #DAD8CE;
+$base-100: #E6E4D9;
+$base-50: #F2F0E5;
+$base-paper: #FFFCF0;
+
+// Dark Theme
+$dark-bg: $base-black;
+$dark-bg2: $base-950;
+$dark-ui: $base-900;
+$dark-ui-2: $base-850;
+$dark-ui-3: $base-800;
+$dark-tx: $base-200;
+$dark-tx-2: $base-500;
+$dark-tx-3: $base-700;
+$dark-red: #AF3029;
+$dark-orange: #BC5215;
+$dark-yellow: #AD8301;
+$dark-green: #66800B;
+$dark-cyan: #24837B;
+$dark-blue: #205EA6;
+$dark-purple: #5E409D;
+$dark-magenta: #A02F6F;
+
+// Light Theme
+$light-bg: $base-paper;
+$light-bg2: $base-50;
+$light-ui: $base-100;
+$light-ui-2: $base-150;
+$light-ui-3: $base-200;
+$light-tx: $base-black;
+$light-tx-2: $base-600;
+$light-tx-3: $base-300;
+$light-red: #D14D41;
+$light-orange: #DA702C;
+$light-yellow: #D0A215;
+$light-green: #879A39;
+$light-cyan: #3AA99F;
+$light-blue: #4385BE;
+$light-purple: #8B7EC8;
+$light-magenta: #CE5D97;
+
 // These are my MOC images
 div.moc {
   display: flex;
@@ -32,6 +84,63 @@ div.mocitem {
 }
 
 // Recent notes on the sidebar should be smaller size
-div.left.sidebar>.recent-notes>ul.recent-ul {
-  font-size: small;
+div.left.sidebar{
+  .recent-notes>ul.recent-ul {
+    font-size: smaller;
+    margin: 0;
+    line-height: 0;
+    li.recent-li {
+      margin: 0;
+      font-size: smaller;
+      a.internal.tag-link{
+        font-size: smaller;
+      }
+    }
+  }
+}
+
+.recent-notes>ul.recent-ul>li .section>.meta {
+  margin: 0;
+}
+
+// Change tags to add some more color
+[saved-theme="dark"] {
+  a.internal.tag-link {
+    background-color: $dark-green;
+    color: $dark-tx;
+    &:hover {
+      color: $light-green!important;
+    }
+  }
+  h3 {
+    color: $dark-magenta;
+  }
+}
+
+[saved-theme="light"] {
+  a.internal.tag-link {
+    background-color: $light-blue;
+    color: $light-tx ;
+    &:hover {
+      color: $dark-blue!important;
+    }
+  }
+  h3 {
+    color: $light-magenta;
+  }
+}
+
+// Explorer styling
+#explorer-content {
+  div.folder-outer.open li a:before {
+    font-family: FontAwesome;
+    content: "\f1b2\00a0";
+    font-size: x-small;
+
+  }
+  a.folder-title:before {
+    font-family: FontAwesome;
+    content: "\f07c\00a0"!important;
+    font-size: small!important;
+  }
 }

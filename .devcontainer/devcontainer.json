@@ -3,21 +3,19 @@
     "features": {
       "ghcr.io/devcontainers/features/node:1": {
         "extended": "true"
-      },
-      "ghcr.io/shinepukur/devcontainer-features/vale:1": {
-        // specify here any options you would like to set for the feature
-        "version": "latest"
       }
     },
     "postCreateCommand": "npm install",
-    "postStartCommand": "npx quartz build --serve",
     "customizations": {
       "vscode": {
         "extensions": [
-          "eliostruyf.vscode-front-matter",
           "davidanson.vscode-markdownlint",
-          "marp-team.marp-vscode"
         ]
       }
+    },
+    "portsAttributes": {
+        "8080": {
+            "label": "Build --Serve"
+        }
     }
   }

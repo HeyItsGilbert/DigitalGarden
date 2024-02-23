@@ -12,8 +12,8 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "google",
-      tagId: "G-FD48XZZQHK"
+      //provider: "google",
+      //tagId: "G-FD48XZZQHK"
     },
     locale: "en-US",
     baseUrl: "garden.gilbertsanchez.com",

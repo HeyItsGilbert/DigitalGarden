@@ -139,14 +139,14 @@ div.left.sidebar{
       font-size: x-small;
       float: left;
       display: grid;
-      li a:not(.folder-title) {
-        display: grid;
-      }
     }
-    a.folder-title:before {
-      font-family: FontAwesome;
-      content: "\f07c\00a0"!important;
-      font-size: small!important;
+    li a:not(.folder-title) {
+      display: grid;
     }
+  }
+  a.folder-title:before {
+    font-family: FontAwesome;
+    content: "\f07c\00a0"!important;
+    font-size: small!important;
   }
 }

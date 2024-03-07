@@ -132,11 +132,13 @@ div.left.sidebar{
 
 // Explorer styling
 #explorer-content {
-  div.folder-outer.open li a:before {
-    font-family: FontAwesome;
-    content: "\f1b2\00a0";
-    font-size: x-small;
-
+  div.folder-outer.open ul.content li {
+    :before {
+      font-family: FontAwesome;
+      content: "\f1b2\00a0";
+      font-size: x-small;
+    }
+    padding-left: 10px;
   }
   a.folder-title:before {
     font-family: FontAwesome;

@@ -139,9 +139,8 @@ div.left.sidebar{
     float: left;
     display: grid;
   }
-  div.folder-outer.open ul.content div.folder-outer.open li {
-    padding-left: 10px;
-    display: grid;
+  div.folder-outer.open ul.content div.folder-outer.open li a {
+      display: grid;
   }
   a.folder-title:before {
     font-family: FontAwesome;

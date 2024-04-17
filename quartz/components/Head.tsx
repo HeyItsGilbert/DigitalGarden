@@ -40,8 +40,8 @@ export default (() => {
         <meta name="generator" content="Quartz" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link rel="dns-prefetch" href="https://use.fontawesome.com">
-        <link rel="preconnect" href="https://use.fontawesome.com" crossorigin>
+        <link rel="dns-prefetch" href="https://use.fontawesome.com" />
+        <link rel="preconnect" href="https://use.fontawesome.com" crossorigin="anonymous" />
         <script src="https://kit.fontawesome.com/1c9394c211.js" crossorigin="anonymous"></script>
         <script defer src="https://cloud.umami.is/script.js" data-website-id="97973ceb-c373-4193-9305-1a3d5100881f"></script>
         {css.map((href) => (

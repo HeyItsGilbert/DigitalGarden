@@ -6,14 +6,6 @@ tags:
   - psychology
 aliases: 
 ---
----
-date: 2024-01-04
-title: Strategic Life Unit
-share: true
-tags:
-  - psychology
-aliases:
----
 ## SLU's
 1. Signifcant other
 2. Family

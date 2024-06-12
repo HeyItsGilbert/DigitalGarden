@@ -11,17 +11,18 @@ My passion around this has existed for a while. I understand that some of my str
 | File                                                                                                                                                                                                          |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [[Reviews/Manage Your Day-to-Day.md\|Manage Your Day-to-Day]]                                                                                                                                                 |
-| [[Readwise/Supplementals/Atomic Habits.md\|Atomic Habits]]                                                                                                                                                    |
+| [[Readwise/Supplementals/Words of Radiance.md\|Words of Radiance]]                                                                                                                                            |
 | [[Readwise/Supplementals/The 7 Habits of Highly Effective People.md\|The 7 Habits of Highly Effective People]]                                                                                                |
+| [[Readwise/Supplementals/Smarter Faster Better.md\|Smarter Faster Better]]                                                                                                                                    |
+| [[Readwise/Supplementals/Oathbringer.md\|Oathbringer]]                                                                                                                                                        |
+| [[Readwise/Supplementals/Atomic Habits.md\|Atomic Habits]]                                                                                                                                                    |
+| [[Readwise/Podcasts/The Enemies of Gratitude.md\|The Enemies of Gratitude]]                                                                                                                                   |
 | [[Readwise/Books/Tiny Habits.md\|Tiny Habits]]                                                                                                                                                                |
+| [[Readwise/Books/Manage Your Day-to-Day.md\|Manage Your Day-to-Day]]                                                                                                                                          |
+| [[Readwise/Books/Connect the Dots.md\|Connect the Dots]]                                                                                                                                                      |
+| [[Readwise/Books/Algorithms to Live By.md\|Algorithms to Live By]]                                                                                                                                            |
 | [[Readwise/Articles/Time-Blocking in Obsidian.md\|Time-Blocking in Obsidian]]                                                                                                                                 |
 | [[Readwise/Articles/Replacing Self-Care With a Practice of Caring – Lyra.md\|Replacing Self-Care With a Practice of Caring – Lyra]]                                                                           |
-| [[Readwise/Supplementals/Smarter Faster Better.md\|Smarter Faster Better]]                                                                                                                                    |
-| [[Readwise/Books/Connect the Dots.md\|Connect the Dots]]                                                                                                                                                      |
-| [[Readwise/Books/Manage Your Day-to-Day.md\|Manage Your Day-to-Day]]                                                                                                                                          |
 | [[Readwise/Articles/Achieve Your Goals- Research Reveals a Simple Trick That Doubles Your Chances for Success.md\|Achieve Your Goals- Research Reveals a Simple Trick That Doubles Your Chances for Success]] |
-| [[Readwise/Supplementals/Words of Radiance.md\|Words of Radiance]]                                                                                                                                            |
-| [[Readwise/Supplementals/Oathbringer.md\|Oathbringer]]                                                                                                                                                        |
-| [[Readwise/Podcasts/The Enemies of Gratitude.md\|The Enemies of Gratitude]]                                                                                                                                   |
-| [[Readwise/Books/Algorithms to Live By.md\|Algorithms to Live By]]                                                                                                                                            |
+| [[Atomics/Personal Development Environment.md\|Personal Development Environment]]                                                                                                                             |
 

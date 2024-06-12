@@ -6,14 +6,6 @@ author: Devops Weekly
 share: true
 readwise_url: https://readwise.io/bookreview/25995231
 ---
----
-id: 25995231
-updated: 2023-04-02
-title: Devops Weekly #640
-author: Devops Weekly
-share: true
-readwise_url: https://readwise.io/bookreview/25995231
----
 
 %%
 ID: 25995231

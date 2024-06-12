@@ -6,14 +6,6 @@ author: The Knowledge Project with Shane Parrish
 share: true
 readwise_url: https://readwise.io/bookreview/30722240
 ---
----
-id: 30722240
-updated: 2023-08-01
-title: #139 Laurie Santos —  the Pursuit of Happiness
-author: The Knowledge Project with Shane Parrish
-share: true
-readwise_url: https://readwise.io/bookreview/30722240
----
 
 %%
 ID: 30722240

@@ -6,14 +6,6 @@ author: Brandon Sanderson
 share: true
 readwise_url: https://readwise.io/bookreview/26620324
 ---
----
-id: 26620324
-updated: 2023-04-19
-title: Oathbringer
-author: Brandon Sanderson 
-share: true
-readwise_url: https://readwise.io/bookreview/26620324
----
 
 %%
 ID: 26620324

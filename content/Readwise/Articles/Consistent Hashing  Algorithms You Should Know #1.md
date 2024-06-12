@@ -6,14 +6,6 @@ author: youtu.be
 share: true
 readwise_url: https://readwise.io/bookreview/22578701
 ---
----
-id: 22578701
-updated: 2022-12-28
-title: Consistent Hashing  Algorithms You Should Know #1
-author: youtu.be
-share: true
-readwise_url: https://readwise.io/bookreview/22578701
----
 
 %%
 ID: 22578701

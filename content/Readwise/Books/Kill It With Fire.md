@@ -1,6 +1,6 @@
 ---
 id: 32989151
-updated: 2024-02-06
+updated: 2024-06-10
 title: Kill It With Fire
 author: Marianne Bellotti
 share: true
@@ -9,7 +9,7 @@ readwise_url: https://readwise.io/bookreview/32989151
 
 %%
 ID: 32989151
-Updated: 2024-02-06
+Updated: 2024-06-10
 %%
 
 ![]( https://m.media-amazon.com/images/I/71cQ9ovUBhL._SY500.jpg)
@@ -19,7 +19,7 @@ Title: [[Kill It With Fire|Kill It With Fire]]
 Authors: [[Marianne Bellotti|Marianne Bellotti]]
 Category: #books
 Number of Highlights: ==23==
-Date: [[2024-02-06|2024-02-06]]
+Date: [[2024-06-10|2024-06-10]]
 Last Highlighted: *2023-12-09*
 
 ---
@@ -65,7 +65,7 @@ Tags: #legacy, #technology
 ---
 Alignable differences are those for which the consumer has a reference point. For example, this car is faster than that car, or this phone has a better camera than that phone. Nonalignable differences are characteristics that are wholly unique and innovative; there are no reference points with which to compare. ... For a nonalignable difference to make an impact, the estimated value it produces has to be greater than all the alignable differences and all the other nonalignable differences put together. ([471](https://readwise.io/to_kindle?action=open&asin=B08CTFY4JP&location=471)) %% Color: yellow %% ^608335163
 
-Tags: #negotiation, #technology
+Tags: #negotiation, #technology, #difference
 
 ---
 As a company iterates to improve a certain characteristic of the product, it ultimately makes the product less desirable for the group of existing customers. Companies do this with the hope that a larger group of new customers will make that loss irrelevant. ([484](https://readwise.io/to_kindle?action=open&asin=B08CTFY4JP&location=484)) %% Color: yellow %% ^607885403

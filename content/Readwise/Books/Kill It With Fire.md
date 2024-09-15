@@ -1,6 +1,6 @@
 ---
 id: 32989151
-updated: 2024-06-10
+updated: 2024-08-30
 title: Kill It With Fire
 author: Marianne Bellotti
 share: true
@@ -9,7 +9,7 @@ readwise_url: https://readwise.io/bookreview/32989151
 
 %%
 ID: 32989151
-Updated: 2024-06-10
+Updated: 2024-08-30
 %%
 
 ![]( https://m.media-amazon.com/images/I/71cQ9ovUBhL._SY500.jpg)
@@ -19,7 +19,7 @@ Title: [[Kill It With Fire|Kill It With Fire]]
 Authors: [[Marianne Bellotti|Marianne Bellotti]]
 Category: #books
 Number of Highlights: ==23==
-Date: [[2024-06-10|2024-06-10]]
+Date: [[2024-08-30|2024-08-30]]
 Last Highlighted: *2023-12-09*
 
 ---

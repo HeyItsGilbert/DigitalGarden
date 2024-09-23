@@ -43,6 +43,7 @@ export default (() => {
         <link rel="dns-prefetch" href="https://use.fontawesome.com" />
         <link rel="preconnect" href="https://use.fontawesome.com" crossorigin="anonymous" />
         <script src="https://kit.fontawesome.com/1c9394c211.js" crossorigin="anonymous"></script>
+        <script defer src="https://cloud.umami.is/script.js" data-website-id="97973ceb-c373-4193-9305-1a3d5100881f"></script>
         {css.map((href) => (
           <link key={href} href={href} rel="stylesheet" type="text/css" spa-preserve />
         ))}

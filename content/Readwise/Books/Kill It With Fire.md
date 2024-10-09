@@ -1,6 +1,6 @@
 ---
 id: 32989151
-updated: 2024-08-30
+updated: 2024-10-03
 title: Kill It With Fire
 author: Marianne Bellotti
 share: true
@@ -9,7 +9,7 @@ readwise_url: https://readwise.io/bookreview/32989151
 
 %%
 ID: 32989151
-Updated: 2024-08-30
+Updated: 2024-10-03
 %%
 
 ![]( https://m.media-amazon.com/images/I/71cQ9ovUBhL._SY500.jpg)
@@ -18,9 +18,9 @@ Updated: 2024-08-30
 Title: [[Kill It With Fire|Kill It With Fire]]
 Authors: [[Marianne Bellotti|Marianne Bellotti]]
 Category: #books
-Number of Highlights: ==23==
-Date: [[2024-08-30|2024-08-30]]
-Last Highlighted: *2023-12-09*
+Number of Highlights: ==24==
+Date: [[2024-10-03|2024-10-03]]
+Last Highlighted: *2024-09-30*
 
 ---
 
@@ -145,5 +145,10 @@ Individual contributors often find the barrier to following that advice is not c
 Note: This hits close to home with ny recent chef work.
 
 Tags: #teamwork, #technology
+
+---
+Any system more than five years old will have at least a couple major things wrong with it. It didn’t mean lying, and it didn’t mean injecting problems where they didn’t exist. Instead, it was a matter of storytelling—taking something that was unreported and highlighting its potential risks. ([1854](https://readwise.io/to_kindle?action=open&asin=B08CTFY4JP&location=1854)) %% Color: yellow %% ^792912980
+
+Tags: #technology, #testing, #risk
 
 ---

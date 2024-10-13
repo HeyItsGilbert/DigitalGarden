@@ -48,4 +48,4 @@ Tags: #fantasy, #perception, #future
 ---
 ‘Despair, or folly?’ said Gandalf. ‘It is not despair, for despair is only for those who see the end beyond all doubt. We do not. It is wisdom to recognize necessity, when all other courses have been weighed, though as folly it may appear to those who cling to false hope. ([5431](https://readwise.io/to_kindle?action=open&asin=B007978NPG&location=5431)) %% Color: yellow %% ^794128884
 
----
+---- ‘Despair, or folly?’ said Gandalf. ‘It is not despair, for despair is only for those who see the end beyond all doubt. We do not. It is wisdom to recognize necessity, when all other courses have been weighed, though as folly it may appear to those who cling to false hope. ([Location 5431](https://readwise.io/to_kindle?action=open&asin=B007978NPG&location=5431))

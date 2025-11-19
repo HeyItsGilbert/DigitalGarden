@@ -15,16 +15,52 @@ tags:
 - [[Rust|Rust]]
 - [[PowerShell|PowerShell]]
 - [[Golang|Golang]]
+
+## Programming Fundamentals
+- [[Control Flow|Control Flow]]
+- [[SQL|SQL]]
+- [[Idempotency|Idempotency]]
+
+## Infrastructure & Deployment
+- [[Deployment Strategies|Deployment Strategies]]
+- [[Running Containers on EKS|Running Containers on EKS]]
+- [[3-2-1 Backup Strategy|3-2-1 Backup Strategy]]
+- [[Systems|Systems]]
+
+## Protocols & Technologies
+- [[MQTT|MQTT]]
+- [[Toast Notifications|Toast Notifications]]
+- [[Lamport Clock|Lamport Clock]]
+- [[Control Codes|Control Codes]]
+
+## Documentation & Publishing
+- [[Markdown|Markdown]]
+- [[Hugo|Hugo]]
+- [[MkDocs|MkDocs]]
+- [[Plain Text|Plain Text]]
+
+## Development Practices
+- [[Software Bill Of Materials|Software Bill Of Materials]]
+- [[Artificial Consistency|Artificial Consistency]]
+
+## How-To Guides
+- [[Generate Your Resume with JsonResume|Generate Your Resume with JsonResume]]
+- [[Installing MQTT|Installing MQTT]]
+
+## Technical Articles
+- [[Packaging a Rust Web Service Using Docker|Packaging a Rust Web Service Using Docker]]
+- [[Markdown, Asciidoc, or reStructuredText - A Tale of Docs-as-Code|Markdown, Asciidoc, or reStructuredText - A Tale of Docs-as-Code]]
+- [[EP 40- Git Workflow|EP 40- Git Workflow]]
+- [[ScriptBlock and SessionState in PowerShell|ScriptBlock and SessionState in PowerShell]]
+
+## Technical Books
+- [[Kill It With Fire|Kill It With Fire]]
+
 ## Tagged with Coding
-| File                                                                                                            |
-| --------------------------------------------------------------------------------------------------------------- |
-| [[Readwise/Articles/ScriptBlock and SessionState in PowerShell.md\|ScriptBlock and SessionState in PowerShell]] |
-| [[Atomics/Systems.md\|Systems]]                                                                                 |
-| [[Atomics/Plain Text.md\|Plain Text]]                                                                           |
-| [[Atomics/Documentation.md\|Documentation]]                                                                     |
-| [[Atomics/Deployment Strategies.md\|Deployment Strategies]]                                                     |
-| [[Atomics/Control Codes.md\|Control Codes]]                                                                     |
-| [[Atomics/Control Flow.md\|Control Flow]]                                                                       |
+| File                                                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------- |
+| [[Atomics/Documentation.md\|Documentation]]                                                                                     |
+| [[Readwise/Articles/The Problem With Using a UUID Primary Key in MySQL.md\|The Problem With Using a UUID Primary Key in MySQL]] |
 
 
 ## Tagged with Programming

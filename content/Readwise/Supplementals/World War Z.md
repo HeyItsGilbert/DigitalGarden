@@ -1,11 +1,12 @@
 ---
 id: 16899862
 updated: 2024-06-11
-title:
+title: World War Z
 author: "[[Max Brooks]]"
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899862
+tags:
 ---
 
 

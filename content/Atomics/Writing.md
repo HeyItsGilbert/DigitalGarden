@@ -13,6 +13,6 @@ Writing is an important form of communication that brings its own set of challen
 > Because clear writing indicates clear thinking. [^1]
 ## Writing for Work
 - [[Atomics/Writing Without Bullshit|Atomics/Writing Without Bullshit]]
-- [[writing-markdown|writing-markdown]]
+- [[Readwise/Articles/Writing Markdown|Readwise/Articles/Writing Markdown]]
 
 [^1]: https://instapaper.com/read/1523279794/20130817

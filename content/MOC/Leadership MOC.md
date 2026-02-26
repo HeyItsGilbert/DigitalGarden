@@ -37,39 +37,37 @@ tags:
 - [[PERMAV|PERMAV]]
 
 ## Articles - Technical Leadership
-- [[being-glue-no-idea-blog|being-glue-no-idea-blog]]
+- [[Readwise/Articles/Being Glue — No Idea Blog|Readwise/Articles/Being Glue — No Idea Blog]]
 - [[What Do Staff Engineers Actually Do|What Do Staff Engineers Actually Do]]
 - [[Engineering Management The Pendulum or the Ladder|Engineering Management The Pendulum or the Ladder]]
-- [[McKinsey Developer Productivity|McKinsey Developer Productivity]]
-- [[the-hierarchy-is-bullshit|the-hierarchy-is-bullshit]]
-- [[a-respected-mit-professor-said-your-success-will-be-determined-by-3-things-heres-how-to-get-better-at-each-of-them|a-respected-mit-professor-said-your-success-will-be-determined-by-3-things-heres-how-to-get-better-at-each-of-them]]
+- [[Readwise Original/Articles/McKinsey Developer Productivity|Readwise Original/Articles/McKinsey Developer Productivity]]
+- [[Readwise/Articles/The Hierarchy Is Bullshit|Readwise/Articles/The Hierarchy Is Bullshit]]
+- [[Readwise/Articles/A Respected MIT Professor Said Your Success Will Be Determined by 3 Things. Here's How to Get Better at Each of Them|Readwise/Articles/A Respected MIT Professor Said Your Success Will Be Determined by 3 Things. Here's How to Get Better at Each of Them]]
 
 ## Books
-- [[Readwise/Books/never-split-the-difference|Readwise/Books/never-split-the-difference]]
+- [[Readwise/Books/Never Split the Difference|Readwise/Books/Never Split the Difference]]
 - [[How to Win Friends and Influence People|How to Win Friends and Influence People]]
 - [[The 7 Habits of Highly Effective People|The 7 Habits of Highly Effective People]]
-- [[smarter-faster-better|smarter-faster-better]]
-- [[small-team-leadership|small-team-leadership]]
+- [[Smarter Faster Better|Smarter Faster Better]]
+- [[Small Team Leadership|Small Team Leadership]]
 
 ## Tagged with Leadership
-| File                                                                                                           |
-| -------------------------------------------------------------------------------------------------------------- |
-| [[Readwise/Tweets/tweets-from-charity-majors.md\|tweets-from-charity-majors]]                                  |
-| [[Readwise/Supplementals/the-way-of-kings.md\|the-way-of-kings]]                                               |
-| [[Readwise/Supplementals/the-republic.md\|the-republic]]                                                       |
-| [[Readwise/Supplementals/the-art-of-intelligence.md\|the-art-of-intelligence]]                                 |
-| [[Readwise/Supplementals/the-7-habits-of-highly-effective-people.md\|the-7-habits-of-highly-effective-people]] |
-| [[Readwise/Supplementals/tao-te-ching.md\|tao-te-ching]]                                                       |
-| [[Readwise/Supplementals/rhythm-of-war.md\|rhythm-of-war]]                                                     |
-| [[Readwise/Supplementals/reamde.md\|reamde]]                                                                   |
-| [[Readwise/Supplementals/never-split-the-difference.md\|never-split-the-difference]]                           |
-| [[Readwise/Supplementals/mistborn.md\|mistborn]]                                                               |
-| [[Readwise/Supplementals/Lexicon b5ee.md\|Lexicon b5ee]]                                                       |
-| [[Readwise/Supplementals/ego-is-the-enemy.md\|ego-is-the-enemy]]                                               |
-| [[Readwise/Supplementals/dune.md\|dune]]                                                                       |
-| [[Readwise/Supplementals/Atomic Habits.md\|Atomic Habits]]                                                     |
-| [[Readwise/Books/wind-and-truth.md\|wind-and-truth]]                                                           |
-| [[Readwise/Articles/welcome-to-the-room.md\|welcome-to-the-room]]                                              |
-| [[Readwise/Articles/what-do-staff-engineers-actually-do.md\|what-do-staff-engineers-actually-do]]              |
-| [[Readwise/Articles/mc-kinsey-developer-productivity.md\|mc-kinsey-developer-productivity]]                    |
+| File                                                                                      |
+| ----------------------------------------------------------------------------------------- |
+| [[Readwise/Supplementals/Lexicon.md\|Lexicon]]                                            |
+| [[Readwise/Supplementals/Atomic Habits.md\|Atomic Habits]]                                |
+| [[Readwise/Supplementals/The Art of Intelligence.md\|The Art of Intelligence]]            |
+| [[Readwise/Supplementals/Dune.md\|Dune]]                                                  |
+| [[Readwise/Supplementals/Tao Te Ching.md\|Tao Te Ching]]                                  |
+| [[Readwise/Supplementals/The Republic.md\|The Republic]]                                  |
+| [[Readwise/Supplementals/Reamde.md\|Reamde]]                                              |
+| [[Readwise/Supplementals/Never Split the Difference.md\|Never Split the Difference]]      |
+| [[Readwise/Tweets/Tweets From Charity Majors.md\|Tweets From Charity Majors]]             |
+| [[Readwise/Supplementals/The Way of Kings.md\|The Way of Kings]]                          |
+| [[Readwise/Supplementals/Rhythm of War.md\|Rhythm of War]]                                |
+| [[Readwise/Articles/McKinsey Developer Productivity.md\|McKinsey Developer Productivity]] |
+| [[Readwise/Supplementals/Mistborn.md\|Mistborn]]                                          |
+| [[Readwise/Supplementals/Ego Is the Enemy.md\|Ego Is the Enemy]]                          |
+| [[Readwise/Books/Wind and Truth.md\|Wind and Truth]]                                      |
+| [[Readwise/Articles/Welcome to the Room.md\|Welcome to the Room]]                         |
 

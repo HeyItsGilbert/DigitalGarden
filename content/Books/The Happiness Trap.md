@@ -7,7 +7,7 @@ tags:
   - "#virtues"
   - "#determination"
 ---
-Highlights: [[the-happiness-trap|the-happiness-trap]]
+Highlights: [[Readwise/Books/The Happiness Trap|the-happiness-trap]]
 
 > [!SUMMARY]
 > The Happiness Trap reveals a paradox: trying to avoid negative feelings creates more suffering. Through Acceptance and Commitment Therapy (ACT), the book teaches psychological flexibility accepting difficult thoughts and feelings, defusing from unhelpful mental stories, and taking action guided by values rather than pursuing happiness itself.

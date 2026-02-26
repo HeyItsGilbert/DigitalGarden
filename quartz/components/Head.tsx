@@ -24,7 +24,7 @@ export default (() => {
         <meta charSet="utf-8" />
         <meta
           http-equiv="Content-Security-Policy"
-          content="font-src 'self' data: https://cdnjs.cloudflare.com;"
+          content="font-src 'self' data: https://fonts.gstatic.com https://cdnjs.cloudflare.com;"
         />
         {cfg.theme.cdnCaching && cfg.theme.fontOrigin === "googleFonts" && (
           <>

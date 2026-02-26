@@ -1,11 +1,12 @@
 ---
 id: 16899869
 updated: 2024-11-22
-title:
+title: Atomic Habits
 author: "[[James Clear]]"
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899869
+tags:
 ---
 
 
@@ -18,7 +19,7 @@ Updated: 2024-11-22
 ![]( https://images-na.ssl-images-amazon.com/images/I/51Eqf-URhoL._SL5000_.jpg)
 
 # About
-Title: [[Atomic Habits|Atomic Habits]]
+Title: [[Readwise/Supplementals/Atomic Habits|Readwise/Supplementals/Atomic Habits]]
 Authors: [[James Clear]]
 Category: #supplementals
 Number of Highlights: ==46==

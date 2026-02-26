@@ -135,3 +135,26 @@ div.left.sidebar {
         color: $light-magenta;
     }
 }
+
+// Explorer styling
+#explorer-content {
+    div.folder-outer.open ul.content div.folder-outer.open {
+        li:has(> a):before {
+            font-family: FontAwesome;
+            content: "\f1b2\00a0";
+            font-size: x-small;
+            float: left;
+            display: grid;
+        }
+
+        li a:not(.folder-title) {
+            display: grid;
+        }
+    }
+
+    a.folder-title:before {
+        font-family: FontAwesome;
+        content: "\f07c\00a0" !important;
+        font-size: small !important;
+    }
+}

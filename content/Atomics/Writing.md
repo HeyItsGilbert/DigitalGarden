@@ -5,7 +5,7 @@ tags:
   - learning
   - leadership
   - work
-aliases: 
+aliases:
 modified: 2024-02-02T21:47:08-08:00
 share: true
 ---
@@ -13,6 +13,6 @@ Writing is an important form of communication that brings its own set of challen
 > Because clear writing indicates clear thinking. [^1]
 ## Writing for Work
 - [[Atomics/Writing Without Bullshit|Atomics/Writing Without Bullshit]]
-- [[Writing Markdown|Writing Markdown]]
+- [[writing-markdown|writing-markdown]]
 
 [^1]: https://instapaper.com/read/1523279794/20130817

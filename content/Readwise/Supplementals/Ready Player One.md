@@ -1,75 +1,82 @@
 ---
 id: 16899870
-updated: 2022-07-17
-title: Ready Player One
-author: Ernest Cline
+updated: 2025-02-09
+title:
+author: "[[Ernest Cline]]"
 share: true
-readwise_url: https://readwise.io/bookreview/16899870
+readwise_url:
+uri: https://readwise.io/bookreview/16899870
 ---
+
+
 
 %%
 ID: 16899870
-Updated: 2022-07-17
+Updated: 2025-02-09
 %%
 
-![]( https://images-na.ssl-images-amazon.com/images/I/51hD3F53GXL._SL500_.jpg)
+![]( https://images-na.ssl-images-amazon.com/images/I/51hD3F53GXL._SL5000_.jpg)
 
 # About
 Title: [[Ready Player One|Ready Player One]]
-Authors: [[Ernest Cline|Ernest Cline]]
+Authors: [[Ernest Cline]]
 Category: #supplementals
-Number of Highlights: ==30==
-Date: [[2022-07-17|2022-07-17]]
+Number of Highlights: ==12==
+Date: [[2025-02-09|2025-02-09]]
 Last Highlighted: **
 
 ---
 
 # Highlights
 
-I’d come to see my rig for what it was: an elaborate contraption for deceiving my senses, to allow me to live in a world that didn’t exist. Each component of my rig was a bar in the cell where I had willingly imprisoned myself. ^348312726
+
+  You know you’ve totally screwed up your life when your whole world turns to shit and the only person you have to talk to is your system agent software. ^348312730
 
 ---
-You know you’ve totally screwed up your life when your whole world turns to shit and the only person you have to talk to is your system agent software. ^348312730
+  “I created the OASIS because I never felt at home in the real world. I didn’t know how to connect with the people there. I was afraid, for all of my life. Right up until I knew it was ending. That was when I realized, as terrifying and painful as reality can be, it’s also the only place where you can find true happiness. Because reality is real. Do you understand?” ^484238008
 
 ---
-“No one in the world ever gets what they want and that is beautiful.” ^348312732
-
----
-“I created the OASIS because I never felt at home in the real world. I didn’t know how to connect with the people there. I was afraid, for all of my life. Right up until I knew it was ending. That was when I realized, as terrifying and painful as reality can be, it’s also the only place where you can find true happiness. Because reality is real. Do you understand?” ^484238008
-
----
-As we continued to talk, going through the motions of getting to know each other, I realized that we already did know each other, as well as any two people could. We’d known each other for years, in the most intimate way possible. We’d connected on a purely mental level. I understood her, trusted her, and loved her as a dear friend. None of that had changed, or could be changed by anything as inconsequential as her gender, or skin color, or sexual orientation. ^484238011
+  As we continued to talk, going through the motions of getting to know each other, I realized that we already did know each other, as well as any two people could. We’d known each other for years, in the most intimate way possible. We’d connected on a purely mental level. I understood her, trusted her, and loved her as a dear friend. None of that had changed, or could be changed by anything as inconsequential as her gender, or skin color, or sexual orientation. ^484238011
 
 Tags: #knowledge, #perspective
 
 ---
-The vast wasteland of television programming had finally reached its zenith, and the average person was no longer limited to fifteen minutes of fame. Now everyone could be on TV, every second of every day, whether or not anyone was watching. ^645851953
+  Whenever I saw the sun, I reminded myself that I was looking at a star. One of over a hundred billion stars in our galaxy. A galaxy that was just one of billions of other galaxies in the observable universe. This helped me keep things in perspective. ^645851955
 
 ---
-If I’d been hungry, I could have ordered a real slice of pizza at the counter. The order would have been forwarded to a pizza vendor near my apartment complex, the one I’d specified in my OASIS account’s food service preference settings. Then a slice would have been delivered to my door in a matter of minutes, and the cost (including tip) would have been deducted from my OASIS account balance. ^645851954
+  You’d be amazed how much research you can get done when you have no life whatsoever. Twelve hours a day, seven days a week, is a lot of study time. ^645851957
+
+Tags: #knowledge, #study, #work:life
 
 ---
-Whenever I saw the sun, I reminded myself that I was looking at a star. One of over a hundred billion stars in our galaxy. A galaxy that was just one of billions of other galaxies in the observable universe. This helped me keep things in perspective. ^645851955
+  The ability to mute my peers was one of my favorite things about attending school online, and I took advantage of it almost daily. The best thing about it was that they could see that you’d muted them, and they couldn’t do a damn thing about it. ^645851961
+
+Tags: #dystopian
 
 ---
-“You have been recruited by the Star League to defend the Frontier against Xur and the Ko-Dan Armada.” ^645851956
+  But years later, Morrow wrote in his autobiography that he’d left GSS because “we were no longer in the videogame business,” and because he felt that the OASIS had evolved into something horrible. “It had become a self-imposed prison for humanity,” he wrote. “A pleasant place for the world to hide from its problems while human civilization slowly collapses, primarily due to neglect.” ^645851962
+
+Tags: #perspective
 
 ---
-You’d be amazed how much research you can get done when you have no life whatsoever. Twelve hours a day, seven days a week, is a lot of study time. ^645851957
+  Charging people for virtual fuel to power their virtual spaceships was one of the ways Gregarious Simulation Systems generated revenue, since accessing the OASIS was free. But GSS’s primary source of income came from teleportation fares. Teleportation was the fastest way to travel, but it was also the most expensive. ^755927728
+
+Tags: #technology
 
 ---
-The OASIS would ultimately change the way people around the world lived, worked, and communicated. It would transform entertainment, social networking, and even global politics. Even though it was initially marketed as a new kind of massively multiplayer online game, the OASIS quickly evolved into a new way of life. ^645851958
+  It was also a lot easier for online teachers to hold their students’ attention, because here in the OASIS, the classrooms were like holodecks. Teachers could take their students on a virtual field trip every day, without ever leaving the school grounds. ^849962700
+
+Tags: #learning, #scifi
 
 ---
-From the very start, Marie had used a white male avatar to conduct all of her online business, because of the marked difference it made in how she was treated and the opportunities she was given. ^645851959
+  My mom once told me that my dad had given me an alliterative name, Wade Watts, because he thought it sounded like the secret identity of a superhero. Like Peter Parker or Clark Kent. Knowing that made me think he must have been a cool guy, despite how he’d died. ^849962702
 
 ---
-In those days, if you wanted to escape to another world, you had to create it yourself, using your brain, some paper, pencils, dice, and a few rule books. ^645851960
+  The moment IOI took it over, the OASIS would cease to be the open-source virtual utopia I’d grown up in. It would become a corporate-run dystopia, an overpriced theme park for wealthy elitists. ^849962703
+
+Tags: #technology
 
 ---
-The ability to mute my peers was one of my favorite things about attending school online, and I took advantage of it almost daily. The best thing about it was that they could see that you’d muted them, and they couldn’t do a damn thing about it. ^645851961
-
----
-But years later, Morrow wrote in his autobiography that he’d left GSS because “we were no longer in the videogame business,” and because he felt that the OASIS had evolved into something horrible. “It had become a self-imposed prison for humanity,” he wrote. “A pleasant place for the world to hide from its problems while human civilization slowly collapses, primarily due to neglect.” ^645851962
+  “Jim always wanted everyone to share his obsessions, to love the same things he loved. I think this contest is his way of giving the entire world an incentive to do just that.” ^849962704
 
 ---

@@ -8,27 +8,31 @@ readwise_url:
 uri: https://readwise.io/bookreview/30384527
 tags:
   - readwise
+  - tweets
 ---
-
-
-
-%%
-ID: 30384527
-Updated: 2023-07-22
-%%
-
-![]( https://pbs.twimg.com/profile_images/1854968611628367872/5YTRWqck.jpg)
-
-# About
-Title: [[Tweets From Scott Hanselman|Tweets From Scott Hanselman]]
-Authors: [[@shanselman on Twitter]]
-Category: #tweets
-Number of Highlights: ==0==
-Source URL: https://twitter.com/shanselman
-Date: [[2023-07-22|2023-07-22]]
-Last Highlighted: **
-
----
-
-# Highlights
-
+  
+  
+%%  
+ID: 30384527  
+Updated: 2023-07-22  
+%%  
+  
+> [!WARNING] Auto Generated via Readwise  
+> These are my highlights created/synced via [Readwise.io - Referral Link](https://readwise.io/i/gilbert37)  
+  
+![]( https://pbs.twimg.com/profile_images/1854968611628367872/5YTRWqck.jpg)  
+  
+# About  
+  
+Title: [[Tweets From Scott Hanselman|Tweets From Scott Hanselman]]  
+Authors: [[@shanselman on Twitter]]  
+Category: #tweets  
+Number of Highlights: ==0==  
+Source URL: https://twitter.com/shanselman  
+Date: [[2023-07-22|2023-07-22]]  
+Last Highlighted: **  
+  
+---  
+  
+# Highlights  
+  

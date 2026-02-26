@@ -1,11 +1,12 @@
 ---
 id: 16899855
 updated: 2023-04-30
-title:
+title: Modern Romance
 author: "[[Aziz Ansari|Aziz Ansari]], [[Eric Klinenberg|Eric Klinenberg]]"
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899855
+tags:
 ---
 
 

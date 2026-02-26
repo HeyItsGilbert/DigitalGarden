@@ -7,8 +7,8 @@ share: true
 readwise_url:
 uri: https://readwise.io/bookreview/25800160
 tags:
+  - readwise
 ---
-
 
 
 %%
@@ -19,7 +19,7 @@ Updated: 2023-10-11
 ![]( https://images-na.ssl-images-amazon.com/images/I/51OeWWJuw%2BL._SL5000_.jpg)
 
 # About
-Title: [[Atomics/Writing Without Bullshit|Atomics/Writing Without Bullshit]]
+Title: [[Writing Without Bullshit|Writing Without Bullshit]]
 Authors: [[Josh Bernoff]]
 Category: #books
 Number of Highlights: ==12==

@@ -7,6 +7,7 @@ share: true
 readwise_url:
 uri: https://readwise.io/bookreview/46304799
 tags:
+  - readwise
 ---
 
 

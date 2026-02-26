@@ -1,6 +1,6 @@
 ---
 share: true
-modified: 2024-02-11T08:06:05-08:00
+modified: 2026-02-14T16:44:49-08:00
 tags:
   - coding
 ---
@@ -19,7 +19,8 @@ tags:
 ## Programming Fundamentals
 - [[Control Flow|Control Flow]]
 - [[SQL|SQL]]
-- [[Idempotency|Idempotency]]
+- [[Kindle/Idempotency|Kindle/Idempotency]]
+- [[Concurrency|Concurrency]]
 
 ## Infrastructure & Deployment
 - [[Deployment Strategies|Deployment Strategies]]
@@ -48,19 +49,19 @@ tags:
 - [[Installing MQTT|Installing MQTT]]
 
 ## Technical Articles
-- [[Packaging a Rust Web Service Using Docker|Packaging a Rust Web Service Using Docker]]
-- [[Markdown, Asciidoc, or reStructuredText - A Tale of Docs-as-Code|Markdown, Asciidoc, or reStructuredText - A Tale of Docs-as-Code]]
-- [[EP 40- Git Workflow|EP 40- Git Workflow]]
-- [[ScriptBlock and SessionState in PowerShell|ScriptBlock and SessionState in PowerShell]]
+- [[packaging-a-rust-web-service-using-docker|packaging-a-rust-web-service-using-docker]]
+- [[markdown-asciidoc-or-re-structured-text-a-tale-of-docs-as-code|markdown-asciidoc-or-re-structured-text-a-tale-of-docs-as-code]]
+- [[ep-40-git-workflow|ep-40-git-workflow]]
+- [[script-block-and-session-state-in-power-shell|script-block-and-session-state-in-power-shell]]
 
 ## Technical Books
 - [[Kill It With Fire|Kill It With Fire]]
 
 ## Tagged with Coding
-| File                                                                                                                            |
-| ------------------------------------------------------------------------------------------------------------------------------- |
-| [[Atomics/Documentation.md\|Documentation]]                                                                                     |
-| [[Readwise/Articles/The Problem With Using a UUID Primary Key in MySQL.md\|The Problem With Using a UUID Primary Key in MySQL]] |
+| File                                                                                                                              |
+| --------------------------------------------------------------------------------------------------------------------------------- |
+| [[Readwise/Articles/the-problem-with-using-a-uuid-primary-key-in-my-sql.md\|the-problem-with-using-a-uuid-primary-key-in-my-sql]] |
+| [[Atomics/Documentation.md\|Documentation]]                                                                                       |
 
 
 ## Tagged with Programming

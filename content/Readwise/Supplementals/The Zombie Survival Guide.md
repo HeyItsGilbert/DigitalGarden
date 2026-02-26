@@ -1,11 +1,12 @@
 ---
 id: 16899863
 updated: 2024-09-04
-title:
+title: The Zombie Survival Guide
 author: "[[Max Brooks]]"
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899863
+tags:
 ---
 
 

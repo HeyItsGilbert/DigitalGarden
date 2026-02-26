@@ -8,37 +8,41 @@ readwise_url:
 uri: https://readwise.io/bookreview/16901948
 tags:
   - readwise
+  - books
 ---
-
-
-
-%%
-ID: 16901948
-Updated: 2022-07-17
-%%
-
-![]( https://m.media-amazon.com/images/I/91Bd7P8UwxL._SL5000.jpg)
-
-# About
-Title: [[Readwise Original/Books/Project Hail Mary|Readwise Original/Books/Project Hail Mary]]
-Authors: [[Andy Weir]]
-Category: #books
-Number of Highlights: ==2==
-Date: [[2022-07-17|2022-07-17]]
-Last Highlighted: *2022-06-21*
-
----
-
-# Highlights
-
-
-  Deadline-induced quality issues: a problem all over the galaxy. ([4129](https://readwise.io/to_kindle?action=open&asin=B08FHBV4ZX&location=4129)) %% Color: yellow %% ^348334716
-
-Tags: #favorite, #quality, #work
-
----
-  “Are all Russians crazy?” “Yes,” he said with a smile. “It is the only way to be Russian and happy at the same time.” “That’s…dark.” “That’s Russian!” ([4271](https://readwise.io/to_kindle?action=open&asin=B08FHBV4ZX&location=4271)) %% Color: yellow %% ^348334717
-
-Tags: #favorite
-
+  
+  
+%%  
+ID: 16901948  
+Updated: 2022-07-17  
+%%  
+  
+> [!WARNING] Auto Generated via Readwise  
+> These are my highlights created/synced via [Readwise.io - Referral Link](https://readwise.io/i/gilbert37)  
+  
+![]( https://m.media-amazon.com/images/I/91Bd7P8UwxL._SL5000.jpg)  
+  
+# About  
+  
+Title: [[Project Hail Mary|Project Hail Mary]]  
+Authors: [[Andy Weir]]  
+Category: #books  
+Number of Highlights: ==2==  
+Date: [[2022-07-17|2022-07-17]]  
+Last Highlighted: *2022-06-21*  
+  
+---  
+  
+# Highlights  
+  
+  
+  Deadline-induced quality issues: a problem all over the galaxy. ([4129](https://readwise.io/to_kindle?action=open&asin=B08FHBV4ZX&location=4129)) %% Color: yellow %% ^348334716  
+  
+Tags: #favorite, #quality, #work  
+  
+---  
+  “Are all Russians crazy?” “Yes,” he said with a smile. “It is the only way to be Russian and happy at the same time.” “That’s…dark.” “That’s Russian!” ([4271](https://readwise.io/to_kindle?action=open&asin=B08FHBV4ZX&location=4271)) %% Color: yellow %% ^348334717  
+  
+Tags: #favorite  
+  
 ---

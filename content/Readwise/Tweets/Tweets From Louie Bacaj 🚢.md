@@ -8,27 +8,31 @@ readwise_url:
 uri: https://readwise.io/bookreview/28999476
 tags:
   - readwise
+  - tweets
 ---
-
-
-
-%%
-ID: 28999476
-Updated: 2023-06-14
-%%
-
-![]( https://pbs.twimg.com/profile_images/1408438818626224137/pIwNOLKB.jpg)
-
-# About
-Title: [[Tweets From Louie Bacaj 🚢|Tweets From Louie Bacaj 🚢]]
-Authors: [[@LBacaj on Twitter]]
-Category: #tweets
-Number of Highlights: ==0==
-Source URL: https://twitter.com/LBacaj
-Date: [[2023-06-14|2023-06-14]]
-Last Highlighted: **
-
----
-
-# Highlights
-
+  
+  
+%%  
+ID: 28999476  
+Updated: 2023-06-14  
+%%  
+  
+> [!WARNING] Auto Generated via Readwise  
+> These are my highlights created/synced via [Readwise.io - Referral Link](https://readwise.io/i/gilbert37)  
+  
+![]( https://pbs.twimg.com/profile_images/1408438818626224137/pIwNOLKB.jpg)  
+  
+# About  
+  
+Title: [[Tweets From Louie Bacaj 🚢|Tweets From Louie Bacaj 🚢]]  
+Authors: [[@LBacaj on Twitter]]  
+Category: #tweets  
+Number of Highlights: ==0==  
+Source URL: https://twitter.com/LBacaj  
+Date: [[2023-06-14|2023-06-14]]  
+Last Highlighted: **  
+  
+---  
+  
+# Highlights  
+  

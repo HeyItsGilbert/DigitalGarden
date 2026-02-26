@@ -8,27 +8,31 @@ readwise_url:
 uri: https://readwise.io/bookreview/37165358
 tags:
   - readwise
+  - tweets
 ---
-
-
-
-%%
-ID: 37165358
-Updated: 2024-01-28
-%%
-
-![]( https://pbs.twimg.com/profile_images/1963593369306750976/7gPWqEa8.jpg)
-
-# About
-Title: [[Readwise Original/Tweets/Tweets From Cory House|Readwise Original/Tweets/Tweets From Cory House]]
-Authors: [[@housecor on Twitter]]
-Category: #tweets
-Number of Highlights: ==0==
-Source URL: https://twitter.com/housecor
-Date: [[2024-01-28|2024-01-28]]
-Last Highlighted: **
-
----
-
-# Highlights
-
+  
+  
+%%  
+ID: 37165358  
+Updated: 2024-01-28  
+%%  
+  
+> [!WARNING] Auto Generated via Readwise  
+> These are my highlights created/synced via [Readwise.io - Referral Link](https://readwise.io/i/gilbert37)  
+  
+![]( https://pbs.twimg.com/profile_images/1963593369306750976/7gPWqEa8.jpg)  
+  
+# About  
+  
+Title: [[Tweets From Cory House|Tweets From Cory House]]  
+Authors: [[@housecor on Twitter]]  
+Category: #tweets  
+Number of Highlights: ==0==  
+Source URL: https://twitter.com/housecor  
+Date: [[2024-01-28|2024-01-28]]  
+Last Highlighted: **  
+  
+---  
+  
+# Highlights  
+  

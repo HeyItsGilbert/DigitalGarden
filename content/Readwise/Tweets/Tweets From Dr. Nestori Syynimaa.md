@@ -8,27 +8,31 @@ readwise_url:
 uri: https://readwise.io/bookreview/26935360
 tags:
   - readwise
+  - tweets
 ---
-
-
-
-%%
-ID: 26935360
-Updated: 2023-04-27
-%%
-
-![]( https://pbs.twimg.com/profile_images/1589900186796580864/gsoJwgOF.jpg)
-
-# About
-Title: [[Tweets From Dr. Nestori Syynimaa|Tweets From Dr. Nestori Syynimaa]]
-Authors: [[@DrAzureAD on Twitter]]
-Category: #tweets
-Number of Highlights: ==0==
-Source URL: https://twitter.com/DrAzureAD
-Date: [[2023-04-27|2023-04-27]]
-Last Highlighted: **
-
----
-
-# Highlights
-
+  
+  
+%%  
+ID: 26935360  
+Updated: 2023-04-27  
+%%  
+  
+> [!WARNING] Auto Generated via Readwise  
+> These are my highlights created/synced via [Readwise.io - Referral Link](https://readwise.io/i/gilbert37)  
+  
+![]( https://pbs.twimg.com/profile_images/1589900186796580864/gsoJwgOF.jpg)  
+  
+# About  
+  
+Title: [[Tweets From Dr. Nestori Syynimaa|Tweets From Dr. Nestori Syynimaa]]  
+Authors: [[@DrAzureAD on Twitter]]  
+Category: #tweets  
+Number of Highlights: ==0==  
+Source URL: https://twitter.com/DrAzureAD  
+Date: [[2023-04-27|2023-04-27]]  
+Last Highlighted: **  
+  
+---  
+  
+# Highlights  
+  

@@ -1,11 +1,12 @@
 ---
 id: 16899866
 updated: 2023-08-15
-title:
+title: How to Win Friends and Influence People
 author: "[[Dale Carnegie]]"
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899866
+tags:
 ---
 
 

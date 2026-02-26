@@ -12,4 +12,4 @@ share: true
 
 SBOM is a way of tracking all the dependencies for a given piece of software. It is common for [[software|software]] developers to reuse existing libraries. This is both for efficiency and stability. 
 ## References
-[[i-am-not-a-supplier|i-am-not-a-supplier]]
+[[Readwise/Articles/I Am Not a Supplier|Readwise/Articles/I Am Not a Supplier]]

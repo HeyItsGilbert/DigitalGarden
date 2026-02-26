@@ -1,11 +1,12 @@
 ---
 id: 16899868
 updated: 2025-03-30
-title:
+title: The Five Love Languages
 author: "[[Gary Chapman]]"
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899868
+tags:
 ---
 
 

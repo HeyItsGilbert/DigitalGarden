@@ -1,11 +1,12 @@
 ---
 id: 57786787
 updated: 2026-02-21
-title:
+title: Revelation Space
 author: "[[Alastair Reynolds]]"
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/57786787
+tags:
 ---
 
 

@@ -1,11 +1,12 @@
 ---
 id: 43838857
 updated: 2026-02-20
-title:
+title: Gods of Jade and Shadow
 author: "[[Silvia Moreno-Garcia]]"
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/43838857
+tags:
 ---
 
 

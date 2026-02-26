@@ -11,14 +11,14 @@ I've studied religion in college, and it's something I've very interested. Latel
 ## Stoic Philosophy
 - [[Seneca|Seneca]]
 - [[Kindle/The Daily Stoic|Kindle/The Daily Stoic]]
-- [[the-obstacle-is-the-way|the-obstacle-is-the-way]]
-- [[ego-is-the-enemy|ego-is-the-enemy]]
+- [[The Obstacle Is the Way|The Obstacle Is the Way]]
+- [[Readwise/Books/Ego Is the Enemy|Readwise/Books/Ego Is the Enemy]]
 
 ## Psychological Philosophy
 - [[Acceptance and Commitment Therapy|Acceptance and Commitment Therapy]]
 - [[Locus of Control|Locus of Control]]
 - [[PERMAV|PERMAV]]
-- [[the-happiness-trap|the-happiness-trap]]
+- [[Readwise/Books/The Happiness Trap|Readwise/Books/The Happiness Trap]]
 
 ## Critical Thinking
 - [[Biases, Fallacies, and Paradoxes|Biases, Fallacies, and Paradoxes]]
@@ -32,41 +32,37 @@ I've studied religion in college, and it's something I've very interested. Latel
 - [[The Republic|The Republic]]
 
 ## Philosophical Fiction
-- [[Readwise/Books/dark-matter|Readwise/Books/dark-matter]]
+- [[Readwise/Books/Dark Matter|Readwise/Books/Dark Matter]]
 - [[Recursion|Recursion]]
-- [[dune|dune]]
-- [[american-gods|american-gods]]
-- [[hatchet|hatchet]]
+- [[Dune|Dune]]
+- [[American Gods|American Gods]]
+- [[Hatchet|Hatchet]]
 
 ## Tagged with Stoic
 | File                                                                                                           |
 | -------------------------------------------------------------------------------------------------------------- |
-| [[Readwise/Supplementals/the-way-of-kings.md\|the-way-of-kings]]                                               |
-| [[Readwise/Supplementals/the-republic.md\|the-republic]]                                                       |
-| [[Readwise/Supplementals/the-dark-forest.md\|the-dark-forest]]                                                 |
-| [[Readwise/Supplementals/speak-with-confidence.md\|speak-with-confidence]]                                     |
-| [[Readwise/Supplementals/the-7-habits-of-highly-effective-people.md\|the-7-habits-of-highly-effective-people]] |
-| [[Readwise/Supplementals/tao-te-ching.md\|tao-te-ching]]                                                       |
-| [[Readwise/Supplementals/oathbringer.md\|oathbringer]]                                                         |
-| [[Readwise/Supplementals/never-split-the-difference.md\|never-split-the-difference]]                           |
-| [[Readwise/Supplementals/How to Win Friends and Influence People.md\|How to Win Friends and Influence People]] |
-| [[Readwise/Supplementals/ego-is-the-enemy.md\|ego-is-the-enemy]]                                               |
-| [[Readwise/Supplementals/dark-matter.md\|dark-matter]]                                                         |
-| [[Readwise/Supplementals/a-darker-shade-of-magic.md\|a-darker-shade-of-magic]]                                 |
-| [[Readwise/Books/writing-without-bullshit 2c2f.md\|writing-without-bullshit 2c2f]]                             |
-| [[Readwise/Books/the-two-towers.md\|the-two-towers]]                                                           |
-| [[Readwise/Books/the-joy-of-craft.md\|the-joy-of-craft]]                                                       |
-| [[Readwise/Books/the-return-of-the-king.md\|the-return-of-the-king]]                                           |
-| [[Readwise/Books/the-fellowship-of-the-ring.md\|the-fellowship-of-the-ring]]                                   |
-| [[Readwise/Books/the-daily-stoic.md\|the-daily-stoic]]                                                         |
-| [[Readwise/Books/manage-your-day-to-day.md\|manage-your-day-to-day]]                                           |
-| [[Readwise/Books/connect-the-dots.md\|connect-the-dots]]                                                       |
 | [[Atomics/Benjamin Franklin Journal.md\|Benjamin Franklin Journal]]                                            |
+| [[Readwise/Supplementals/How to Win Friends and Influence People.md\|How to Win Friends and Influence People]] |
+| [[Readwise/Supplementals/The 7 Habits of Highly Effective People.md\|The 7 Habits of Highly Effective People]] |
+| [[Readwise/Supplementals/The Dark Forest.md\|The Dark Forest]]                                                 |
+| [[Readwise/Supplementals/A Darker Shade of Magic.md\|A Darker Shade of Magic]]                                 |
+| [[Readwise/Supplementals/Never Split the Difference.md\|Never Split the Difference]]                           |
+| [[Readwise/Books/The Daily Stoic.md\|The Daily Stoic]]                                                         |
+| [[Readwise/Books/The Joy of Craft.md\|The Joy of Craft]]                                                       |
+| [[Readwise/Supplementals/The Way of Kings.md\|The Way of Kings]]                                               |
+| [[Readwise/Books/Connect the Dots.md\|Connect the Dots]]                                                       |
+| [[Readwise/Books/Manage Your Day-to-Day.md\|Manage Your Day-to-Day]]                                           |
+| [[Readwise/Books/Writing Without Bullshit.md\|Writing Without Bullshit]]                                       |
+| [[Readwise/Supplementals/Oathbringer.md\|Oathbringer]]                                                         |
+| [[Readwise/Supplementals/Dark Matter.md\|Dark Matter]]                                                         |
+| [[Readwise/Supplementals/Speak With Confidence.md\|Speak With Confidence]]                                     |
+| [[Readwise/Supplementals/Ego Is the Enemy.md\|Ego Is the Enemy]]                                               |
+| [[Readwise/Books/The Fellowship of the Ring.md\|The Fellowship of the Ring]]                                   |
+| [[Readwise/Books/The Two Towers.md\|The Two Towers]]                                                           |
+| [[Readwise/Books/The Return of the King.md\|The Return of the King]]                                           |
 
 ## Tagged with Philosophy
 | File                                                               |
 | ------------------------------------------------------------------ |
-| [[Readwise/Supplementals/the-republic.md\|the-republic]]           |
-| [[Readwise/Supplementals/tao-te-ching.md\|tao-te-ching]]           |
-| [[Readwise/Supplementals/how-to-be-perfect.md\|how-to-be-perfect]] |
-| [[Readwise/Supplementals/anathem.md\|anathem]]                     |
+| [[Readwise/Supplementals/How to Be Perfect.md\|How to Be Perfect]] |
+| [[Readwise/Supplementals/Anathem.md\|Anathem]]                     |

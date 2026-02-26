@@ -1,11 +1,12 @@
 ---
 id: 16899872
 updated: 2026-02-21
-title:
+title: The Hunger Games
 author: "[[Suzanne Collins]]"
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899872
+tags:
 ---
 
 

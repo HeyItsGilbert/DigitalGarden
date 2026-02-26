@@ -29,17 +29,20 @@ This is likely a sub-category of a Psychology MOC, but I'm hyper interested in t
 
 ## Articles & Resources
 - [[How to Enter a 'Flow State' on Command- Peak Performance Mind Hack Explained in 7 Minutes|How to Enter a 'Flow State' on Command- Peak Performance Mind Hack Explained in 7 Minutes]]
-- [[Research Proves Your Brain Needs Breaks|Research Proves Your Brain Needs Breaks]]
+- [[research-proves-your-brain-needs-breaks|research-proves-your-brain-needs-breaks]]
 
 ## Productivity Systems
-- [[Manage Your Day-to-Day|Manage Your Day-to-Day]]
-- [[Time-Blocking in Obsidian|Time-Blocking in Obsidian]]
-- [[My Time Management Setup in Obsidian|My Time Management Setup in Obsidian]]
+- [[Reviews/Manage Your Day-to-Day|Reviews/Manage Your Day-to-Day]]
+- [[time-blocking-in-obsidian|time-blocking-in-obsidian]]
+- [[my-time-management-setup-in-obsidian|my-time-management-setup-in-obsidian]]
 
 ## Tagged with Flow
-| File                                                                                                                                                                                                          |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Atomics/Dotfiles.md\|Dotfiles]]                                                                                                                                                                             |
-| [[Readwise/Articles/How to Enter a ‘Flow State’ on Command- Peak Performance Mind Hack Explained in 7 Minutes.md\|How to Enter a ‘Flow State’ on Command- Peak Performance Mind Hack Explained in 7 Minutes]] |
-| [[Readwise/Books/Manage Your Day-to-Day.md\|Manage Your Day-to-Day]]                                                                                                                                          |
-| [[Readwise/Books/Thinking, Fast and Slow.md\|Thinking, Fast and Slow]]                                                                                                                                        |
+| File                                                                                                                                                                                                    |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Readwise/Supplementals/tao-te-ching.md\|tao-te-ching]]                                                                                                                                                |
+| [[Readwise/Supplementals/reamde.md\|reamde]]                                                                                                                                                            |
+| [[Readwise/Supplementals/dune.md\|dune]]                                                                                                                                                                |
+| [[Readwise/Books/thinking-fast-and-slow.md\|thinking-fast-and-slow]]                                                                                                                                    |
+| [[Readwise/Books/manage-your-day-to-day.md\|manage-your-day-to-day]]                                                                                                                                    |
+| [[Readwise/Articles/how-to-enter-a-flow-state-on-command-peak-performance-mind-hack-explained-in-7-minutes.md\|how-to-enter-a-flow-state-on-command-peak-performance-mind-hack-explained-in-7-minutes]] |
+| [[Atomics/Dotfiles.md\|Dotfiles]]                                                                                                                                                                       |

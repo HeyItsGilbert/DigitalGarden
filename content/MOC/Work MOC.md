@@ -8,23 +8,23 @@ tags:
 ---
 ## Remote Work
 - [[Why Your Bad Boss Will Probably Lose the Remote-Work Wars|Why Your Bad Boss Will Probably Lose the Remote-Work Wars]]
-- [[These Companies Ran an Experiment- Pay Workers Their Full Salary to Work Fewer Days|These Companies Ran an Experiment- Pay Workers Their Full Salary to Work Fewer Days]]
-- [[The Work-From-Home Future Is Destroying Bosses Brains|The Work-From-Home Future Is Destroying Bosses Brains]]
+- [[these-companies-ran-an-experiment-pay-workers-their-full-salary-to-work-fewer-days|these-companies-ran-an-experiment-pay-workers-their-full-salary-to-work-fewer-days]]
+- [[the-work-from-home-future-is-destroying-bosses-brains|the-work-from-home-future-is-destroying-bosses-brains]]
 
 ## Diversity, Equity, and Inclusion (DEI)
 - [[Technical Leadership and Glue work|Technical Leadership and Glue work]]
-- [[Being Glue — No Idea Blog|Being Glue — No Idea Blog]]
+- [[being-glue-no-idea-blog|being-glue-no-idea-blog]]
 
 ## Workplace Culture & Structure
-- [[The Hierarchy Is Bullshit|The Hierarchy Is Bullshit]]
-- [[The Elves Leave Middle Earth – Sodas Are No Longer Free|The Elves Leave Middle Earth – Sodas Are No Longer Free]]
-- [[I Am Not a Supplier|I Am Not a Supplier]]
+- [[the-hierarchy-is-bullshit|the-hierarchy-is-bullshit]]
+- [[the-elves-leave-middle-earth-sodas-are-no-longer-free|the-elves-leave-middle-earth-sodas-are-no-longer-free]]
+- [[i-am-not-a-supplier|i-am-not-a-supplier]]
 
 ## Career Development
 - [[Reimagining How We Think About Career Development  the Quiet Part Out Loud|Reimagining How We Think About Career Development  the Quiet Part Out Loud]]
-- [[The Future of Ops Careers|The Future of Ops Careers]]
+- [[the-future-of-ops-careers|the-future-of-ops-careers]]
 - [[Shell of an Idea|Shell of an Idea]]
-- [[I Quit My 500k Job at Microsoft to Start a Company (NOT) 😏|I Quit My 500k Job at Microsoft to Start a Company (NOT) 😏]]
+- [[i-quit-my-500k-job-at-microsoft-to-start-a-company-not|i-quit-my-500k-job-at-microsoft-to-start-a-company-not]]
 
 ## Productivity & Development
 - [[Personal Development Environment|Personal Development Environment]]
@@ -32,9 +32,9 @@ tags:
 - [[Eisenhower Principle|Eisenhower Principle]]
 - [[The Four C's of Motivation|The Four C's of Motivation]]
 - [[Systems|Systems]]
-- [[Research Proves Your Brain Needs Breaks|Research Proves Your Brain Needs Breaks]]
+- [[research-proves-your-brain-needs-breaks|research-proves-your-brain-needs-breaks]]
 
-## Communication & Collaboration
+- [[Shape Up|Shape Up]]## Communication & Collaboration
 - [[Writing|Writing]]
 - [[SCARF|SCARF]]
 - [[Vision Documents|Vision Documents]]
@@ -55,34 +55,49 @@ tags:
 - [[Excitement for Work|Excitement for Work]]
 
 ## Books
-- [[The Joy of Craft|The Joy of Craft]]
-- [[Reamde|Reamde]]
-- [[The Dark Forest|The Dark Forest]]
+- [[Kindle/The Joy of Craft|Kindle/The Joy of Craft]]
+- [[Kindle/Reamde|Kindle/Reamde]]
+- [[the-dark-forest|the-dark-forest]]
 
 ## Tagged with Work
-| File                                                                                                                                              |
-| ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Reviews/Manage Your Day-to-Day.md\|Manage Your Day-to-Day]]                                                                                     |
-| [[Atomics/Cost of Attrition.md\|Cost of Attrition]]                                                                                               |
-| [[Readwise/Articles/Authentication (AuthN) Versus Authorization (AuthZ) - Cyral.md\|Authentication (AuthN) Versus Authorization (AuthZ) - Cyral]] |
-| [[Readwise/Articles/A Thorough Team Guide to RFCs.md\|A Thorough Team Guide to RFCs]]                                                             |
-| [[Readwise/Articles/Consistent Hashing  Algorithms You Should Know #1.md\|Consistent Hashing  Algorithms You Should Know #1]]                     |
-| [[Readwise/Articles/EP118- What Are the Differences Among Database Locks.md\|EP118- What Are the Differences Among Database Locks]]               |
-| [[Readwise/Articles/I Will Fucking Haymaker You if You Mention Agile Again.md\|I Will Fucking Haymaker You if You Mention Agile Again]]           |
-| [[Readwise/Articles/McKinsey Developer Productivity.md\|McKinsey Developer Productivity]]                                                         |
-| [[Readwise/Articles/ScriptBlock and SessionState in PowerShell.md\|ScriptBlock and SessionState in PowerShell]]                                   |
-| [[Readwise/Articles/What Do Staff Engineers Actually Do.md\|What Do Staff Engineers Actually Do]]                                                 |
-| [[Readwise/Articles/Why You Shouldnt Nest Your Code.md\|Why You Shouldnt Nest Your Code]]                                                         |
-| [[Readwise/Tweets/Discords From deezy.md\|Discords From deezy]]                                                                                   |
-| [[Readwise/Supplementals/Atomic Habits.md\|Atomic Habits]]                                                                                        |
-| [[Readwise/Supplementals/Anathem.md\|Anathem]]                                                                                                    |
-| [[Readwise/Supplementals/Dune.md\|Dune]]                                                                                                          |
-| [[Readwise/Supplementals/Smarter Faster Better.md\|Smarter Faster Better]]                                                                        |
-| [[Readwise/Supplementals/The 7 Habits of Highly Effective People.md\|The 7 Habits of Highly Effective People]]                                    |
-| [[Readwise/Supplementals/Reamde.md\|Reamde]]                                                                                                      |
-| [[Readwise/Supplementals/Tao Te Ching.md\|Tao Te Ching]]                                                                                          |
-| [[Readwise/Supplementals/The Obstacle Is the Way.md\|The Obstacle Is the Way]]                                                                    |
-| [[Readwise/Books/Connect the Dots.md\|Connect the Dots]]                                                                                          |
-| [[Readwise/Books/Manage Your Day-to-Day.md\|Manage Your Day-to-Day]]                                                                              |
-| [[Readwise/Books/Kill It With Fire.md\|Kill It With Fire]]                                                                                        |
-| [[Readwise/Books/Writing Without Bullshit.md\|Writing Without Bullshit]]                                                                          |
+| File                                                                                                                                                                          |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Reviews/Manage Your Day-to-Day.md\|Manage Your Day-to-Day]]                                                                                                                 |
+| [[Readwise/Tweets/tweets-from-charity-majors.md\|tweets-from-charity-majors]]                                                                                                 |
+| [[Readwise/Tweets/i-am-constantly-stashing.md\|i-am-constantly-stashing]]                                                                                                     |
+| [[Readwise/Tweets/discords-from-deezy.md\|discords-from-deezy]]                                                                                                               |
+| [[Readwise/Supplementals/the-obstacle-is-the-way.md\|the-obstacle-is-the-way]]                                                                                                |
+| [[Readwise/Supplementals/the-7-habits-of-highly-effective-people.md\|the-7-habits-of-highly-effective-people]]                                                                |
+| [[Readwise/Supplementals/tao-te-ching.md\|tao-te-ching]]                                                                                                                      |
+| [[Readwise/Supplementals/smarter-faster-better.md\|smarter-faster-better]]                                                                                                    |
+| [[Readwise/Supplementals/sapiens.md\|sapiens]]                                                                                                                                |
+| [[Readwise/Supplementals/snow-crash.md\|snow-crash]]                                                                                                                          |
+| [[Readwise/Supplementals/reamde.md\|reamde]]                                                                                                                                  |
+| [[Readwise/Supplementals/Ready Player One.md\|Ready Player One]]                                                                                                              |
+| [[Readwise/Supplementals/mistborn.md\|mistborn]]                                                                                                                              |
+| [[Readwise/Supplementals/Four Thousand Weeks.md\|Four Thousand Weeks]]                                                                                                        |
+| [[Readwise/Supplementals/ego-is-the-enemy.md\|ego-is-the-enemy]]                                                                                                              |
+| [[Readwise/Supplementals/dune.md\|dune]]                                                                                                                                      |
+| [[Readwise/Supplementals/Atomic Habits.md\|Atomic Habits]]                                                                                                                    |
+| [[Readwise/Supplementals/anathem.md\|anathem]]                                                                                                                                |
+| [[Readwise/Supplementals/algorithms-to-live-by.md\|algorithms-to-live-by]]                                                                                                    |
+| [[Readwise/Supplementals/all-these-worlds.md\|all-these-worlds]]                                                                                                              |
+| [[Readwise/Supplementals/a-darker-shade-of-magic.md\|a-darker-shade-of-magic]]                                                                                                |
+| [[Readwise/Books/writing-without-bullshit 2c2f.md\|writing-without-bullshit 2c2f]]                                                                                            |
+| [[Readwise/Books/project-hail-mary.md\|project-hail-mary]]                                                                                                                    |
+| [[Readwise/Books/manage-your-day-to-day.md\|manage-your-day-to-day]]                                                                                                          |
+| [[Readwise/Books/kill-it-with-fire 684f.md\|kill-it-with-fire 684f]]                                                                                                          |
+| [[Readwise/Books/connect-the-dots.md\|connect-the-dots]]                                                                                                                      |
+| [[Readwise/Articles/why-your-bad-boss-will-probably-lose-the-remote-work-wars.md\|why-your-bad-boss-will-probably-lose-the-remote-work-wars]]                                 |
+| [[Readwise/Articles/why-you-shouldnt-nest-your-code.md\|why-you-shouldnt-nest-your-code]]                                                                                     |
+| [[Readwise/Articles/what-do-staff-engineers-actually-do.md\|what-do-staff-engineers-actually-do]]                                                                             |
+| [[Readwise/Articles/the-future-of-ops-careers 72e2.md\|the-future-of-ops-careers 72e2]]                                                                                       |
+| [[Readwise/Articles/script-block-and-session-state-in-power-shell.md\|script-block-and-session-state-in-power-shell]]                                                         |
+| [[Readwise/Articles/reimagining-how-we-think-about-career-development-the-quiet-part-out-loud.md\|reimagining-how-we-think-about-career-development-the-quiet-part-out-loud]] |
+| [[Readwise/Articles/mc-kinsey-developer-productivity.md\|mc-kinsey-developer-productivity]]                                                                                   |
+| [[Readwise/Articles/i-will-fucking-haymaker-you-if-you-mention-agile-again.md\|i-will-fucking-haymaker-you-if-you-mention-agile-again]]                                       |
+| [[Readwise/Articles/ep-118-what-are-the-differences-among-database-locks.md\|ep-118-what-are-the-differences-among-database-locks]]                                           |
+| [[Readwise/Articles/consistent-hashing-algorithms-you-should-know-1.md\|consistent-hashing-algorithms-you-should-know-1]]                                                     |
+| [[Readwise/Articles/authentication-auth-n-versus-authorization-auth-z-cyral.md\|authentication-auth-n-versus-authorization-auth-z-cyral]]                                     |
+| [[Readwise/Articles/a-thorough-team-guide-to-rfcs.md\|a-thorough-team-guide-to-rfcs]]                                                                                         |
+| [[Atomics/Cost of Attrition.md\|Cost of Attrition]]                                                                                                                           |

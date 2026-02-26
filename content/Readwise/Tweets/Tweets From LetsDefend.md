@@ -8,27 +8,31 @@ readwise_url:
 uri: https://readwise.io/bookreview/23038564
 tags:
   - readwise
+  - tweets
 ---
-
-
-
-%%
-ID: 23038564
-Updated: 2023-01-08
-%%
-
-![]( https://pbs.twimg.com/profile_images/1617865979047940096/wrnoVo3K.png)
-
-# About
-Title: [[Readwise Original/Tweets/Tweets From LetsDefend|Readwise Original/Tweets/Tweets From LetsDefend]]
-Authors: [[@LetsDefendIO on Twitter]]
-Category: #tweets
-Number of Highlights: ==0==
-Source URL: https://twitter.com/LetsDefendIO
-Date: [[2023-01-08|2023-01-08]]
-Last Highlighted: **
-
----
-
-# Highlights
-
+  
+  
+%%  
+ID: 23038564  
+Updated: 2023-01-08  
+%%  
+  
+> [!WARNING] Auto Generated via Readwise  
+> These are my highlights created/synced via [Readwise.io - Referral Link](https://readwise.io/i/gilbert37)  
+  
+![]( https://pbs.twimg.com/profile_images/1617865979047940096/wrnoVo3K.png)  
+  
+# About  
+  
+Title: [[Tweets From LetsDefend|Tweets From LetsDefend]]  
+Authors: [[@LetsDefendIO on Twitter]]  
+Category: #tweets  
+Number of Highlights: ==0==  
+Source URL: https://twitter.com/LetsDefendIO  
+Date: [[2023-01-08|2023-01-08]]  
+Last Highlighted: **  
+  
+---  
+  
+# Highlights  
+  

@@ -3,7 +3,7 @@ date: 2022-12-27
 tags:
   - technology
   - systems
-aliases: 
+aliases:
 modified: 2024-02-02T21:51:50-08:00
 share: true
 ---
@@ -15,4 +15,4 @@ A school of engineering that focuses at looking at an overall system(s) and impr
 
 ---
 # References
-[[2.0 Fundamentals of Systems Engineering|2.0 Fundamentals of Systems Engineering]]
+[[Readwise Original/Articles/2.0 Fundamentals of Systems Engineering|Readwise Original/Articles/2.0 Fundamentals of Systems Engineering]]

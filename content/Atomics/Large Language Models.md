@@ -18,6 +18,9 @@ High Level Rules
 2. "Point, Don't Dump"   
 ## Context  
 Context is the tokens that are passed back to the AI. There is a typically a max context size and to continue there is often a compression step. This can result in context rot[^1] which is when the summarized version performs worse over time.  
+### Context Rot  
+When LLM's compress your context into shorter summaries. This typically means that nuance gets lost. The LLM also has to process all the context in it's answers. This can result in higher liklihood of hallucinations.  
+Some ways to handle context rot is by creating fresh chats or leveraging subagents.  
 ## Agents.md, Claude.md, Etc.  
 These are the entry points for LLM's to start getting context about how a project is laid out, where to find configuration, etc. This reduces the total context because the LLM no longer needs to read each file to understand what's going on.   
   

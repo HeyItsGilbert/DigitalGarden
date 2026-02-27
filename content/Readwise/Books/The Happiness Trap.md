@@ -24,7 +24,7 @@ Updated: 2024-10-08
   
 # About  
   
-Title: [[The Happiness Trap|The Happiness Trap]]  
+Title: [[Readwise/Books/The Happiness Trap|Readwise/Books/The Happiness Trap]]  
 Authors: [[Russ Harris|Russ Harris]], [[Steven Hayes|Steven Hayes]]  
 Category: #books  
 Number of Highlights: ==18==  

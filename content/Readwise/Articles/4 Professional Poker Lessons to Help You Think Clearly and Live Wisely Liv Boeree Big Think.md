@@ -9,6 +9,7 @@ uri: https://readwise.io/bookreview/22581088
 tags:
   - readwise
   - articles
+review: "[[4 Professional Poker Lessons to Help You Think Clearly and Live Wisely]]"
 ---
   
   

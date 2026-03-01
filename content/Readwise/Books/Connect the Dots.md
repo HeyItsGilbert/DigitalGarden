@@ -9,6 +9,7 @@ uri: https://readwise.io/bookreview/21427865
 tags:
   - readwise
   - books
+review: "[[Reviews/Connect The Dots|Connect The Dots]]"
 ---
   
   

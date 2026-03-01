@@ -1,13 +1,13 @@
 ---
 Authors:
-  - "[[Russ Harris|Russ Harris]]"
-  - "[[Steven Hayes|Steven Hayes]]"
 share: true
 tags:
   - "#virtues"
   - "#determination"
+cover: https://images-na.ssl-images-amazon.com/images/I/41BgFQraPtL._SL5000_.jpg
+author: '"[[Russ Harris|Russ Harris]],[[Steven Hayes|Steven Hayes]]"'
 ---
-Highlights: [[Readwise/Books/The Happiness Trap|the-happiness-trap]]  
+**Readwise**: [[Readwise/Books/The Happiness Trap|The Happiness Trap]]  
   
 > [!SUMMARY]  
 > The Happiness Trap reveals a paradox: trying to avoid negative feelings creates more suffering. Through Acceptance and Commitment Therapy (ACT), the book teaches psychological flexibility accepting difficult thoughts and feelings, defusing from unhelpful mental stories, and taking action guided by values rather than pursuing happiness itself.  

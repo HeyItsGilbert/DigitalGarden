@@ -5,4 +5,4 @@ tags:
   - technology
 modified: 2024-02-01T16:15:06-08:00
 ---
-A static site generator built using [[Golang|Golang]]. The content is written in [[Markdown|Markdown]].
+A static site generator built using [[Go|Go]]. The content is written in [[Markdown|Markdown]].

@@ -2,7 +2,6 @@
 id: 22169785
 updated: 2023-02-26
 title: Manage Your Day-to-Day
-author: "[[Jocelyn K. Glei|Jocelyn K. Glei]], [[99U|99U]]"
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/22169785

@@ -2,7 +2,8 @@
 id: 27687951
 updated: 2023-05-14
 title: 10 insanely useful ChatGPT Chrome Extension you didn't know you
-author: "[[Barsee 🐶]]"
+author:
+  - Barsee 🐶
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/27687951
@@ -25,7 +26,7 @@ Updated: 2023-05-14
 # About  
   
 Title: [[10 insanely useful ChatGPT Chrome Extension you didn't know you...|10 insanely useful ChatGPT Chrome Extension you didn't know you...]]  
-Authors: [[Barsee 🐶]]  
+Authors: [[Barsee 🐶|Barsee 🐶]]  
 Category: #articles  
 Number of Highlights: ==0==  
 Source URL: https://twitter.com/heyBarsee/status/1611626536343412737  

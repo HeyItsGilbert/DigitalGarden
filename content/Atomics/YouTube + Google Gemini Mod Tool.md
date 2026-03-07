@@ -10,8 +10,12 @@ aliases: []
 TODO: Need to write a blog on how I built this.  
 App: https://developers.reddit.com/apps/youtube-gemini  
 GitHub: https://github.com/heyItsGilbert/youTubeGeminiPostDevvit/  
+Awful demo: [https://www.youtube.com/watch?v=yxio3fjGgfs](https://www.youtube.com/watch?v=yxio3fjGgfs)  
   
 For r/hellocrawlers we use:  
+  
+## `r/hellowcrawlers`  
+Playlist: `PL0WMaa8s_mXGb3089AMtiyvordHKAZKi9`  
 Model: `gemini-3-flash-preview`  
 System Prompt:  
 ```markdown  
@@ -74,4 +78,13 @@ Generate the post with these sections in this order:
 Append Text (we always want to link to the podcasts)  
 ```markdown  
    🐱 [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/hello-crawlers-a-dungeon-crawler-carl-podcast/id1809423411) | [Spotify](https://open.spotify.com/show/1RdcJDbhOLKLjZvqrxfNJJ) | [hellocrawlers.com](https://www.hellocrawlers.com) | [Support on Patreon](https://patreon.com/hellocrawlers)  
-```
+```  
+  
+Bot Flair:  
+`🤖 Podcast Bot`  
+  
+Video Link:  
+`Syndicate Approved Link`  
+  
+Post Flair:   
+`Episode Discussion`

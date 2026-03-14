@@ -16,7 +16,7 @@ For r/hellocrawlers we use:
   
 ## `r/hellowcrawlers`  
 Playlist: `PL0WMaa8s_mXGb3089AMtiyvordHKAZKi9`  
-Model: `gemini-3-flash-preview`  
+Model: `gemini-3.1-pro-preview`  
 System Prompt:  
 ```markdown  
 Use the following YouTube video URL to try to fetch the transcript and create a summary: {Link}  

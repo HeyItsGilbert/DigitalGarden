@@ -4,10 +4,10 @@ share: true
 tags:
 aliases: []
 ---
->![NOTE]  
+>[!NOTE]  
 >Major Work in Progress.  
   
-TODO: Need to write a blog on how I built this.  
+Blog: https://gilbertsanchez.com/posts/the-system-ai-made-me-do-it/  
 App: https://developers.reddit.com/apps/youtube-gemini  
 GitHub: https://github.com/heyItsGilbert/youTubeGeminiPostDevvit/  
 Awful demo: [https://www.youtube.com/watch?v=yxio3fjGgfs](https://www.youtube.com/watch?v=yxio3fjGgfs)  
@@ -89,7 +89,7 @@ Generate the post with these sections in this order:
   
 Append Text (we always want to link to the podcasts)  
 ```markdown  
-   🐱 [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/hello-crawlers-a-dungeon-crawler-carl-podcast/id1809423411) | [Spotify](https://open.spotify.com/show/1RdcJDbhOLKLjZvqrxfNJJ) | [hellocrawlers.com](https://www.hellocrawlers.com) | [Support on Patreon](https://patreon.com/hellocrawlers)  
+🐱 [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/hello-crawlers-a-dungeon-crawler-carl-podcast/id1809423411) | [Spotify](https://open.spotify.com/show/1RdcJDbhOLKLjZvqrxfNJJ) | [hellocrawlers.com](https://www.hellocrawlers.com) | [Support on Patreon](https://patreon.com/hellocrawlers)  
 ```  
   
 Bot Flair:  

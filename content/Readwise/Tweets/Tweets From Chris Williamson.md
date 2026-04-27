@@ -2,7 +2,8 @@
 id: 17824870
 updated: 2022-08-15
 title: Tweets From Chris Williamson
-author: "[[@ChrisWillx on Twitter]]"
+author:
+  - "@ChrisWillx on Twitter"
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/17824870
@@ -25,7 +26,7 @@ Updated: 2022-08-15
 # About  
   
 Title: [[Tweets From Chris Williamson|Tweets From Chris Williamson]]  
-Authors: [[@ChrisWillx on Twitter]]  
+Authors: [[@ChrisWillx on Twitter|@ChrisWillx on Twitter]]  
 Category: #tweets  
 Number of Highlights: ==1==  
 Source URL: https://twitter.com/ChrisWillx  

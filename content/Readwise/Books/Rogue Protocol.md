@@ -2,7 +2,8 @@
 id: 38048361
 updated: 2024-03-11
 title: Rogue Protocol
-author: "[[Martha Wells]]"
+author:
+  - Martha Wells
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/38048361
@@ -25,7 +26,7 @@ Updated: 2024-03-11
 # About  
   
 Title: [[Rogue Protocol|Rogue Protocol]]  
-Authors: [[Martha Wells]]  
+Authors: [[Martha Wells|Martha Wells]]  
 Category: #books  
 Number of Highlights: ==2==  
 Date: [[2024-03-11|2024-03-11]]  

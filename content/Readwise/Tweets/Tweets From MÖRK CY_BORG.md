@@ -2,7 +2,8 @@
 id: 16900164
 updated: 2022-07-17
 title: Tweets From MÖRK CY_BORG
-author: "[[@MorkBorg on Twitter]]"
+author:
+  - "@MorkBorg on Twitter"
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16900164
@@ -25,7 +26,7 @@ Updated: 2022-07-17
 # About  
   
 Title: [[Tweets From MÖRK CY_BORG|Tweets From MÖRK CY_BORG]]  
-Authors: [[@MorkBorg on Twitter]]  
+Authors: [[@MorkBorg on Twitter|@MorkBorg on Twitter]]  
 Category: #tweets  
 Number of Highlights: ==0==  
 Source URL: https://twitter.com/MorkBorg  

@@ -2,7 +2,8 @@
 id: 26935360
 updated: 2023-04-27
 title: Tweets From Dr. Nestori Syynimaa
-author: "[[@DrAzureAD on Twitter]]"
+author:
+  - "@DrAzureAD on Twitter"
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/26935360
@@ -25,7 +26,7 @@ Updated: 2023-04-27
 # About  
   
 Title: [[Tweets From Dr. Nestori Syynimaa|Tweets From Dr. Nestori Syynimaa]]  
-Authors: [[@DrAzureAD on Twitter]]  
+Authors: [[@DrAzureAD on Twitter|@DrAzureAD on Twitter]]  
 Category: #tweets  
 Number of Highlights: ==0==  
 Source URL: https://twitter.com/DrAzureAD  

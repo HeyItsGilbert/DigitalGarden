@@ -2,7 +2,8 @@
 id: 23240307
 updated: 2023-01-14
 title: EP 40- Git Workflow
-author: "[[Alex Xu]]"
+author:
+  - Alex Xu
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/23240307
@@ -25,7 +26,7 @@ Updated: 2023-01-14
 # About  
   
 Title: [[EP 40: Git Workflow|EP 40: Git Workflow]]  
-Authors: [[Alex Xu]]  
+Authors: [[Alex Xu|Alex Xu]]  
 Category: #articles  
 Number of Highlights: ==0==  
 Source URL: https://blog.bytebytego.com/p/ep-40-git-workflow  

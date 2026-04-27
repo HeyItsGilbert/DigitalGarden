@@ -2,7 +2,8 @@
 id: 40620519
 updated: 2025-05-27
 title: Exit Strategy
-author: "[[Martha Wells]]"
+author:
+  - Martha Wells
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/40620519
@@ -25,7 +26,7 @@ Updated: 2025-05-27
 # About  
   
 Title: [[Exit Strategy|Exit Strategy]]  
-Authors: [[Martha Wells]]  
+Authors: [[Martha Wells|Martha Wells]]  
 Category: #supplementals  
 Number of Highlights: ==18==  
 Date: [[2025-05-27|2025-05-27]]  

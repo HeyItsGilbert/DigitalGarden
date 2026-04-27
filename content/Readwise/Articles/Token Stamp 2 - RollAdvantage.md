@@ -2,7 +2,8 @@
 id: 21349514
 updated: 2022-12-01
 title: Token Stamp 2 - RollAdvantage
-author: "[[Home]]"
+author:
+  - Home
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/21349514
@@ -25,7 +26,7 @@ Updated: 2022-12-01
 # About  
   
 Title: [[Token Stamp 2 - RollAdvantage|Token Stamp 2 - RollAdvantage]]  
-Authors: [[Home]]  
+Authors: [[Home|Home]]  
 Category: #articles  
 Number of Highlights: ==1==  
 Source URL: https://rolladvantage.com/tokenstamp/  

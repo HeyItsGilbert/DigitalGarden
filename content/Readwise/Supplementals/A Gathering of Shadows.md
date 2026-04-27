@@ -2,7 +2,8 @@
 id: 16899917
 updated: 2025-05-01
 title: A Gathering of Shadows
-author: "[[V.E. Schwab]]"
+author:
+  - V.E. Schwab
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899917
@@ -25,7 +26,7 @@ Updated: 2025-05-01
 # About  
   
 Title: [[A Gathering of Shadows|A Gathering of Shadows]]  
-Authors: [[V.E. Schwab]]  
+Authors: [[V.E. Schwab|V.E. Schwab]]  
 Category: #supplementals  
 Number of Highlights: ==10==  
 Date: [[2025-05-01|2025-05-01]]  

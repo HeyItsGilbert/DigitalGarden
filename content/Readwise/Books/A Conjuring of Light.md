@@ -2,7 +2,8 @@
 id: 35406922
 updated: 2023-12-14
 title: A Conjuring of Light
-author: "[[V.E. Schwab]]"
+author:
+  - V.E. Schwab
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/35406922
@@ -25,7 +26,7 @@ Updated: 2023-12-14
 # About  
   
 Title: [[A Conjuring of Light|A Conjuring of Light]]  
-Authors: [[V.E. Schwab]]  
+Authors: [[V.E. Schwab|V.E. Schwab]]  
 Category: #books  
 Number of Highlights: ==1==  
 Date: [[2023-12-14|2023-12-14]]  

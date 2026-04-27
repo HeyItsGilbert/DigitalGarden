@@ -2,7 +2,8 @@
 id: 16899870
 updated: 2025-02-09
 title: Ready Player One
-author: "[[Ernest Cline]]"
+author:
+  - Ernest Cline
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899870
@@ -25,7 +26,7 @@ Updated: 2025-02-09
 # About  
   
 Title: [[Ready Player One|Ready Player One]]  
-Authors: [[Ernest Cline]]  
+Authors: [[Ernest Cline|Ernest Cline]]  
 Category: #supplementals  
 Number of Highlights: ==12==  
 Date: [[2025-02-09|2025-02-09]]  

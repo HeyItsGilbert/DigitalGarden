@@ -2,7 +2,8 @@
 id: 20161240
 updated: 2022-12-06
 title: The Hierarchy Is Bullshit
-author: "[[charity.wtf]]"
+author:
+  - "[[Charity Majors]]"
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/20161240
@@ -25,7 +26,7 @@ Updated: 2022-12-06
 # About  
   
 Title: [[The Hierarchy Is Bullshit|The Hierarchy Is Bullshit]]  
-Authors: [[charity.wtf]]  
+Authors: [[charity.wtf|charity.wtf]]  
 Category: #articles  
 Number of Highlights: ==6==  
 Source URL: https://charity.wtf/2022/09/23/the-hierarchy-is-bullshit-and-bad-for-business/  

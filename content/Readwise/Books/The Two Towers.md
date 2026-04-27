@@ -2,7 +2,8 @@
 id: 46304799
 updated: 2025-06-13
 title: The Two Towers
-author: "[[J.R.R. Tolkien]]"
+author:
+  - J.R.R. Tolkien
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/46304799
@@ -25,7 +26,7 @@ Updated: 2025-06-13
 # About  
   
 Title: [[The Two Towers|The Two Towers]]  
-Authors: [[J.R.R. Tolkien]]  
+Authors: [[J.R.R. Tolkien|J.R.R. Tolkien]]  
 Category: #books  
 Number of Highlights: ==5==  
 Date: [[2025-06-13|2025-06-13]]  

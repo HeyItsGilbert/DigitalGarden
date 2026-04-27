@@ -2,7 +2,8 @@
 id: 16901980
 updated: 2022-07-17
 title: The Circle
-author: "[[Dave Eggers]]"
+author:
+  - Dave Eggers
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16901980
@@ -25,7 +26,7 @@ Updated: 2022-07-17
 # About  
   
 Title: [[The Circle|The Circle]]  
-Authors: [[Dave Eggers]]  
+Authors: [[Dave Eggers|Dave Eggers]]  
 Category: #books  
 Number of Highlights: ==1==  
 Date: [[2022-07-17|2022-07-17]]  

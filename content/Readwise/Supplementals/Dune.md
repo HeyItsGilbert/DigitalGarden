@@ -2,7 +2,8 @@
 id: 16899886
 updated: 2025-12-06
 title: Dune
-author: "[[Frank Herbert]]"
+author:
+  - Frank Herbert
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899886
@@ -25,7 +26,7 @@ Updated: 2025-12-06
 # About  
   
 Title: [[Dune|Dune]]  
-Authors: [[Frank Herbert]]  
+Authors: [[Frank Herbert|Frank Herbert]]  
 Category: #supplementals  
 Number of Highlights: ==52==  
 Date: [[2025-12-06|2025-12-06]]  

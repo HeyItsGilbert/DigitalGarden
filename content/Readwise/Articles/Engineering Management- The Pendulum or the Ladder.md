@@ -2,7 +2,8 @@
 id: 37755520
 updated: 2024-02-16
 title: Engineering Management- The Pendulum or the Ladder
-author: "[[charity.wtf]]"
+author:
+  - "[[Charity Majors]]"
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/37755520
@@ -25,7 +26,7 @@ Updated: 2024-02-16
 # About  
   
 Title: [[Engineering Management: The Pendulum or the Ladder|Engineering Management: The Pendulum or the Ladder]]  
-Authors: [[charity.wtf]]  
+Authors: [[charity.wtf|charity.wtf]]  
 Category: #articles  
 Number of Highlights: ==4==  
 Source URL: https://charity.wtf/2019/01/04/engineering-management-the-pendulum-or-the-ladder/  

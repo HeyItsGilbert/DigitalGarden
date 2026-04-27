@@ -2,7 +2,8 @@
 id: 17007178
 updated: 2022-08-30
 title: A Respected MIT Professor Said Your Success Will Be Determined by 3 Things. Here's How to Get Better at Each of Them
-author: "[[inc.com]]"
+author:
+  - inc.com
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/17007178
@@ -25,7 +26,7 @@ Updated: 2022-08-30
 # About  
   
 Title: [[A Respected MIT Professor Said Your Success Will Be Determined by 3 Things. Here's How to Get Better at Each of Them|A Respected MIT Professor Said Your Success Will Be Determined by 3 Things. Here's How to Get Better at Each of Them]]  
-Authors: [[inc.com]]  
+Authors: [[inc.com|inc.com]]  
 Category: #articles  
 Tags: #Communication, #Speaking  
 Number of Highlights: ==6==  

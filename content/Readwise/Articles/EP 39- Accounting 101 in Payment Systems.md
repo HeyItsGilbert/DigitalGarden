@@ -2,7 +2,8 @@
 id: 23240432
 updated: 2023-01-14
 title: EP 39- Accounting 101 in Payment Systems
-author: "[[Alex Xu]]"
+author:
+  - Alex Xu
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/23240432
@@ -25,7 +26,7 @@ Updated: 2023-01-14
 # About  
   
 Title: [[EP 39: Accounting 101 in Payment Systems|EP 39: Accounting 101 in Payment Systems]]  
-Authors: [[Alex Xu]]  
+Authors: [[Alex Xu|Alex Xu]]  
 Category: #articles  
 Number of Highlights: ==0==  
 Source URL: https://blog.bytebytego.com/p/ep-39-accounting-101-in-payment-systems  

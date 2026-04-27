@@ -2,7 +2,8 @@
 id: 22311867
 updated: 2022-12-25
 title: Writing Markdown
-author: "[[flagrant.garden]]"
+author:
+  - flagrant.garden
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/22311867
@@ -25,7 +26,7 @@ Updated: 2022-12-25
 # About  
   
 Title: [[Writing Markdown|Writing Markdown]]  
-Authors: [[flagrant.garden]]  
+Authors: [[flagrant.garden|flagrant.garden]]  
 Category: #articles  
 Tags: #favorite  
 Number of Highlights: ==1==  

@@ -2,7 +2,8 @@
 id: 32887631
 updated: 2023-10-07
 title: McKinsey Developer Productivity
-author: "[[dannorth.net]]"
+author:
+  - dannorth.net
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/32887631
@@ -25,7 +26,7 @@ Updated: 2023-10-07
 # About  
   
 Title: [[McKinsey Developer Productivity|McKinsey Developer Productivity]]  
-Authors: [[dannorth.net]]  
+Authors: [[dannorth.net|dannorth.net]]  
 Category: #articles  
 Number of Highlights: ==6==  
 Source URL: https://dannorth.net/mckinsey-review/  

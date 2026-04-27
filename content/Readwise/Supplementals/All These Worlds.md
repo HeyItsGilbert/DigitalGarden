@@ -2,7 +2,8 @@
 id: 16899925
 updated: 2024-09-04
 title: All These Worlds
-author: "[[Dennis E. Taylor]]"
+author:
+  - Dennis E. Taylor
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899925
@@ -25,7 +26,7 @@ Updated: 2024-09-04
 # About  
   
 Title: [[All These Worlds|All These Worlds]]  
-Authors: [[Dennis E. Taylor]]  
+Authors: [[Dennis E. Taylor|Dennis E. Taylor]]  
 Category: #supplementals  
 Number of Highlights: ==8==  
 Date: [[2024-09-04|2024-09-04]]  

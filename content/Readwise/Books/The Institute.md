@@ -2,7 +2,8 @@
 id: 16901968
 updated: 2022-07-17
 title: The Institute
-author: "[[Stephen King]]"
+author:
+  - Stephen King
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16901968
@@ -25,7 +26,7 @@ Updated: 2022-07-17
 # About  
   
 Title: [[The Institute|The Institute]]  
-Authors: [[Stephen King]]  
+Authors: [[Stephen King|Stephen King]]  
 Category: #books  
 Number of Highlights: ==1==  
 Date: [[2022-07-17|2022-07-17]]  

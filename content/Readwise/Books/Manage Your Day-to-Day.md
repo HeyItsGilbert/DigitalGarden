@@ -8,6 +8,9 @@ uri: https://readwise.io/bookreview/22169785
 tags:
   - readwise
   - books
+author:
+  - Jocelyn K. Glei
+  - 99U
 ---
   
   

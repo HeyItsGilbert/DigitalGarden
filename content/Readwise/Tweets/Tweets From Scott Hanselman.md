@@ -2,7 +2,8 @@
 id: 30384527
 updated: 2023-07-22
 title: Tweets From Scott Hanselman
-author: "[[@shanselman on Twitter]]"
+author:
+  - "@shanselman on Twitter"
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/30384527
@@ -25,7 +26,7 @@ Updated: 2023-07-22
 # About  
   
 Title: [[Tweets From Scott Hanselman|Tweets From Scott Hanselman]]  
-Authors: [[@shanselman on Twitter]]  
+Authors: [[@shanselman on Twitter|@shanselman on Twitter]]  
 Category: #tweets  
 Number of Highlights: ==0==  
 Source URL: https://twitter.com/shanselman  

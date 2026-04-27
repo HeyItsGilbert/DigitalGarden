@@ -2,7 +2,8 @@
 id: 41963144
 updated: 2024-07-06
 title: What Do Staff Engineers Actually Do
-author: "[[staffeng.com]]"
+author:
+  - staffeng.com
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/41963144
@@ -25,7 +26,7 @@ Updated: 2024-07-06
 # About  
   
 Title: [[What Do Staff Engineers Actually Do?|What Do Staff Engineers Actually Do?]]  
-Authors: [[staffeng.com]]  
+Authors: [[staffeng.com|staffeng.com]]  
 Category: #articles  
 Number of Highlights: ==5==  
 Source URL: https://staffeng.com/guides/what-do-staff-engineers-actually-do/  

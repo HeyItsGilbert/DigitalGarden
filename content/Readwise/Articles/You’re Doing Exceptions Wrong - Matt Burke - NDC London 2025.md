@@ -2,7 +2,8 @@
 id: 55894939
 updated: 2026-01-06
 title: You’re Doing Exceptions Wrong - Matt Burke - NDC London 2025
-author: "[[youtube.com]]"
+author:
+  - NDC Conferences
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/55894939
@@ -25,8 +26,9 @@ Updated: 2026-01-06
 # About  
   
 Title: [[You’re Doing Exceptions Wrong - Matt Burke - NDC London 2025|You’re Doing Exceptions Wrong - Matt Burke - NDC London 2025]]  
-Authors: [[youtube.com]]  
+Authors: [[NDC Conferences|NDC Conferences]]  
 Category: #articles  
+Tags: #to-review  
 Number of Highlights: ==3==  
 Source URL: https://www.youtube.com/watch?v=oWvX-hdIAQo&feature=youtu.be  
 Date: [[2026-01-06|2026-01-06]]  

@@ -2,7 +2,8 @@
 id: 17231893
 updated: 2022-07-28
 title: Shell of an Idea
-author: "[[Don Jones]]"
+author:
+  - Don Jones
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/17231893
@@ -25,7 +26,7 @@ Updated: 2022-07-28
 # About  
   
 Title: [[Shell of an Idea|Shell of an Idea]]  
-Authors: [[Don Jones]]  
+Authors: [[Don Jones|Don Jones]]  
 Category: #articles  
 Number of Highlights: ==1==  
 Source URL: https://leanpub.com/shell-of-an-idea/read_full  

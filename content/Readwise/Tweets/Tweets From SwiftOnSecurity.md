@@ -2,7 +2,8 @@
 id: 16900162
 updated: 2022-07-17
 title: Tweets From SwiftOnSecurity
-author: "[[@SwiftOnSecurity on Twitter]]"
+author:
+  - "@SwiftOnSecurity on Twitter"
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16900162
@@ -25,7 +26,7 @@ Updated: 2022-07-17
 # About  
   
 Title: [[Tweets From SwiftOnSecurity|Tweets From SwiftOnSecurity]]  
-Authors: [[@SwiftOnSecurity on Twitter]]  
+Authors: [[@SwiftOnSecurity on Twitter|@SwiftOnSecurity on Twitter]]  
 Category: #tweets  
 Number of Highlights: ==0==  
 Source URL: https://twitter.com/SwiftOnSecurity  

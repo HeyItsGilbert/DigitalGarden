@@ -2,7 +2,8 @@
 id: 37359656
 updated: 2025-12-04
 title: All Systems Red
-author: "[[Martha Wells]]"
+author:
+  - Martha Wells
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/37359656
@@ -25,7 +26,7 @@ Updated: 2025-12-04
 # About  
   
 Title: [[All Systems Red|All Systems Red]]  
-Authors: [[Martha Wells]]  
+Authors: [[Martha Wells|Martha Wells]]  
 Category: #supplementals  
 Number of Highlights: ==21==  
 Date: [[2025-12-04|2025-12-04]]  

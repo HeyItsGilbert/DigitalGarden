@@ -2,7 +2,8 @@
 id: 27987270
 updated: 2023-05-21
 title: Discords From deezy
-author: "[[deezy#6969]]"
+author:
+  - deezy#6969
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/27987270
@@ -25,7 +26,7 @@ Updated: 2023-05-21
 # About  
   
 Title: [[Discords From deezy|Discords From deezy]]  
-Authors: [[deezy#6969]]  
+Authors: [[deezy#6969|deezy > 6969]]  
 Category: #tweets  
 Number of Highlights: ==1==  
 Date: [[2023-05-21|2023-05-21]]  

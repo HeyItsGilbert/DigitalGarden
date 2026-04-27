@@ -2,7 +2,8 @@
 id: 16931868
 updated: 2023-09-30
 title: Tweets From Charity Majors
-author: "[[@mipsytipsy on Twitter]]"
+author:
+  - "@mipsytipsy on Twitter"
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16931868
@@ -25,7 +26,7 @@ Updated: 2023-09-30
 # About  
   
 Title: [[Tweets From Charity Majors|Tweets From Charity Majors]]  
-Authors: [[@mipsytipsy on Twitter]]  
+Authors: [[@mipsytipsy on Twitter|@mipsytipsy on Twitter]]  
 Category: #tweets  
 Number of Highlights: ==2==  
 Source URL: https://twitter.com/mipsytipsy  

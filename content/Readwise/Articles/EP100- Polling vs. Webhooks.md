@@ -2,7 +2,8 @@
 id: 38261261
 updated: 2024-03-01
 title: EP100- Polling vs. Webhooks
-author: "[[ByteByteGo]]"
+author:
+  - ByteByteGo
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/38261261
@@ -25,7 +26,7 @@ Updated: 2024-03-01
 # About  
   
 Title: [[EP100: Polling vs. Webhooks|EP100: Polling vs. Webhooks]]  
-Authors: [[ByteByteGo]]  
+Authors: [[ByteByteGo|ByteByteGo]]  
 Category: #articles  
 Number of Highlights: ==0==  
 Source URL: https://blog.bytebytego.com/p/ep100-polling-vs-webhooks  

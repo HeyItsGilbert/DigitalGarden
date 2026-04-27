@@ -2,7 +2,8 @@
 id: 57449798
 updated: 2026-01-09
 title: Influence, New and Expanded
-author: "[[Robert B. Cialdini]]"
+author:
+  - Robert B. Cialdini
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/57449798
@@ -25,7 +26,7 @@ Updated: 2026-01-09
 # About  
   
 Title: [[Influence, New and Expanded|Influence, New and Expanded]]  
-Authors: [[Robert B. Cialdini]]  
+Authors: [[Robert B. Cialdini|Robert B. Cialdini]]  
 Category: #books  
 Number of Highlights: ==1==  
 Date: [[2026-01-09|2026-01-09]]  

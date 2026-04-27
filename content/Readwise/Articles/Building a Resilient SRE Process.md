@@ -2,7 +2,8 @@
 id: 21758391
 updated: 2022-12-12
 title: Building a Resilient SRE Process
-author: "[[arun]]"
+author:
+  - arun
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/21758391
@@ -25,7 +26,7 @@ Updated: 2022-12-12
 # About  
   
 Title: [[Building a Resilient SRE Process|Building a Resilient SRE Process]]  
-Authors: [[arun]]  
+Authors: [[arun|arun]]  
 Category: #articles  
 Number of Highlights: ==0==  
 Source URL: https://engineering.reputation.com/building-a-resilient-sre-process-42e659714743  

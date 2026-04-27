@@ -2,7 +2,8 @@
 id: 42800780
 updated: 2025-06-05
 title: Neuromancer
-author: "[[William Gibson]]"
+author:
+  - William Gibson
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/42800780
@@ -25,7 +26,7 @@ Updated: 2025-06-05
 # About  
   
 Title: [[Neuromancer|Neuromancer]]  
-Authors: [[William Gibson]]  
+Authors: [[William Gibson|William Gibson]]  
 Category: #supplementals  
 Number of Highlights: ==15==  
 Date: [[2025-06-05|2025-06-05]]  

@@ -2,7 +2,8 @@
 id: 20706235
 updated: 2025-08-21
 title: Sapiens
-author: "[[Yuval Noah Harari]]"
+author:
+  - Yuval Noah Harari
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/20706235
@@ -25,7 +26,7 @@ Updated: 2025-08-21
 # About  
   
 Title: [[Sapiens|Sapiens]]  
-Authors: [[Yuval Noah Harari]]  
+Authors: [[Yuval Noah Harari|Yuval Noah Harari]]  
 Category: #supplementals  
 Number of Highlights: ==38==  
 Date: [[2025-08-21|2025-08-21]]  

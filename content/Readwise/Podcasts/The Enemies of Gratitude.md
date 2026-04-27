@@ -2,7 +2,8 @@
 id: 33639701
 updated: 2023-10-28
 title: The Enemies of Gratitude
-author: "[[Hidden Brain]]"
+author:
+  - Hidden Brain
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/33639701
@@ -25,7 +26,7 @@ Updated: 2023-10-28
 # About  
   
 Title: [[The Enemies of Gratitude|The Enemies of Gratitude]]  
-Authors: [[Hidden Brain]]  
+Authors: [[Hidden Brain|Hidden Brain]]  
 Category: #podcasts  
 Number of Highlights: ==1==  
 Source URL: https://share.snipd.com/episode/279c7b1d-2fb5-4c56-a181-53ac3e748832  

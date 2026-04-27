@@ -1,8 +1,9 @@
 ---
 id: 55335264
-updated: 2026-01-09
+updated: 2026-03-05
 title: Small Team Leadership
-author: "[[Kenneth Hansen]]"
+author:
+  - Kenneth Hansen
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/55335264
@@ -14,7 +15,7 @@ tags:
   
 %%  
 ID: 55335264  
-Updated: 2026-01-09  
+Updated: 2026-03-05  
 %%  
   
 > [!WARNING] Auto Generated via Readwise  
@@ -25,11 +26,11 @@ Updated: 2026-01-09
 # About  
   
 Title: [[Small Team Leadership|Small Team Leadership]]  
-Authors: [[Kenneth Hansen]]  
+Authors: [[Kenneth Hansen|Kenneth Hansen]]  
 Category: #books  
-Number of Highlights: ==4==  
-Date: [[2026-01-09|2026-01-09]]  
-Last Highlighted: *2026-01-09*  
+Number of Highlights: ==8==  
+Date: [[2026-03-05|2026-03-05]]  
+Last Highlighted: *2026-03-05*  
   
 ---  
   
@@ -51,4 +52,22 @@ Note: Similar to the three yes from Never Split the Difference
   
 Note: Wait what!  
   
----
+---  
+  Some people have taken wordsmithing to extremes. I have watched and been a participant when managers have consumed people’s entire staff for hours, crafting an email that few people would even read. Don’t go overboard. Just realize the importance of words and spend sufficient effort to ensure the message works for your audience. ([1334](https://readwise.io/to_kindle?action=open&asin=B0BL6BL24V&location=1334)) %% Color: yellow %% ^993793756  
+  
+---  
+  Every leadership position comes with opportunity, responsibility, and a certain level of respect. However, when we conflate our ego with our position we find ourselves less effective, more easily threatened by others or conflicting ideas, less able to handle change and basically too proud (or less humble) with associated weaknesses. ([1346](https://readwise.io/to_kindle?action=open&asin=B0BL6BL24V&location=1346)) %% Color: yellow %% ^993793757  
+  
+---  
+  Sometimes we want the impossible. I suppose, if you know it’s impossible, there’s nothing wrong with dreaming about it. However, in many endeavors, there is also a time to get practical. ([1367](https://readwise.io/to_kindle?action=open&asin=B0BL6BL24V&location=1367)) %% Color: yellow %% ^993793758  
+  
+Note: Gold plating or scope creep  
+  
+---  
+  A combat shooting instructor once said something to the effect of, “I don’t care about your best shot or even your best group of shots. I want to know if your worst shot is improving.” His point was that combat rarely happens under ideal circumstances. It’s almost guaranteed to be very adverse circumstances. Your worst performance must be good enough. ([1447](https://readwise.io/to_kindle?action=open&asin=B0BL6BL24V&location=1447)) %% Color: yellow %% ^993793759  
+  
+---- Some people have taken wordsmithing to extremes. I have watched and been a participant when managers have consumed people’s entire staff for hours, crafting an email that few people would even read. Don’t go overboard. Just realize the importance of words and spend sufficient effort to ensure the message works for your audience. ([Location 1334](https://readwise.io/to_kindle?action=open&asin=B0BL6BL24V&location=1334))  
+- Every leadership position comes with opportunity, responsibility, and a certain level of respect. However, when we conflate our ego with our position we find ourselves less effective, more easily threatened by others or conflicting ideas, less able to handle change and basically too proud (or less humble) with associated weaknesses. ([Location 1346](https://readwise.io/to_kindle?action=open&asin=B0BL6BL24V&location=1346))  
+- Sometimes we want the impossible. I suppose, if you know it’s impossible, there’s nothing wrong with dreaming about it. However, in many endeavors, there is also a time to get practical. ([Location 1367](https://readwise.io/to_kindle?action=open&asin=B0BL6BL24V&location=1367))  
+    - Note: Gold plating or scope creep  
+- A combat shooting instructor once said something to the effect of, “I don’t care about your best shot or even your best group of shots. I want to know if your worst shot is improving.” His point was that combat rarely happens under ideal circumstances. It’s almost guaranteed to be very adverse circumstances. Your worst performance must be good enough. ([Location 1447](https://readwise.io/to_kindle?action=open&asin=B0BL6BL24V&location=1447))  

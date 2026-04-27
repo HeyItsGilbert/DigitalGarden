@@ -2,7 +2,8 @@
 id: 27389573
 updated: 2023-05-07
 title: EP58- 10 Key Data Structures We Use Every Day
-author: "[[Alex Xu]]"
+author:
+  - Alex Xu
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/27389573
@@ -25,7 +26,7 @@ Updated: 2023-05-07
 # About  
   
 Title: [[EP58: 10 Key Data Structures We Use Every Day|EP58: 10 Key Data Structures We Use Every Day]]  
-Authors: [[Alex Xu]]  
+Authors: [[Alex Xu|Alex Xu]]  
 Category: #articles  
 Number of Highlights: ==1==  
 Source URL: https://blog.bytebytego.com/p/ep58-10-key-data-structures-we-use  

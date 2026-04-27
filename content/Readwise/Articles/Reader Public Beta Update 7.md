@@ -2,7 +2,8 @@
 id: 38261428
 updated: 2024-03-01
 title: Reader Public Beta Update 7
-author: "[[Daniel Doyon]]"
+author:
+  - Daniel Doyon
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/38261428
@@ -25,7 +26,7 @@ Updated: 2024-03-01
 # About  
   
 Title: [[Reader Public Beta Update #7|Reader Public Beta Update  > 7]]  
-Authors: [[Daniel Doyon]]  
+Authors: [[Daniel Doyon|Daniel Doyon]]  
 Category: #articles  
 Number of Highlights: ==0==  
 Source URL: https://readwise-community.ghost.io/reader-public-beta-update-7-pagination-bundles/  

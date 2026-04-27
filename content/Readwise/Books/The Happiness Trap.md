@@ -2,7 +2,9 @@
 id: 20836056
 updated: 2024-10-08
 title: The Happiness Trap
-author: "[[Russ Harris|Russ Harris]], [[Steven Hayes|Steven Hayes]]"
+author:
+  - Russ Harris
+  - Steven Hayes
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/20836056
@@ -24,7 +26,7 @@ Updated: 2024-10-08
   
 # About  
   
-Title: [[Readwise/Books/The Happiness Trap|Readwise/Books/The Happiness Trap]]  
+Title: [[The Happiness Trap|The Happiness Trap]]  
 Authors: [[Russ Harris|Russ Harris]], [[Steven Hayes|Steven Hayes]]  
 Category: #books  
 Number of Highlights: ==18==  

@@ -2,7 +2,8 @@
 id: 58227203
 updated: 2026-02-11
 title: Systematic Moderation for Sustainable Good Habits
-author: "[[everydaysystems.com]]"
+author:
+  - everydaysystems.com
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/58227203
@@ -25,7 +26,7 @@ Updated: 2026-02-11
 # About  
   
 Title: [[Systematic Moderation for Sustainable Good Habits|Systematic Moderation for Sustainable Good Habits]]  
-Authors: [[everydaysystems.com]]  
+Authors: [[everydaysystems.com|everydaysystems.com]]  
 Category: #articles  
 Number of Highlights: ==5==  
 Source URL: https://everydaysystems.com/?mc_cid=09ec5fa590&mc_eid=35ed4ce0bb  

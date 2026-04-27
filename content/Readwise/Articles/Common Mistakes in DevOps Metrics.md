@@ -2,7 +2,8 @@
 id: 38559887
 updated: 2024-03-10
 title: Common Mistakes in DevOps Metrics
-author: "[[Octopus Deploy]]"
+author:
+  - Octopus Deploy
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/38559887
@@ -25,7 +26,7 @@ Updated: 2024-03-10
 # About  
   
 Title: [[Common Mistakes in DevOps Metrics|Common Mistakes in DevOps Metrics]]  
-Authors: [[Octopus Deploy]]  
+Authors: [[Octopus Deploy|Octopus Deploy]]  
 Category: #articles  
 Number of Highlights: ==2==  
 Source URL: https://octopus.com/blog/common-mistakes-devops-metrics  

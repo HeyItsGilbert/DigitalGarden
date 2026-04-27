@@ -2,7 +2,8 @@
 id: 16900163
 updated: 2022-07-17
 title: Tweets From the Gauntlet
-author: "[[@GauntletRPG on Twitter]]"
+author:
+  - "@GauntletRPG on Twitter"
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16900163
@@ -25,7 +26,7 @@ Updated: 2022-07-17
 # About  
   
 Title: [[Tweets From the Gauntlet|Tweets From the Gauntlet]]  
-Authors: [[@GauntletRPG on Twitter]]  
+Authors: [[@GauntletRPG on Twitter|@GauntletRPG on Twitter]]  
 Category: #tweets  
 Number of Highlights: ==0==  
 Source URL: https://twitter.com/GauntletRPG  

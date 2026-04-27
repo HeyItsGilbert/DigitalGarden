@@ -2,7 +2,8 @@
 id: 58146506
 updated: 2026-02-07
 title: Welcome to the Room
-author: "[[Jeffrey Snover]]"
+author:
+  - Jeffrey Snover
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/58146506
@@ -25,7 +26,7 @@ Updated: 2026-02-07
 # About  
   
 Title: [[Welcome to the Room|Welcome to the Room]]  
-Authors: [[Jeffrey Snover]]  
+Authors: [[Jeffrey Snover|Jeffrey Snover]]  
 Category: #articles  
 Tags: #leadership, #Startups  
 Number of Highlights: ==7==  

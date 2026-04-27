@@ -2,7 +2,8 @@
 id: 41884794
 updated: 2024-06-28
 title: 10 Math Concepts for Programmers
-author: "[[youtube.com]]"
+author:
+  - Fireship
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/41884794
@@ -25,8 +26,9 @@ Updated: 2024-06-28
 # About  
   
 Title: [[10 Math Concepts for Programmers|10 Math Concepts for Programmers]]  
-Authors: [[youtube.com]]  
+Authors: [[Fireship|Fireship]]  
 Category: #articles  
+Tags: #to-review  
 Number of Highlights: ==2==  
 Source URL: https://www.youtube.com/watch?v=bOCHTHkBoAs&feature=youtu.be  
 Date: [[2024-06-28|2024-06-28]]  

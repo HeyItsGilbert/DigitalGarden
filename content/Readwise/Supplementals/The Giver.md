@@ -2,7 +2,8 @@
 id: 16899902
 updated: 2025-07-01
 title: The Giver
-author: "[[Lois Lowry]]"
+author:
+  - Lois Lowry
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899902
@@ -25,7 +26,7 @@ Updated: 2025-07-01
 # About  
   
 Title: [[The Giver|The Giver]]  
-Authors: [[Lois Lowry]]  
+Authors: [[Lois Lowry|Lois Lowry]]  
 Category: #supplementals  
 Number of Highlights: ==20==  
 Date: [[2025-07-01|2025-07-01]]  

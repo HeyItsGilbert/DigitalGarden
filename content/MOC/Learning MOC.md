@@ -1,6 +1,6 @@
 ---
 share: true
-modified: 2026-03-04T14:12:40-08:00
+modified: 2026-04-27T14:27:08-07:00
 tags:
   - learning
 aliases:
@@ -9,11 +9,10 @@ aliases:
 ## [[Writing|Writing]]  
 - [[DigitalGarden|DigitalGarden]]  
 - [[Documentation|Documentation]]  
-- [[Atomics/Writing Without Bullshit|Atomics/Writing Without Bullshit]]  
+- [[Writing Without Bullshit|Writing Without Bullshit]]  
 - [[Inverted Pyramid|Inverted Pyramid]]  
 - [[Markdown|Markdown]]  
-- [[Atomics/Writing Without Bullshit|Atomics/Writing Without Bullshit]]  
-- [[Readwise Original/Articles/Best Way to Be Write Creatively Wear 4 Different Hats|Readwise Original/Articles/Best Way to Be Write Creatively Wear 4 Different Hats]]  
+- [[Best Way to Write Creatively - Wear 4 Different Hats|Best Way to Write Creatively - Wear 4 Different Hats]]  
 - [[Readwise/Articles/Writing Markdown|Readwise/Articles/Writing Markdown]]  
   
 ## [[Obsidian|Obsidian]]  
@@ -61,8 +60,8 @@ aliases:
 | File                                                                                           |  
 | ---------------------------------------------------------------------------------------------- |  
 | [[Readwise/Supplementals/The Way of Kings.md\|The Way of Kings]]                               |  
-| [[Readwise/Supplementals/The Republic.md\|The Republic]]                                       |  
 | [[Readwise/Supplementals/The Tipping Point.md\|The Tipping Point]]                             |  
+| [[Readwise/Supplementals/The Republic.md\|The Republic]]                                       |  
 | [[Readwise/Supplementals/The Dark Forest.md\|The Dark Forest]]                                 |  
 | [[Readwise/Supplementals/Smarter Faster Better.md\|Smarter Faster Better]]                     |  
 | [[Readwise/Supplementals/Ready Player One.md\|Ready Player One]]                               |  

@@ -2,7 +2,8 @@
 id: 22420461
 updated: 2022-12-25
 title: How to Take Smart Notes in Obsidian
-author: "[[Joshua Duffney]]"
+author:
+  - Joshua Duffney
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/22420461
@@ -25,7 +26,7 @@ Updated: 2022-12-25
 # About  
   
 Title: [[How to Take Smart Notes in Obsidian|How to Take Smart Notes in Obsidian]]  
-Authors: [[Joshua Duffney]]  
+Authors: [[Joshua Duffney|Joshua Duffney]]  
 Category: #books  
 Number of Highlights: ==4==  
 Date: [[2022-12-25|2022-12-25]]  

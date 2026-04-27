@@ -2,7 +2,8 @@
 id: 16899922
 updated: 2026-01-20
 title: Reamde
-author: "[[Neal Stephenson]]"
+author:
+  - Neal Stephenson
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899922
@@ -25,7 +26,7 @@ Updated: 2026-01-20
 # About  
   
 Title: [[Reamde|Reamde]]  
-Authors: [[Neal Stephenson]]  
+Authors: [[Neal Stephenson|Neal Stephenson]]  
 Category: #supplementals  
 Number of Highlights: ==36==  
 Date: [[2026-01-20|2026-01-20]]  

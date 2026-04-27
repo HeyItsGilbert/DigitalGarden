@@ -2,7 +2,8 @@
 id: 16899921
 updated: 2026-01-10
 title: Cryptonomicon
-author: "[[Neal Stephenson]]"
+author:
+  - Neal Stephenson
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899921
@@ -25,7 +26,7 @@ Updated: 2026-01-10
 # About  
   
 Title: [[Cryptonomicon|Cryptonomicon]]  
-Authors: [[Neal Stephenson]]  
+Authors: [[Neal Stephenson|Neal Stephenson]]  
 Category: #supplementals  
 Number of Highlights: ==43==  
 Date: [[2026-01-10|2026-01-10]]  

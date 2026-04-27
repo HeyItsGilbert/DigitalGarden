@@ -2,7 +2,8 @@
 id: 16901973
 updated: 2022-07-17
 title: The Joy of Craft
-author: "[[Zane Claes]]"
+author:
+  - Zane Claes
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16901973
@@ -25,7 +26,7 @@ Updated: 2022-07-17
 # About  
   
 Title: [[The Joy of Craft|The Joy of Craft]]  
-Authors: [[Zane Claes]]  
+Authors: [[Zane Claes|Zane Claes]]  
 Category: #books  
 Number of Highlights: ==6==  
 Date: [[2022-07-17|2022-07-17]]  

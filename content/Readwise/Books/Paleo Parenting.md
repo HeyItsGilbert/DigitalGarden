@@ -2,7 +2,8 @@
 id: 16901976
 updated: 2022-07-17
 title: Paleo Parenting
-author: "[[Dr. Chris Morano]]"
+author:
+  - " Chris Morano"
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16901976
@@ -25,7 +26,7 @@ Updated: 2022-07-17
 # About  
   
 Title: [[Paleo Parenting|Paleo Parenting]]  
-Authors: [[Dr. Chris Morano]]  
+Authors: [[Dr. Chris Morano|Dr. Chris Morano]]  
 Category: #books  
 Number of Highlights: ==1==  
 Date: [[2022-07-17|2022-07-17]]  

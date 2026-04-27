@@ -2,7 +2,8 @@
 id: 29557946
 updated: 2025-03-11
 title: Recursion
-author: "[[Blake Crouch]]"
+author:
+  - Blake Crouch
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/29557946
@@ -25,7 +26,7 @@ Updated: 2025-03-11
 # About  
   
 Title: [[Recursion|Recursion]]  
-Authors: [[Blake Crouch]]  
+Authors: [[Blake Crouch|Blake Crouch]]  
 Category: #supplementals  
 Number of Highlights: ==20==  
 Date: [[2025-03-11|2025-03-11]]  

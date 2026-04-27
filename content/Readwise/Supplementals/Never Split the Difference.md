@@ -2,7 +2,9 @@
 id: 16899927
 updated: 2022-11-07
 title: Never Split the Difference
-author: "[[Chris Voss|Chris Voss]], [[Tahl Raz|Tahl Raz]]"
+author:
+  - Chris Voss
+  - Tahl Raz
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899927

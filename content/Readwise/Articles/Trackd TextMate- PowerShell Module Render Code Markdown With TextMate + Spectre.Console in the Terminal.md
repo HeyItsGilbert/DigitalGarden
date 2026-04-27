@@ -4,13 +4,14 @@ updated: 2026-03-01
 title: Trackd TextMate- PowerShell Module Render Code Markdown With TextMate + Spectre.Console in the Terminal
 author:
   - https://github.com/trackd/
-share: "true"
+share: true
 readwise_url:
 tags:
   - readwise
   - articles
 uri: https://readwise.io/bookreview/58649636
 ---
+  
   
 %%  
 ID: 58649636  

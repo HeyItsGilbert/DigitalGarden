@@ -1,6 +1,8 @@
 ---
-modified: 2026-02-26T17:35:38-08:00
+modified: 2026-03-29T07:12:17-07:00
 share: true
+tags:
+  - atomic
 ---
 You work through each step before you take the next one with the goal of getting someone to do something they may not like.  
   

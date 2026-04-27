@@ -2,7 +2,8 @@
 id: 37165358
 updated: 2024-01-28
 title: Tweets From Cory House
-author: "[[@housecor on Twitter]]"
+author:
+  - "@housecor on Twitter"
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/37165358
@@ -25,7 +26,7 @@ Updated: 2024-01-28
 # About  
   
 Title: [[Tweets From Cory House|Tweets From Cory House]]  
-Authors: [[@housecor on Twitter]]  
+Authors: [[@housecor on Twitter|@housecor on Twitter]]  
 Category: #tweets  
 Number of Highlights: ==0==  
 Source URL: https://twitter.com/housecor  

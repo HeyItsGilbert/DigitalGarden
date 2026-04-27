@@ -2,7 +2,8 @@
 id: 22263656
 updated: 2022-12-21
 title: Packaging a Rust Web Service Using Docker
-author: "[[Mario Zupan]]"
+author:
+  - Mario Zupan
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/22263656
@@ -25,7 +26,7 @@ Updated: 2022-12-21
 # About  
   
 Title: [[Packaging a Rust Web Service Using Docker|Packaging a Rust Web Service Using Docker]]  
-Authors: [[Mario Zupan]]  
+Authors: [[Mario Zupan|Mario Zupan]]  
 Category: #articles  
 Tags: #rust, #docker, #technology  
 Number of Highlights: ==0==  

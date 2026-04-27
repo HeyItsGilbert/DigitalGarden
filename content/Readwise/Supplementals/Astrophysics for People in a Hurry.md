@@ -2,7 +2,8 @@
 id: 16899926
 updated: 2023-11-08
 title: Astrophysics for People in a Hurry
-author: "[[Neil deGrasse Tyson]]"
+author:
+  - Neil deGrasse Tyson
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899926
@@ -25,7 +26,7 @@ Updated: 2023-11-08
 # About  
   
 Title: [[Astrophysics for People in a Hurry|Astrophysics for People in a Hurry]]  
-Authors: [[Neil deGrasse Tyson]]  
+Authors: [[Neil deGrasse Tyson|Neil deGrasse Tyson]]  
 Category: #supplementals  
 Number of Highlights: ==14==  
 Date: [[2023-11-08|2023-11-08]]  

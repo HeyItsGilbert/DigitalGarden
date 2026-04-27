@@ -1,8 +1,9 @@
 ---
 id: 16899869
-updated: 2024-11-22
+updated: 2026-03-19
 title: Atomic Habits
-author: "[[James Clear]]"
+author:
+  - James Clear
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899869
@@ -14,7 +15,7 @@ tags:
   
 %%  
 ID: 16899869  
-Updated: 2024-11-22  
+Updated: 2026-03-19  
 %%  
   
 > [!WARNING] Auto Generated via Readwise  
@@ -25,10 +26,10 @@ Updated: 2024-11-22
 # About  
   
 Title: [[Atomic Habits|Atomic Habits]]  
-Authors: [[James Clear]]  
+Authors: [[James Clear|James Clear]]  
 Category: #supplementals  
-Number of Highlights: ==46==  
-Date: [[2024-11-22|2024-11-22]]  
+Number of Highlights: ==56==  
+Date: [[2026-03-19|2026-03-19]]  
 Last Highlighted: **  
   
 ---  
@@ -260,5 +261,35 @@ Tags: #habits
   The more you repeat a behavior, the more you reinforce the identity associated with that behavior. In fact, the word identity was originally derived from the Latin words essentitas, which means being, and identidem, which means repeatedly. Your identity is literally your “repeated beingness.” ^815336841  
   
 Tags: #identity  
+  
+---  
+  Finally, the response delivers a reward. Rewards are the end goal of every habit. The cue is about noticing the reward. The craving is about wanting the reward. The response is about obtaining the reward. We chase rewards because they serve two purposes: (1) they satisfy us and (2) they teach us. ^998345354  
+  
+---  
+  It is easy to get bogged down trying to find the optimal plan for change: the fastest way to lose weight, the best program to build muscle, the perfect idea for a side hustle. We are so focused on figuring out the best approach that we never get around to taking action. As Voltaire once wrote, “The best is the enemy of the good.” ^998345355  
+  
+---  
+  The more you ritualize the beginning of a process, the more likely it becomes that you can slip into the state of deep focus that is required to do great things. ^998345356  
+  
+---  
+  Your brain has far more neural circuitry allocated for wanting rewards than for liking them. ^998345357  
+  
+---  
+  A habit is a behavior that has been repeated enough times to become automatic. ^998345358  
+  
+---  
+  The Four Laws of Behavior Change are a simple set of rules we can use to build better habits. They are (1) make it obvious, (2) make it attractive, (3) make it easy, and (4) make it satisfying. ^998345359  
+  
+---  
+  The greatest threat to success is not failure but boredom. ^998345360  
+  
+---  
+  Chapter Summary The 3rd Law of Behavior Change is make it easy. The most effective form of learning is practice, not planning. Focus on taking action, not being in motion. Habit formation is the process by which a behavior becomes progressively more automatic through repetition. The amount of time you have been performing a habit is not as important as the number of times you have performed it. ^998345361  
+  
+---  
+  Ultimately, your habits matter because they help you become the type of person you wish to be. They are the channel through which you develop your deepest beliefs about yourself. Quite literally, you become your habits. ^998345362  
+  
+---  
+  Mastery is the process of narrowing your focus to a tiny element of success, repeating it until you have internalized the skill, and then using this new habit as the foundation to advance to the next frontier of your development. ^998345363  
   
 ---

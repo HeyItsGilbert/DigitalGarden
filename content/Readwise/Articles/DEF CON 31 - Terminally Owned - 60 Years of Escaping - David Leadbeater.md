@@ -2,7 +2,8 @@
 id: 32920586
 updated: 2023-10-07
 title: DEF CON 31 - Terminally Owned - 60 Years of Escaping - David Leadbeater
-author: "[[youtube.com]]"
+author:
+  - DEFCONConference
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/32920586
@@ -25,8 +26,9 @@ Updated: 2023-10-07
 # About  
   
 Title: [[DEF CON 31 - Terminally Owned - 60 Years of Escaping - David Leadbeater|DEF CON 31 - Terminally Owned - 60 Years of Escaping - David Leadbeater]]  
-Authors: [[youtube.com]]  
+Authors: [[DEFCONConference|DEFCONConference]]  
 Category: #articles  
+Tags: #to-review  
 Number of Highlights: ==6==  
 Source URL: https://www.youtube.com/watch?v=Y4A7KMQEmfo&feature=youtu.be  
 Date: [[2023-10-07|2023-10-07]]  

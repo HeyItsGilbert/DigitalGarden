@@ -2,7 +2,8 @@
 id: 28021128
 updated: 2023-05-21
 title: Discords From sunb_mn
-author: "[[sunb_mn#1466]]"
+author:
+  - sunb_mn#1466
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/28021128
@@ -25,7 +26,7 @@ Updated: 2023-05-21
 # About  
   
 Title: [[Discords From sunb_mn|Discords From sunb_mn]]  
-Authors: [[sunb_mn#1466]]  
+Authors: [[sunb_mn#1466|sunb_mn > 1466]]  
 Category: #tweets  
 Number of Highlights: ==0==  
 Date: [[2023-05-21|2023-05-21]]  

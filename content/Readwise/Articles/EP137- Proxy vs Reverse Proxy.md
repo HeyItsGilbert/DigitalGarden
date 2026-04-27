@@ -2,7 +2,8 @@
 id: 45772801
 updated: 2024-11-10
 title: EP137- Proxy vs Reverse Proxy
-author: "[[ByteByteGo]]"
+author:
+  - ByteByteGo
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/45772801
@@ -25,7 +26,7 @@ Updated: 2024-11-10
 # About  
   
 Title: [[EP137: Proxy vs Reverse Proxy|EP137: Proxy vs Reverse Proxy]]  
-Authors: [[ByteByteGo]]  
+Authors: [[ByteByteGo|ByteByteGo]]  
 Category: #articles  
 Number of Highlights: ==0==  
 Source URL: https://blog.bytebytego.com/p/ep137-proxy-vs-reverse-proxy  

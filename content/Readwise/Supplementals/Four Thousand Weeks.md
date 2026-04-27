@@ -2,7 +2,8 @@
 id: 16899864
 updated: 2025-06-05
 title: Four Thousand Weeks
-author: "[[Oliver Burkeman]]"
+author:
+  - Oliver Burkeman
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899864
@@ -25,7 +26,7 @@ Updated: 2025-06-05
 # About  
   
 Title: [[Four Thousand Weeks|Four Thousand Weeks]]  
-Authors: [[Oliver Burkeman]]  
+Authors: [[Oliver Burkeman|Oliver Burkeman]]  
 Category: #supplementals  
 Number of Highlights: ==20==  
 Date: [[2025-06-05|2025-06-05]]  

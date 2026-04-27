@@ -2,7 +2,8 @@
 id: 41855148
 updated: 2024-06-27
 title: The Problem With Using a UUID Primary Key in MySQL
-author: "[[Brian Morrison II]]"
+author:
+  - Brian Morrison II
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/41855148
@@ -25,7 +26,7 @@ Updated: 2024-06-27
 # About  
   
 Title: [[The Problem With Using a UUID Primary Key in MySQL|The Problem With Using a UUID Primary Key in MySQL]]  
-Authors: [[Brian Morrison II]]  
+Authors: [[Brian Morrison II|Brian Morrison II]]  
 Category: #articles  
 Number of Highlights: ==1==  
 Source URL: https://planetscale.com/blog/the-problem-with-using-a-uuid-primary-key-in-mysql  

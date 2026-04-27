@@ -2,7 +2,8 @@
 id: 16899860
 updated: 2025-11-12
 title: Lexicon
-author: "[[Max Barry]]"
+author:
+  - Max Barry
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899860
@@ -25,7 +26,7 @@ Updated: 2025-11-12
 # About  
   
 Title: [[Lexicon|Lexicon]]  
-Authors: [[Max Barry]]  
+Authors: [[Max Barry|Max Barry]]  
 Category: #supplementals  
 Number of Highlights: ==33==  
 Date: [[2025-11-12|2025-11-12]]  

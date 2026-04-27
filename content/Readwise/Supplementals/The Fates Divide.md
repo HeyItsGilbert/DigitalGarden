@@ -2,7 +2,8 @@
 id: 27731951
 updated: 2024-09-04
 title: The Fates Divide
-author: "[[Veronica Roth]]"
+author:
+  - Veronica Roth
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/27731951
@@ -25,7 +26,7 @@ Updated: 2024-09-04
 # About  
   
 Title: [[The Fates Divide|The Fates Divide]]  
-Authors: [[Veronica Roth]]  
+Authors: [[Veronica Roth|Veronica Roth]]  
 Category: #supplementals  
 Number of Highlights: ==2==  
 Date: [[2024-09-04|2024-09-04]]  

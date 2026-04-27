@@ -2,7 +2,8 @@
 id: 28126889
 updated: 2025-09-25
 title: Randomize
-author: "[[Andy Weir]]"
+author:
+  - Andy Weir
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/28126889
@@ -25,7 +26,7 @@ Updated: 2025-09-25
 # About  
   
 Title: [[Randomize|Randomize]]  
-Authors: [[Andy Weir]]  
+Authors: [[Andy Weir|Andy Weir]]  
 Category: #supplementals  
 Number of Highlights: ==17==  
 Date: [[2025-09-25|2025-09-25]]  

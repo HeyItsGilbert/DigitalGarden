@@ -2,7 +2,8 @@
 id: 17346204
 updated: 2022-07-31
 title: How to Enter a ‘Flow State’ on Command- Peak Performance Mind Hack Explained in 7 Minutes
-author: "[[openculture.com]]"
+author:
+  - openculture.com
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/17346204
@@ -25,7 +26,7 @@ Updated: 2022-07-31
 # About  
   
 Title: [[How to Enter a ‘Flow State’ on Command: Peak Performance Mind Hack Explained in 7 Minutes|How to Enter a ‘Flow State’ on Command: Peak Performance Mind Hack Explained in 7 Minutes]]  
-Authors: [[openculture.com]]  
+Authors: [[openculture.com|openculture.com]]  
 Category: #articles  
 Tags: #Liked  
 Number of Highlights: ==1==  

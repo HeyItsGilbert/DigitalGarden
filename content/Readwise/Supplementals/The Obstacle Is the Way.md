@@ -2,7 +2,8 @@
 id: 16899888
 updated: 2025-12-28
 title: The Obstacle Is the Way
-author: "[[Ryan Holiday]]"
+author:
+  - Ryan Holiday
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899888
@@ -25,7 +26,7 @@ Updated: 2025-12-28
 # About  
   
 Title: [[The Obstacle Is the Way|The Obstacle Is the Way]]  
-Authors: [[Ryan Holiday]]  
+Authors: [[Ryan Holiday|Ryan Holiday]]  
 Category: #supplementals  
 Number of Highlights: ==66==  
 Date: [[2025-12-28|2025-12-28]]  

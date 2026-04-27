@@ -2,7 +2,8 @@
 id: 25995231
 updated: 2023-04-02
 title: Devops Weekly 640
-author: "[[Devops Weekly]]"
+author:
+  - Devops Weekly
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/25995231
@@ -25,7 +26,7 @@ Updated: 2023-04-02
 # About  
   
 Title: [[Devops Weekly #640|Devops Weekly  > 640]]  
-Authors: [[Devops Weekly]]  
+Authors: [[Devops Weekly|Devops Weekly]]  
 Category: #articles  
 Number of Highlights: ==2==  
 Source URL: mailto:reader-forwarded-email/0b378d8276ed7ac1397a241d5adb7f71  

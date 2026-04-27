@@ -2,7 +2,8 @@
 id: 16899916
 updated: 2024-09-04
 title: How to Be Perfect
-author: "[[Michael Schur]]"
+author:
+  - Michael Schur
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899916
@@ -25,7 +26,7 @@ Updated: 2024-09-04
 # About  
   
 Title: [[How to Be Perfect|How to Be Perfect]]  
-Authors: [[Michael Schur]]  
+Authors: [[Michael Schur|Michael Schur]]  
 Category: #supplementals  
 Number of Highlights: ==7==  
 Date: [[2024-09-04|2024-09-04]]  

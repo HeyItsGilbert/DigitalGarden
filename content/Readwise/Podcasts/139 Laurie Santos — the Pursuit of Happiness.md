@@ -2,7 +2,8 @@
 id: 30722240
 updated: 2023-08-01
 title: 139 Laurie Santos — the Pursuit of Happiness
-author: "[[The Knowledge Project with Shane Parrish]]"
+author:
+  - The Knowledge Project with Shane Parrish
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/30722240
@@ -25,7 +26,7 @@ Updated: 2023-08-01
 # About  
   
 Title: [[#139 Laurie Santos —  the Pursuit of Happiness| > 139 Laurie Santos —  the Pursuit of Happiness]]  
-Authors: [[The Knowledge Project with Shane Parrish]]  
+Authors: [[The Knowledge Project with Shane Parrish|The Knowledge Project with Shane Parrish]]  
 Category: #podcasts  
 Number of Highlights: ==1==  
 Source URL: https://share.snipd.com/episode/71d78afe-b389-4888-897a-44c0afc7d939  

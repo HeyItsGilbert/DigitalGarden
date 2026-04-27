@@ -2,7 +2,8 @@
 id: 37359654
 updated: 2025-10-11
 title: Carl's Doomsday Scenario
-author: "[[Matt Dinniman]]"
+author:
+  - Matt Dinniman
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/37359654
@@ -25,7 +26,7 @@ Updated: 2025-10-11
 # About  
   
 Title: [[Carl's Doomsday Scenario|Carl's Doomsday Scenario]]  
-Authors: [[Matt Dinniman]]  
+Authors: [[Matt Dinniman|Matt Dinniman]]  
 Category: #supplementals  
 Number of Highlights: ==5==  
 Date: [[2025-10-11|2025-10-11]]  

@@ -2,7 +2,8 @@
 id: 16901948
 updated: 2022-07-17
 title: Project Hail Mary
-author: "[[Andy Weir]]"
+author:
+  - Andy Weir
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16901948
@@ -25,7 +26,7 @@ Updated: 2022-07-17
 # About  
   
 Title: [[Project Hail Mary|Project Hail Mary]]  
-Authors: [[Andy Weir]]  
+Authors: [[Andy Weir|Andy Weir]]  
 Category: #books  
 Number of Highlights: ==2==  
 Date: [[2022-07-17|2022-07-17]]  

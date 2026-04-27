@@ -2,7 +2,8 @@
 id: 42800778
 updated: 2025-09-30
 title: The Gate of the Feral Gods
-author: "[[Matt Dinniman]]"
+author:
+  - Matt Dinniman
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/42800778
@@ -25,7 +26,7 @@ Updated: 2025-09-30
 # About  
   
 Title: [[The Gate of the Feral Gods|The Gate of the Feral Gods]]  
-Authors: [[Matt Dinniman]]  
+Authors: [[Matt Dinniman|Matt Dinniman]]  
 Category: #supplementals  
 Number of Highlights: ==12==  
 Date: [[2025-09-30|2025-09-30]]  

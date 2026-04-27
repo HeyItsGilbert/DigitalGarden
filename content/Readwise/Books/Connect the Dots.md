@@ -2,7 +2,8 @@
 id: 21427865
 updated: 2022-12-04
 title: Connect the Dots
-author: "[[Paul Jun]]"
+author:
+  - Paul Jun
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/21427865
@@ -26,7 +27,7 @@ Updated: 2022-12-04
 # About  
   
 Title: [[Connect the Dots|Connect the Dots]]  
-Authors: [[Paul Jun]]  
+Authors: [[Paul Jun|Paul Jun]]  
 Category: #books  
 Number of Highlights: ==14==  
 Date: [[2022-12-04|2022-12-04]]  

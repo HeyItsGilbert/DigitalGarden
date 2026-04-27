@@ -2,7 +2,8 @@
 id: 16901969
 updated: 2022-07-17
 title: Idempotency
-author: "[[Joshua Wright]]"
+author:
+  - Joshua Wright
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16901969
@@ -25,7 +26,7 @@ Updated: 2022-07-17
 # About  
   
 Title: [[Idempotency|Idempotency]]  
-Authors: [[Joshua Wright]]  
+Authors: [[Joshua Wright|Joshua Wright]]  
 Category: #books  
 Number of Highlights: ==3==  
 Date: [[2022-07-17|2022-07-17]]  

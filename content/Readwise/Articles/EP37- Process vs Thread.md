@@ -2,7 +2,8 @@
 id: 23268226
 updated: 2023-04-02
 title: EP37- Process vs Thread
-author: "[[Alex Xu]]"
+author:
+  - Alex Xu
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/23268226
@@ -25,7 +26,7 @@ Updated: 2023-04-02
 # About  
   
 Title: [[EP37: Process vs Thread|EP37: Process vs Thread]]  
-Authors: [[Alex Xu]]  
+Authors: [[Alex Xu|Alex Xu]]  
 Category: #articles  
 Number of Highlights: ==1==  
 Source URL: https://blog.bytebytego.com/p/ep37-process-vs-thread  

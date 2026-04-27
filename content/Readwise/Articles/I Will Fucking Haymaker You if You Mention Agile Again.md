@@ -2,7 +2,8 @@
 id: 41855189
 updated: 2024-06-27
 title: I Will Fucking Haymaker You if You Mention Agile Again
-author: "[[mataroa.blog]]"
+author:
+  - mataroa.blog
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/41855189
@@ -25,7 +26,7 @@ Updated: 2024-06-27
 # About  
   
 Title: [[I Will Fucking Haymaker You if You Mention Agile Again|I Will Fucking Haymaker You if You Mention Agile Again]]  
-Authors: [[mataroa.blog]]  
+Authors: [[mataroa.blog|mataroa.blog]]  
 Category: #articles  
 Number of Highlights: ==2==  
 Source URL: https://ludic.mataroa.blog/blog/i-will-fucking-haymaker-you-if-you-mention-agile-again/  

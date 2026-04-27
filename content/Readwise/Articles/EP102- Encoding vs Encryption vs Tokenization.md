@@ -2,7 +2,8 @@
 id: 38559831
 updated: 2024-03-10
 title: EP102- Encoding vs Encryption vs Tokenization
-author: "[[ByteByteGo]]"
+author:
+  - ByteByteGo
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/38559831
@@ -25,7 +26,7 @@ Updated: 2024-03-10
 # About  
   
 Title: [[EP102: Encoding vs Encryption vs Tokenization|EP102: Encoding vs Encryption vs Tokenization]]  
-Authors: [[ByteByteGo]]  
+Authors: [[ByteByteGo|ByteByteGo]]  
 Category: #articles  
 Number of Highlights: ==0==  
 Source URL: https://blog.bytebytego.com/p/ep102-encoding-vs-encryption-vs-tokenization  

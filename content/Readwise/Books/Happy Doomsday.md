@@ -2,7 +2,8 @@
 id: 16901971
 updated: 2022-07-17
 title: Happy Doomsday
-author: "[[David Sosnowski]]"
+author:
+  - David Sosnowski
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16901971
@@ -25,7 +26,7 @@ Updated: 2022-07-17
 # About  
   
 Title: [[Happy Doomsday|Happy Doomsday]]  
-Authors: [[David Sosnowski]]  
+Authors: [[David Sosnowski|David Sosnowski]]  
 Category: #books  
 Number of Highlights: ==1==  
 Date: [[2022-07-17|2022-07-17]]  

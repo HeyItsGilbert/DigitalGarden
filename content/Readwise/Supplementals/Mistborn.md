@@ -2,7 +2,8 @@
 id: 34828763
 updated: 2025-10-25
 title: Mistborn
-author: "[[Brandon Sanderson]]"
+author:
+  - Brandon Sanderson
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/34828763
@@ -25,7 +26,7 @@ Updated: 2025-10-25
 # About  
   
 Title: [[Mistborn|Mistborn]]  
-Authors: [[Brandon Sanderson]]  
+Authors: [[Brandon Sanderson|Brandon Sanderson]]  
 Category: #supplementals  
 Number of Highlights: ==27==  
 Date: [[2025-10-25|2025-10-25]]  

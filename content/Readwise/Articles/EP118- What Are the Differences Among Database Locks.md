@@ -2,7 +2,8 @@
 id: 41934776
 updated: 2024-06-30
 title: EP118- What Are the Differences Among Database Locks
-author: "[[ByteByteGo]]"
+author:
+  - ByteByteGo
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/41934776
@@ -25,7 +26,7 @@ Updated: 2024-06-30
 # About  
   
 Title: [[EP118: What Are the Differences Among Database Locks?|EP118: What Are the Differences Among Database Locks?]]  
-Authors: [[ByteByteGo]]  
+Authors: [[ByteByteGo|ByteByteGo]]  
 Category: #articles  
 Number of Highlights: ==2==  
 Source URL: https://blog.bytebytego.com/p/ep118-what-are-the-differences-among  

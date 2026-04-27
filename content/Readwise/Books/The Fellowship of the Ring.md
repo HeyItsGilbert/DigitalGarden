@@ -2,7 +2,8 @@
 id: 43673546
 updated: 2024-10-03
 title: The Fellowship of the Ring
-author: "[[J.R.R. Tolkien]]"
+author:
+  - J.R.R. Tolkien
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/43673546
@@ -25,7 +26,7 @@ Updated: 2024-10-03
 # About  
   
 Title: [[The Fellowship of the Ring|The Fellowship of the Ring]]  
-Authors: [[J.R.R. Tolkien]]  
+Authors: [[J.R.R. Tolkien|J.R.R. Tolkien]]  
 Category: #books  
 Number of Highlights: ==5==  
 Date: [[2024-10-03|2024-10-03]]  

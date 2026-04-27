@@ -2,7 +2,8 @@
 id: 46271589
 updated: 2024-11-27
 title: Network Effect
-author: "[[Martha Wells]]"
+author:
+  - Martha Wells
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/46271589
@@ -25,7 +26,7 @@ Updated: 2024-11-27
 # About  
   
 Title: [[Network Effect|Network Effect]]  
-Authors: [[Martha Wells]]  
+Authors: [[Martha Wells|Martha Wells]]  
 Category: #books  
 Number of Highlights: ==1==  
 Date: [[2024-11-27|2024-11-27]]  

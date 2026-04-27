@@ -2,7 +2,8 @@
 id: 21271387
 updated: 2022-11-29
 title: These Companies Ran an Experiment- Pay Workers Their Full Salary to Work Fewer Days
-author: "[[instapaper.com]]"
+author:
+  - instapaper.com
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/21271387
@@ -25,7 +26,7 @@ Updated: 2022-11-29
 # About  
   
 Title: [[These Companies Ran an Experiment: Pay Workers Their Full Salary to Work Fewer Days|These Companies Ran an Experiment: Pay Workers Their Full Salary to Work Fewer Days]]  
-Authors: [[instapaper.com]]  
+Authors: [[instapaper.com|instapaper.com]]  
 Category: #articles  
 Number of Highlights: ==5==  
 Source URL: https://instapaper.com/read/1553398821  

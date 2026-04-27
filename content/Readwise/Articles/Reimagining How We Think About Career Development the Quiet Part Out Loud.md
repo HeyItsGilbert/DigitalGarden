@@ -2,7 +2,8 @@
 id: 18032520
 updated: 2022-08-21
 title: Reimagining How We Think About Career Development the Quiet Part Out Loud
-author: "[[Amy Chantasirivisal]]"
+author:
+  - Amy Chantasirivisal
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/18032520
@@ -25,7 +26,7 @@ Updated: 2022-08-21
 # About  
   
 Title: [[Reimagining How We Think About Career Development | the Quiet Part Out Loud]]  
-Authors: [[Amy Chantasirivisal]]  
+Authors: [[Amy Chantasirivisal|Amy Chantasirivisal]]  
 Category: #articles  
 Number of Highlights: ==1==  
 Source URL: https://amychanta.beehiiv.com/p/reimagining-think-career-development  

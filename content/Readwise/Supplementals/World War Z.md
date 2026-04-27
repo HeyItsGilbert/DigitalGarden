@@ -2,7 +2,8 @@
 id: 16899862
 updated: 2024-06-11
 title: World War Z
-author: "[[Max Brooks]]"
+author:
+  - Max Brooks
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899862
@@ -25,7 +26,7 @@ Updated: 2024-06-11
 # About  
   
 Title: [[World War Z|World War Z]]  
-Authors: [[Max Brooks]]  
+Authors: [[Max Brooks|Max Brooks]]  
 Category: #supplementals  
 Number of Highlights: ==12==  
 Date: [[2024-06-11|2024-06-11]]  

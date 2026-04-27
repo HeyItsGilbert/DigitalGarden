@@ -2,7 +2,8 @@
 id: 27390957
 updated: 2023-05-07
 title: ScriptBlock and SessionState in PowerShell
-author: "[[MDGRS Factory]]"
+author:
+  - MDGRS Factory
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/27390957
@@ -25,7 +26,7 @@ Updated: 2023-05-07
 # About  
   
 Title: [[ScriptBlock and SessionState in PowerShell|ScriptBlock and SessionState in PowerShell]]  
-Authors: [[MDGRS Factory]]  
+Authors: [[MDGRS Factory|MDGRS Factory]]  
 Category: #articles  
 Tags: #powershell, #coding  
 Number of Highlights: ==2==  

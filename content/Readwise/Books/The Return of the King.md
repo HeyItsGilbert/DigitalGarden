@@ -2,7 +2,8 @@
 id: 53058961
 updated: 2025-09-13
 title: The Return of the King
-author: "[[J.R.R. Tolkien]]"
+author:
+  - J.R.R. Tolkien
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/53058961
@@ -25,7 +26,7 @@ Updated: 2025-09-13
 # About  
   
 Title: [[The Return of the King|The Return of the King]]  
-Authors: [[J.R.R. Tolkien]]  
+Authors: [[J.R.R. Tolkien|J.R.R. Tolkien]]  
 Category: #books  
 Number of Highlights: ==7==  
 Date: [[2025-09-13|2025-09-13]]  

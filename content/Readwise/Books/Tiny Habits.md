@@ -2,7 +2,8 @@
 id: 16901953
 updated: 2022-07-17
 title: Tiny Habits
-author: "[[BJ Fogg]]"
+author:
+  - BJ Fogg
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16901953
@@ -25,7 +26,7 @@ Updated: 2022-07-17
 # About  
   
 Title: [[Tiny Habits|Tiny Habits]]  
-Authors: [[BJ Fogg]]  
+Authors: [[BJ Fogg|BJ Fogg]]  
 Category: #books  
 Number of Highlights: ==4==  
 Date: [[2022-07-17|2022-07-17]]  

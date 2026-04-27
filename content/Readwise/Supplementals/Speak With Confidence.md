@@ -2,7 +2,8 @@
 id: 36465467
 updated: 2024-09-04
 title: Speak With Confidence
-author: "[[Mike Acker]]"
+author:
+  - Mike Acker
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/36465467
@@ -25,7 +26,7 @@ Updated: 2024-09-04
 # About  
   
 Title: [[Speak With Confidence|Speak With Confidence]]  
-Authors: [[Mike Acker]]  
+Authors: [[Mike Acker|Mike Acker]]  
 Category: #supplementals  
 Number of Highlights: ==9==  
 Date: [[2024-09-04|2024-09-04]]  

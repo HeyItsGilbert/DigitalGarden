@@ -2,7 +2,8 @@
 id: 16899872
 updated: 2026-02-21
 title: The Hunger Games
-author: "[[Suzanne Collins]]"
+author:
+  - Suzanne Collins
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899872
@@ -25,7 +26,7 @@ Updated: 2026-02-21
 # About  
   
 Title: [[The Hunger Games|The Hunger Games]]  
-Authors: [[Suzanne Collins]]  
+Authors: [[Suzanne Collins|Suzanne Collins]]  
 Category: #supplementals  
 Number of Highlights: ==12==  
 Date: [[2026-02-21|2026-02-21]]  

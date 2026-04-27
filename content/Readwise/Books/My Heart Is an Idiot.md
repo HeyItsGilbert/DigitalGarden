@@ -2,7 +2,8 @@
 id: 16901975
 updated: 2022-07-17
 title: My Heart Is an Idiot
-author: "[[Davy Rothbart]]"
+author:
+  - Davy Rothbart
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16901975
@@ -25,7 +26,7 @@ Updated: 2022-07-17
 # About  
   
 Title: [[My Heart Is an Idiot|My Heart Is an Idiot]]  
-Authors: [[Davy Rothbart]]  
+Authors: [[Davy Rothbart|Davy Rothbart]]  
 Category: #books  
 Number of Highlights: ==0==  
 Date: [[2022-07-17|2022-07-17]]  

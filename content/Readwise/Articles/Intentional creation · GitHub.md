@@ -2,7 +2,8 @@
 id: 38260222
 updated: 2024-03-03
 title: Intentional creation · GitHub
-author: "[[https://github.com/readme/]]"
+author:
+  - https://github.com/readme/
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/38260222

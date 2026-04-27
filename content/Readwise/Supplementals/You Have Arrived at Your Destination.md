@@ -2,7 +2,8 @@
 id: 27905594
 updated: 2025-10-12
 title: You Have Arrived at Your Destination
-author: "[[Amor Towles]]"
+author:
+  - Amor Towles
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/27905594
@@ -25,7 +26,7 @@ Updated: 2025-10-12
 # About  
   
 Title: [[You Have Arrived at Your Destination|You Have Arrived at Your Destination]]  
-Authors: [[Amor Towles]]  
+Authors: [[Amor Towles|Amor Towles]]  
 Category: #supplementals  
 Number of Highlights: ==15==  
 Date: [[2025-10-12|2025-10-12]]  

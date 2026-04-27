@@ -2,7 +2,8 @@
 id: 29577651
 updated: 2023-07-18
 title: Labyrinth of Reflections
-author: "[[Sergei Lukyanenko]]"
+author:
+  - Sergei Lukyanenko
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/29577651
@@ -25,7 +26,7 @@ Updated: 2023-07-18
 # About  
   
 Title: [[Labyrinth of Reflections|Labyrinth of Reflections]]  
-Authors: [[Sergei Lukyanenko]]  
+Authors: [[Sergei Lukyanenko|Sergei Lukyanenko]]  
 Category: #books  
 Number of Highlights: ==4==  
 Date: [[2023-07-18|2023-07-18]]  

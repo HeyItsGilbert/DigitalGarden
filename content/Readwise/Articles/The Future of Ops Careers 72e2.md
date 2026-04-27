@@ -2,7 +2,8 @@
 id: 21546147
 updated: 2022-12-28
 title: The Future of Ops Careers
-author: "[[Charity Majors]]"
+author:
+  - Charity Majors
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/21546147
@@ -25,7 +26,7 @@ Updated: 2022-12-28
 # About  
   
 Title: [[The Future of Ops Careers|The Future of Ops Careers]]  
-Authors: [[Charity Majors]]  
+Authors: [[Charity Majors|Charity Majors]]  
 Category: #articles  
 Number of Highlights: ==5==  
 Source URL: https://thenewstack.io/the-future-of-ops-careers/  

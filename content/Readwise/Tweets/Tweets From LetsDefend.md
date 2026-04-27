@@ -2,7 +2,8 @@
 id: 23038564
 updated: 2023-01-08
 title: Tweets From LetsDefend
-author: "[[@LetsDefendIO on Twitter]]"
+author:
+  - "@LetsDefendIO on Twitter"
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/23038564
@@ -25,7 +26,7 @@ Updated: 2023-01-08
 # About  
   
 Title: [[Tweets From LetsDefend|Tweets From LetsDefend]]  
-Authors: [[@LetsDefendIO on Twitter]]  
+Authors: [[@LetsDefendIO on Twitter|@LetsDefendIO on Twitter]]  
 Category: #tweets  
 Number of Highlights: ==0==  
 Source URL: https://twitter.com/LetsDefendIO  

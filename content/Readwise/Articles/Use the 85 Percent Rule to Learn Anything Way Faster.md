@@ -2,7 +2,8 @@
 id: 17198891
 updated: 2022-07-27
 title: Use the 85 Percent Rule to Learn Anything Way Faster
-author: "[[inc.com]]"
+author:
+  - inc.com
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/17198891
@@ -25,7 +26,7 @@ Updated: 2022-07-27
 # About  
   
 Title: [[Use the 85 Percent Rule to Learn Anything Way Faster|Use the 85 Percent Rule to Learn Anything Way Faster]]  
-Authors: [[inc.com]]  
+Authors: [[inc.com|inc.com]]  
 Category: #articles  
 Number of Highlights: ==2==  
 Source URL: https://www.inc.com/jessica-stillman/use-85-percent-rule-to-learn-anything-way-faster.html  

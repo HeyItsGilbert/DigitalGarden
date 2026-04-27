@@ -2,7 +2,8 @@
 id: 16899873
 updated: 2026-01-25
 title: The 7 Habits of Highly Effective People
-author: "[[Stephen R. Covey]]"
+author:
+  - Stephen R. Covey
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899873
@@ -25,7 +26,7 @@ Updated: 2026-01-25
 # About  
   
 Title: [[The 7 Habits of Highly Effective People|The 7 Habits of Highly Effective People]]  
-Authors: [[Stephen R. Covey]]  
+Authors: [[Stephen R. Covey|Stephen R. Covey]]  
 Category: #supplementals  
 Number of Highlights: ==41==  
 Date: [[2026-01-25|2026-01-25]]  

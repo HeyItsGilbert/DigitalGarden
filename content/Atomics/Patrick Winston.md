@@ -4,10 +4,10 @@ tags:
   - communication
   - author
 aliases:
-modified: 2024-02-02T21:56:21-08:00
+modified: 2026-04-25T17:22:50-07:00
 share: true
 ---
-MIT professor of Communication5.  
+MIT professor of Communications. Has excellent videos and writings about communication and the value of public speaking.  
   
 > Your success in life will be determined largely by your ability to speak, your ability to write, and the quality of your ideas, in that order.  
   

@@ -2,7 +2,8 @@
 id: 16901974
 updated: 2022-07-17
 title: Trigger Warning
-author: "[[Neil Gaiman]]"
+author:
+  - Neil Gaiman
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16901974
@@ -25,7 +26,7 @@ Updated: 2022-07-17
 # About  
   
 Title: [[Trigger Warning|Trigger Warning]]  
-Authors: [[Neil Gaiman]]  
+Authors: [[Neil Gaiman|Neil Gaiman]]  
 Category: #books  
 Number of Highlights: ==3==  
 Date: [[2022-07-17|2022-07-17]]  

@@ -2,7 +2,8 @@
 id: 30722241
 updated: 2023-08-01
 title: The Lowdown on PSResourceGet — an Exclusive With Sydney Smith
-author: "[[The PowerShell Podcast]]"
+author:
+  - The PowerShell Podcast
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/30722241
@@ -25,7 +26,7 @@ Updated: 2023-08-01
 # About  
   
 Title: [[The Lowdown on PSResourceGet —  an Exclusive With Sydney Smith|The Lowdown on PSResourceGet —  an Exclusive With Sydney Smith]]  
-Authors: [[The PowerShell Podcast]]  
+Authors: [[The PowerShell Podcast|The PowerShell Podcast]]  
 Category: #podcasts  
 Number of Highlights: ==1==  
 Source URL: https://share.snipd.com/episode/a0ada001-cd90-41ef-8fef-29d0d14f3699  

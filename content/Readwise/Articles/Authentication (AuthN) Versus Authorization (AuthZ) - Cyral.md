@@ -2,7 +2,8 @@
 id: 17047476
 updated: 2022-07-22
 title: Authentication (AuthN) Versus Authorization (AuthZ) - Cyral
-author: "[[Modern Authentication Mechanisms]]"
+author:
+  - Modern Authentication Mechanisms
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/17047476
@@ -25,7 +26,7 @@ Updated: 2022-07-22
 # About  
   
 Title: [[Authentication (AuthN) Versus Authorization (AuthZ) - Cyral|Authentication (AuthN) Versus Authorization (AuthZ) - Cyral]]  
-Authors: [[Modern Authentication Mechanisms]]  
+Authors: [[Modern Authentication Mechanisms|Modern Authentication Mechanisms]]  
 Category: #articles  
 Number of Highlights: ==1==  
 Source URL: https://cyral.com/glossary/authentication-authn-versus-authorization-authz/  

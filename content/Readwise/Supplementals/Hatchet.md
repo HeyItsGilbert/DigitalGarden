@@ -2,7 +2,8 @@
 id: 16899910
 updated: 2023-06-21
 title: Hatchet
-author: "[[Gary Paulsen]]"
+author:
+  - Gary Paulsen
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899910
@@ -25,7 +26,7 @@ Updated: 2023-06-21
 # About  
   
 Title: [[Hatchet|Hatchet]]  
-Authors: [[Gary Paulsen]]  
+Authors: [[Gary Paulsen|Gary Paulsen]]  
 Category: #supplementals  
 Number of Highlights: ==10==  
 Date: [[2023-06-21|2023-06-21]]  

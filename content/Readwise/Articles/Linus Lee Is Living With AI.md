@@ -2,7 +2,8 @@
 id: 21862105
 updated: 2022-12-14
 title: Linus Lee Is Living With AI
-author: "[[Dan Shipper]]"
+author:
+  - Dan Shipper
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/21862105
@@ -25,7 +26,7 @@ Updated: 2022-12-14
 # About  
   
 Title: [[Linus Lee Is Living With AI|Linus Lee Is Living With AI]]  
-Authors: [[Dan Shipper]]  
+Authors: [[Dan Shipper|Dan Shipper]]  
 Category: #articles  
 Number of Highlights: ==1==  
 Source URL: https://every.to/superorganizers/linus-lee-is-living-with-ai  

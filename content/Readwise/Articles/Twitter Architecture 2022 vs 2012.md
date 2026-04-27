@@ -2,7 +2,8 @@
 id: 22069363
 updated: 2023-02-27
 title: Twitter Architecture 2022 vs 2012
-author: "[[Alex Xu]]"
+author:
+  - Alex Xu
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/22069363
@@ -25,7 +26,7 @@ Updated: 2023-02-27
 # About  
   
 Title: [[Twitter Architecture 2022 vs 2012|Twitter Architecture 2022 vs 2012]]  
-Authors: [[Alex Xu]]  
+Authors: [[Alex Xu|Alex Xu]]  
 Category: #articles  
 Number of Highlights: ==2==  
 Source URL: https://blog.bytebytego.com/p/twitter-architecture-2022-vs-2012  

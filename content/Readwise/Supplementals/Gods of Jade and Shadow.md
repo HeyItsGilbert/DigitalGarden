@@ -2,7 +2,8 @@
 id: 43838857
 updated: 2026-02-20
 title: Gods of Jade and Shadow
-author: "[[Silvia Moreno-Garcia]]"
+author:
+  - Silvia Moreno-Garcia
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/43838857
@@ -25,7 +26,7 @@ Updated: 2026-02-20
 # About  
   
 Title: [[Gods of Jade and Shadow|Gods of Jade and Shadow]]  
-Authors: [[Silvia Moreno-Garcia]]  
+Authors: [[Silvia Moreno-Garcia|Silvia Moreno-Garcia]]  
 Category: #supplementals  
 Number of Highlights: ==27==  
 Date: [[2026-02-20|2026-02-20]]  

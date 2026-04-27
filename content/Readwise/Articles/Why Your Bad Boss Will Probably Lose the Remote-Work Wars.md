@@ -2,7 +2,8 @@
 id: 20402522
 updated: 2022-12-06
 title: Why Your Bad Boss Will Probably Lose the Remote-Work Wars
-author: "[[instapaper.com]]"
+author:
+  - instapaper.com
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/20402522
@@ -25,7 +26,7 @@ Updated: 2022-12-06
 # About  
   
 Title: [[Why Your Bad Boss Will Probably Lose the Remote-Work Wars|Why Your Bad Boss Will Probably Lose the Remote-Work Wars]]  
-Authors: [[instapaper.com]]  
+Authors: [[instapaper.com|instapaper.com]]  
 Category: #articles  
 Number of Highlights: ==1==  
 Source URL: https://instapaper.com/read/1538791536  

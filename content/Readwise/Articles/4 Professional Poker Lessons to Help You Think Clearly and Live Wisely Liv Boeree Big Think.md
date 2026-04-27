@@ -2,7 +2,8 @@
 id: 22581088
 updated: 2024-01-03
 title: 4 Professional Poker Lessons to Help You Think Clearly and Live Wisely Liv Boeree Big Think
-author: "[[youtu.be]]"
+author:
+  - Big Think
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/22581088
@@ -26,8 +27,9 @@ Updated: 2024-01-03
 # About  
   
 Title: [[4 Professional Poker Lessons to Help You Think Clearly and Live Wisely | Liv Boeree | Big Think]]  
-Authors: [[youtu.be]]  
+Authors: [[Big Think|Big Think]]  
 Category: #articles  
+Tags: #to-review  
 Number of Highlights: ==4==  
 Source URL: https://youtu.be/FVamrGf8UYA  
 Date: [[2024-01-03|2024-01-03]]  

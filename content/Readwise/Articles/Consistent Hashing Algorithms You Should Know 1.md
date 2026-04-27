@@ -2,7 +2,8 @@
 id: 22578701
 updated: 2023-01-03
 title: Consistent Hashing Algorithms You Should Know 1
-author: "[[youtu.be]]"
+author:
+  - ByteByteGo
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/22578701
@@ -25,8 +26,9 @@ Updated: 2023-01-03
 # About  
   
 Title: [[Consistent Hashing | Algorithms You Should Know #1]]  
-Authors: [[youtu.be]]  
+Authors: [[ByteByteGo|ByteByteGo]]  
 Category: #articles  
+Tags: #to-review  
 Number of Highlights: ==1==  
 Source URL: https://youtu.be/UF9Iqmg94tk  
 Date: [[2023-01-03|2023-01-03]]  

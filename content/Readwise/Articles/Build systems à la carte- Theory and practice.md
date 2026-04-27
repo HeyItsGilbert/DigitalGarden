@@ -2,7 +2,10 @@
 id: 44991716
 updated: 2024-10-15
 title: Build systems à la carte- Theory and practice
-author: "[[Andrey Mokhov|Andrey Mokhov]], [[Neil Mitchell|Neil Mitchell]], [[Simon Peyton Jones|Simon Peyton Jones]]"
+author:
+  - Andrey Mokhov
+  - Neil Mitchell
+  - Simon Peyton Jones
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/44991716

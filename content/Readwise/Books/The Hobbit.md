@@ -2,7 +2,8 @@
 id: 45152874
 updated: 2024-11-02
 title: The Hobbit
-author: "[[J.R.R. Tolkien]]"
+author:
+  - J.R.R. Tolkien
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/45152874
@@ -25,7 +26,7 @@ Updated: 2024-11-02
 # About  
   
 Title: [[The Hobbit|The Hobbit]]  
-Authors: [[J.R.R. Tolkien]]  
+Authors: [[J.R.R. Tolkien|J.R.R. Tolkien]]  
 Category: #books  
 Number of Highlights: ==5==  
 Date: [[2024-11-02|2024-11-02]]  

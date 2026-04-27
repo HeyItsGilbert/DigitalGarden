@@ -2,7 +2,8 @@
 id: 31464551
 updated: 2023-08-31
 title: Anathem
-author: "[[Neal Stephenson]]"
+author:
+  - Neal Stephenson
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/31464551
@@ -25,7 +26,7 @@ Updated: 2023-08-31
 # About  
   
 Title: [[Anathem|Anathem]]  
-Authors: [[Neal Stephenson]]  
+Authors: [[Neal Stephenson|Neal Stephenson]]  
 Category: #books  
 Number of Highlights: ==2==  
 Date: [[2023-08-31|2023-08-31]]  

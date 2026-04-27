@@ -2,7 +2,8 @@
 id: 27389572
 updated: 2023-05-07
 title: What Happens When a Company Adopts AI
-author: "[[Planet Money]]"
+author:
+  - Planet Money
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/27389572
@@ -25,7 +26,7 @@ Updated: 2023-05-07
 # About  
   
 Title: [[What Happens When a Company Adopts AI|What Happens When a Company Adopts AI]]  
-Authors: [[Planet Money]]  
+Authors: [[Planet Money|Planet Money]]  
 Category: #articles  
 Number of Highlights: ==2==  
 Source URL: mailto:reader-forwarded-email/d980805a974331e66513030dae08e418  

@@ -2,7 +2,8 @@
 id: 35762459
 updated: 2023-12-24
 title: Tweets From Roni Free Web Dev Resources
-author: "[[@heyronir on Twitter]]"
+author:
+  - "@heyronir on Twitter"
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/35762459
@@ -25,7 +26,7 @@ Updated: 2023-12-24
 # About  
   
 Title: [[Tweets From Roni | Free Web Dev Resources]]  
-Authors: [[@heyronir on Twitter]]  
+Authors: [[@heyronir on Twitter|@heyronir on Twitter]]  
 Category: #tweets  
 Number of Highlights: ==0==  
 Source URL: https://twitter.com/heyronir  

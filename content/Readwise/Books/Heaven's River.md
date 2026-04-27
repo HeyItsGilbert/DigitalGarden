@@ -2,7 +2,8 @@
 id: 55637259
 updated: 2025-11-13
 title: Heaven's River
-author: "[[Dennis E. Taylor]]"
+author:
+  - Dennis E. Taylor
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/55637259
@@ -25,7 +26,7 @@ Updated: 2025-11-13
 # About  
   
 Title: [[Heaven's River|Heaven's River]]  
-Authors: [[Dennis E. Taylor]]  
+Authors: [[Dennis E. Taylor|Dennis E. Taylor]]  
 Category: #books  
 Number of Highlights: ==2==  
 Date: [[2025-11-13|2025-11-13]]  

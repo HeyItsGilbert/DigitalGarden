@@ -2,7 +2,8 @@
 id: 30156838
 updated: 2023-07-16
 title: Tweets From Chris Perry
-author: "[[@thechrisperry on Twitter]]"
+author:
+  - "@thechrisperry on Twitter"
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/30156838
@@ -25,7 +26,7 @@ Updated: 2023-07-16
 # About  
   
 Title: [[Tweets From Chris Perry|Tweets From Chris Perry]]  
-Authors: [[@thechrisperry on Twitter]]  
+Authors: [[@thechrisperry on Twitter|@thechrisperry on Twitter]]  
 Category: #tweets  
 Number of Highlights: ==0==  
 Source URL: https://twitter.com/thechrisperry  

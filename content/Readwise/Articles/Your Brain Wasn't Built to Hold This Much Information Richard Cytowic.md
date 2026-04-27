@@ -43,4 +43,16 @@ Last Highlighted: *2026-03-05*
   
 costs us in terms of energy expenditure. And ATP  is the fuel that fuels every cell in the body.   ATP stands for adenine triphosphate. Creatures  all over the animal kingdom all rely on ATP.   It's like the bedrock of energy transformation. ^993898513  
   
----
+------  
+Title: Your Brain Wasn't Built to Hold This Much Information | Richard Cytowic  
+Author: Big Think  
+Tags: TVZ, readwise, articles  
+date: 2026-04-08  
+---  
+![rw-book-cover](https://i.ytimg.com/vi/t0qq9R__XiQ/sddefault.jpg)  
+  
+URL: https://www.youtube.com/watch?v=t0qq9R__XiQ&feature=youtu.be  
+  
+## Highlights  
+- How much you can hold everything that we do,    
+  costs us in terms of energy expenditure. And ATP  is the fuel that fuels every cell in the body.   ATP stands for adenine triphosphate. Creatures  all over the animal kingdom all rely on ATP.   It's like the bedrock of energy transformation. ([View Highlight](https://read.readwise.io/read/01kjzvne6pz2qhdre8qv59v44r))  

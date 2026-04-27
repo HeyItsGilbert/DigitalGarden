@@ -2,7 +2,8 @@
 id: 33462152
 updated: 2023-10-23
 title: Tweets From Justin Grote
-author: "[[@JustinWGrote on Twitter]]"
+author:
+  - "@JustinWGrote on Twitter"
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/33462152
@@ -25,7 +26,7 @@ Updated: 2023-10-23
 # About  
   
 Title: [[Tweets From Justin Grote|Tweets From Justin Grote]]  
-Authors: [[@JustinWGrote on Twitter]]  
+Authors: [[@JustinWGrote on Twitter|@JustinWGrote on Twitter]]  
 Category: #tweets  
 Number of Highlights: ==0==  
 Source URL: https://twitter.com/JustinWGrote  

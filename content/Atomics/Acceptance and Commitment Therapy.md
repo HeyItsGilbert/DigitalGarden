@@ -3,6 +3,7 @@ date: 2022-12-29
 Tags: psychology
 aliases:
   - ACT
+  - atomic
 share: true
 ---
 A form of therapy where the primary goal is understanding that thoughts are just words in our heads.  

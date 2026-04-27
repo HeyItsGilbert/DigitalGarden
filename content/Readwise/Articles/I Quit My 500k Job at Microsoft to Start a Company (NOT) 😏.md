@@ -2,7 +2,8 @@
 id: 17021569
 updated: 2022-07-21
 title: I Quit My 500k Job at Microsoft to Start a Company (NOT) 😏
-author: "[[theknowledgeworker.substack.com]]"
+author:
+  - theknowledgeworker.substack.com
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/17021569
@@ -25,7 +26,7 @@ Updated: 2022-07-21
 # About  
   
 Title: [[I Quit My 500k Job at Microsoft to Start a Company (NOT) 😏|I Quit My 500k Job at Microsoft to Start a Company (NOT) 😏]]  
-Authors: [[theknowledgeworker.substack.com]]  
+Authors: [[theknowledgeworker.substack.com|theknowledgeworker.substack.com]]  
 Category: #articles  
 Number of Highlights: ==6==  
 Source URL: https://theknowledgeworker.substack.com/p/i-quit-my-500k-job-at-microsoft-to  

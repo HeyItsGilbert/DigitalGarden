@@ -2,7 +2,8 @@
 id: 27905596
 updated: 2025-06-29
 title: The Last Conversation
-author: "[[Paul Tremblay]]"
+author:
+  - Paul Tremblay
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/27905596
@@ -25,7 +26,7 @@ Updated: 2025-06-29
 # About  
   
 Title: [[The Last Conversation|The Last Conversation]]  
-Authors: [[Paul Tremblay]]  
+Authors: [[Paul Tremblay|Paul Tremblay]]  
 Category: #supplementals  
 Number of Highlights: ==7==  
 Date: [[2025-06-29|2025-06-29]]  

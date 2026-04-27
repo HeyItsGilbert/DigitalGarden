@@ -2,7 +2,8 @@
 id: 16899868
 updated: 2025-03-30
 title: The Five Love Languages
-author: "[[Gary Chapman]]"
+author:
+  - Gary Chapman
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899868
@@ -25,7 +26,7 @@ Updated: 2025-03-30
 # About  
   
 Title: [[The Five Love Languages|The Five Love Languages]]  
-Authors: [[Gary Chapman]]  
+Authors: [[Gary Chapman|Gary Chapman]]  
 Category: #supplementals  
 Number of Highlights: ==5==  
 Date: [[2025-03-30|2025-03-30]]  

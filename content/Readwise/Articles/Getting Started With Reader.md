@@ -2,7 +2,8 @@
 id: 21540081
 updated: 2022-12-06
 title: Getting Started With Reader
-author: "[[Daniel Doyon]]"
+author:
+  - Daniel Doyon
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/21540081
@@ -25,7 +26,7 @@ Updated: 2022-12-06
 # About  
   
 Title: [[Getting Started With Reader|Getting Started With Reader]]  
-Authors: [[Daniel Doyon]]  
+Authors: [[Daniel Doyon|Daniel Doyon]]  
 Category: #articles  
 Number of Highlights: ==1==  
 Source URL: https://blog.readwise.io/p/bf87944f-b0fe-4f08-a461-f75ab8aded6a/  

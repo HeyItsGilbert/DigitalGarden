@@ -2,7 +2,8 @@
 id: 16899929
 updated: 2022-07-17
 title: The Book Thief
-author: "[[Markus Zusak]]"
+author:
+  - Markus Zusak
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899929
@@ -25,7 +26,7 @@ Updated: 2022-07-17
 # About  
   
 Title: [[The Book Thief|The Book Thief]]  
-Authors: [[Markus Zusak]]  
+Authors: [[Markus Zusak|Markus Zusak]]  
 Category: #supplementals  
 Number of Highlights: ==10==  
 Date: [[2022-07-17|2022-07-17]]  

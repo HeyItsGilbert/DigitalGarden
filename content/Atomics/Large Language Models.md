@@ -36,5 +36,10 @@ Unlike one shot prompts Spec Driven Development (SDD) creates a series of markdo
   
 In my experience this hasn't worked well in the past (using spec-kit). It burned through a ton of tokens and once getting into implementations the quality was poor.  
   
+## Teaching   
+I was watching [It Ain't Broke: Why Software Fundamentals Matter More Than Ever] and Matt Pocock talked about how he was teaching a class on how to use Claude code.  
+  
+  
 References:  
-[^1]: https://research.trychroma.com/context-rot
+[^1]: https://research.trychroma.com/context-rot  
+[It Ain't Broke: Why Software Fundamentals Matter More Than Ever]: https://www.youtube.com/watch?v=v4F1gFy-hqg

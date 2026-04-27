@@ -2,7 +2,8 @@
 id: 17994050
 updated: 2025-11-25
 title: Smarter Faster Better
-author: "[[Charles Duhigg]]"
+author:
+  - Charles Duhigg
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/17994050
@@ -25,7 +26,7 @@ Updated: 2025-11-25
 # About  
   
 Title: [[Smarter Faster Better|Smarter Faster Better]]  
-Authors: [[Charles Duhigg]]  
+Authors: [[Charles Duhigg|Charles Duhigg]]  
 Category: #supplementals  
 Number of Highlights: ==59==  
 Date: [[2025-11-25|2025-11-25]]  

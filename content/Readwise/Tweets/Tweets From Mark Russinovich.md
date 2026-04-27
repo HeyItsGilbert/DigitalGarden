@@ -2,7 +2,8 @@
 id: 27734990
 updated: 2023-05-15
 title: Tweets From Mark Russinovich
-author: "[[@markrussinovich on Twitter]]"
+author:
+  - "@markrussinovich on Twitter"
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/27734990
@@ -25,7 +26,7 @@ Updated: 2023-05-15
 # About  
   
 Title: [[Tweets From Mark Russinovich|Tweets From Mark Russinovich]]  
-Authors: [[@markrussinovich on Twitter]]  
+Authors: [[@markrussinovich on Twitter|@markrussinovich on Twitter]]  
 Category: #tweets  
 Number of Highlights: ==0==  
 Source URL: https://twitter.com/markrussinovich  

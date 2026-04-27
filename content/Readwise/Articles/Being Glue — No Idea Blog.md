@@ -2,7 +2,8 @@
 id: 17047477
 updated: 2022-07-27
 title: Being Glue — No Idea Blog
-author: "[[noidea.dog]]"
+author:
+  - noidea.dog
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/17047477
@@ -25,7 +26,7 @@ Updated: 2022-07-27
 # About  
   
 Title: [[Being Glue — No Idea Blog|Being Glue — No Idea Blog]]  
-Authors: [[noidea.dog]]  
+Authors: [[noidea.dog|noidea.dog]]  
 Category: #articles  
 Tags: #Liked  
 Number of Highlights: ==5==  

@@ -2,7 +2,8 @@
 id: 16899913
 updated: 2024-01-18
 title: Harry Potter and the Sorcerer's Stone
-author: "[[J.K. Rowling]]"
+author:
+  - J.K. Rowling
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899913
@@ -25,7 +26,7 @@ Updated: 2024-01-18
 # About  
   
 Title: [[Harry Potter and the Sorcerer's Stone|Harry Potter and the Sorcerer's Stone]]  
-Authors: [[J.K. Rowling]]  
+Authors: [[J.K. Rowling|J.K. Rowling]]  
 Category: #supplementals  
 Number of Highlights: ==5==  
 Date: [[2024-01-18|2024-01-18]]  

@@ -2,7 +2,8 @@
 id: 16899901
 updated: 2025-09-01
 title: The Dark Forest
-author: "[[Cixin Liu]]"
+author:
+  - Cixin Liu
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899901
@@ -25,7 +26,7 @@ Updated: 2025-09-01
 # About  
   
 Title: [[The Dark Forest|The Dark Forest]]  
-Authors: [[Cixin Liu]]  
+Authors: [[Cixin Liu|Cixin Liu]]  
 Category: #supplementals  
 Number of Highlights: ==31==  
 Date: [[2025-09-01|2025-09-01]]  

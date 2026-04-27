@@ -2,7 +2,8 @@
 id: 16996199
 updated: 2022-07-20
 title: Tweets From ThePowerShellPodcast
-author: "[[@PowerShellpod on Twitter]]"
+author:
+  - "@PowerShellpod on Twitter"
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16996199
@@ -25,7 +26,7 @@ Updated: 2022-07-20
 # About  
   
 Title: [[Tweets From ThePowerShellPodcast|Tweets From ThePowerShellPodcast]]  
-Authors: [[@PowerShellpod on Twitter]]  
+Authors: [[@PowerShellpod on Twitter|@PowerShellpod on Twitter]]  
 Category: #tweets  
 Number of Highlights: ==0==  
 Source URL: https://twitter.com/PowerShellpod  

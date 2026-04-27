@@ -2,7 +2,8 @@
 id: 22535210
 updated: 2023-01-26
 title: Why You Shouldn't Nest Your Code
-author: "[[youtu.be]]"
+author:
+  - CodeAesthetic
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/22535210
@@ -25,8 +26,9 @@ Updated: 2023-01-26
 # About  
   
 Title: [[Why You Shouldn't Nest Your Code|Why You Shouldn't Nest Your Code]]  
-Authors: [[youtu.be]]  
+Authors: [[CodeAesthetic|CodeAesthetic]]  
 Category: #articles  
+Tags: #to-review  
 Number of Highlights: ==2==  
 Source URL: https://youtu.be/CFRhGnuXG-4  
 Date: [[2023-01-26|2023-01-26]]  

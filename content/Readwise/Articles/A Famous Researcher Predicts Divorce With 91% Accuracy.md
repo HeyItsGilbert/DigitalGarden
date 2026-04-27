@@ -2,7 +2,8 @@
 id: 22541613
 updated: 2022-12-28
 title: A Famous Researcher Predicts Divorce With 91% Accuracy
-author: "[[mattschnuck]]"
+author:
+  - mattschnuck
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/22541613
@@ -25,7 +26,7 @@ Updated: 2022-12-28
 # About  
   
 Title: [[A Famous Researcher Predicts Divorce With 91% Accuracy|A Famous Researcher Predicts Divorce With 91% Accuracy]]  
-Authors: [[mattschnuck]]  
+Authors: [[mattschnuck|mattschnuck]]  
 Category: #articles  
 Number of Highlights: ==1==  
 Source URL: https://twitter.com/mattschnuck/status/1595084964239798272  

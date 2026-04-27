@@ -2,7 +2,8 @@
 id: 16899924
 updated: 2025-06-12
 title: For We Are Many
-author: "[[Dennis E. Taylor]]"
+author:
+  - Dennis E. Taylor
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899924
@@ -25,7 +26,7 @@ Updated: 2025-06-12
 # About  
   
 Title: [[For We Are Many|For We Are Many]]  
-Authors: [[Dennis E. Taylor]]  
+Authors: [[Dennis E. Taylor|Dennis E. Taylor]]  
 Category: #supplementals  
 Number of Highlights: ==9==  
 Date: [[2025-06-12|2025-06-12]]  

@@ -2,7 +2,9 @@
 id: 16899912
 updated: 2025-11-11
 title: The Republic
-author: "[[Plato|Plato]], [[Benjamin Jowett|Benjamin Jowett]]"
+author:
+  - Plato
+  - Benjamin Jowett
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899912

@@ -2,7 +2,8 @@
 id: 16899863
 updated: 2024-09-04
 title: The Zombie Survival Guide
-author: "[[Max Brooks]]"
+author:
+  - Max Brooks
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899863
@@ -25,7 +26,7 @@ Updated: 2024-09-04
 # About  
   
 Title: [[The Zombie Survival Guide|The Zombie Survival Guide]]  
-Authors: [[Max Brooks]]  
+Authors: [[Max Brooks|Max Brooks]]  
 Category: #supplementals  
 Number of Highlights: ==2==  
 Date: [[2024-09-04|2024-09-04]]  

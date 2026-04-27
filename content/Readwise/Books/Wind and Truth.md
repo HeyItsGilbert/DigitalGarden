@@ -2,7 +2,8 @@
 id: 48102525
 updated: 2025-04-04
 title: Wind and Truth
-author: "[[Brandon Sanderson]]"
+author:
+  - Brandon Sanderson
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/48102525
@@ -25,7 +26,7 @@ Updated: 2025-04-04
 # About  
   
 Title: [[Wind and Truth|Wind and Truth]]  
-Authors: [[Brandon Sanderson]]  
+Authors: [[Brandon Sanderson|Brandon Sanderson]]  
 Category: #books  
 Number of Highlights: ==2==  
 Date: [[2025-04-04|2025-04-04]]  

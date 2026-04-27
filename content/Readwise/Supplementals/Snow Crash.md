@@ -2,7 +2,8 @@
 id: 16899919
 updated: 2025-05-09
 title: Snow Crash
-author: "[[Neal Stephenson]]"
+author:
+  - Neal Stephenson
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899919
@@ -25,7 +26,7 @@ Updated: 2025-05-09
 # About  
   
 Title: [[Snow Crash|Snow Crash]]  
-Authors: [[Neal Stephenson]]  
+Authors: [[Neal Stephenson|Neal Stephenson]]  
 Category: #supplementals  
 Number of Highlights: ==30==  
 Date: [[2025-05-09|2025-05-09]]  

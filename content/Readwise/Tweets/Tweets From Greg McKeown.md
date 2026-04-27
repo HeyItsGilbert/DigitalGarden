@@ -2,7 +2,8 @@
 id: 16996197
 updated: 2022-07-20
 title: Tweets From Greg McKeown
-author: "[[@GregoryMcKeown on Twitter]]"
+author:
+  - "@GregoryMcKeown on Twitter"
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16996197
@@ -25,7 +26,7 @@ Updated: 2022-07-20
 # About  
   
 Title: [[Tweets From Greg McKeown|Tweets From Greg McKeown]]  
-Authors: [[@GregoryMcKeown on Twitter]]  
+Authors: [[@GregoryMcKeown on Twitter|@GregoryMcKeown on Twitter]]  
 Category: #tweets  
 Number of Highlights: ==1==  
 Source URL: https://twitter.com/GregoryMcKeown  

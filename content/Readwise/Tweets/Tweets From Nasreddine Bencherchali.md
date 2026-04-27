@@ -2,7 +2,8 @@
 id: 26935362
 updated: 2023-04-27
 title: Tweets From Nasreddine Bencherchali
-author: "[[@nas_bench on Twitter]]"
+author:
+  - "@nas_bench on Twitter"
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/26935362
@@ -25,7 +26,7 @@ Updated: 2023-04-27
 # About  
   
 Title: [[Tweets From Nasreddine Bencherchali|Tweets From Nasreddine Bencherchali]]  
-Authors: [[@nas_bench on Twitter]]  
+Authors: [[@nas_bench on Twitter|@nas_bench on Twitter]]  
 Category: #tweets  
 Number of Highlights: ==1==  
 Source URL: https://twitter.com/nas_bench  

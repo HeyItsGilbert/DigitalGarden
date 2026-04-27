@@ -1,8 +1,10 @@
 ---
 id: 36654368
-updated: 2025-06-10
+updated: 2026-03-24
 title: Algorithms to Live By
-author: "[[Brian Christian|Brian Christian]], [[Tom Griffiths|Tom Griffiths]]"
+author:
+  - Brian Christian
+  - Tom Griffiths
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/36654368
@@ -14,7 +16,7 @@ tags:
   
 %%  
 ID: 36654368  
-Updated: 2025-06-10  
+Updated: 2026-03-24  
 %%  
   
 > [!WARNING] Auto Generated via Readwise  
@@ -27,8 +29,8 @@ Updated: 2025-06-10
 Title: [[Algorithms to Live By|Algorithms to Live By]]  
 Authors: [[Brian Christian|Brian Christian]], [[Tom Griffiths|Tom Griffiths]]  
 Category: #supplementals  
-Number of Highlights: ==25==  
-Date: [[2025-06-10|2025-06-10]]  
+Number of Highlights: ==35==  
+Date: [[2026-03-24|2026-03-24]]  
 Last Highlighted: **  
   
 ---  
@@ -149,5 +151,35 @@ Tags: #perspective, #work
   Instead, tackling real-world tasks requires being comfortable with chance, trading off time with accuracy, and using approximations. ^901321947  
   
 Tags: #algorithm, #problem_solving  
+  
+---  
+  “Childhood gives you a period in which you can just explore possibilities, and you don’t have to worry about payoffs because payoffs are being taken care of by the mamas and the papas and the grandmas and the babysitters.” ^999813666  
+  
+---  
+  Regret is the result of comparing what we actually did with what would have been best in hindsight. ^999813667  
+  
+---  
+  Being randomly jittered, thrown out of the frame and focused on a larger scale, provides a way to leave what might be locally good and get back to the pursuit of what might be globally optimal. ^999813668  
+  
+---  
+  Unless we have good reason to think otherwise, it seems that our best guide to the future is a mirror image of the past. The nearest thing to clairvoyance is to assume that history repeats itself—backward. ^999813669  
+  
+---  
+  Economists refer to this idea, of valuing the present more highly than the future, as “discounting.” ^999813670  
+  
+---  
+  If you have only a single machine, and you’re going to do all of your tasks, then any ordering of the tasks will take you the same amount of time. ^999813671  
+  
+---  
+  Thrashing is a very recognizable human state. If you’ve ever had a moment where you wanted to stop doing everything just to have the chance to write down everything you were supposed to be doing, but couldn’t spare the time, you’ve thrashed. ^999813672  
+  
+---  
+  If you’re concerned with minimizing maximum lateness, then the best strategy is to start with the task due soonest and work your way toward the task due last. This strategy, known as Earliest Due Date, is fairly intuitive. ^999813673  
+  
+---  
+  Intuitively, we think that rational decision-making means exhaustively enumerating our options, weighing each one carefully, and then selecting the best. But in practice, when the clock—or the ticker—is ticking, few aspects of decision-making (or of thinking more generally) are as important as this one: when to stop. ^999813674  
+  
+---  
+  The most prevalent critique of modern communications is that we are “always connected.” But the problem isn’t that we’re always connected; we’re not. The problem is that we’re always buffered. The difference is enormous. ^999813675  
   
 ---

@@ -2,7 +2,8 @@
 id: 43821347
 updated: 2024-09-08
 title: The Kindness Method
-author: "[[Shahroo Izadi]]"
+author:
+  - Shahroo Izadi
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/43821347
@@ -25,7 +26,7 @@ Updated: 2024-09-08
 # About  
   
 Title: [[The Kindness Method|The Kindness Method]]  
-Authors: [[Shahroo Izadi]]  
+Authors: [[Shahroo Izadi|Shahroo Izadi]]  
 Category: #books  
 Number of Highlights: ==3==  
 Date: [[2024-09-08|2024-09-08]]  

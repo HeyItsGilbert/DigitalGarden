@@ -1,8 +1,9 @@
 ---
 id: 29305747
-updated: 2025-05-31
+updated: 2026-03-08
 title: Heaven's River
-author: "[[Dennis E. Taylor]]"
+author:
+  - Dennis E. Taylor
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/29305747
@@ -14,7 +15,7 @@ tags:
   
 %%  
 ID: 29305747  
-Updated: 2025-05-31  
+Updated: 2026-03-08  
 %%  
   
 > [!WARNING] Auto Generated via Readwise  
@@ -25,10 +26,10 @@ Updated: 2025-05-31
 # About  
   
 Title: [[Heaven's River|Heaven's River]]  
-Authors: [[Dennis E. Taylor]]  
+Authors: [[Dennis E. Taylor|Dennis E. Taylor]]  
 Category: #supplementals  
-Number of Highlights: ==15==  
-Date: [[2025-05-31|2025-05-31]]  
+Number of Highlights: ==25==  
+Date: [[2026-03-08|2026-03-08]]  
 Last Highlighted: **  
   
 ---  
@@ -99,5 +100,35 @@ Tags: #conflict, #scifi
   
 ---  
   Travel between stellar systems is uneventful—thank God. It’s hard to think of something eventful out between the stars that wouldn’t leave me as a cloud of free-floating atoms. ^896911625  
+  
+---  
+  Skippies?” I could feel my eyes bugging out, even in VR. “What, they’ve changed their avatars to beer cans and started calling people monkeys?” ^994545345  
+  
+---  
+  “So there isn’t a problem with treatment of laborers?” “These are Quinlans, Bob. They can live off the land. If someone started beating the deckhands, they’d just all swim away. If they didn’t outright disembowel the miscreant. Have you met Quinlans?” “Mmm. Fair point. So they’re cantankerous, mobile, can find food anywhere, and can sleep anywhere.” “Uh-huh. Kind of hard to develop an oppressed underclass in those circumstances.” ^994545346  
+  
+---  
+  We need something with actual counterfactual capability and a truly huge processing capacity, to try to answer questions just like this one.” ^994545347  
+  
+---  
+  I was probably being overly paranoid, but the downside of overdoing it was much less bad than the downside of underpreparing. ^994545348  
+  
+---  
+  Life after death. I wondered if, after all these years as a humanist, I’d end up eating my words. ^994545349  
+  
+---  
+  It’s too easy to get myopic and see everything from the point of view of my own priorities. ^994545350  
+  
+---  
+  “You know what moguls are, right?” “Uh …” “The buried bodies of forty-something men who took up snowboarding.” ^994545351  
+  
+---  
+  “Just can’t resist the potty jokes, can you?” Will grinned at him. “You bet, number two.” ^994545352  
+  
+---  
+  For the first time in a long, long time, I was beginning to feel excited again. ^994545353  
+  
+---  
+  Licenses, statistics, taxes, all the usual things that seemed to infest civilizations everywhere. ^994545354  
   
 ---

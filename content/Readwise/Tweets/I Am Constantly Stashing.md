@@ -2,7 +2,8 @@
 id: 23450208
 updated: 2023-01-19
 title: I Am Constantly Stashing
-author: "[[@mipsytipsy on Twitter]]"
+author:
+  - "@mipsytipsy on Twitter"
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/23450208
@@ -25,7 +26,7 @@ Updated: 2023-01-19
 # About  
   
 Title: [[I Am Constantly Stashing...|I Am Constantly Stashing...]]  
-Authors: [[@mipsytipsy on Twitter]]  
+Authors: [[@mipsytipsy on Twitter|@mipsytipsy on Twitter]]  
 Category: #tweets  
 Number of Highlights: ==5==  
 Source URL: https://twitter.com/mipsytipsy/status/1615971253860401153  

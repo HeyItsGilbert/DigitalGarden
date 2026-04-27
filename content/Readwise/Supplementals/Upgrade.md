@@ -2,7 +2,8 @@
 id: 33126835
 updated: 2025-09-04
 title: Upgrade
-author: "[[Blake Crouch]]"
+author:
+  - Blake Crouch
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/33126835
@@ -25,7 +26,7 @@ Updated: 2025-09-04
 # About  
   
 Title: [[Upgrade|Upgrade]]  
-Authors: [[Blake Crouch]]  
+Authors: [[Blake Crouch|Blake Crouch]]  
 Category: #supplementals  
 Number of Highlights: ==18==  
 Date: [[2025-09-04|2025-09-04]]  

@@ -2,7 +2,9 @@
 id: 36467675
 updated: 2024-01-10
 title: Algorithms to Live By
-author: "[[Brian Christian|Brian Christian]], [[Tom Griffiths|Tom Griffiths]]"
+author:
+  - Brian Christian
+  - Tom Griffiths
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/36467675

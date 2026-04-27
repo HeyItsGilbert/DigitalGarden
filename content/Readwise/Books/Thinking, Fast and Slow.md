@@ -2,7 +2,8 @@
 id: 31893672
 updated: 2023-09-30
 title: Thinking, Fast and Slow
-author: "[[Daniel Kahneman]]"
+author:
+  - Daniel Kahneman
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/31893672
@@ -25,7 +26,7 @@ Updated: 2023-09-30
 # About  
   
 Title: [[Thinking, Fast and Slow|Thinking, Fast and Slow]]  
-Authors: [[Daniel Kahneman]]  
+Authors: [[Daniel Kahneman|Daniel Kahneman]]  
 Category: #books  
 Number of Highlights: ==41==  
 Date: [[2023-09-30|2023-09-30]]  

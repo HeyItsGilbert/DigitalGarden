@@ -2,7 +2,9 @@
 id: 16899904
 updated: 2024-09-04
 title: Veganomicon
-author: "[[Isa Chandra Moskowitz|Isa Chandra Moskowitz]], [[Terry Hope Romero|Terry Hope Romero]]"
+author:
+  - Isa Chandra Moskowitz
+  - Terry Hope Romero
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899904

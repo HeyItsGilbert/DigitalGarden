@@ -2,7 +2,8 @@
 id: 16899874
 updated: 2025-11-14
 title: The Art of Intelligence
-author: "[[Henry A. Crumpton]]"
+author:
+  - Henry A. Crumpton
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899874
@@ -25,7 +26,7 @@ Updated: 2025-11-14
 # About  
   
 Title: [[The Art of Intelligence|The Art of Intelligence]]  
-Authors: [[Henry A. Crumpton]]  
+Authors: [[Henry A. Crumpton|Henry A. Crumpton]]  
 Category: #supplementals  
 Number of Highlights: ==30==  
 Date: [[2025-11-14|2025-11-14]]  

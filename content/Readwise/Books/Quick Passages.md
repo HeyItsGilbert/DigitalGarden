@@ -2,7 +2,7 @@
 id: 45146548
 updated: 2024-10-21
 title: Quick Passages
-author:
+author: []
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/45146548

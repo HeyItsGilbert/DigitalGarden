@@ -2,7 +2,8 @@
 id: 22497355
 updated: 2022-12-27
 title: Achieve Your Goals- Research Reveals a Simple Trick That Doubles Your Chances for Success
-author: "[[James Clear]]"
+author:
+  - James Clear
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/22497355
@@ -25,7 +26,7 @@ Updated: 2022-12-27
 # About  
   
 Title: [[Achieve Your Goals: Research Reveals a Simple Trick That Doubles Your Chances for Success|Achieve Your Goals: Research Reveals a Simple Trick That Doubles Your Chances for Success]]  
-Authors: [[James Clear]]  
+Authors: [[James Clear|James Clear]]  
 Category: #articles  
 Number of Highlights: ==5==  
 Source URL: https://jamesclear.com/implementation-intentions  

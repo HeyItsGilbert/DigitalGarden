@@ -2,7 +2,8 @@
 id: 17034578
 updated: 2022-07-22
 title: Bear Market- Now What
-author: "[[asset class]]"
+author:
+  - asset class
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/17034578
@@ -25,7 +26,7 @@ Updated: 2022-07-22
 # About  
   
 Title: [[Bear Market: Now What?|Bear Market: Now What?]]  
-Authors: [[asset class]]  
+Authors: [[asset class|asset class]]  
 Category: #articles  
 Number of Highlights: ==1==  
 Source URL: https://www.schwab.com/learn/story/bear-market-now-what  

@@ -2,7 +2,8 @@
 id: 57342740
 updated: 2026-01-05
 title: Never Split the Difference
-author: "[[Chris Voss]]"
+author:
+  - Chris Voss
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/57342740
@@ -25,7 +26,7 @@ Updated: 2026-01-05
 # About  
   
 Title: [[Never Split the Difference|Never Split the Difference]]  
-Authors: [[Chris Voss]]  
+Authors: [[Chris Voss|Chris Voss]]  
 Category: #books  
 Number of Highlights: ==4==  
 Date: [[2026-01-05|2026-01-05]]  

@@ -2,7 +2,8 @@
 id: 22311807
 updated: 2022-12-22
 title: How to Combine Highlights On-the-Fly with Concatenation in Readwise
-author: "[[Daniel Doyon]]"
+author:
+  - Daniel Doyon
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/22311807
@@ -25,7 +26,7 @@ Updated: 2022-12-22
 # About  
   
 Title: [[How to Combine Highlights On-the-Fly with Concatenation in Readwise|How to Combine Highlights On-the-Fly with Concatenation in Readwise]]  
-Authors: [[Daniel Doyon]]  
+Authors: [[Daniel Doyon|Daniel Doyon]]  
 Category: #articles  
 Number of Highlights: ==0==  
 Source URL: https://blog.readwise.io/combine-highlights-on-the-fly/  

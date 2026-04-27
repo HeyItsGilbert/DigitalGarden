@@ -2,7 +2,8 @@
 id: 20947589
 updated: 2025-06-11
 title: The Way of Kings
-author: "[[Brandon Sanderson]]"
+author:
+  - Brandon Sanderson
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/20947589
@@ -25,7 +26,7 @@ Updated: 2025-06-11
 # About  
   
 Title: [[The Way of Kings|The Way of Kings]]  
-Authors: [[Brandon Sanderson]]  
+Authors: [[Brandon Sanderson|Brandon Sanderson]]  
 Category: #supplementals  
 Number of Highlights: ==45==  
 Date: [[2025-06-11|2025-06-11]]  

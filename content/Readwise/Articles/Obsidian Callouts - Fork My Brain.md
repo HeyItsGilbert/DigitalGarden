@@ -2,7 +2,13 @@
 id: 18095450
 updated: 2022-08-22
 title: Obsidian Callouts - Fork My Brain
-author: '[[window.siteInfo={"uid":"186a0d1b800fa85e50d49cb464898e4c"|window.siteInfo={"uid":"186a0d1b800fa85e50d49cb464898e4c"]], [["host":"publish-01.obsidian.md"|"host":"publish-01.obsidian.md"]], [["status":"active"|"status":"active"]], [["slug":null|"slug":null]], [["redirect":1|"redirect":1]], [["customurl":"notes.nicolevanderhoeven.com"};|"customurl":"notes.nicolevanderhoeven.com"};]]'
+author:
+  - window.siteInfo={"uid":"186a0d1b800fa85e50d49cb464898e4c"
+  - host: publish-01.obsidian.md
+  - status: active
+  - '"slug":null'
+  - '"redirect":1'
+  - '"customurl":"notes.nicolevanderhoeven.com"};'
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/18095450

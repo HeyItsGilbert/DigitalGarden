@@ -2,7 +2,9 @@
 id: 16899915
 updated: 2025-09-14
 title: Zero Day
-author: "[[Mark Russinovich|Mark Russinovich]], [[Howard Schmidt|Howard Schmidt]]"
+author:
+  - Mark Russinovich
+  - Howard Schmidt
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899915

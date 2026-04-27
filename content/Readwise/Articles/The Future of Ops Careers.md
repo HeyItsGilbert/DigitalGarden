@@ -2,7 +2,8 @@
 id: 21271389
 updated: 2022-12-06
 title: The Future of Ops Careers
-author: "[[thenewstack.io]]"
+author:
+  - thenewstack.io
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/21271389
@@ -25,7 +26,7 @@ Updated: 2022-12-06
 # About  
   
 Title: [[The Future of Ops Careers|The Future of Ops Careers]]  
-Authors: [[thenewstack.io]]  
+Authors: [[thenewstack.io|thenewstack.io]]  
 Category: #articles  
 Number of Highlights: ==3==  
 Source URL: https://thenewstack.io/the-future-of-ops-careers/  

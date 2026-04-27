@@ -2,7 +2,8 @@
 id: 16899882
 updated: 2025-11-05
 title: The Old Man and the Sea
-author: "[[Ernest Hemingway]]"
+author:
+  - Ernest Hemingway
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899882
@@ -25,7 +26,7 @@ Updated: 2025-11-05
 # About  
   
 Title: [[The Old Man and the Sea|The Old Man and the Sea]]  
-Authors: [[Ernest Hemingway]]  
+Authors: [[Ernest Hemingway|Ernest Hemingway]]  
 Category: #supplementals  
 Number of Highlights: ==19==  
 Date: [[2025-11-05|2025-11-05]]  

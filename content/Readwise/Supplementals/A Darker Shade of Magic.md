@@ -2,7 +2,8 @@
 id: 16899918
 updated: 2025-06-18
 title: A Darker Shade of Magic
-author: "[[V. E. Schwab]]"
+author:
+  - V. E. Schwab
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899918
@@ -25,7 +26,7 @@ Updated: 2025-06-18
 # About  
   
 Title: [[A Darker Shade of Magic|A Darker Shade of Magic]]  
-Authors: [[V. E. Schwab]]  
+Authors: [[V. E. Schwab|V. E. Schwab]]  
 Category: #supplementals  
 Number of Highlights: ==19==  
 Date: [[2025-06-18|2025-06-18]]  

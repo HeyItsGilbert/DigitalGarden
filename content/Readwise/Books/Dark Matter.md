@@ -2,7 +2,8 @@
 id: 29852370
 updated: 2023-07-08
 title: Dark Matter
-author: "[[Blake Crouch]]"
+author:
+  - Blake Crouch
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/29852370
@@ -25,7 +26,7 @@ Updated: 2023-07-08
 # About  
   
 Title: [[Dark Matter|Dark Matter]]  
-Authors: [[Blake Crouch]]  
+Authors: [[Blake Crouch|Blake Crouch]]  
 Category: #books  
 Number of Highlights: ==3==  
 Date: [[2023-07-08|2023-07-08]]  

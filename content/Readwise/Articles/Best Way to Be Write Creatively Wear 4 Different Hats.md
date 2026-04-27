@@ -38,15 +38,12 @@ Last Highlighted: *2023-01-12*
   
 # Highlights  
   
-  
-  Ever have writer’s block?  
-  
-Try using this simple process to breakdown your writing into the right process steps. It’s called madman, architect, carpenter, and judge. ^454455624  
+Ever have writer’s block? Try using this simple process to breakdown your writing into the right process steps. It’s called madman, architect, carpenter, and judge. ^454455624  
   
 Tags: #favorite, #writing  
   
 ---  
-  The **madman** is coming up with great ideas all the time which might not be related to anything.  
+The **madman** is coming up with great ideas all the time which might not be related to anything.  
 The **architect** is providing structure to the writing; moving paragraphs around and looking at the story-line.  
 The **carpenter** is crafting the sentences, phrases, and word choice.  
 The **judge** is deleting unnecessary parts. ^454462859  

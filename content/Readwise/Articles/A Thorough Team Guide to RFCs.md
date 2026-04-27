@@ -2,7 +2,8 @@
 id: 45081897
 updated: 2024-10-19
 title: A Thorough Team Guide to RFCs
-author: "[[Juan Pablo Buriticá]]"
+author:
+  - Juan Pablo Buriticá
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/45081897
@@ -25,7 +26,7 @@ Updated: 2024-10-19
 # About  
   
 Title: [[A Thorough Team Guide to RFCs|A Thorough Team Guide to RFCs]]  
-Authors: [[Juan Pablo Buriticá]]  
+Authors: [[Juan Pablo Buriticá|Juan Pablo Buriticá]]  
 Category: #articles  
 Number of Highlights: ==1==  
 Source URL: https://leaddev.com/process/thorough-team-guide-rfcs  

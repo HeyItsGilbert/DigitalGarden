@@ -1,8 +1,9 @@
 ---
 id: 36783852
-updated: 2025-04-20
+updated: 2026-04-02
 title: Ego Is the Enemy
-author: "[[Ryan Holiday]]"
+author:
+  - Ryan Holiday
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/36783852
@@ -14,7 +15,7 @@ tags:
   
 %%  
 ID: 36783852  
-Updated: 2025-04-20  
+Updated: 2026-04-02  
 %%  
   
 > [!WARNING] Auto Generated via Readwise  
@@ -25,10 +26,10 @@ Updated: 2025-04-20
 # About  
   
 Title: [[Ego Is the Enemy|Ego Is the Enemy]]  
-Authors: [[Ryan Holiday]]  
+Authors: [[Ryan Holiday|Ryan Holiday]]  
 Category: #supplementals  
-Number of Highlights: ==20==  
-Date: [[2025-04-20|2025-04-20]]  
+Number of Highlights: ==30==  
+Date: [[2026-04-02|2026-04-02]]  
 Last Highlighted: **  
   
 ---  
@@ -130,5 +131,35 @@ Tags: #ego, #self-care
 Note: This is in context of people who are always voicing their opinions even when they weren't asked for.  
   
 Tags: #leadership, #speaking  
+  
+---  
+  If ego is the voice that tells us we’re better than we really are, we can say ego inhibits true success by preventing a direct and honest connection to the world around us. ^1002498265  
+  
+---  
+  A person who thinks all the time has nothing to think about except thoughts, so he loses touch with reality and lives in a world of illusions. ^1002498266  
+  
+---  
+  One must ask: if your belief in yourself is not dependent on actual achievement, then what is it dependent on? The answer, too often when we are just setting out, is nothing. And this is why we so often see precipitous rises followed by calamitous falls. ^1002498267  
+  
+---  
+  There’s no one to perform for. There is just work to be done and lessons to be learned, in all that is around us. ^1002498268  
+  
+---  
+  This is characteristic of how great people think. It’s not that they find failure in every success. They just hold themselves to a standard that exceeds what society might consider to be objective success. Because of that, they don’t much care what other people think; they care whether they meet their own standards. And these standards are much, much higher than everyone else’s. ^1002498269  
+  
+---  
+  “It is impossible to learn that which one thinks one already knows,” Epictetus says. You can’t learn if you think you already know. You will not find the answers if you’re too conceited and self-assured to ask the questions. You cannot get better if you’re convinced you are the best. ^1002498270  
+  
+---  
+  What matters to an active man is to do the right thing; whether the right thing comes to pass should not bother him. ^1002498271  
+  
+---  
+  Not to aspire or seek out of ego. To have success without ego. To push through failure with strength, not ego. ^1002498272  
+  
+---  
+  The great manager and business thinker Peter Drucker says that it’s not enough simply to want to learn. As people progress, they must also understand how they learn and then set up processes to facilitate this continual education. Otherwise, we are dooming ourselves to a sort of self-imposed ignorance. ^1002498273  
+  
+---  
+  That’s how it seems to go: we’re never happy with what we have, we want what others have too. We want to have more than everyone else. We start out knowing what is important to us, but once we’ve achieved it, we lose sight of our priorities. Ego sways us, and can ruin us. ^1002498274  
   
 ---

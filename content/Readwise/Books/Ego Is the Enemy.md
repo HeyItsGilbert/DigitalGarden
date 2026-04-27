@@ -2,7 +2,8 @@
 id: 35726932
 updated: 2024-01-15
 title: Ego Is the Enemy
-author: "[[Ryan Holiday]]"
+author:
+  - Ryan Holiday
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/35726932
@@ -25,7 +26,7 @@ Updated: 2024-01-15
 # About  
   
 Title: [[Ego Is the Enemy|Ego Is the Enemy]]  
-Authors: [[Ryan Holiday]]  
+Authors: [[Ryan Holiday|Ryan Holiday]]  
 Category: #books  
 Number of Highlights: ==4==  
 Date: [[2024-01-15|2024-01-15]]  

@@ -2,7 +2,8 @@
 id: 54965622
 updated: 2025-09-18
 title: We Are Legion
-author: "[[Dennis Taylor]]"
+author:
+  - Dennis Taylor
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/54965622
@@ -25,7 +26,7 @@ Updated: 2025-09-18
 # About  
   
 Title: [[We Are Legion|We Are Legion]]  
-Authors: [[Dennis Taylor]]  
+Authors: [[Dennis Taylor|Dennis Taylor]]  
 Category: #books  
 Number of Highlights: ==2==  
 Date: [[2025-09-18|2025-09-18]]  

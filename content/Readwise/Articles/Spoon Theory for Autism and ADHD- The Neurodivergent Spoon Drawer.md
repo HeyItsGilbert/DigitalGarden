@@ -2,7 +2,8 @@
 id: 38414398
 updated: 2024-03-06
 title: Spoon Theory for Autism and ADHD- The Neurodivergent Spoon Drawer
-author: "[[Insights of a Neurodivergent Clinician]]"
+author:
+  - Insights of a Neurodivergent Clinician
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/38414398
@@ -25,7 +26,7 @@ Updated: 2024-03-06
 # About  
   
 Title: [[Spoon Theory for Autism and ADHD: The Neurodivergent Spoon Drawer|Spoon Theory for Autism and ADHD: The Neurodivergent Spoon Drawer]]  
-Authors: [[Insights of a Neurodivergent Clinician]]  
+Authors: [[Insights of a Neurodivergent Clinician|Insights of a Neurodivergent Clinician]]  
 Category: #articles  
 Number of Highlights: ==3==  
 Source URL: https://neurodivergentinsights.com/blog/the-neurodivergent-spoon-drawer-spoon-theory-for-adhders-and-autists  

@@ -2,7 +2,8 @@
 id: 34984843
 updated: 2023-12-09
 title: The Tipping Point
-author: "[[Malcolm Gladwell]]"
+author:
+  - Malcolm Gladwell
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/34984843
@@ -25,7 +26,7 @@ Updated: 2023-12-09
 # About  
   
 Title: [[The Tipping Point|The Tipping Point]]  
-Authors: [[Malcolm Gladwell]]  
+Authors: [[Malcolm Gladwell|Malcolm Gladwell]]  
 Category: #books  
 Number of Highlights: ==3==  
 Date: [[2023-12-09|2023-12-09]]  

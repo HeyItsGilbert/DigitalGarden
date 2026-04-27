@@ -2,7 +2,8 @@
 id: 30384529
 updated: 2023-07-22
 title: Tweets From A- leksandar🌩🐚Nikolić
-author: "[[@alexandair on Twitter]]"
+author:
+  - "@alexandair on Twitter"
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/30384529
@@ -25,7 +26,7 @@ Updated: 2023-07-22
 # About  
   
 Title: [[Tweets From A:\leksandar🌩🐚Nikolić|Tweets From A:\leksandar🌩🐚Nikolić]]  
-Authors: [[@alexandair on Twitter]]  
+Authors: [[@alexandair on Twitter|@alexandair on Twitter]]  
 Category: #tweets  
 Number of Highlights: ==0==  
 Source URL: https://twitter.com/alexandair  

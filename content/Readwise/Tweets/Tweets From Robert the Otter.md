@@ -2,7 +2,8 @@
 id: 20783829
 updated: 2022-11-16
 title: Tweets From Robert the Otter
-author: "[[@roberttheotter on Twitter]]"
+author:
+  - "@roberttheotter on Twitter"
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/20783829
@@ -25,7 +26,7 @@ Updated: 2022-11-16
 # About  
   
 Title: [[Tweets From Robert the Otter|Tweets From Robert the Otter]]  
-Authors: [[@roberttheotter on Twitter]]  
+Authors: [[@roberttheotter on Twitter|@roberttheotter on Twitter]]  
 Category: #tweets  
 Number of Highlights: ==1==  
 Source URL: https://twitter.com/roberttheotter  

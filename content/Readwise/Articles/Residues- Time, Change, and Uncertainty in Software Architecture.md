@@ -2,7 +2,8 @@
 id: 50543037
 updated: 2025-04-15
 title: Residues- Time, Change, and Uncertainty in Software Architecture
-author: "[[Barry M O'Reilly]]"
+author:
+  - Barry M O'Reilly
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/50543037
@@ -25,7 +26,7 @@ Updated: 2025-04-15
 # About  
   
 Title: [[Residues: Time, Change, and Uncertainty in Software Architecture.|Residues: Time, Change, and Uncertainty in Software Architecture.]]  
-Authors: [[Barry M O'Reilly]]  
+Authors: [[Barry M O'Reilly|Barry M O'Reilly]]  
 Category: #articles  
 Number of Highlights: ==2==  
 Source URL: https://readwise.io/reader/document_raw_content/220113387  

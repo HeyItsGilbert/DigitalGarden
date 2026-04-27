@@ -2,7 +2,8 @@
 id: 16899900
 updated: 2026-01-29
 title: Tao Te Ching
-author: "[[Lao Tzu]]"
+author:
+  - Lao Tzu
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899900
@@ -25,7 +26,7 @@ Updated: 2026-01-29
 # About  
   
 Title: [[Tao Te Ching|Tao Te Ching]]  
-Authors: [[Lao Tzu]]  
+Authors: [[Lao Tzu|Lao Tzu]]  
 Category: #supplementals  
 Number of Highlights: ==58==  
 Date: [[2026-01-29|2026-01-29]]  

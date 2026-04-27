@@ -2,7 +2,8 @@
 id: 57342738
 updated: 2026-01-05
 title: Atomic Habits
-author: "[[James Clear]]"
+author:
+  - James Clear
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/57342738
@@ -25,7 +26,7 @@ Updated: 2026-01-05
 # About  
   
 Title: [[Atomic Habits|Atomic Habits]]  
-Authors: [[James Clear]]  
+Authors: [[James Clear|James Clear]]  
 Category: #books  
 Number of Highlights: ==7==  
 Date: [[2026-01-05|2026-01-05]]  

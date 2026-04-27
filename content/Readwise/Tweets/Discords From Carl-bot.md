@@ -2,7 +2,8 @@
 id: 22661725
 updated: 2023-07-05
 title: Discords From Carl-bot
-author: "[[Carl-bot#1536]]"
+author:
+  - Carl-bot#1536
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/22661725
@@ -25,7 +26,7 @@ Updated: 2023-07-05
 # About  
   
 Title: [[Discords From Carl-bot|Discords From Carl-bot]]  
-Authors: [[Carl-bot#1536]]  
+Authors: [[Carl-bot#1536|Carl-bot > 1536]]  
 Category: #tweets  
 Number of Highlights: ==0==  
 Date: [[2023-07-05|2023-07-05]]  

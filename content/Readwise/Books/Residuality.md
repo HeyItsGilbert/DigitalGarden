@@ -2,7 +2,8 @@
 id: 57342742
 updated: 2026-01-05
 title: Residuality
-author: "[[Barry M O’Reilly]]"
+author:
+  - Barry M O’Reilly
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/57342742
@@ -25,7 +26,7 @@ Updated: 2026-01-05
 # About  
   
 Title: [[Residuality|Residuality]]  
-Authors: [[Barry M O’Reilly]]  
+Authors: [[Barry M O’Reilly|Barry M O’Reilly]]  
 Category: #books  
 Number of Highlights: ==1==  
 Date: [[2026-01-05|2026-01-05]]  

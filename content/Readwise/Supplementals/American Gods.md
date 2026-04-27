@@ -2,7 +2,8 @@
 id: 16899880
 updated: 2025-12-12
 title: American Gods
-author: "[[Neil Gaiman]]"
+author:
+  - Neil Gaiman
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899880
@@ -25,7 +26,7 @@ Updated: 2025-12-12
 # About  
   
 Title: [[American Gods|American Gods]]  
-Authors: [[Neil Gaiman]]  
+Authors: [[Neil Gaiman|Neil Gaiman]]  
 Category: #supplementals  
 Number of Highlights: ==37==  
 Date: [[2025-12-12|2025-12-12]]  

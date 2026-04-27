@@ -1,8 +1,9 @@
 ---
 id: 35716652
-updated: 2025-02-15
+updated: 2026-03-25
 title: A Conjuring of Light
-author: "[[V.E. Schwab]]"
+author:
+  - V.E. Schwab
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/35716652
@@ -14,7 +15,7 @@ tags:
   
 %%  
 ID: 35716652  
-Updated: 2025-02-15  
+Updated: 2026-03-25  
 %%  
   
 > [!WARNING] Auto Generated via Readwise  
@@ -25,10 +26,10 @@ Updated: 2025-02-15
 # About  
   
 Title: [[A Conjuring of Light|A Conjuring of Light]]  
-Authors: [[V.E. Schwab]]  
+Authors: [[V.E. Schwab|V.E. Schwab]]  
 Category: #supplementals  
-Number of Highlights: ==20==  
-Date: [[2025-02-15|2025-02-15]]  
+Number of Highlights: ==30==  
+Date: [[2026-03-25|2026-03-25]]  
 Last Highlighted: **  
   
 ---  
@@ -128,5 +129,35 @@ Tags: #desire, #wisdom
   
 ---  
   Sometimes you had to pretend, everyone knew that. Pretend to be happy. Pretend to be brave. Pretend to be strong. If you pretended long enough, it eventually came true. ^852324789  
+  
+---  
+  Her hands were bandaged, a deep scratch ran along her jaw, and Rhy watched his brother move toward her as naturally as if the world had simply tipped. For Kell, apparently, it had. ^1000137439  
+  
+---  
+  Pure magic has no self. It simply is, a force of nature, the blood of our world, the marrow of our bones. We give it shape, but we must never give it soul. ^1000137440  
+  
+---  
+  It is an arrogant man that thinks himself a god. And an arrogant god, thought Tieren, looking to the window, that thinks himself a man. ^1000137441  
+  
+---  
+  “Kings need not raise their voices to be heard.” ^1000137442  
+  
+---  
+  Do you know what makes you weak? You’ve never had to be strong. You’ve certainly never had to fight for your life. ^1000137443  
+  
+---  
+  Magic was a river carving its course, picking who to flow through and who to bend around, and for those it bent around, well, there was a reason for that, too. For one thing, they tended to have a better view of the water from the bank. ^1000137444  
+  
+---  
+  “Sleep is for the rich and the bored,” she’d said. “I am neither, and I know my limits.” ^1000137445  
+  
+---  
+  “Help requires trust,” said Kell. “Hardly,” countered Holland. “Only mutual interest.” ^1000137446  
+  
+---  
+  “You see,” continued Jasta, cutting the deck, “a thief plays the game only when they think they’ll win. A pirate plays the game even when they think they’ll lose.” ^1000137447  
+  
+---  
+  “On vis och,” he told himself. Dawn to dusk. A phrase that meant two things in his native tongue. A fresh start. A good end. ^1000137448  
   
 ---

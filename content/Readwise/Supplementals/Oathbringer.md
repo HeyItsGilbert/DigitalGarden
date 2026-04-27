@@ -2,7 +2,8 @@
 id: 26620324
 updated: 2026-02-13
 title: Oathbringer
-author: "[[Brandon Sanderson ]]"
+author:
+  - Brandon Sanderson
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/26620324
@@ -25,7 +26,7 @@ Updated: 2026-02-13
 # About  
   
 Title: [[Oathbringer|Oathbringer]]  
-Authors: [[Brandon Sanderson ]]  
+Authors: [[Brandon Sanderson |Brandon Sanderson ]]  
 Category: #supplementals  
 Number of Highlights: ==47==  
 Date: [[2026-02-13|2026-02-13]]  

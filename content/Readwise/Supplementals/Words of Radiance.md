@@ -2,7 +2,8 @@
 id: 26620323
 updated: 2025-11-11
 title: Words of Radiance
-author: "[[Brandon Sanderson]]"
+author:
+  - Brandon Sanderson
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/26620323
@@ -25,7 +26,7 @@ Updated: 2025-11-11
 # About  
   
 Title: [[Words of Radiance|Words of Radiance]]  
-Authors: [[Brandon Sanderson]]  
+Authors: [[Brandon Sanderson|Brandon Sanderson]]  
 Category: #supplementals  
 Number of Highlights: ==40==  
 Date: [[2025-11-11|2025-11-11]]  

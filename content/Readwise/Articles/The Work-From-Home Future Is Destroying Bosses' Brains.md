@@ -2,7 +2,8 @@
 id: 29314142
 updated: 2023-06-22
 title: The Work-From-Home Future Is Destroying Bosses' Brains
-author: "[[Ed Zitron]]"
+author:
+  - Ed Zitron
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/29314142
@@ -25,7 +26,7 @@ Updated: 2023-06-22
 # About  
   
 Title: [[The Work-From-Home Future Is Destroying Bosses' Brains|The Work-From-Home Future Is Destroying Bosses' Brains]]  
-Authors: [[Ed Zitron]]  
+Authors: [[Ed Zitron|Ed Zitron]]  
 Category: #articles  
 Number of Highlights: ==1==  
 Source URL: https://wheresyoured.at/p/the-work-from-home-future-is-destroying  

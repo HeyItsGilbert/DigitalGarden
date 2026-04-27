@@ -2,7 +2,8 @@
 id: 42800779
 updated: 2025-11-23
 title: The Eye of the Bedlam Bride
-author: "[[Matt Dinniman]]"
+author:
+  - Matt Dinniman
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/42800779
@@ -25,7 +26,7 @@ Updated: 2025-11-23
 # About  
   
 Title: [[The Eye of the Bedlam Bride|The Eye of the Bedlam Bride]]  
-Authors: [[Matt Dinniman]]  
+Authors: [[Matt Dinniman|Matt Dinniman]]  
 Category: #supplementals  
 Number of Highlights: ==12==  
 Date: [[2025-11-23|2025-11-23]]  

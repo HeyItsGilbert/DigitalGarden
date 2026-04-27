@@ -1,8 +1,9 @@
 ---
 id: 37879990
-updated: 2025-04-20
+updated: 2026-03-04
 title: Artificial Condition
-author: "[[Martha Wells]]"
+author:
+  - Martha Wells
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/37879990
@@ -14,7 +15,7 @@ tags:
   
 %%  
 ID: 37879990  
-Updated: 2025-04-20  
+Updated: 2026-03-04  
 %%  
   
 > [!WARNING] Auto Generated via Readwise  
@@ -25,10 +26,10 @@ Updated: 2025-04-20
 # About  
   
 Title: [[Artificial Condition|Artificial Condition]]  
-Authors: [[Martha Wells]]  
+Authors: [[Martha Wells|Martha Wells]]  
 Category: #supplementals  
-Number of Highlights: ==19==  
-Date: [[2025-04-20|2025-04-20]]  
+Number of Highlights: ==29==  
+Date: [[2026-03-04|2026-03-04]]  
 Last Highlighted: **  
   
 ---  
@@ -121,5 +122,35 @@ Tags: #ai, #lol
   Are all constructs so illogical? said the Asshole Research Transport with the immense processing capability whose metaphorical hand I had had to hold because it had become emotionally compromised by a fictional media serial. ^879658521  
   
 Tags: #ai, #lol  
+  
+---  
+  Then it said, I’m sorry I frightened you. Okay, well. If you think I trusted that apology, you don’t know Murderbot. ^993410984  
+  
+---  
+  “That could be a good sign, right?” “Sure,” I said. It was a terrible sign. ^993410985  
+  
+---  
+  My crew complement includes teachers and students. I have accumulated many examples of childishness. ^993410986  
+  
+---  
+  ART said, almost plaintively, I don’t understand why this is a difficult choice. ^993410987  
+  
+---  
+  But I’m programmed to be paranoid. ^993410988  
+  
+---  
+  You would think a SecUnit who had been shot to pieces multiple times, blown up, memory purged, and once partially dismantled by accident wouldn’t be on the verge of panic under these circumstances. You’d be wrong. ^993410989  
+  
+---  
+  I probably should have been doing that from the beginning, but you may have noticed that for a terrifying murderbot I fuck up a lot. ^993410990  
+  
+---  
+  Two were female, and one was tercera, which was a gender signifier used in the group of non-corporate political entities known as the Divarti Cluster. ^993410991  
+  
+---  
+  Expecting it and having it happen were two different things, something I learned the first time I got shot to pieces. ^993410992  
+  
+---  
+  I asked ART, How did you know to do that? though I already knew the answer. It knew I knew, but it said, Episode 179 of The Rise and Fall of Sanctuary Moon. ^993410993  
   
 ---

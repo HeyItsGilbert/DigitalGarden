@@ -2,7 +2,8 @@
 id: 25800160
 updated: 2023-10-11
 title: Writing Without Bullshit
-author: "[[Josh Bernoff]]"
+author:
+  - Josh Bernoff
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/25800160
@@ -25,7 +26,7 @@ Updated: 2023-10-11
 # About  
   
 Title: [[Writing Without Bullshit|Writing Without Bullshit]]  
-Authors: [[Josh Bernoff]]  
+Authors: [[Josh Bernoff|Josh Bernoff]]  
 Category: #books  
 Number of Highlights: ==12==  
 Date: [[2023-10-11|2023-10-11]]  

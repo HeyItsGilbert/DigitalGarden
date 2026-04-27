@@ -2,7 +2,8 @@
 id: 22578645
 updated: 2022-12-28
 title: How the Economist Makes the Best Charts on the Internet
-author: "[[youtu.be]]"
+author:
+  - Analyst Academy
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/22578645
@@ -25,8 +26,9 @@ Updated: 2022-12-28
 # About  
   
 Title: [[How the Economist Makes the Best Charts on the Internet|How the Economist Makes the Best Charts on the Internet]]  
-Authors: [[youtu.be]]  
+Authors: [[Analyst Academy|Analyst Academy]]  
 Category: #articles  
+Tags: #to-review  
 Number of Highlights: ==0==  
 Source URL: https://youtu.be/cGGkAGBre3A  
 Date: [[2022-12-28|2022-12-28]]  

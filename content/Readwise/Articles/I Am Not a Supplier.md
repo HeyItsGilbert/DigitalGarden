@@ -2,7 +2,8 @@
 id: 23176809
 updated: 2023-01-12
 title: I Am Not a Supplier
-author: "[[Thomas Depierre]]"
+author:
+  - Thomas Depierre
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/23176809
@@ -25,7 +26,7 @@ Updated: 2023-01-12
 # About  
   
 Title: [[I Am Not a Supplier|I Am Not a Supplier]]  
-Authors: [[Thomas Depierre]]  
+Authors: [[Thomas Depierre|Thomas Depierre]]  
 Category: #articles  
 Tags: #technology  
 Number of Highlights: ==3==  

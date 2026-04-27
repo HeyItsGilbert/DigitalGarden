@@ -2,7 +2,8 @@
 id: 28999476
 updated: 2023-06-14
 title: Tweets From Louie Bacaj 🚢
-author: "[[@LBacaj on Twitter]]"
+author:
+  - "@LBacaj on Twitter"
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/28999476
@@ -25,7 +26,7 @@ Updated: 2023-06-14
 # About  
   
 Title: [[Tweets From Louie Bacaj 🚢|Tweets From Louie Bacaj 🚢]]  
-Authors: [[@LBacaj on Twitter]]  
+Authors: [[@LBacaj on Twitter|@LBacaj on Twitter]]  
 Category: #tweets  
 Number of Highlights: ==0==  
 Source URL: https://twitter.com/LBacaj  

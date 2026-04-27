@@ -2,7 +2,8 @@
 id: 17061292
 updated: 2022-07-23
 title: Replacing Self-Care With a Practice of Caring – Lyra
-author: "[[Lyra Blog]]"
+author:
+  - Lyra Blog
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/17061292
@@ -25,7 +26,7 @@ Updated: 2022-07-23
 # About  
   
 Title: [[Replacing Self-Care With a Practice of Caring – Lyra|Replacing Self-Care With a Practice of Caring – Lyra]]  
-Authors: [[Lyra Blog]]  
+Authors: [[Lyra Blog|Lyra Blog]]  
 Category: #articles  
 Tags: #Liked  
 Number of Highlights: ==2==  

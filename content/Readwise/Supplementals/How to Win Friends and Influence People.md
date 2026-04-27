@@ -2,7 +2,8 @@
 id: 16899866
 updated: 2023-08-15
 title: How to Win Friends and Influence People
-author: "[[Dale Carnegie]]"
+author:
+  - Dale Carnegie
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899866
@@ -25,7 +26,7 @@ Updated: 2023-08-15
 # About  
   
 Title: [[How to Win Friends and Influence People|How to Win Friends and Influence People]]  
-Authors: [[Dale Carnegie]]  
+Authors: [[Dale Carnegie|Dale Carnegie]]  
 Category: #supplementals  
 Number of Highlights: ==18==  
 Date: [[2023-08-15|2023-08-15]]  

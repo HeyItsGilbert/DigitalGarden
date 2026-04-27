@@ -2,7 +2,8 @@
 id: 20977202
 updated: 2022-11-20
 title: Tweets From Marc-André Moreau
-author: "[[@awakecoding on Twitter]]"
+author:
+  - "@awakecoding on Twitter"
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/20977202
@@ -25,7 +26,7 @@ Updated: 2022-11-20
 # About  
   
 Title: [[Tweets From Marc-André Moreau|Tweets From Marc-André Moreau]]  
-Authors: [[@awakecoding on Twitter]]  
+Authors: [[@awakecoding on Twitter|@awakecoding on Twitter]]  
 Category: #tweets  
 Number of Highlights: ==0==  
 Source URL: https://twitter.com/awakecoding  

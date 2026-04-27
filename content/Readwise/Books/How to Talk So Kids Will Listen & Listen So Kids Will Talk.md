@@ -2,7 +2,9 @@
 id: 16901964
 updated: 2022-07-17
 title: How to Talk So Kids Will Listen & Listen So Kids Will Talk
-author: "[[Adele Faber|Adele Faber]], [[Elaine Mazlish|Elaine Mazlish]]"
+author:
+  - Adele Faber
+  - Elaine Mazlish
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16901964

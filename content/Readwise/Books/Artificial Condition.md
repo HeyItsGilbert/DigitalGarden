@@ -2,7 +2,8 @@
 id: 37455766
 updated: 2024-02-06
 title: Artificial Condition
-author: "[[Martha Wells]]"
+author:
+  - Martha Wells
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/37455766
@@ -25,7 +26,7 @@ Updated: 2024-02-06
 # About  
   
 Title: [[Artificial Condition|Artificial Condition]]  
-Authors: [[Martha Wells]]  
+Authors: [[Martha Wells|Martha Wells]]  
 Category: #books  
 Number of Highlights: ==1==  
 Date: [[2024-02-06|2024-02-06]]  

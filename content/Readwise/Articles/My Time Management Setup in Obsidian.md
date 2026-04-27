@@ -2,7 +2,8 @@
 id: 23319783
 updated: 2023-01-16
 title: My Time Management Setup in Obsidian
-author: "[[Nicole van der Hoeven]]"
+author:
+  - Nicole van der Hoeven
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/23319783
@@ -25,8 +26,9 @@ Updated: 2023-01-16
 # About  
   
 Title: [[My Time Management Setup in Obsidian|My Time Management Setup in Obsidian]]  
-Authors: [[Nicole van der Hoeven]]  
+Authors: [[Nicole van der Hoeven|Nicole van der Hoeven]]  
 Category: #articles  
+Tags: #to-review  
 Number of Highlights: ==0==  
 Source URL: https://www.youtube.com/watch?v=V3-A6j17KsI&feature=youtu.be  
 Date: [[2023-01-16|2023-01-16]]  

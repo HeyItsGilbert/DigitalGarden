@@ -2,7 +2,8 @@
 id: 21271388
 updated: 2022-11-29
 title: Research Proves Your Brain Needs Breaks
-author: "[[microsoft.com]]"
+author:
+  - microsoft.com
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/21271388
@@ -25,7 +26,7 @@ Updated: 2022-11-29
 # About  
   
 Title: [[Research Proves Your Brain Needs Breaks|Research Proves Your Brain Needs Breaks]]  
-Authors: [[microsoft.com]]  
+Authors: [[microsoft.com|microsoft.com]]  
 Category: #articles  
 Number of Highlights: ==8==  
 Source URL: https://www.microsoft.com/en-us/worklab/work-trend-index/brain-research  

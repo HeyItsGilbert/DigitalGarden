@@ -2,7 +2,8 @@
 id: 46792792
 updated: 2025-07-01
 title: How to Lie With Statistics
-author: "[[Darrell Huff]]"
+author:
+  - Darrell Huff
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/46792792
@@ -25,7 +26,7 @@ Updated: 2025-07-01
 # About  
   
 Title: [[How to Lie With Statistics|How to Lie With Statistics]]  
-Authors: [[Darrell Huff]]  
+Authors: [[Darrell Huff|Darrell Huff]]  
 Category: #books  
 Number of Highlights: ==7==  
 Date: [[2025-07-01|2025-07-01]]  

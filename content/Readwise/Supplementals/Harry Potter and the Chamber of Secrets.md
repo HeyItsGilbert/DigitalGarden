@@ -2,7 +2,8 @@
 id: 16899914
 updated: 2025-09-01
 title: Harry Potter and the Chamber of Secrets
-author: "[[J.K. Rowling]]"
+author:
+  - J.K. Rowling
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16899914
@@ -25,7 +26,7 @@ Updated: 2025-09-01
 # About  
   
 Title: [[Harry Potter and the Chamber of Secrets|Harry Potter and the Chamber of Secrets]]  
-Authors: [[J.K. Rowling]]  
+Authors: [[J.K. Rowling|J.K. Rowling]]  
 Category: #supplementals  
 Number of Highlights: ==12==  
 Date: [[2025-09-01|2025-09-01]]  

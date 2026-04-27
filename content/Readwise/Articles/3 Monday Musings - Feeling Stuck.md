@@ -2,7 +2,8 @@
 id: 46906021
 updated: 2024-12-18
 title: 3 Monday Musings - Feeling Stuck
-author: "[[Shelby Duncan]]"
+author:
+  - Shelby Duncan
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/46906021
@@ -25,7 +26,7 @@ Updated: 2024-12-18
 # About  
   
 Title: [[#3 Monday Musings - Feeling Stuck| > 3 Monday Musings - Feeling Stuck]]  
-Authors: [[Shelby Duncan]]  
+Authors: [[Shelby Duncan|Shelby Duncan]]  
 Category: #articles  
 Number of Highlights: ==1==  
 Source URL: https://shelbytaylorduncan.com/blog/3-monday-musings-feeling-stuck  

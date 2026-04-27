@@ -2,7 +2,8 @@
 id: 29416144
 updated: 2025-09-27
 title: Rhythm of War
-author: "[[Brandon Sanderson]]"
+author:
+  - Brandon Sanderson
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/29416144
@@ -25,7 +26,7 @@ Updated: 2025-09-27
 # About  
   
 Title: [[Rhythm of War|Rhythm of War]]  
-Authors: [[Brandon Sanderson]]  
+Authors: [[Brandon Sanderson|Brandon Sanderson]]  
 Category: #supplementals  
 Number of Highlights: ==38==  
 Date: [[2025-09-27|2025-09-27]]  

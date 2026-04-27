@@ -2,7 +2,9 @@
 id: 16901940
 updated: 2022-07-17
 title: The Daily Stoic
-author: "[[Ryan Holiday|Ryan Holiday]], [[Stephen Hanselman|Stephen Hanselman]]"
+author:
+  - Ryan Holiday
+  - Stephen Hanselman
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/16901940

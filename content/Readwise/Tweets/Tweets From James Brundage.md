@@ -2,7 +2,8 @@
 id: 22632696
 updated: 2022-12-30
 title: Tweets From James Brundage
-author: "[[@JamesBru on Twitter]]"
+author:
+  - "@JamesBru on Twitter"
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/22632696
@@ -25,7 +26,7 @@ Updated: 2022-12-30
 # About  
   
 Title: [[Tweets From James Brundage|Tweets From James Brundage]]  
-Authors: [[@JamesBru on Twitter]]  
+Authors: [[@JamesBru on Twitter|@JamesBru on Twitter]]  
 Category: #tweets  
 Number of Highlights: ==0==  
 Source URL: https://twitter.com/JamesBru  

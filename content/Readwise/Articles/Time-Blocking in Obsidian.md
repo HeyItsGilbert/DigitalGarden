@@ -2,7 +2,8 @@
 id: 17034577
 updated: 2022-07-22
 title: Time-Blocking in Obsidian
-author: "[[theknowledgeworker.substack.com]]"
+author:
+  - theknowledgeworker.substack.com
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/17034577
@@ -25,7 +26,7 @@ Updated: 2022-07-22
 # About  
   
 Title: [[Time-Blocking in Obsidian|Time-Blocking in Obsidian]]  
-Authors: [[theknowledgeworker.substack.com]]  
+Authors: [[theknowledgeworker.substack.com|theknowledgeworker.substack.com]]  
 Category: #articles  
 Number of Highlights: ==1==  
 Source URL: https://theknowledgeworker.substack.com/p/time-blocking-in-obsidian  

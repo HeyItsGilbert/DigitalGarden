@@ -2,7 +2,8 @@
 id: 27818942
 updated: 2025-06-06
 title: Summer Frost
-author: "[[Blake Crouch]]"
+author:
+  - Blake Crouch
 share: true
 readwise_url:
 uri: https://readwise.io/bookreview/27818942
@@ -25,7 +26,7 @@ Updated: 2025-06-06
 # About  
   
 Title: [[Summer Frost|Summer Frost]]  
-Authors: [[Blake Crouch]]  
+Authors: [[Blake Crouch|Blake Crouch]]  
 Category: #supplementals  
 Number of Highlights: ==15==  
 Date: [[2025-06-06|2025-06-06]]  

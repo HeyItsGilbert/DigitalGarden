@@ -10,7 +10,8 @@ tags:
   - learning
   - obsidian
 Authors:
-  - "[[Joshua Duffney|Joshua Duffney]]"
+  - "[[Joshua Duffney]]"
+created: 2024-01-26
 ---
 **Readwise**: [[Readwise/Books/How to Take Smart Notes in Obsidian|How to Take Smart Notes in Obsidian]], [[Readwise/Supplementals/How to Take Smart Notes in Obsidian|How to Take Smart Notes in Obsidian - Supplemental]]  
   

@@ -15,6 +15,7 @@ uri: https://readwise.io/bookreview/18095450
 tags:
   - readwise
   - articles
+created: 2022-08-21
 ---
   
   

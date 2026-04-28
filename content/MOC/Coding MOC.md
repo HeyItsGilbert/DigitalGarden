@@ -5,6 +5,7 @@ tags:
   - coding
 aliases:
   - Programming MOC
+created: 2025-11-19
 ---
 ## Personal Development Environment (PDE)  
 - [[Personal Development Environment|Personal Development Environment]]  

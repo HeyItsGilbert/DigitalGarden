@@ -7,7 +7,8 @@ tags:
 cover: https://i.ytimg.com/vi/FVamrGf8UYA/maxresdefault.jpg
 rating: 5
 Authors:
-  - "[[Liv Boeree|Liv Boeree]]"
+  - "[[Liv Boeree]]"
+created: 2024-01-03
 ---
 **Original**: https://youtu.be/FVamrGf8UYA  
 **Readwise**: [[Readwise/Articles/4 Professional Poker Lessons to Help You Think Clearly and Live Wisely Liv Boeree Big Think|4 Professional Poker Lessons to Help You Think Clearly and Live Wisely]]  

@@ -33,6 +33,7 @@ export const defaultContentPageLayout: PageLayout = {
         title: "Recent Notes",
         limit: 5,
         filter: (f) => !f.slug?.startsWith("Readwise/"),
+        showTags: false,
       })
     ),
   ],

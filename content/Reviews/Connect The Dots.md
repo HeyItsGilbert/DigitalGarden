@@ -9,7 +9,8 @@ tags:
   - productivity
   - knowledge_management
 Authors:
-  - "[[Paul Jun|Paul Jun]]"
+  - "[[Paul Jun]]"
+created: 2024-01-26
 ---
 **Readwise**: [[Readwise/Books/Connect the Dots|Connect the Dots]]  
   

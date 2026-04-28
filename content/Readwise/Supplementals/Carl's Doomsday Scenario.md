@@ -10,6 +10,7 @@ uri: https://readwise.io/bookreview/37359654
 tags:
   - readwise
   - supplementals
+created: 2024-09-03
 ---
   
   

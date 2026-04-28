@@ -8,6 +8,7 @@ tags:
 aliases:
 modified: 2026-04-27T14:26:28-07:00
 share: true
+created: 2023-12-19
 ---
 Writing is an important form of communication that brings its own set of challenges. Writing is something I continue to work at.   
 > Because clear writing indicates clear thinking. [^1]  

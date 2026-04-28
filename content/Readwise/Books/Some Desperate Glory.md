@@ -10,6 +10,7 @@ tags:
   - readwise
   - books
 uri: https://readwise.io/bookreview/59909066
+created: 2026-04-21
 ---
   
   

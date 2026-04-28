@@ -6,6 +6,7 @@ tags:
   - stoic
 modified: 2024-01-22T17:11:42-08:00
 share: true
+created: 2022-02-15
 ---
 Ben Franklin has a famous approach to his journal. He had a list of virtues, a habit tracking system, and a daily breakdown of how he'd spend his hours.  
 ## Virtues  

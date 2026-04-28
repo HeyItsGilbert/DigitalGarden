@@ -11,6 +11,7 @@ uri: https://readwise.io/bookreview/16899915
 tags:
   - readwise
   - supplementals
+created: 2022-07-16
 ---
   
   

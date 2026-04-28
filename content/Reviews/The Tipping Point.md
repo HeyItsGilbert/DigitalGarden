@@ -7,7 +7,8 @@ tags:
   - books
   - psychology
 Authors:
-  - "[[Malcolm Gladwell|Malcolm Gladwell]]"
+  - "[[Malcolm Gladwell]]"
+created: 2024-01-26
 ---
 **Original**: https://goodreads.com/book/show/2612.The_Tipping_Point  
 **Readwise**: [[Readwise/Books/The Tipping Point|The Tipping Point]], [[Readwise/Supplementals/The Tipping Point|The Tipping Point - Supplemental]]  

@@ -5,6 +5,7 @@ share: true
 tags:
 aliases:
   - golang
+created: 2024-02-11
 ---
 Googles compilable [[Programming MOC|programming language]]. It has easy support to generate cross platform binaries that are often very small.  
 ## [[Concurrency|Concurrency]]  

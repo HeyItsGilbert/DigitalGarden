@@ -7,6 +7,7 @@ tags:
   - creativity
 Authors:
   - "[[Consultant's Mind]]"
+created: 2026-04-27
 ---
 **Readwise**: [[Readwise/Articles/Best Way to Be Write Creatively Wear 4 Different Hats|Best Way to Be Write Creatively? Wear 4 Different Hats]]  
 Source URL: [Best Way to Write Creatively - Wear 4 Different Hats](https://www.consultantsmind.com/2015/01/11/madman-architect-carpenter-judge/)  

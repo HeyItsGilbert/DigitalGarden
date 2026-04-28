@@ -5,6 +5,7 @@ modified: 2024-02-01T17:53:37-08:00
 tags:
   - coding
   - technology
+created: 2024-01-20
 ---
 So I discovered Quartz after I finished setting up the Mkdocs [[Obsidian|Obsidian]] template. I was constantly running into issues with [[Mkdocs|Mkdocs]]. [[Mkdocs|Mkdocs]] is finicky with URL's case sensitivity and that meant I would have to rename folders and files. Quartz didn't have those issues PLUS I was able to keep using the [[GitHub Publisher|GitHub Publisher]] extension which I thought was great.  
 ## Quick Guide  

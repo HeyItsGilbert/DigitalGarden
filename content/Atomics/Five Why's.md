@@ -4,6 +4,7 @@ Tags:
   - goals
 aliases: []
 share: true
+created: 2022-05-26
 ---
 When discussing an answer you follow up with Why five times. This can lead you to reveal a more significant reason for an implementation. This can be used for both technological troubleshooting and goal setting.  
   

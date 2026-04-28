@@ -7,6 +7,7 @@ tags:
   - technology
   - atomic
 aliases:
+created: 2024-01-28
 ---
 You should have 3 copies of your data (one active and two copies), across two different backup mediums (disk & tape), and one copy off site.  
   

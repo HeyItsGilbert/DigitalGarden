@@ -2,6 +2,7 @@
 tags:
   - psychology
 share: true
+created: 2026-04-27
 ---
 Psychology is the thread running through most of the things I find interesting. Understanding why people think, feel, and behave the way they do is the lens I use for everything from habits to leadership to creativity. [[Flow MOC|Flow]] and [[Habits MOC|Habits]] both live here as sub-topics.  
   
@@ -39,12 +40,12 @@ Psychology is the thread running through most of the things I find interesting. 
 ## Tagged with Psychology  
 | File                                                                                                    |  
 | ------------------------------------------------------------------------------------------------------- |  
-| [[Readwise/Supplementals/Summer Frost.md\|Summer Frost]]                                                |  
+| [[Readwise/Supplementals/Atomic Habits.md\|Atomic Habits]]                                              |  
+| [[Readwise/Supplementals/Dune.md\|Dune]]                                                                |  
 | [[Readwise/Supplementals/Sapiens.md\|Sapiens]]                                                          |  
 | [[Readwise/Supplementals/Smarter Faster Better.md\|Smarter Faster Better]]                              |  
-| [[Readwise/Supplementals/Dune.md\|Dune]]                                                                |  
-| [[Readwise/Supplementals/Atomic Habits.md\|Atomic Habits]]                                              |  
-| [[Atomics/Temporal Narrative.md\|Temporal Narrative]]                                                   |  
-| [[Atomics/Strategic Life Unit's (SLU) and Areas (SLA).md\|Strategic Life Unit's (SLU) and Areas (SLA)]] |  
+| [[Readwise/Supplementals/Summer Frost.md\|Summer Frost]]                                                |  
 | [[Reviews/The Tipping Point.md\|The Tipping Point]]                                                     |  
+| [[Atomics/Strategic Life Unit's (SLU) and Areas (SLA).md\|Strategic Life Unit's (SLU) and Areas (SLA)]] |  
+| [[Atomics/Temporal Narrative.md\|Temporal Narrative]]                                                   |  
   

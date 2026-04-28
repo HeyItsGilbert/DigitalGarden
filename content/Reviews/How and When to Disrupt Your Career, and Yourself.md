@@ -8,6 +8,7 @@ tags:
   - growth
 Authors:
   - "[[Harvard Business Review]]"
+created: 2026-04-25
 ---
 **Readwise**: [[Readwise/Articles/How and When to Disrupt Your Career, and Yourself|How and When to Disrupt Your Career, and Yourself]]  
   

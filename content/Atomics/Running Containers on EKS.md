@@ -3,6 +3,7 @@ date: 2022-05-26
 Tags:
 aliases: []
 share: true
+created: 2022-05-26
 ---
 Rough notes taken during an EKS training.  
 # Running Containers on EKS  

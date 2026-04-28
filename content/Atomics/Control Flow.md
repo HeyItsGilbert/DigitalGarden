@@ -5,6 +5,7 @@ tags:
 aliases:
 modified: 2024-02-11T08:14:05-08:00
 share: true
+created: 2022-12-03
 ---
 How programs determine what code is executed.  
   

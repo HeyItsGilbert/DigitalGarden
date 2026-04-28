@@ -10,6 +10,7 @@ uri: https://readwise.io/bookreview/31893672
 tags:
   - readwise
   - books
+created: 2023-09-04
 ---
   
   

@@ -7,6 +7,7 @@ tags:
   - communication
 Authors:
   - "[[Josh Bernoff]]"
+created: 2026-04-27
 ---
 **Readwise**: [[Readwise/Books/Writing Without Bullshit|Writing Without Bullshit]]  
   

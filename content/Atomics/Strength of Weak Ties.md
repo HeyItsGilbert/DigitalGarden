@@ -4,6 +4,7 @@ tags:
   - psychology
 aliases:
 share: true
+created: 2023-12-08
 ---
 This is a paradox where making connections with folks who don't normally interact with can offer a new perspective.   
   

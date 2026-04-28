@@ -6,6 +6,7 @@ tags:
   - psychology
 aliases:
 modified: 2024-01-22T16:35:52-08:00
+created: 2024-01-13
 ---
 The expenditure of a finite amount of will. This can result in poor self-control choices.   
   

@@ -11,6 +11,7 @@ cover: https://images-na.ssl-images-amazon.com/images/I/51gpnuHI4-L._SL5000_.jpg
 Authors:
   - "[[99U]]"
   - "[[Jocelyn K. Glei]]"
+created: 2024-01-03
 ---
 **Original**: https://www.goodreads.com/book/show/17606014-manage-your-day-to-day  
 **Readwise**: [[Readwise/Books/Manage Your Day-to-Day|Manage Your Day-to-Day]]  

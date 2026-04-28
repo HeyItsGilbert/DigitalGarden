@@ -3,6 +3,7 @@ date: 2023-12-20
 Tags:
 aliases: []
 share: true
+created: 2023-12-20
 ---
 Confidence may not be us truly knowing but rather our ability to create a coherent story in our minds.   
   

@@ -4,6 +4,7 @@ Tags:
   - communication
   - conflict
 share: true
+created: 2022-02-15
 ---
 DEARMAN is an acronym that can be followed to structure a request asking for what you need and saying no assertively. This is excellent preparation to handle [[Communication#Conflict Resolution|conflict resolution]].  
   

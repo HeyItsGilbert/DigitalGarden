@@ -5,6 +5,7 @@ tags:
 aliases:
 modified: 2024-02-02T22:01:48-08:00
 share: true
+created: 2023-12-26
 ---
 Repitation or arbitrary stimuli and the resulting mild affection.   
   

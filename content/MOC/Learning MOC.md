@@ -5,6 +5,7 @@ tags:
   - learning
 aliases:
   - Learning
+created: 2025-11-19
 ---
 ## [[Writing|Writing]]  
 - [[DigitalGarden|DigitalGarden]]  
@@ -59,17 +60,17 @@ aliases:
 ## Tagged with Learning  
 | File                                                                                           |  
 | ---------------------------------------------------------------------------------------------- |  
-| [[Readwise/Supplementals/The Way of Kings.md\|The Way of Kings]]                               |  
-| [[Readwise/Supplementals/The Tipping Point.md\|The Tipping Point]]                             |  
-| [[Readwise/Supplementals/The Republic.md\|The Republic]]                                       |  
-| [[Readwise/Supplementals/The Dark Forest.md\|The Dark Forest]]                                 |  
-| [[Readwise/Supplementals/Smarter Faster Better.md\|Smarter Faster Better]]                     |  
-| [[Readwise/Supplementals/Ready Player One.md\|Ready Player One]]                               |  
-| [[Readwise/Supplementals/Oathbringer.md\|Oathbringer]]                                         |  
-| [[Readwise/Supplementals/Ego Is the Enemy.md\|Ego Is the Enemy]]                               |  
-| [[Readwise/Supplementals/Dune.md\|Dune]]                                                       |  
-| [[Readwise/Supplementals/Algorithms to Live By.md\|Algorithms to Live By]]                     |  
-| [[Readwise/Books/The Daily Stoic.md\|The Daily Stoic]]                                         |  
-| [[Readwise/Books/Manage Your Day-to-Day.md\|Manage Your Day-to-Day]]                           |  
-| [[Readwise/Books/How to Take Smart Notes in Obsidian.md\|How to Take Smart Notes in Obsidian]] |  
 | [[Readwise/Books/Connect the Dots.md\|Connect the Dots]]                                       |  
+| [[Readwise/Books/How to Take Smart Notes in Obsidian.md\|How to Take Smart Notes in Obsidian]] |  
+| [[Readwise/Books/Manage Your Day-to-Day.md\|Manage Your Day-to-Day]]                           |  
+| [[Readwise/Books/The Daily Stoic.md\|The Daily Stoic]]                                         |  
+| [[Readwise/Supplementals/Algorithms to Live By.md\|Algorithms to Live By]]                     |  
+| [[Readwise/Supplementals/Dune.md\|Dune]]                                                       |  
+| [[Readwise/Supplementals/Ego Is the Enemy.md\|Ego Is the Enemy]]                               |  
+| [[Readwise/Supplementals/Oathbringer.md\|Oathbringer]]                                         |  
+| [[Readwise/Supplementals/Ready Player One.md\|Ready Player One]]                               |  
+| [[Readwise/Supplementals/Smarter Faster Better.md\|Smarter Faster Better]]                     |  
+| [[Readwise/Supplementals/The Dark Forest.md\|The Dark Forest]]                                 |  
+| [[Readwise/Supplementals/The Republic.md\|The Republic]]                                       |  
+| [[Readwise/Supplementals/The Tipping Point.md\|The Tipping Point]]                             |  
+| [[Readwise/Supplementals/The Way of Kings.md\|The Way of Kings]]                               |  

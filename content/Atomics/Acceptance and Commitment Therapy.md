@@ -5,6 +5,7 @@ aliases:
   - ACT
   - atomic
 share: true
+created: 2022-12-29
 ---
 A form of therapy where the primary goal is understanding that thoughts are just words in our heads.  
   

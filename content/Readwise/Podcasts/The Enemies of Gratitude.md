@@ -10,6 +10,7 @@ uri: https://readwise.io/bookreview/33639701
 tags:
   - readwise
   - podcasts
+created: 2023-10-27
 ---
   
   

@@ -4,6 +4,7 @@ share: true
 tags:
   - psychology
 aliases: []
+created: 2026-04-27
 ---
 As someone who long suffered with Perfectionism I have come to realize the ultimate cost and more importantly that I wasn't willing to pay it anymore. This was probably one of the things that first got me interested in [[Psychology MOC|psychology]].  
 ## The Cost of Perfectionism  

@@ -6,6 +6,7 @@ tags:
 aliases:
 modified: 2024-02-02T22:02:27-08:00
 share: true
+created: 2022-03-28
 ---
 A way of [[Writing|Writing]] where the most important things are written at the top and the details show up farther down.   
 ## References  

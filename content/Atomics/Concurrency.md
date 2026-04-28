@@ -3,6 +3,7 @@ date: 2026-02-14
 share: true
 tags:
 aliases: []
+created: 2026-02-14
 ---
 Concurrency is often confused with [[Parallelism|parallelism]]. Concurrency is switching between to tasks and   
   

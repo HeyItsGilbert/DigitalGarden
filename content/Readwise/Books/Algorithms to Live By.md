@@ -11,6 +11,7 @@ uri: https://readwise.io/bookreview/36467675
 tags:
   - readwise
   - books
+created: 2024-01-09
 ---
   
   

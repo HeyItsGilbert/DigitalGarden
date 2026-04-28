@@ -5,6 +5,7 @@ tags:
 aliases:
 modified: 2024-01-22T16:54:09-08:00
 share: true
+created: 2022-08-03
 ---
 “The degree in which you believe you have control over your life.”  
   

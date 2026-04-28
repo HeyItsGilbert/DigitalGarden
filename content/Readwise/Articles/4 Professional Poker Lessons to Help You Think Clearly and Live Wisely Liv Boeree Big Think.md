@@ -11,6 +11,7 @@ tags:
   - readwise
   - articles
 review: "[[4 Professional Poker Lessons to Help You Think Clearly and Live Wisely]]"
+created: 2022-12-28
 ---
   
   

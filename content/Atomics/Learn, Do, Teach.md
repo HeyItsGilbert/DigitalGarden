@@ -6,6 +6,7 @@ tags:
   - communication
 modified: 2024-02-02T21:25:45-08:00
 share: true
+created: 2022-02-14
 ---
 A way to teach people something by having them teach others. The premise is that this increase the retention of the information by having each group/person reframe the ideas in their own language.  
 ## References  

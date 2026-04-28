@@ -6,6 +6,7 @@ tags:
   - technology
   - coding
 aliases:
+created: 2024-02-01
 ---
 [GitHub Publisher](obsidian://show-plugin?id=obsidian-mkdocs-publisher) is an extension by the wonderful Mara-Li. It allows you to push your notes to a GitHub repo. That combined with a variety of static site generators will allow you to create a site.  
   

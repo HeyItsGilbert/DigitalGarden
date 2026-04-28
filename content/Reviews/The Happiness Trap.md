@@ -8,6 +8,7 @@ tags:
 Authors:
   - "[[Russ Harris]]"
   - "[[Steven Hayes]]"
+created: 2025-11-19
 ---
 **Readwise**: [[Readwise/Books/The Happiness Trap|The Happiness Trap]]  
   

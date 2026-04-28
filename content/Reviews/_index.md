@@ -7,6 +7,7 @@ tags:
   - youtube
 modified: 2026-03-01T13:56:11-08:00
 Status:
+created: 2024-01-03
 title: Reviews
 ---
 These are my rough notes on various pieces of media that I've reviewed. This will include things such as books, YouTube videos, web articles, etc.  

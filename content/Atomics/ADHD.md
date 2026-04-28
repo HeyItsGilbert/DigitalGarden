@@ -7,6 +7,7 @@ aliases:
   - Attention Deficit Hyperactive Disorder
 share: true
 description: A note on ADHD with a lot of links to other notes.
+created: 2024-01-26
 ---
 > [!Warning] Not A Doctor  
 > I am merely a person with ADHD and nothing I write/share should be taken as gospel. Please speak with a trained medical professional!  

@@ -4,6 +4,7 @@ share: true
 tags:
   - communication
 aliases: []
+created: 2025-04-24
 ---
 ## Communication as a "Soft Skill"  
 In the age of [[Large Language Models|ai]] the technical bar is coming down (not going away but still). This means that the era of "brilliant assholes" is probably coming to an end.  

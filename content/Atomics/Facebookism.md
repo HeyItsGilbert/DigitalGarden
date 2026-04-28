@@ -4,6 +4,7 @@ share: true
 tags:
   - engineering
 aliases: []
+created: 2026-04-27
 ---
 This will capture the different "Facebook"-isms I picked up over my 12.5 year stint. I think Facebook had one the best engineering cultures. If you hear me say, "At Facebook we..." please don't take that as me tooting my own horn. It's more of a callback to one of the best engineering cultures. These phrases were often first principal signals that would cut past all the BS and made it clear what was needed next.  
 ## "Ship and Iterate"  

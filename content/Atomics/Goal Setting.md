@@ -5,6 +5,7 @@ tags:
   - leadership
   - management
 aliases: []
+created: 2026-04-27
 ---
 Whether settings goals for yourself or others it's important to understand that goals signal not only what you want to accomplish but how you'll get there.  
   

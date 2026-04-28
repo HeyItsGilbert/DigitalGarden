@@ -32,6 +32,7 @@ export const defaultContentPageLayout: PageLayout = {
       Component.RecentNotes({
         title: "Recent Notes",
         limit: 5,
+        filter: (f) => !f.slug?.startsWith("Readwise/"),
       })
     ),
   ],

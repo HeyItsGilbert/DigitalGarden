@@ -2,10 +2,11 @@
 date: 2022-05-10
 tags:
   - communication
-aliases: 
+aliases:
 modified: 2024-02-02T21:35:06-08:00
 share: true
+created: 2022-05-10
 ---
-An acronym to approach conversations to create positive responses.
-
-Status. Certainty. Autonomy. Relatedness. Fairness.
+An acronym to approach conversations to create positive responses.  
+  
+Status. Certainty. Autonomy. Relatedness. Fairness.  

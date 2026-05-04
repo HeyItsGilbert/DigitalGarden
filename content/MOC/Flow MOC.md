@@ -40,10 +40,10 @@ This is likely a sub-category of a Psychology MOC, but I'm hyper interested in t
 ## Tagged with Flow  
 | File                                                                                                                                                                                                          |  
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |  
-| [[Atomics/Dotfiles.md\|Dotfiles]]                                                                                                                                                                             |  
-| [[Readwise/Articles/How to Enter a ‘Flow State’ on Command- Peak Performance Mind Hack Explained in 7 Minutes.md\|How to Enter a ‘Flow State’ on Command- Peak Performance Mind Hack Explained in 7 Minutes]] |  
-| [[Readwise/Books/Manage Your Day-to-Day.md\|Manage Your Day-to-Day]]                                                                                                                                          |  
-| [[Readwise/Books/Thinking, Fast and Slow.md\|Thinking, Fast and Slow]]                                                                                                                                        |  
-| [[Readwise/Supplementals/Dune.md\|Dune]]                                                                                                                                                                      |  
-| [[Readwise/Supplementals/Reamde.md\|Reamde]]                                                                                                                                                                  |  
 | [[Readwise/Supplementals/Tao Te Ching.md\|Tao Te Ching]]                                                                                                                                                      |  
+| [[Readwise/Supplementals/Reamde.md\|Reamde]]                                                                                                                                                                  |  
+| [[Readwise/Supplementals/Dune.md\|Dune]]                                                                                                                                                                      |  
+| [[Readwise/Articles/How to Enter a ‘Flow State’ on Command- Peak Performance Mind Hack Explained in 7 Minutes.md\|How to Enter a ‘Flow State’ on Command- Peak Performance Mind Hack Explained in 7 Minutes]] |  
+| [[Readwise/Books/Thinking, Fast and Slow.md\|Thinking, Fast and Slow]]                                                                                                                                        |  
+| [[Readwise/Books/Manage Your Day-to-Day.md\|Manage Your Day-to-Day]]                                                                                                                                          |  
+| [[Atomics/Dotfiles.md\|Dotfiles]]                                                                                                                                                                             |  

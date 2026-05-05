@@ -33,7 +33,7 @@ I was introduced to this article by Nick McSpadden while I was at Facebook. This
 Each role has a clear scope and should run without interference from the others:  
 ### Madman  
 Pure ideation, no filter. Dump everything, even the bad ideas. The goal is volume and momentum, not quality. Quantity is the quality here. The gems are when you can connect things that people haven't connected before. And there's a good chance that your perspective regardless of where you are in your career can connect the dots in new and interesting ways.  
-## Architect  
+### Architect  
 Structure and story arc. Rearrange ideas, find the through-line, figure out what goes where. Don't touch the sentences yet. What's the big picture idea you want the audience to take away. If you think about [[Writing#Above the Fold|writing above the fold]] the idea is that you want certain ideas delivered. The architect cares most about what those ideas are. It can hlep identify the gaps you need to fill and sections that should just get dropped.  
 ### Carpenter  
 Craft the language. Now you care about word choice, rhythm, and how a sentence sounds. The overall structure is already locked in. You know the road you're gonna travel, now you just gotta fill in some of the potholes.  

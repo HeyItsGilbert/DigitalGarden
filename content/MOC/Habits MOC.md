@@ -37,18 +37,16 @@ My passion around this has existed for a while. I understand that some of my str
 ## Tagged with Habits  
 | File                                                                              |  
 | --------------------------------------------------------------------------------- |  
-| [[Atomics/Personal Development Environment.md\|Personal Development Environment]] |  
-| [[Readwise/Articles/Time-Blocking in Obsidian.md\|Time-Blocking in Obsidian]]     |  
-| [[Readwise/Books/Algorithms to Live By.md\|Algorithms to Live By]]                |  
-| [[Readwise/Books/Connect the Dots.md\|Connect the Dots]]                          |  
-| [[Readwise/Books/Manage Your Day-to-Day.md\|Manage Your Day-to-Day]]              |  
-| [[Readwise/Books/The Kindness Method.md\|The Kindness Method]]                    |  
-| [[Readwise/Books/Tiny Habits.md\|Tiny Habits]]                                    |  
-| [[Readwise/Podcasts/The Enemies of Gratitude.md\|The Enemies of Gratitude]]       |  
-| [[Readwise/Supplementals/Oathbringer.md\|Oathbringer]]                            |  
-| [[Readwise/Supplementals/Reamde.md\|Reamde]]                                      |  
-| [[Readwise/Supplementals/The Art of Intelligence.md\|The Art of Intelligence]]    |  
-| [[Readwise/Supplementals/The Tipping Point.md\|The Tipping Point]]                |  
-| [[Readwise/Supplementals/Words of Radiance.md\|Words of Radiance]]                |  
 | [[Reviews/Manage Your Day-to-Day.md\|Manage Your Day-to-Day]]                     |  
+| [[Readwise/Supplementals/Words of Radiance.md\|Words of Radiance]]                |  
+| [[Readwise/Supplementals/The Art of Intelligence.md\|The Art of Intelligence]]    |  
+| [[Readwise/Supplementals/Reamde.md\|Reamde]]                                      |  
+| [[Readwise/Supplementals/Oathbringer.md\|Oathbringer]]                            |  
+| [[Readwise/Podcasts/The Enemies of Gratitude.md\|The Enemies of Gratitude]]       |  
+| [[Readwise/Books/Tiny Habits.md\|Tiny Habits]]                                    |  
+| [[Readwise/Books/The Kindness Method.md\|The Kindness Method]]                    |  
+| [[Readwise/Books/Connect the Dots.md\|Connect the Dots]]                          |  
+| [[Readwise/Books/Algorithms to Live By.md\|Algorithms to Live By]]                |  
+| [[Readwise/Articles/Time-Blocking in Obsidian.md\|Time-Blocking in Obsidian]]     |  
+| [[Atomics/Personal Development Environment.md\|Personal Development Environment]] |  
   

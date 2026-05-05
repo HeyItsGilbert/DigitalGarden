@@ -26,7 +26,7 @@ Updated: 2026-04-26
 # About  
   
 Title: [[How and When to Disrupt Your Career, and Yourself|How and When to Disrupt Your Career, and Yourself]]  
-Authors: [[Harvard Business Review]]  
+Authors: [[Harvard Business Review|Harvard Business Review]]  
 Category: #articles  
 Tags: #people, #management, #career  
 Number of Highlights: ==5==  
@@ -39,27 +39,27 @@ Last Highlighted: *2026-04-26*
 # Highlights  
   
   
->  Top of my game and I was like it's time like it's timefor me to do something new and I went tomy boss I said hey I want to dosomething new it feels like it's timeand he said really no really we like youright where you are within a year I left had it been possible for me to jump todo something new to disrupt myselfinside the organization I wouldn't haveleft ^1009652124  
+> Top of my game, and I was like, it's time. Like, it's time for me to do something new. And I went to my boss. I said, hey, I want to do something new. It feels like it's time. And he said, really? No, really, we like you right where you are. Within a year, I left. Had it been possible for me to jump to do something new, to disrupt myself inside the organization, I wouldn't have left. ^1009652124  
   
 Note: When employee's aren't allowed opportunities to grow, they companies tend to lose these folks. These is likely even more of an issue, the higher the employee is.  
   
 ---  
-> The s-curve the s-curve is a learning curve everyone's on a learning curveincluding you it looks like this thereare three parts number one there's thelow end or the launch point of the curveand it's characterized by inexperienceyou've just started a new role juststarted a new job growth is going to beand that means that some days you'regonna feel kind of discouraged thenthere's a sweet spot or steep part ofthe curve which is characterized byexhilaration and learning and confidencethings will be hard but not too hardeasy but not too easy all of yourneurons are firing this is that sweetspot on that s-curve and then there's the height of the curve with the highend of the curve is where you become amaster you've mastered your domain whichis characterized by boredom ^1009652196  
+> The s-curve. The s-curve is a learning curve. Everyone's on a learning curve, including you. It looks like this. There are three parts. Number one, there's the low end, or the launch point of the curve, and it's characterized by inexperience. You've just started a new role, just started a new job. Growth is going to be — and that means that some days you're gonna feel kind of discouraged. Then there's a sweet spot, or steep part of the curve, which is characterized by exhilaration and learning and confidence. Things will be hard but not too hard, easy but not too easy. All of your neurons are firing. This is that sweet spot on that s-curve. And then there's the height of the curve. The high end of the curve is where you become a master. You've mastered your domain, which is characterized by boredom. ^1009652196  
   
 Note: The "S-Curve" is the most interesting part of this video. It feels like when I went from managing servers to clients. It was similar but it had a new set of challanges.  
   
 ---  
->  get complacent and that is a huge hugedanger zone let me tell you for anybodywho knows anything about mountainclimbing you'll know that when you get to an altitude above 26,000 feet it'sit's the the Death Zone because you'reso high up your brain and bodies startto die ^1009653299  
+> Get complacent, and that is a huge, huge danger zone. Let me tell you, for anybody who knows anything about mountain climbing, you'll know that when you get to an altitude above 26,000 feet, it's — it's the Death Zone, because you're so high up your brain and bodies start to die. ^1009653299  
   
 Note: Phenomenal analogy about becoming complacent at the top of your game.  
   
 ---  
->  in my naiveteexpecting my boss to just figure it outfor me I've learned some good lessons bevery proactive you want to go in and sayyou know it's time for me to dosomething new I've noticed that there isan opportunity over here meaning aproblem that the organization needs tosolve over here and I think I can help solve it ^1009653466  
+> In my naivete, expecting my boss to just figure it out for me. I've learned some good lessons. Be very proactive. You want to go in and say, you know, it's time for me to do something new. I've noticed that there is an opportunity over here, meaning a problem that the organization needs to solve over here, and I think I can help solve it. ^1009653466  
   
 Note: Knowing you need a change doesn't mean asking your boss for a solution. It means finding a problem space that the organization has that you could solve. And also backfill so that you don't leave your team with a gap.  
   
 ---  
-  The challenge for you as a manager is if this person is good at what they do is to make sure that they jump to new s-curves. Sometimes they're gonna approach you and want to jump to an s-curve and if you want to retain them then you've got to let that happen sometimes they won'tapproach you but they've been a highperformer in the past in which case youneed to push them because if they're thetop of the curve and they're boredthey're either gonna leave or they'regonna disengage they're gonna be complacent and stay which is bad it'sbad for them it's bad for you it's badfor the company ^1009653570  
+> The challenge for you as a manager is, if this person is good at what they do, is to make sure that they jump to new s-curves. Sometimes they're gonna approach you and want to jump to an s-curve, and if you want to retain them, then you've got to let that happen. Sometimes they won't approach you, but they've been a high performer in the past, in which case you need to push them, because if they're at the top of the curve and they're bored, they're either gonna leave, or they're gonna disengage. They're gonna be complacent and stay, which is bad. It's bad for them, it's bad for you, it's bad for the company. ^1009653570  
   
 Note: As a manager, keep an eye for folks who are at the top of that S-Curve. Look for opportunities for them.  
   

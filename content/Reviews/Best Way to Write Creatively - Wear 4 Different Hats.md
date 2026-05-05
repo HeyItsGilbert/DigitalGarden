@@ -10,23 +10,25 @@ Authors:
 created: 2026-04-27
 ---
 **Readwise**: [[Readwise/Articles/Best Way to Be Write Creatively Wear 4 Different Hats|Best Way to Be Write Creatively? Wear 4 Different Hats]]  
-Source URL: [Best Way to Write Creatively - Wear 4 Different Hats](https://www.consultantsmind.com/2015/01/11/madman-architect-carpenter-judge/)  
+**Original**: https://www.consultantsmind.com/2015/01/11/madman-architect-carpenter-judge/  
+  
+![]( https://www.consultantsmind.com/wp-content/uploads/2015/01/madman-architect-carpenter-judge.png)  
   
 > [!SUMMARY]  
 > Writer's block usually comes from trying to do too many cognitive jobs at once. Generating ideas, organizing them, polishing sentences, and cutting ruthlessly should be seperate passes. The madman-architect-carpenter-judge framework breaks writing into four distinct mental modes, each with its own job. Do them in sequence, not simultaneously, and the blank page stops being paralyzing.  
   
 ## The Problem: Doing Everything at Once  
   
->   
-Ever have writer’s block? Try using this simple process to breakdown your writing into the right process steps. It’s called madman, architect, carpenter, and judge.- From [[Readwise/Articles/Best Way to Be Write Creatively Wear 4 Different Hats.md|Best Way to Be Write Creatively Wear 4 Different Hats]]  
+> Ever have writer’s block? Try using this simple process to breakdown your writing into the right process steps. It’s called madman, architect, carpenter, and judge.  
+- From [[Readwise/Articles/Best Way to Be Write Creatively Wear 4 Different Hats.md|Best Way to Be Write Creatively Wear 4 Different Hats]]  
 I was introduced to this article by Nick McSpadden while I was at Facebook. This approach fundamentally transformed how I write. This works from everything to social media posts to long form blogs.  
 ## The Four Hats  
   
->   
-The **madman** is coming up with great ideas all the time which might not be related to anything.  
-The **architect** is providing structure to the writing; moving paragraphs around and looking at the story-line.  
-The **carpenter** is crafting the sentences, phrases, and word choice.  
-The **judge** is deleting unnecessary parts.- From [[Readwise/Articles/Best Way to Be Write Creatively Wear 4 Different Hats.md|Best Way to Be Write Creatively Wear 4 Different Hats]]  
+> The **madman** is coming up with great ideas all the time which might not be related to anything.  
+> The **architect** is providing structure to the writing; moving paragraphs around and looking at the story-line.  
+> The **carpenter** is crafting the sentences, phrases, and word choice.  
+> The **judge** is deleting unnecessary parts.  
+- From [[Readwise/Articles/Best Way to Be Write Creatively Wear 4 Different Hats.md|Best Way to Be Write Creatively Wear 4 Different Hats]]  
   
 Each role has a clear scope and should run without interference from the others:  
 ### Madman  

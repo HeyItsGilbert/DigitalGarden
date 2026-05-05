@@ -41,19 +41,15 @@ Last Highlighted: *2024-01-03*
 # Highlights  
   
   
-  the most damaging bias that can come upin poker and I also think very often inlife is what's known as confirmationbias ^444143036  
+> The most damaging bias that can come up in poker — and I also think very often in life — is what's known as confirmation bias. ^444143036  
   
 ---  
-  status quo bias is basically when we sayto assert whenever we catch ourselvessaying well it's always been done thisway or it's worked for me like this in  
-  
-the past and this is my way of doingthings ^444143397  
+> Status quo bias is basically when we say — to assert — whenever we catch ourselves saying, well, it's always been done this way, or it's worked for me like this in the past, and this is my way of doing things. ^444143397  
   
 ---  
-  another classic one that comes up inpoker is the sunk cost fallacy whereagain you'll have a lot of chips perhapsalmost all of your stack is in themiddle and yet you are 85 to 90 percentconfident that you have the worst handand you're not gonna be able to getyou're putting another chip in the potis probably not a good idea but will  
-  
-often go to ourselves oh well I put I'vegone this far I've put this much in Imight as well see it through to the end ^444143896  
+> Another classic one that comes up in poker is the sunk cost fallacy, where again you'll have a lot of chips, perhaps almost all of your stack is in the middle, and yet you are 85 to 90 percent confident that you have the worst hand, and you're not gonna be able to get — you're putting another chip in the pot is probably not a good idea. But will often go to ourselves, oh well, I put — I've gone this far, I've put this much in, I might as well see it through to the end. ^444143896  
   
 ---  
-  it'sinteresting to observe sort of thedifference in emotion you can have whenyou end up in a very similar situation ^444143966  
+> It's interesting to observe sort of the difference in emotion you can have when you end up in a very similar situation. ^444143966  
   
 ---

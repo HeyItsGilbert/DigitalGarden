@@ -17,6 +17,7 @@ The "AI" boom is really a Large Language Model Boom.
 High Level Rules  
 1. A Good Plan Saves Tokens  
 2. "Point, Don't Dump"   
+3. "You can outsource your thinking but you can't outsource your understanding."  
 ## Context  
 Context is the tokens that are passed back to the AI. There is a typically a max context size and to continue there is often a compression step. This can result in context rot[^1] which is when the summarized version performs worse over time.  
 ### Context Rot  
@@ -39,6 +40,27 @@ In my experience this hasn't worked well in the past (using spec-kit). It burned
   
 ## Teaching   
 I was watching [It Ain't Broke: Why Software Fundamentals Matter More Than Ever] and Matt Pocock talked about how he was teaching a class on how to use Claude code.  
+  
+## Tagged with AI  
+| File                                                                                                      |  
+| --------------------------------------------------------------------------------------------------------- |  
+| [[Readwise/Supplementals/Summer Frost.md\|Summer Frost]]                                                  |  
+| [[Readwise/Supplementals/Neuromancer.md\|Neuromancer]]                                                    |  
+| [[Readwise/Supplementals/Heaven's River.md\|Heaven's River]]                                              |  
+| [[Readwise/Supplementals/Exit Strategy.md\|Exit Strategy]]                                                |  
+| [[Readwise/Supplementals/Artificial Condition.md\|Artificial Condition]]                                  |  
+| [[Readwise/Supplementals/All Systems Red.md\|All Systems Red]]                                            |  
+| [[Readwise/Articles/Linus Lee Is Living With AI.md\|Linus Lee Is Living With AI]]                         |  
+| [[Readwise/Articles/From IDEs to AI Agents With Steve Yegge.md\|From IDEs to AI Agents With Steve Yegge]] |  
+| [[Readwise/Books/Rogue Protocol.md\|Rogue Protocol]]                                                      |  
+| [[Readwise/Books/Network Effect.md\|Network Effect]]                                                      |  
+| [[Readwise/Books/Artificial Condition.md\|Artificial Condition]]                                          |  
+| [[Atomics/Using AI Without Losing Your Mind.md\|Using AI Without Losing Your Mind]]                       |  
+  
+## Tagged with LLM  
+| File                                                                                                      |  
+| --------------------------------------------------------------------------------------------------------- |  
+| [[Readwise/Articles/From IDEs to AI Agents With Steve Yegge.md\|From IDEs to AI Agents With Steve Yegge]] |  
   
   
 References:  

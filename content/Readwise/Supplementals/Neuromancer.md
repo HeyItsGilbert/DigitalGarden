@@ -1,22 +1,21 @@
 ---
 id: 42800780
-updated: 2025-06-05
+updated: 2026-04-29
 title: Neuromancer
 author:
   - William Gibson
 share: true
 readwise_url:
-uri: https://readwise.io/bookreview/42800780
 tags:
   - readwise
   - supplementals
-created: 2024-07-31
+uri: https://readwise.io/bookreview/42800780
 ---
   
   
 %%  
 ID: 42800780  
-Updated: 2025-06-05  
+Updated: 2026-04-29  
 %%  
   
 > [!WARNING] Auto Generated via Readwise  
@@ -29,8 +28,8 @@ Updated: 2025-06-05
 Title: [[Neuromancer|Neuromancer]]  
 Authors: [[William Gibson|William Gibson]]  
 Category: #supplementals  
-Number of Highlights: ==15==  
-Date: [[2025-06-05|2025-06-05]]  
+Number of Highlights: ==25==  
+Date: [[2026-04-29|2026-04-29]]  
 Last Highlighted: **  
   
 ---  
@@ -99,5 +98,35 @@ Tags: #ai
   
 ---  
   Cyberspace. A consensual hallucination experienced daily by billions of legitimate operators, in every nation. ^899226081  
+  
+---  
+  The Moderns were mercenaries, practical jokers, nihilistic technofetishists. ^1010702080  
+  
+---  
+  JULIUS DEANE WAS one hundred and thirty-five years old, his metabolism assiduously warped by a weekly fortune in serums and hormones. His primary hedge against aging was a yearly pilgrimage to Tokyo, where genetic surgeons reset the code of his DNA, a procedure unavailable in Chiba. ^1010702081  
+  
+---  
+  His eyes were eggs of unstable crystal, vibrating with a frequency whose name was rain and the sound of trains, suddenly sprouting a humming forest of hair-fine glass spines. The spines split, bisected, split again, exponential growth under the dome of the Tessier-Ashpool ice. ^1010702082  
+  
+---  
+  She held out her hands, palms up, the white fingers slightly spread, and with a barely audible click, ten double-edged, four centimeter scalpel blades slid from their housings beneath the burgundy nails. ^1010702083  
+  
+---  
+  Case turned his head and looked up into Wage’s face. It was a tanned and forgettable mask. The eyes were vatgrown sea-green Nikon transplants. Wage wore a suit of gunmetal silk and a simple bracelet of platinum on either wrist. He was flanked by his joeboys, nearly identical young men, their arms and shoulders bulging with grafted muscle. ^1010702084  
+  
+---  
+  SUMMER IN THE Sprawl, the mall crowds swaying like windblown grass, a field of flesh shot through with sudden eddies of need and gratification. ^1010702085  
+  
+---  
+  As Case was picking up his beer, one of those strange instants of silence descended, as though a hundred unrelated conversations had simultaneously arrived at the same pause. Then the whore’s giggle rang out, tinged with a certain hysteria. Ratz grunted. “An angel passed.” ^1010702086  
+  
+---  
+  “You have fifteen toxin sacs bonded to the lining of various main arteries, Case. They’re dissolving. Very slowly, but they definitely are dissolving. Each one contains a mycotoxin. You’re already familiar with the effect of that mycotoxin. It was the one your former employers gave you in Memphis.” ^1010702087  
+  
+---  
+  “THE MATRIX HAS its roots in primitive arcade games,” said the voice-over, “in early graphics programs and military experimentation with cranial jacks.” ^1010702088  
+  
+---  
+  “Got their own cryogenic setup. Even under orbital law, you’re legally dead for the duration of a freeze. Looks like they trade off, though nobody’s seen the founding father in about thirty years. Founding momma, she died in some lab accident. ^1010702089  
   
 ---

@@ -42,4 +42,16 @@ Last Highlighted: *2026-04-26*
   
 Note: Hey! That's me. I'm proud to have helped.  
   
----
+------  
+Title: We're All Insane, and That's Our Superpower  
+Author: Joshua Dearing  
+Tags: TVZ, readwise, articles  
+date: 2026-04-28  
+---  
+![rw-book-cover](https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png)  
+  
+URL: https://www.dearing.dev/posts/We're-All-Insane,-and-That's-Our-Superpower/#beyond-code-the-human-side-of-insanity  
+  
+## Highlights  
+- Gilbert Sanchez gave a deeply relatable talk on neurodiversity and what he called the “open-source dopamine train.” It’s easy to get energized and ship a cool tool. It’s much harder to sustain it solo. The real takeaway was this: if you want to build something that lasts, build a community around it, not just a codebase. His talk left me genuinely motivated to get more involved in larger open-source projects. Which, for someone who showed up worried about cliques, feels like real progress. ([View Highlight](https://read.readwise.io/read/01kq3kfaa32j8hjcrjvc9e7amm))  
+    - Note: Hey! That's me. I'm proud to have helped.  

@@ -43,4 +43,14 @@ Last Highlighted: *2026-04-23*
 ---  
   What a waste it was, what a terrible waste, to take a person who dreamed cities and gardens and enormous shining skies and teach him that the only answer to an unanswerable suffering was slaughter. ([6969](https://readwise.io/to_kindle?action=open&asin=B09XL83PCQ&location=6969)) %% Color: yellow %% ^1008992647  
   
----
+------  
+Title: Some Desperate Glory  
+Author: Emily Tesh  
+Tags: TVZ, readwise, books  
+date: 2026-04-28  
+---  
+![rw-book-cover](https://m.media-amazon.com/images/I/71kuRzMr9wL._SY160.jpg)  
+  
+## Highlights  
+- Kyr felt suddenly and forcefully the weight of legacy. She wasn’t Earth’s child. She was Elora Marston’s, and Yingli Lin’s, and Ursa’s, and she owed her duty not to some abstract unknown planet but to the women who’d come before her. ([Location 6550](https://readwise.io/to_kindle?action=open&asin=B09XL83PCQ&location=6550))  
+- What a waste it was, what a terrible waste, to take a person who dreamed cities and gardens and enormous shining skies and teach him that the only answer to an unanswerable suffering was slaughter. ([Location 6969](https://readwise.io/to_kindle?action=open&asin=B09XL83PCQ&location=6969))  

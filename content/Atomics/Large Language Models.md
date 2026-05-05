@@ -50,11 +50,11 @@ I was watching [It Ain't Broke: Why Software Fundamentals Matter More Than Ever]
 | [[Readwise/Supplementals/Exit Strategy.md\|Exit Strategy]]                                                |  
 | [[Readwise/Supplementals/Artificial Condition.md\|Artificial Condition]]                                  |  
 | [[Readwise/Supplementals/All Systems Red.md\|All Systems Red]]                                            |  
-| [[Readwise/Articles/Linus Lee Is Living With AI.md\|Linus Lee Is Living With AI]]                         |  
-| [[Readwise/Articles/From IDEs to AI Agents With Steve Yegge.md\|From IDEs to AI Agents With Steve Yegge]] |  
 | [[Readwise/Books/Rogue Protocol.md\|Rogue Protocol]]                                                      |  
 | [[Readwise/Books/Network Effect.md\|Network Effect]]                                                      |  
 | [[Readwise/Books/Artificial Condition.md\|Artificial Condition]]                                          |  
+| [[Readwise/Articles/Linus Lee Is Living With AI.md\|Linus Lee Is Living With AI]]                         |  
+| [[Readwise/Articles/From IDEs to AI Agents With Steve Yegge.md\|From IDEs to AI Agents With Steve Yegge]] |  
 | [[Atomics/Using AI Without Losing Your Mind.md\|Using AI Without Losing Your Mind]]                       |  
   
 ## Tagged with LLM  

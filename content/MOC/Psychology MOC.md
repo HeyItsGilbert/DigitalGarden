@@ -40,12 +40,12 @@ Psychology is the thread running through most of the things I find interesting. 
 ## Tagged with Psychology  
 | File                                                                                                    |  
 | ------------------------------------------------------------------------------------------------------- |  
-| [[Readwise/Supplementals/Atomic Habits.md\|Atomic Habits]]                                              |  
-| [[Readwise/Supplementals/Dune.md\|Dune]]                                                                |  
+| [[Reviews/The Tipping Point.md\|The Tipping Point]]                                                     |  
+| [[Readwise/Supplementals/Summer Frost.md\|Summer Frost]]                                                |  
 | [[Readwise/Supplementals/Sapiens.md\|Sapiens]]                                                          |  
 | [[Readwise/Supplementals/Smarter Faster Better.md\|Smarter Faster Better]]                              |  
-| [[Readwise/Supplementals/Summer Frost.md\|Summer Frost]]                                                |  
-| [[Reviews/The Tipping Point.md\|The Tipping Point]]                                                     |  
-| [[Atomics/Strategic Life Unit's (SLU) and Areas (SLA).md\|Strategic Life Unit's (SLU) and Areas (SLA)]] |  
+| [[Readwise/Supplementals/Dune.md\|Dune]]                                                                |  
+| [[Readwise/Supplementals/Atomic Habits.md\|Atomic Habits]]                                              |  
 | [[Atomics/Temporal Narrative.md\|Temporal Narrative]]                                                   |  
+| [[Atomics/Strategic Life Unit's (SLU) and Areas (SLA).md\|Strategic Life Unit's (SLU) and Areas (SLA)]] |  
   

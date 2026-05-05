@@ -27,7 +27,7 @@ Updated: 2024-10-08
 # About  
   
 Title: [[Best Way to Be Write Creatively? Wear 4 Different Hats|Best Way to Be Write Creatively? Wear 4 Different Hats]]  
-Authors: [[Consultant's Mind|Consultant's Mind]]  
+Authors: [[Consultant's Mind]]  
 Category: #articles  
 Tags: #writing  
 Number of Highlights: ==2==  

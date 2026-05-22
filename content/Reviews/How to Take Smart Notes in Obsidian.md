@@ -16,7 +16,7 @@ created: 2024-01-26
 **Readwise**: [[Readwise/Books/How to Take Smart Notes in Obsidian|How to Take Smart Notes in Obsidian]], [[Readwise/Supplementals/How to Take Smart Notes in Obsidian|How to Take Smart Notes in Obsidian - Supplemental]]  
 **Original**: https://www.amazon.com/dp/B0B9R1BG72  
   
-![]( https://m.media-amazon.com/images/I/61oJH2HG2AL._SL5000.jpg)  
+![400]( https://m.media-amazon.com/images/I/61oJH2HG2AL._SL5000.jpg)  
   
 > [!SUMMARY]  
 > A concise, practical guide to applying Niklas Luhmann's Zettelkasten method inside Obsidian. Duffney argues that most note-taking fails because it optimizes for capture rather than thinking and that permanent notes, written in your own words and connected deliberately, are what actually compound into long-term knowledge. **Quick read, high signal.**  

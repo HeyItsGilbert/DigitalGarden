@@ -42,4 +42,17 @@ this talk is how you can make yourdocumentand better not by working harder at it
   
 Note: The crux of this talk is that there are 4 types of docs. And that people smashing treating them all like one is the main problem.  
   
----
+------  
+Title: What Nobody Tells You About Documentation  
+Author: PyCon AU  
+Tags: TVZ, readwise, articles  
+date: 2026-05-09  
+---  
+![rw-book-cover](https://i.ytimg.com/vi/t4vKPhjcMZg/maxresdefault.jpg)  
+  
+URL: https://www.youtube.com/watch?v=t4vKPhjcMZg&feature=youtu.be  
+  
+## Highlights  
+- this talk is how you can make yourdocumentand better not by working harder at itor spending more time on it but just by  
+  doing it in the right way becauseprobably you're doing it wrong ([View Highlight](https://read.readwise.io/read/01kqefkjtdbfqzxpvh7s6ks6zt))  
+    - Note: The crux of this talk is that there are 4 types of docs. And that people smashing treating them all like one is the main problem.  

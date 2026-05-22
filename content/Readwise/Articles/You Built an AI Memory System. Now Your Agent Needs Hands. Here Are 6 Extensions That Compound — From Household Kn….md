@@ -49,4 +49,13 @@ Building an AI memory system is just the start; the real power comes from adding
   
   ⁠The repo also includes five companion prompts that help you migrate existing knowledge into your Open Brain, discover which use cases matter most for your life, and build the capture habit that makes the whole system work over time. And if you get stuck, we built dedicated AI assistants that know this system inside out — a Claude Skill, a ChatGPT Custom GPT, and a Gemini GEM — so whatever tool you’re already using can walk you through it.⁠ ^1012262388  
   
----
+------  
+Title: You Built an AI Memory System. Now Your Agent Needs Hands. Here Are 6 Extensions That Compound — From Household Kn…  
+Author: Nate from Nate’s Substack  
+Tags: TVZ, readwise, articles  
+date: 2026-05-09  
+---  
+![rw-book-cover](https://readwise-assets.s3.amazonaws.com/static/images/article1.be68295a7e40.png)  
+  
+## Highlights  
+- ⁠The repo also includes five companion prompts that help you migrate existing knowledge into your Open Brain, discover which use cases matter most for your life, and build the capture habit that makes the whole system work over time. And if you get stuck, we built dedicated AI assistants that know this system inside out — a Claude Skill, a ChatGPT Custom GPT, and a Gemini GEM — so whatever tool you’re already using can walk you through it.⁠ ([View Highlight](https://read.readwise.io/read/01kqsnpdqwfhgbh0ctcbz1931y))  

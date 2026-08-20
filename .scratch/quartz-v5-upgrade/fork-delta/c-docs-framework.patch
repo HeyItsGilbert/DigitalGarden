@@ -1,0 +1,1852 @@
+diff --git a/docs/advanced/architecture.md b/docs/advanced/architecture.md
+deleted file mode 100644
+index 33da89d90..000000000
+--- a/docs/advanced/architecture.md
++++ /dev/null
+@@ -1,52 +0,0 @@
+----
+-title: Architecture
+----
+-
+-Quartz is a static site generator. How does it work?
+-
+-This question is best answered by tracing what happens when a user (you!) runs `npx quartz build` in the command line:
+-
+-## On the server
+-
+-1. After running `npx quartz build`, npm will look at `package.json` to find the `bin` entry for `quartz` which points at `./quartz/bootstrap-cli.mjs`.
+-2. This file has a [shebang](<https://en.wikipedia.org/wiki/Shebang_(Unix)>) line at the top which tells npm to execute it using Node.
+-3. `bootstrap-cli.mjs` is responsible for a few things:
+-   1. Parsing the command-line arguments using [yargs](http://yargs.js.org/).
+-   2. Transpiling and bundling the rest of Quartz (which is in Typescript) to regular JavaScript using [esbuild](https://esbuild.github.io/). The `esbuild` configuration here is slightly special as it also handles `.scss` file imports using [esbuild-sass-plugin v2](https://www.npmjs.com/package/esbuild-sass-plugin). Additionally, we bundle 'inline' client-side scripts (any `.inline.ts` file) that components declare using a custom `esbuild` plugin that runs another instance of `esbuild` which bundles for the browser instead of `node`. Modules of both types are imported as plain text.
+-   3. Running the local preview server if `--serve` is set. This starts two servers:
+-      1. A WebSocket server on port 3001 to handle hot-reload signals. This tracks all inbound connections and sends a 'rebuild' message a server-side change is detected (either content or configuration).
+-      2. An HTTP file-server on a user defined port (normally 8080) to serve the actual website files.
+-   4. If the `--serve` flag is set, it also starts a file watcher to detect source-code changes (e.g. anything that is `.ts`, `.tsx`, `.scss`, or packager files). On a change, we rebuild the module (step 2 above) using esbuild's [rebuild API](https://esbuild.github.io/api/#rebuild) which drastically reduces the build times.
+-   5. After transpiling the main Quartz build module (`quartz/build.ts`), we write it to a cache file `.quartz-cache/transpiled-build.mjs` and then dynamically import this using `await import(cacheFile)`. However, we need to be pretty smart about how to bust Node's [import cache](https://github.com/nodejs/modules/issues/307) so we add a random query string to fake Node into thinking it's a new module. This does, however, cause memory leaks so we just hope that the user doesn't hot-reload their configuration too many times in a single session :)) (it leaks about ~350kB memory on each reload). After importing the module, we then invoke it, passing in the command line arguments we parsed earlier along with a callback function to signal the client to refresh.
+-4. In `build.ts`, we start by installing source map support manually to account for the query string cache busting hack we introduced earlier. Then, we start processing content:
+-   1. Clean the output directory.
+-   2. Recursively glob all files in the `content` folder, respecting the `.gitignore`.
+-   3. Parse the Markdown files.
+-      1. Quartz detects the number of threads available and chooses to spawn worker threads if there are >128 pieces of content to parse (rough heuristic). If it needs to spawn workers, it will invoke esbuild again to transpile the worker script `quartz/worker.ts`. Then, a work-stealing [workerpool](https://www.npmjs.com/package/workerpool) is then created and batches of 128 files are assigned to workers.
+-      2. Each worker (or just the main thread if there is no concurrency) creates a [unified](https://github.com/unifiedjs/unified) parser based off of the plugins defined in the [[configuration]].
+-      3. Parsing has three steps:
+-         1. Read the file into a [vfile](https://github.com/vfile/vfile).
+-         2. Applied plugin-defined text transformations over the content.
+-         3. Slugify the file path and store it in the data for the file. See the page on [[paths]] for more details about how path logic works in Quartz (spoiler: its complicated).
+-         4. Markdown parsing using [remark-parse](https://www.npmjs.com/package/remark-parse) (text to [mdast](https://github.com/syntax-tree/mdast)).
+-         5. Apply plugin-defined Markdown-to-Markdown transformations.
+-         6. Convert Markdown into HTML using [remark-rehype](https://github.com/remarkjs/remark-rehype) ([mdast](https://github.com/syntax-tree/mdast) to [hast](https://github.com/syntax-tree/hast)).
+-         7. Apply plugin-defined HTML-to-HTML transformations.
+-   4. Filter out unwanted content using plugins.
+-   5. Emit files using plugins.
+-      1. Gather all the static resources (e.g. external CSS, JS modules, etc.) each emitter plugin declares.
+-      2. Emitters that emit HTML files do a bit of extra work here as they need to transform the [hast](https://github.com/syntax-tree/hast) produced in the parse step to JSX. This is done using [hast-util-to-jsx-runtime](https://github.com/syntax-tree/hast-util-to-jsx-runtime) with the [Preact](https://preactjs.com/) runtime. Finally, the JSX is rendered to HTML using [preact-render-to-string](https://github.com/preactjs/preact-render-to-string) which statically renders the JSX to HTML (i.e. doesn't care about `useState`, `useEffect`, or any other React/Preact interactive bits). Here, we also do a bunch of fun stuff like assemble the page [[layout]] from `quartz.layout.ts`, assemble all the inline scripts that actually get shipped to the client, and all the transpiled styles. The bulk of this logic can be found in `quartz/components/renderPage.tsx`. Other fun things of note:
+-         1. CSS is minified and transformed using [Lightning CSS](https://github.com/parcel-bundler/lightningcss) to add vendor prefixes and do syntax lowering.
+-         2. Scripts are split into `beforeDOMLoaded` and `afterDOMLoaded` and are inserted in the `<head>` and `<body>` respectively.
+-      3. Finally, each emitter plugin is responsible for emitting and writing it's own emitted files to disk.
+-   6. If the `--serve` flag was detected, we also set up another file watcher to detect content changes (only `.md` files). We keep a content map that tracks the parsed AST and plugin data for each slug and update this on file changes. Newly added or modified paths are rebuilt and added to the content map. Then, all the filters and emitters are run over the resulting content map. This file watcher is debounced with a threshold of 250ms. On success, we send a client refresh signal using the passed in callback function.
+-
+-## On the client
+-
+-1. The browser opens a Quartz page and loads the HTML. The `<head>` also links to page styles (emitted to `public/index.css`) and page-critical JS (emitted to `public/prescript.js`)
+-2. Then, once the body is loaded, the browser loads the non-critical JS (emitted to `public/postscript.js`)
+-3. Once the page is done loading, the page will then dispatch a custom synthetic browser event `"nav"`. This is used so client-side scripts declared by components can 'setup' anything that requires access to the page DOM.
+-   1. If the [[SPA Routing|enableSPA option]] is enabled in the [[configuration]], this `"nav"` event is also fired on any client-navigation to allow for components to unregister and reregister any event handlers and state.
+-   2. If it's not, we wire up the `"nav"` event to just be fired a single time after page load to allow for consistency across how state is setup across both SPA and non-SPA contexts.
+-
+-The architecture and design of the plugin system was intentionally left pretty vague here as this is described in much more depth in the guide on [[making plugins|making your own plugin]].
+diff --git a/docs/advanced/creating components.md b/docs/advanced/creating components.md
+index 1496b15b2..628d5aa29 100644
+--- a/docs/advanced/creating components.md	
++++ b/docs/advanced/creating components.md	
+@@ -129,11 +129,11 @@ export default (() => {
+     return <button id="btn">Click me</button>
+   }
+ 
+-  YourComponent.beforeDOM = `
++  YourComponent.beforeDOMLoaded = `
+   console.log("hello from before the page loads!")
+   `
+ 
+-  YourComponent.afterDOM = `
++  YourComponent.afterDOMLoaded = `
+   document.getElementById('btn').onclick = () => {
+     alert('button clicked!')
+   }
+@@ -156,12 +156,13 @@ document.addEventListener("nav", () => {
+   // do page specific logic here
+   // e.g. attach event listeners
+   const toggleSwitch = document.querySelector("#switch") as HTMLInputElement
+-  toggleSwitch.removeEventListener("change", switchTheme)
+   toggleSwitch.addEventListener("change", switchTheme)
++  window.addCleanup(() => toggleSwitch.removeEventListener("change", switchTheme))
+ })
+ ```
+ 
+-It is best practice to also unmount any existing event handlers to prevent memory leaks.
++It is best practice to track any event handlers via `window.addCleanup` to prevent memory leaks.
++This will get called on page navigation.
+ 
+ #### Importing Code
+ 
+@@ -179,7 +180,7 @@ export default (() => {
+     return <button id="btn">Click me</button>
+   }
+ 
+-  YourComponent.afterDOM = script
++  YourComponent.afterDOMLoaded = script
+   return YourComponent
+ }) satisfies QuartzComponentConstructor
+ ```
+diff --git a/docs/advanced/index.md b/docs/advanced/index.md
+deleted file mode 100644
+index 482258900..000000000
+--- a/docs/advanced/index.md
++++ /dev/null
+@@ -1,3 +0,0 @@
+----
+-title: "Advanced"
+----
+diff --git a/docs/advanced/making plugins.md b/docs/advanced/making plugins.md
+index 65209a2ca..b2bacf0aa 100644
+--- a/docs/advanced/making plugins.md	
++++ b/docs/advanced/making plugins.md	
+@@ -53,12 +53,12 @@ All transformer plugins must define at least a `name` field to register the plug
+ 
+ Normally for both `remark` and `rehype`, you can find existing plugins that you can use to . If you'd like to create your own `remark` or `rehype` plugin, checkout the [guide to creating a plugin](https://unifiedjs.com/learn/guide/create-a-plugin/) using `unified` (the underlying AST parser and transformer library).
+ 
+-A good example of a transformer plugin that borrows from the `remark` and `rehype` ecosystems is the [[Latex]] plugin:
++A good example of a transformer plugin that borrows from the `remark` and `rehype` ecosystems is the [[plugins/Latex|Latex]] plugin:
+ 
+ ```ts title="quartz/plugins/transformers/latex.ts"
+ import remarkMath from "remark-math"
+ import rehypeKatex from "rehype-katex"
+-import rehypeMathjax from "rehype-mathjax/svg.js"
++import rehypeMathjax from "rehype-mathjax/svg"
+ import { QuartzTransformerPlugin } from "../types"
+ 
+ interface Options {
+@@ -84,10 +84,14 @@ export const Latex: QuartzTransformerPlugin<Options> = (opts?: Options) => {
+     externalResources() {
+       if (engine === "katex") {
+         return {
+-          css: ["https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css"],
++          css: [
++            // base css
++            "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css",
++          ],
+           js: [
+             {
+-              src: "https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js",
++              // fix copy behaviour: https://github.com/KaTeX/KaTeX/blob/main/contrib/copy-tex/README.md
++              src: "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/copy-tex.min.js",
+               loadTime: "afterDOMReady",
+               contentType: "external",
+             },
+@@ -278,7 +282,7 @@ export const ContentPage: QuartzEmitterPlugin = () => {
+           allFiles,
+         }
+ 
+-        const content = renderPage(slug, componentData, opts, externalResources)
++        const content = renderPage(cfg, slug, componentData, opts, externalResources)
+         const fp = await emit({
+           content,
+           slug: file.data.slug!,
+diff --git a/docs/advanced/paths.md b/docs/advanced/paths.md
+index 9455b9819..16f6388d1 100644
+--- a/docs/advanced/paths.md
++++ b/docs/advanced/paths.md
+@@ -48,4 +48,4 @@ Here are the main types of slugs with a rough description of each type of path:
+ - `SimpleSlug`: cannot be relative and shouldn't have `/index` as an ending or a file extension. It _can_ however have a trailing slash to indicate a folder path.
+ - `RelativeURL`: must start with `.` or `..` to indicate it's a relative URL. Shouldn't have `/index` as an ending or a file extension but can contain a trailing slash.
+ 
+-To get a clearer picture of how these relate to each other, take a look at the path tests in `quartz/path.test.ts`.
++To get a clearer picture of how these relate to each other, take a look at the path tests in `quartz/util/path.test.ts`.
+diff --git a/docs/configuration.md b/docs/configuration.md
+index 047f6ca6b..e97d8df96 100644
+--- a/docs/configuration.md
++++ b/docs/configuration.md
+@@ -25,14 +25,21 @@ This part of the configuration concerns anything that can affect the whole site.
+ - `enablePopovers`: whether to enable [[popover previews]] on your site.
+ - `analytics`: what to use for analytics on your site. Values can be
+   - `null`: don't use analytics;
+-  - `{ provider: 'plausible' }`: use [Plausible](https://plausible.io/), a privacy-friendly alternative to Google Analytics; or
+-  - `{ provider: 'google', tagId: <your-google-tag> }`: use Google Analytics
++  - `{ provider: 'google', tagId: '<your-google-tag>' }`: use Google Analytics;
++  - `{ provider: 'plausible' }` (managed) or `{ provider: 'plausible', host: '<your-plausible-host>' }` (self-hosted): use [Plausible](https://plausible.io/);
++  - `{ provider: 'umami', host: '<your-umami-host>', websiteId: '<your-umami-website-id>' }`: use [Umami](https://umami.is/);
++  - `{ provider: 'goatcounter', websiteId: 'my-goatcounter-id' }` (managed) or `{ provider: 'goatcounter', websiteId: 'my-goatcounter-id', host: 'my-goatcounter-domain.com', scriptSrc: 'https://my-url.to/counter.js' }` (self-hosted) use [GoatCounter](https://goatcounter.com);
++  - `{ provider: 'posthog', apiKey: '<your-posthog-project-apiKey>', host: '<your-posthog-host>' }`: use [Posthog](https://posthog.com/);
++  - `{ provider: 'tinylytics', siteId: '<your-site-id>' }`: use [Tinylytics](https://tinylytics.app/);
++  - `{ provider: 'cabin' }` or `{ provider: 'cabin', host: 'https://cabin.example.com' }` (custom domain): use [Cabin](https://withcabin.com);
++- `locale`: used for [[i18n]] and date formatting
+ - `baseUrl`: this is used for sitemaps and RSS feeds that require an absolute URL to know where the canonical 'home' of your site lives. This is normally the deployed URL of your site (e.g. `quartz.jzhao.xyz` for this site). Do not include the protocol (i.e. `https://`) or any leading or trailing slashes.
+-  - This should also include the subpath if you are [[hosting]] on GitHub pages without a custom domain. For example, if my repository is `jackyzha0/quartz`, GitHub pages would deploy to `https://jackyzha0.github.io/quartz` and the `baseUrl` would be `jackyzha0.github.io/quartz`
++  - This should also include the subpath if you are [[hosting]] on GitHub pages without a custom domain. For example, if my repository is `jackyzha0/quartz`, GitHub pages would deploy to `https://jackyzha0.github.io/quartz` and the `baseUrl` would be `jackyzha0.github.io/quartz`.
+   - Note that Quartz 4 will avoid using this as much as possible and use relative URLs whenever it can to make sure your site works no matter _where_ you end up actually deploying it.
+ - `ignorePatterns`: a list of [glob](<https://en.wikipedia.org/wiki/Glob_(programming)>) patterns that Quartz should ignore and not search through when looking for files inside the `content` folder. See [[private pages]] for more details.
+ - `defaultDateType`: whether to use created, modified, or published as the default date to display on pages and page listings.
+ - `theme`: configure how the site looks.
++  - `cdnCaching`: If `true` (default), use Google CDN to cache the fonts. This will generally will be faster. Disable (`false`) this if you want Quartz to download the fonts to be self-contained.
+   - `typography`: what fonts to use. Any font available on [Google Fonts](https://fonts.google.com/) works here.
+     - `header`: Font to use for headers
+     - `code`: Font for inline and block quotes.
+@@ -53,7 +60,7 @@ You can think of Quartz plugins as a series of transformations over content.
+ 
+ ![[quartz transform pipeline.png]]
+ 
+-```ts
++```ts title="quartz.config.ts"
+ plugins: {
+   transformers: [...],
+   filters: [...],
+@@ -61,22 +68,40 @@ plugins: {
+ }
+ ```
+ 
+-- [[making plugins#Transformers|Transformers]] **map** over content (e.g. parsing frontmatter, generating a description)
+-- [[making plugins#Filters|Filters]] **filter** content (e.g. filtering out drafts)
+-- [[making plugins#Emitters|Emitters]] **reduce** over content (e.g. creating an RSS feed or pages that list all files with a specific tag)
++- [[tags/plugin/transformer|Transformers]] **map** over content (e.g. parsing frontmatter, generating a description)
++- [[tags/plugin/filter|Filters]] **filter** content (e.g. filtering out drafts)
++- [[tags/plugin/emitter|Emitters]] **reduce** over content (e.g. creating an RSS feed or pages that list all files with a specific tag)
+ 
+-By adding, removing, and reordering plugins from the `tranformers`, `filters`, and `emitters` fields, you can customize the behaviour of Quartz.
++You can customize the behaviour of Quartz by adding, removing and reordering plugins in the `transformers`, `filters` and `emitters` fields.
+ 
+ > [!note]
+-> Each node is modified by every transformer _in order_. Some transformers are position-sensitive so you may need to take special note of whether it needs come before or after any other particular plugins.
++> Each node is modified by every transformer _in order_. Some transformers are position sensitive, so you may need to pay particular attention to whether they need to come before or after certain other plugins.
++
++You should take care to add the plugin to the right entry corresponding to its plugin type. For example, to add the [[ExplicitPublish]] plugin (a [[tags/plugin/filter|Filter]]), you would add the following line:
++
++```ts title="quartz.config.ts"
++filters: [
++  ...
++  Plugin.ExplicitPublish(),
++  ...
++],
++```
+ 
+-Additionally, plugins may also have their own configuration settings that you can pass in. For example, the [[Latex]] plugin allows you to pass in a field specifying the `renderEngine` to choose between Katex and MathJax.
++To remove a plugin, you should remove all occurrences of it in the `quartz.config.ts`.
+ 
+-```ts
++To customize plugins further, some plugins may also have their own configuration settings that you can pass in. If you do not pass in a configuration, the plugin will use its default settings.
++
++For example, the [[plugins/Latex|Latex]] plugin allows you to pass in a field specifying the `renderEngine` to choose between Katex and MathJax.
++
++```ts title="quartz.config.ts"
+ transformers: [
+-  Plugin.FrontMatter(), // uses default options
+-  Plugin.Latex({ renderEngine: "katex" }), // specify some options
++  Plugin.FrontMatter(), // use default options
++  Plugin.Latex({ renderEngine: "katex" }), // set some custom options
+ ]
+ ```
+ 
+-If you'd like to make your own plugins, read the guide on [[making plugins]] for more information.
++Some plugins are included by default in the[ `quartz.config.ts`](https://github.com/jackyzha0/quartz/blob/v4/quartz.config.ts), but there are more available.
++
++You can see a list of all plugins and their configuration options [[tags/plugin|here]].
++
++If you'd like to make your own plugins, see the [[making plugins|making custom plugins]] guide.
+diff --git a/docs/features/Docker Support.md b/docs/features/Docker Support.md
+deleted file mode 100644
+index cf73b7fcc..000000000
+--- a/docs/features/Docker Support.md	
++++ /dev/null
+@@ -1,7 +0,0 @@
+-Quartz comes shipped with a Docker image that will allow you to preview your Quartz locally without installing Node.
+-
+-You can run the below one-liner to run Quartz in Docker.
+-
+-```sh
+-docker run --rm -itp 8080:8080 $(docker build -q .)
+-```
+diff --git a/docs/features/Latex.md b/docs/features/Latex.md
+index 3c8f6ff1f..fdc9d277b 100644
+--- a/docs/features/Latex.md
++++ b/docs/features/Latex.md
+@@ -1,6 +1,7 @@
+ ---
++title: LaTeX
+ tags:
+-  - plugin/transformer
++  - feature/transformer
+ ---
+ 
+ Quartz uses [Katex](https://katex.org/) by default to typeset both inline and block math expressions at build time.
+@@ -38,6 +39,20 @@ a & b & c
+ \end{bmatrix}
+ $$
+ 
++$$
++\begin{array}{rll}
++E \psi &= H\psi & \text{Expanding the Hamiltonian Operator} \\
++&= -\frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2} \psi + \frac{1}{2}m\omega x^2 \psi & \text{Using the ansatz $\psi(x) = e^{-kx^2}f(x)$, hoping to cancel the $x^2$ term} \\
++&= -\frac{\hbar^2}{2m} [4k^2x^2f(x)+2(-2kx)f'(x) + f''(x)]e^{-kx^2} + \frac{1}{2}m\omega x^2 f(x)e^{-kx^2} &\text{Removing the $e^{-kx^2}$ term from both sides} \\
++& \Downarrow \\
++Ef(x) &= -\frac{\hbar^2}{2m} [4k^2x^2f(x)-4kxf'(x) + f''(x)] + \frac{1}{2}m\omega x^2 f(x) & \text{Choosing $k=\frac{im}{2}\sqrt{\frac{\omega}{\hbar}}$ to cancel the $x^2$ term, via $-\frac{\hbar^2}{2m}4k^2=\frac{1}{2}m \omega$} \\
++&= -\frac{\hbar^2}{2m} [-4kxf'(x) + f''(x)] \\
++\end{array}
++$$
++
++> [!warn]
++> Due to limitations in the [underlying parsing library](https://github.com/remarkjs/remark-math), block math in Quartz requires the `$$` delimiters to be on newlines like above.
++
+ ### Inline Math
+ 
+ Similarly, inline math can be rendered by delimiting math expression with a single `$`. For example, `$e^{i\pi} = -1$` produces $e^{i\pi} = -1$
+@@ -53,11 +68,15 @@ For example:
+ - Incorrect: `I have $1 and you have $2` produces I have $1 and you have $2
+ - Correct: `I have \$1 and you have \$2` produces I have \$1 and you have \$2
+ 
+-## MathJax
++### Using mhchem
++
++Add the following import to the top of `quartz/plugins/transformers/latex.ts` (before all the other
++imports):
+ 
+-In `quartz.config.ts`, you can configure Quartz to use [MathJax SVG rendering](https://docs.mathjax.org/en/latest/output/svg.html) by replacing `Plugin.Latex({ renderEngine: 'katex' })` with `Plugin.Latex({ renderEngine: 'mathjax' })`
++```ts title="quartz/plugins/transformers/latex.ts"
++import "katex/contrib/mhchem"
++```
+ 
+ ## Customization
+ 
+-- Removing Latex support: remove all instances of `Plugin.Latex()` from `quartz.config.ts`.
+-- Plugin: `quartz/plugins/transformers/latex.ts`
++Latex parsing is a functionality of the [[plugins/Latex|Latex]] plugin. See the plugin page for customization options.
+diff --git a/docs/features/Mermaid diagrams.md b/docs/features/Mermaid diagrams.md
+index f14a5589b..9cc408917 100644
+--- a/docs/features/Mermaid diagrams.md	
++++ b/docs/features/Mermaid diagrams.md	
+@@ -1,9 +1,15 @@
++---
++title: "Mermaid Diagrams"
++tags:
++  - feature/transformer
++---
++
+ Quartz supports Mermaid which allows you to add diagrams and charts to your notes. Mermaid supports a range of diagrams, such as [flow charts](https://mermaid.js.org/syntax/flowchart.html), [sequence diagrams](https://mermaid.js.org/syntax/sequenceDiagram.html), and [timelines](https://mermaid.js.org/syntax/timeline.html). This is enabled as a part of [[Obsidian compatibility]] and can be configured and enabled/disabled from that plugin.
+ 
+ By default, Quartz will render Mermaid diagrams to match the site theme.
+ 
+ > [!warning]
+-> Wondering why Mermaid diagrams may not be showing up even if you have them enabled? You may need to reorder your plugins so that `Plugin.ObsidianFlavoredMarkdown()` is _after_ `Plugin.SyntaxHighlighting()`.
++> Wondering why Mermaid diagrams may not be showing up even if you have them enabled? You may need to reorder your plugins so that [[ObsidianFlavoredMarkdown]] is _after_ [[SyntaxHighlighting]].
+ 
+ ## Syntax
+ 
+diff --git a/docs/features/Obsidian compatibility.md b/docs/features/Obsidian compatibility.md
+index 1254370e0..e469f4866 100644
+--- a/docs/features/Obsidian compatibility.md	
++++ b/docs/features/Obsidian compatibility.md	
+@@ -1,33 +1,17 @@
+ ---
++title: "Obsidian Compatibility"
+ tags:
+-  - plugin/transformer
++  - feature/transformer
+ ---
+ 
+ Quartz was originally designed as a tool to publish Obsidian vaults as websites. Even as the scope of Quartz has widened over time, it hasn't lost the ability to seamlessly interoperate with Obsidian.
+ 
+-By default, Quartz ships with `Plugin.ObsidianFlavoredMarkdown` which is a transformer plugin that adds support for [Obsidian Flavored Markdown](https://help.obsidian.md/Editing+and+formatting/Obsidian+Flavored+Markdown). This includes support for features like [[wikilinks]] and [[Mermaid diagrams]].
++By default, Quartz ships with the [[ObsidianFlavoredMarkdown]] plugin, which is a transformer plugin that adds support for [Obsidian Flavored Markdown](https://help.obsidian.md/Editing+and+formatting/Obsidian+Flavored+Markdown). This includes support for features like [[wikilinks]] and [[Mermaid diagrams]].
+ 
+-It also ships with support for [frontmatter parsing](https://help.obsidian.md/Editing+and+formatting/Properties) with the same fields that Obsidian uses through the `Plugin.FrontMatter` transformer plugin.
++It also ships with support for [frontmatter parsing](https://help.obsidian.md/Editing+and+formatting/Properties) with the same fields that Obsidian uses through the [[Frontmatter]] transformer plugin.
+ 
+-Finally, Quartz also provides `Plugin.CrawlLinks` which allows you to customize Quartz's link resolution behaviour to match Obsidian.
++Finally, Quartz also provides [[CrawlLinks]] plugin, which allows you to customize Quartz's link resolution behaviour to match Obsidian.
+ 
+ ## Configuration
+ 
+-- Frontmatter parsing:
+-  - Disabling: remove all instances of `Plugin.FrontMatter()` from `quartz.config.ts`.
+-  - Customize default values for frontmatter: edit `quartz/plugins/transformers/frontmatter.ts`
+-- Obsidian Flavored Markdown:
+-  - Disabling: remove all instances of `Plugin.ObsidianFlavoredMarkdown()` from `quartz.config.ts`
+-  - Customizing features: `Plugin.ObsidianFlavoredMarkdown` has several other options to toggle on and off:
+-    - `comments`: whether to enable `%%` style Obsidian comments. Defaults to `true`
+-    - `highlight`: whether to enable `==` style highlights. Defaults to `true`
+-    - `wikilinks`: whether to enable turning [[wikilinks]] into regular links. Defaults to `true`
+-    - `callouts`: whether to enable [[callouts]]. Defaults to `true`
+-    - `mermaid`: whether to enable [[Mermaid diagrams]]. Defaults to `true`
+-    - `parseTags`: whether to try and parse tags in the content body. Defaults to `true`
+-    - `parseArrows`: whether to try and parse arrows in the content body. Defaults to `true`.
+-    - `enableInHtmlEmbed`: whether to try and parse Obsidian flavoured markdown in raw HTML. Defaults to `false`
+-    - `enableYouTubeEmbed`: whether to enable embedded YouTube videos using external image Markdown syntax. Defaults to `false`
+-- Link resolution behaviour:
+-  - Disabling: remove all instances of `Plugin.CrawlLinks()` from `quartz.config.ts`
+-  - Changing link resolution preference: set `markdownLinkResolution` to one of `absolute`, `relative` or `shortest`
++This functionality is provided by the [[ObsidianFlavoredMarkdown]], [[Frontmatter]] and [[CrawlLinks]] plugins. See the plugin pages for customization options.
+diff --git a/docs/features/OxHugo compatibility.md b/docs/features/OxHugo compatibility.md
+index 3143eb1b5..e22051146 100644
+--- a/docs/features/OxHugo compatibility.md	
++++ b/docs/features/OxHugo compatibility.md	
+@@ -1,11 +1,12 @@
+ ---
++title: "OxHugo Compatibility"
+ tags:
+-  - plugin/transformer
++  - feature/transformer
+ ---
+ 
+ [org-roam](https://www.orgroam.com/) is a plain-text personal knowledge management system for [emacs](https://en.wikipedia.org/wiki/Emacs). [ox-hugo](https://github.com/kaushalmodi/ox-hugo) is org exporter backend that exports `org-mode` files to [Hugo](https://gohugo.io/) compatible Markdown.
+ 
+-Because the Markdown generated by ox-hugo is not pure Markdown but Hugo specific, we need to transform it to fit into Quartz. This is done by `Plugin.OxHugoFlavouredMarkdown`. Even though this [[making plugins|plugin]] was written with `ox-hugo` in mind, it should work for any Hugo specific Markdown.
++Because the Markdown generated by ox-hugo is not pure Markdown but Hugo specific, we need to transform it to fit into Quartz. This is done by the [[OxHugoFlavoredMarkdown]] plugin. Even though this plugin was written with `ox-hugo` in mind, it should work for any Hugo specific Markdown.
+ 
+ ```typescript title="quartz.config.ts"
+ plugins: {
+@@ -25,15 +26,4 @@ Quartz by default doesn't understand `org-roam` files as they aren't Markdown. Y
+ 
+ ## Configuration
+ 
+-- Link resolution
+-  - `wikilinks`: Whether to replace `{{ relref }}` with Quartz [[wikilinks]]
+-  - `removePredefinedAnchor`: Whether to remove [pre-defined anchor set by ox-hugo](https://ox-hugo.scripter.co/doc/anchors/).
+-- Image handling
+-  - `replaceFigureWithMdImg`: Whether to replace `<figure/>` with `![]()`
+-- Formatting
+-  - `removeHugoShortcode`: Whether to remove hugo shortcode syntax (`{{}}`)
+-  - `replaceOrgLatex`: Whether to replace org-mode formatting for latex fragments with what `Plugin.Latex` supports.
+-
+-> [!warning]
+->
+-> While you can use `Plugin.OxHugoFlavoredMarkdown` and `Plugin.ObsidianFlavoredMarkdown` together, it's not recommended because it might mutate the file in unexpected ways. Use with caution.
++This functionality is provided by the [[OxHugoFlavoredMarkdown]] plugin. See the plugin page for customization options.
+diff --git a/docs/features/RSS Feed.md b/docs/features/RSS Feed.md
+index bfeb399c9..ed4138dfc 100644
+--- a/docs/features/RSS Feed.md	
++++ b/docs/features/RSS Feed.md	
+@@ -1,7 +1,5 @@
+-Quartz creates an RSS feed for all the content on your site by generating an `index.xml` file that RSS readers can subscribe to. Because of the RSS spec, this requires the `baseUrl` property in your [[configuration]] to be set properly for RSS readers to pick it up properly.
++Quartz emits an RSS feed for all the content on your site by generating an `index.xml` file that RSS readers can subscribe to. Because of the RSS spec, this requires the `baseUrl` property in your [[configuration]] to be set properly for RSS readers to pick it up properly.
+ 
+ ## Configuration
+ 
+-- Remove RSS feed: set the `enableRSS` field of `Plugin.ContentIndex` in `quartz.config.ts` to be `false`.
+-- Change number of entries: set the `rssLimit` field of `Plugin.ContentIndex` to be the desired value. It defaults to latest 10 items.
+-- Use rich HTML output in RSS: set `rssFullHtml` field of `Plugin.ContentIndex` to be `true`.
++This functionality is provided by the [[ContentIndex]] plugin. See the plugin page for customization options.
+diff --git a/docs/features/SPA Routing.md b/docs/features/SPA Routing.md
+deleted file mode 100644
+index 3004af977..000000000
+--- a/docs/features/SPA Routing.md	
++++ /dev/null
+@@ -1,7 +0,0 @@
+-Single-page-app style rendering. This prevents flashes of unstyled content and improves the smoothness of Quartz.
+-
+-Under the hood, this is done by hijacking page navigations and instead fetching the HTML via a `GET` request and then diffing and selectively replacing parts of the page using [micromorph](https://github.com/natemoo-re/micromorph). This allows us to change the content of the page without fully refreshing the page, reducing the amount of content that the browser needs to load.
+-
+-## Configuration
+-
+-- Disable SPA Routing: set the `enableSPA` field of the [[configuration]] in `quartz.config.ts` to be `false`.
+diff --git a/docs/features/backlinks.md b/docs/features/backlinks.md
+deleted file mode 100644
+index f558f4a5d..000000000
+--- a/docs/features/backlinks.md
++++ /dev/null
+@@ -1,14 +0,0 @@
+----
+-title: Backlinks
+-tags:
+-  - component
+----
+-
+-A backlink for a note is a link from another note to that note. Links in the backlink pane also feature rich [[popover previews]] if you have that feature enabled.
+-
+-## Customization
+-
+-- Removing backlinks: delete all usages of `Component.Backlinks()` from `quartz.layout.ts`.
+-- Component: `quartz/components/Backlinks.tsx`
+-- Style: `quartz/components/styles/backlinks.scss`
+-- Script: `quartz/components/scripts/search.inline.ts`
+diff --git a/docs/features/breadcrumbs.md b/docs/features/breadcrumbs.md
+deleted file mode 100644
+index a70185836..000000000
+--- a/docs/features/breadcrumbs.md
++++ /dev/null
+@@ -1,36 +0,0 @@
+----
+-title: "Breadcrumbs"
+-tags:
+-  - component
+----
+-
+-Breadcrumbs provide a way to navigate a hierarchy of pages within your site using a list of its parent folders.
+-
+-By default, the element at the very top of your page is the breadcrumb navigation bar (can also be seen at the top on this page!).
+-
+-## Customization
+-
+-Most configuration can be done by passing in options to `Component.Breadcrumbs()`.
+-
+-For example, here's what the default configuration looks like:
+-
+-```typescript title="quartz.layout.ts"
+-Component.Breadcrumbs({
+-  spacerSymbol: "❯", // symbol between crumbs
+-  rootName: "Home", // name of first/root element
+-  resolveFrontmatterTitle: true, // whether to resolve folder names through frontmatter titles
+-  hideOnRoot: true, // whether to hide breadcrumbs on root `index.md` page
+-  showCurrentPage: true, // whether to display the current page in the breadcrumbs
+-})
+-```
+-
+-When passing in your own options, you can omit any or all of these fields if you'd like to keep the default value for that field.
+-
+-You can also adjust where the breadcrumbs will be displayed by adjusting the [[layout]] (moving `Component.Breadcrumbs()` up or down)
+-
+-Want to customize it even more?
+-
+-- Removing breadcrumbs: delete all usages of `Component.Breadcrumbs()` from `quartz.layout.ts`.
+-- Component: `quartz/components/Breadcrumbs.tsx`
+-- Style: `quartz/components/styles/breadcrumbs.scss`
+-- Script: inline at `quartz/components/Breadcrumbs.tsx`
+diff --git a/docs/features/callouts.md b/docs/features/callouts.md
+index 27de687eb..4caeeb4c8 100644
+--- a/docs/features/callouts.md
++++ b/docs/features/callouts.md
+@@ -1,7 +1,7 @@
+ ---
+ title: Callouts
+ tags:
+-  - plugin/transformer
++  - feature/transformer
+ ---
+ 
+ Quartz supports the same Admonition-callout syntax as Obsidian.
+@@ -19,68 +19,78 @@ This includes
+ See [documentation on supported types and syntax here](https://help.obsidian.md/Editing+and+formatting/Callouts).
+ 
+ > [!warning]
+-> Wondering why callouts may not be showing up even if you have them enabled? You may need to reorder your plugins so that `Plugin.ObsidianFlavoredMarkdown()` is _after_ `Plugin.SyntaxHighlighting()`.
++> Wondering why callouts may not be showing up even if you have them enabled? You may need to reorder your plugins so that [[ObsidianFlavoredMarkdown]] is _after_ [[SyntaxHighlighting]].
+ 
+ ## Customization
+ 
+-- Disable callouts: simply pass `callouts: false` to the plugin: `Plugin.ObsidianFlavoredMarkdown({ callouts: false })`
+-- Editing icons: `quartz/plugins/transformers/ofm.ts`
++The callouts are a functionality of the [[ObsidianFlavoredMarkdown]] plugin. See the plugin page for how to enable or disable them.
++
++You can edit the icons by customizing `quartz/styles/callouts.scss`.
++
++### Add custom callouts
++
++By default, custom callouts are handled by applying the `note` style. To make fancy ones, you have to add these lines to `custom.scss`.
++
++```scss title="quartz/styles/custom.scss"
++.callout {
++  &[data-callout="custom"] {
++    --color: #customcolor;
++    --border: #custombordercolor;
++    --bg: #custombg;
++    --callout-icon: url("data:image/svg+xml; utf8, <custom formatted svg>"); //SVG icon code
++  }
++}
++```
++
++> [!warning]
++> Don't forget to ensure that the SVG is URL encoded before putting it in the CSS. You can use tools like [this one](https://yoksel.github.io/url-encoder/) to help you do that.
+ 
+ ## Showcase
+ 
+ > [!info]
+ > Default title
+ 
+-> [!question]+ Can callouts be nested?
++> [!question]+ Can callouts be _nested_?
+ >
+ > > [!todo]- Yes!, they can. And collapsed!
+ > >
+ > > > [!example] You can even use multiple layers of nesting.
+ 
+-> [!EXAMPLE] Examples
+->
+-> Aliases: example
++> [!note]
++> Aliases: "note"
+ 
+-> [!note] Notes
+->
+-> Aliases: note
++> [!abstract]
++> Aliases: "abstract", "summary", "tldr"
+ 
+-> [!abstract] Summaries
+->
+-> Aliases: abstract, summary, tldr
++> [!info]
++> Aliases: "info"
+ 
+-> [!info] Info
+->
+-> Aliases: info, todo
++> [!todo]
++> Aliases: "todo"
+ 
+-> [!tip] Hint
+->
+-> Aliases: tip, hint, important
++> [!tip]
++> Aliases: "tip", "hint", "important"
+ 
+-> [!success] Success
+->
+-> Aliases: success, check, done
++> [!success]
++> Aliases: "success", "check", "done"
+ 
+-> [!question] Question
+->
+-> Aliases: question, help, faq
++> [!question]
++> Aliases: "question", "help", "faq"
+ 
+-> [!warning] Warning
+->
+-> Aliases: warning, caution, attention
++> [!warning]
++> Aliases: "warning", "attention", "caution"
+ 
+-> [!failure] Failure
+->
+-> Aliases: failure, fail, missing
++> [!failure]
++> Aliases: "failure", "missing", "fail"
+ 
+-> [!danger] Error
+->
+-> Aliases: danger, error
++> [!danger]
++> Aliases: "danger", "error"
+ 
+-> [!bug] Bug
+->
+-> Aliases: bug
++> [!bug]
++> Aliases: "bug"
+ 
+-> [!quote] Quote
+->
+-> Aliases: quote, cite
++> [!example]
++> Aliases: "example"
++
++> [!quote]
++> Aliases: "quote", "cite"
+diff --git a/docs/features/darkmode.md b/docs/features/darkmode.md
+deleted file mode 100644
+index dff75b44d..000000000
+--- a/docs/features/darkmode.md
++++ /dev/null
+@@ -1,23 +0,0 @@
+----
+-title: "Darkmode"
+-tags:
+-  - component
+----
+-
+-Quartz supports darkmode out of the box that respects the user's theme preference. Any future manual toggles of the darkmode switch will be saved in the browser's local storage so it can be persisted across future page loads.
+-
+-## Customization
+-
+-- Removing darkmode: delete all usages of `Component.Darkmode()` from `quartz.layout.ts`.
+-- Component: `quartz/components/Darkmode.tsx`
+-- Style: `quartz/components/styles/darkmode.scss`
+-- Script: `quartz/components/scripts/darkmode.inline.ts`
+-
+-You can also listen to the `themechange` event to perform any custom logic when the theme changes.
+-
+-```js
+-document.addEventListener("themechange", (e) => {
+-  console.log("Theme changed to " + e.detail.theme) // either "light" or "dark"
+-  // your logic here
+-})
+-```
+diff --git a/docs/features/explorer.md b/docs/features/explorer.md
+index b5fd379a7..95878f787 100644
+--- a/docs/features/explorer.md
++++ b/docs/features/explorer.md
+@@ -42,7 +42,7 @@ When passing in your own options, you can omit any or all of these fields if you
+ 
+ Want to customize it even more?
+ 
+-- Removing table of contents: remove `Component.Explorer()` from `quartz.layout.ts`
++- Removing explorer: remove `Component.Explorer()` from `quartz.layout.ts`
+   - (optional): After removing the explorer component, you can move the [[table of contents | Table of Contents]] component back to the `left` part of the layout
+ - Changing `sort`, `filter` and `map` behavior: explained in [[#Advanced customization]]
+ - Component:
+@@ -61,7 +61,7 @@ export class FileNode {
+   children: FileNode[]  // children of current node
+   name: string  // last part of slug
+   displayName: string // what actually should be displayed in the explorer
+-  file: QuartzPluginData | null // set if node is a file, see `QuartzPluginData` for more detail
++  file: QuartzPluginData | null // if node is a file, this is the file's metadata. See `QuartzPluginData` for more detail
+   depth: number // depth of current node
+ 
+   ... // rest of implementation
+@@ -167,6 +167,19 @@ Component.Explorer({
+ 
+ You can customize this by changing the entries of the `omit` set. Simply add all folder or file names you want to remove.
+ 
++### Remove files by tag
++
++You can access the frontmatter of a file by `node.file?.frontmatter?`. This allows you to filter out files based on their frontmatter, for example by their tags.
++
++```ts title="quartz.layout.ts"
++Component.Explorer({
++  filterFn: (node) => {
++    // exclude files with the tag "explorerexclude"
++    return node.file?.frontmatter?.tags?.includes("explorerexclude") !== true
++  },
++})
++```
++
+ ### Show every element in explorer
+ 
+ To override the default filter function that removes the `tags` folder from the explorer, you can set the filter function to `undefined`.
+diff --git a/docs/features/folder and tag listings.md b/docs/features/folder and tag listings.md
+index dfde7c26e..d330f1479 100644
+--- a/docs/features/folder and tag listings.md	
++++ b/docs/features/folder and tag listings.md	
+@@ -1,18 +1,20 @@
+ ---
+ title: Folder and Tag Listings
+ tags:
+-  - plugin/emitter
++  - feature/emitter
+ ---
+ 
+-Quartz creates listing pages for any folders and tags you have.
++Quartz emits listing pages for any folders and tags you have.
+ 
+ ## Folder Listings
+ 
+ Quartz will generate an index page for all the pages under that folder. This includes any content that is multiple levels deep.
+ 
+-Additionally, Quartz will also generate pages for subfolders. Say you have a note in a nested folder `content/abc/def/note.md`. Then, Quartz would generate a page for all the notes under `abc` _and_ a page for all the notes under `abc/def`.
++Additionally, Quartz will also generate pages for subfolders. Say you have a note in a nested folder `content/abc/def/note.md`. Then Quartz would generate a page for all the notes under `abc` _and_ a page for all the notes under `abc/def`.
+ 
+-By default, Quartz will title the page `Folder: <name of folder>` and no description. You can override this by creating an `index.md` file in the folder with the `title` [[authoring content#Syntax|frontmatter]] field. Any content you write in this file will also be used in the description of the folder.
++You can link to the folder listing by referencing its name, plus a trailing slash, like this: `[[advanced/]]` (results in [[advanced/]]).
++
++By default, Quartz will title the page `Folder: <folder name>` and no description. You can override this by creating an `index.md` file in the folder with the `title` [[authoring content#Syntax|frontmatter]] field. Any content you write in this file will also be used in the folder description.
+ 
+ For example, for the folder `content/posts`, you can add another file `content/posts/index.md` to add a specific description for it.
+ 
+@@ -20,13 +22,12 @@ For example, for the folder `content/posts`, you can add another file `content/p
+ 
+ Quartz will also create an index page for each unique tag in your vault and render a list of all notes with that tag.
+ 
+-Quartz also supports tag hierarchies as well (e.g. `plugin/emitter`) and will also render a separate tag page for each layer of the tag hierarchy. It will also create a default global tag index page at `/tags` that displays a list of all the tags in your Quartz.
++Quartz also supports tag hierarchies as well (e.g. `plugin/emitter`) and will also render a separate tag page for each level of the tag hierarchy. It will also create a default global tag index page at `/tags` that displays a list of all the tags in your Quartz.
+ 
+-Like folder listings, you can also provide a description and title for a tag page by creating a file for each tag. For example, if you wanted to create a custom description for the #component tag, you would create a file at `content/tags/component.md` with a title and description.
++You can link to the tag listing by referencing its name with a `tag/` prefix, like this: `[[tags/plugin]]` (results in [[tags/plugin]]).
+ 
+-## Customization
++As with folder listings, you can also provide a description and title for a tag page by creating a file for each tag. For example, if you wanted to create a custom description for the #component tag, you would create a file at `content/tags/component.md` with a title and description.
+ 
+-The layout for both the folder and content pages can be customized. By default, they use the `defaultListPageLayout` in `quartz.layouts.ts`. If you'd like to make more involved changes to the layout and don't mind editing some [[creating components|Quartz components]], you can take a look at `quartz/components/pages/FolderContent.tsx` and `quartz/components/pages/TagContent.tsx` respectively.
++## Customization
+ 
+-- Removing folder listings: remove `Plugin.FolderPage()` from `emitters` in `quartz.config.ts`
+-- Removing tag listings: remove `Plugin.TagPage()` from `emitters` in `quartz.config.ts`
++The folder listings are a functionality of the [[FolderPage]] plugin, the tag listings of the [[TagPage]] plugin. See the plugin pages for customization options.
+diff --git a/docs/features/full-text search.md b/docs/features/full-text search.md
+deleted file mode 100644
+index 85ec03006..000000000
+--- a/docs/features/full-text search.md	
++++ /dev/null
+@@ -1,30 +0,0 @@
+----
+-title: Full-text Search
+-tags:
+-  - component
+----
+-
+-Full-text search in Quartz is powered by [Flexsearch](https://github.com/nextapps-de/flexsearch). It's fast enough to return search results in under 10ms for Quartzs as large as half a million words.
+-
+-It can be opened by either clicking on the search bar or pressing `⌘`/`ctrl` + `K`. The top 5 search results are shown on each query. Matching subterms are highlighted and the most relevant 30 words are excerpted. Clicking on a search result will navigate to that page.
+-
+-To search content by tags, you can either press `⌘`/`ctrl` + `shift` + `K` or start your query with `#` (e.g. `#components`).
+-
+-This component is also keyboard accessible: Tab and Shift+Tab will cycle forward and backward through search results and Enter will navigate to the highlighted result (first result by default). You are also able to navigate search results using `ArrowUp` and `ArrowDown`.
+-
+-> [!info]
+-> Search requires the `ContentIndex` emitter plugin to be present in the [[configuration]].
+-
+-### Indexing Behaviour
+-
+-By default, it indexes every page on the site with **Markdown syntax removed**. This means link URLs for instance are not indexed.
+-
+-It properly tokenizes Chinese, Korean, and Japenese characters and constructs separate indexes for the title, content and tags, weighing title matches above content matches.
+-
+-## Customization
+-
+-- Removing search: delete all usages of `Component.Search()` from `quartz.layout.ts`.
+-- Component: `quartz/components/Search.tsx`
+-- Style: `quartz/components/styles/search.scss`
+-- Script: `quartz/components/scripts/search.inline.ts`
+-  - You can edit `contextWindowWords`, `numSearchResults` or `numTagResults` to suit your needs
+diff --git a/docs/features/graph view.md b/docs/features/graph view.md
+deleted file mode 100644
+index 4f905c78d..000000000
+--- a/docs/features/graph view.md	
++++ /dev/null
+@@ -1,63 +0,0 @@
+----
+-title: "Graph View"
+-tags:
+-  - component
+----
+-
+-Quartz features a graph-view that can show both a local graph view and a global graph view.
+-
+-- The local graph view shows files that either link to the current file or are linked from the current file. In other words, it shows all notes that are _at most_ one hop away.
+-- The global graph view can be toggled by clicking the graph icon on the top-right of the local graph view. It shows _all_ the notes in your graph and how they connect to each other.
+-
+-By default, the node radius is proportional to the total number of incoming and outgoing internal links from that file.
+-
+-Additionally, similar to how browsers highlight visited links a different colour, the graph view will also show nodes that you have visited in a different colour.
+-
+-> [!info]
+-> Graph View requires the `ContentIndex` emitter plugin to be present in the [[configuration]].
+-
+-## Customization
+-
+-Most configuration can be done by passing in options to `Component.Graph()`.
+-
+-For example, here's what the default configuration looks like:
+-
+-```typescript title="quartz.layout.ts"
+-Component.Graph({
+-  localGraph: {
+-    drag: true, // whether to allow panning the view around
+-    zoom: true, // whether to allow zooming in and out
+-    depth: 1, // how many hops of notes to display
+-    scale: 1.1, // default view scale
+-    repelForce: 0.5, // how much nodes should repel each other
+-    centerForce: 0.3, // how much force to use when trying to center the nodes
+-    linkDistance: 30, // how long should the links be by default?
+-    fontSize: 0.6, // what size should the node labels be?
+-    opacityScale: 1, // how quickly do we fade out the labels when zooming out?
+-    removeTags: [], // what tags to remove from the graph
+-    showTags: true, // whether to show tags in the graph
+-  },
+-  globalGraph: {
+-    drag: true,
+-    zoom: true,
+-    depth: -1,
+-    scale: 0.9,
+-    repelForce: 0.5,
+-    centerForce: 0.3,
+-    linkDistance: 30,
+-    fontSize: 0.6,
+-    opacityScale: 1,
+-    removeTags: [], // what tags to remove from the graph
+-    showTags: true, // whether to show tags in the graph
+-  },
+-})
+-```
+-
+-When passing in your own options, you can omit any or all of these fields if you'd like to keep the default value for that field.
+-
+-Want to customize it even more?
+-
+-- Removing graph view: delete all usages of `Component.Graph()` from `quartz.layout.ts`.
+-- Component: `quartz/components/Graph.tsx`
+-- Style: `quartz/components/styles/graph.scss`
+-- Script: `quartz/components/scripts/graph.inline.ts`
+diff --git a/docs/features/i18n.md b/docs/features/i18n.md
+new file mode 100644
+index 000000000..57547ddad
+--- /dev/null
++++ b/docs/features/i18n.md
+@@ -0,0 +1,18 @@
++---
++title: Internationalization
++---
++
++Internationalization allows users to translate text in the Quartz interface into various supported languages without needing to make extensive code changes. This can be changed via the `locale` [[configuration]] field in `quartz.config.ts`.
++
++The locale field generally follows a certain format: `{language}-{REGION}`
++
++- `{language}` is usually a [2-letter lowercase language code](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes).
++- `{REGION}` is usually a [2-letter uppercase region code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
++
++> [!tip] Interested in contributing?
++> We [gladly welcome translation PRs](https://github.com/jackyzha0/quartz/tree/v4/quartz/i18n/locales)! To contribute a translation, do the following things:
++>
++> 1. In the `quartz/i18n/locales` folder, copy the `en-US.ts` file.
++> 2. Rename it to `{language}-{REGION}.ts` so it matches a locale of the format shown above.
++> 3. Fill in the translations!
++> 4. Add the entry under `TRANSLATIONS` in `quartz/i18n/index.ts`.
+diff --git a/docs/features/index.md b/docs/features/index.md
+deleted file mode 100644
+index 2997b3aa5..000000000
+--- a/docs/features/index.md
++++ /dev/null
+@@ -1,3 +0,0 @@
+----
+-title: Feature List
+----
+diff --git a/docs/features/popover previews.md b/docs/features/popover previews.md
+index f88222402..066604758 100644
+--- a/docs/features/popover previews.md	
++++ b/docs/features/popover previews.md	
+@@ -8,6 +8,8 @@ By default, Quartz only fetches previews for pages inside your vault due to [COR
+ 
+ When [[creating components|creating your own components]], you can include this `popover-hint` class to also include it in the popover.
+ 
++Similar to Obsidian, [[quartz layout.png|images referenced using wikilinks]] can also be viewed as popups.
++
+ ## Configuration
+ 
+ - Remove popovers: set the `enablePopovers` field in `quartz.config.ts` to be `false`.
+diff --git a/docs/features/private pages.md b/docs/features/private pages.md
+index 638c628b6..1e8f8aa24 100644
+--- a/docs/features/private pages.md	
++++ b/docs/features/private pages.md	
+@@ -1,16 +1,16 @@
+ ---
+ title: Private Pages
+ tags:
+-  - plugin/filter
++  - feature/filter
+ ---
+ 
+ There may be some notes you want to avoid publishing as a website. Quartz supports this through two mechanisms which can be used in conjunction:
+ 
+ ## Filter Plugins
+ 
+-[[making plugins#Filters|Filter plugins]] are plugins that filter out content based off of certain criteria. By default, Quartz uses the `Plugin.RemoveDrafts` plugin which filters out any note that has `draft: true` in the frontmatter.
++[[making plugins#Filters|Filter plugins]] are plugins that filter out content based off of certain criteria. By default, Quartz uses the [[RemoveDrafts]] plugin which filters out any note that has `draft: true` in the frontmatter.
+ 
+-If you'd like to only publish a select number of notes, you can instead use `Plugin.ExplicitPublish` which will filter out all notes except for any that have `publish: true` in the frontmatter.
++If you'd like to only publish a select number of notes, you can instead use [[ExplicitPublish]] which will filter out all notes except for any that have `publish: true` in the frontmatter.
+ 
+ > [!warning]
+ > Regardless of the filter plugin used, **all non-markdown files will be emitted and available publically in the final build.** This includes files such as images, voice recordings, PDFs, etc. One way to prevent this and still be able to embed local images is to create a folder specifically for public media and add the following two patterns to the ignorePatterns array.
+diff --git a/docs/features/recent notes.md b/docs/features/recent notes.md
+index 439d6d050..75406e504 100644
+--- a/docs/features/recent notes.md	
++++ b/docs/features/recent notes.md	
+@@ -3,12 +3,13 @@ title: Recent Notes
+ tags: component
+ ---
+ 
+-Quartz can generate a list of recent notes for based on some filtering and sorting criteria. Though this component isn't included in any [[layout]] by default, you can add it by using `Component.RecentNotes`.
++Quartz can generate a list of recent notes based on some filtering and sorting criteria. Though this component isn't included in any [[layout]] by default, you can add it by using `Component.RecentNotes` in `quartz.layout.ts`.
+ 
+ ## Customization
+ 
+ - Changing the title from "Recent notes": pass in an additional parameter to `Component.RecentNotes({ title: "Recent writing" })`
+ - Changing the number of recent notes: pass in an additional parameter to `Component.RecentNotes({ limit: 5 })`
++- Display the note's tags (defaults to true): `Component.RecentNotes({ showTags: false })`
+ - Show a 'see more' link: pass in an additional parameter to `Component.RecentNotes({ linkToMore: "tags/components" })`. This field should be a full slug to a page that exists.
+ - Customize filtering: pass in an additional parameter to `Component.RecentNotes({ filter: someFilterFunction })`. The filter function should be a function that has the signature `(f: QuartzPluginData) => boolean`.
+ - Customize sorting: pass in an additional parameter to `Component.RecentNotes({ sort: someSortFunction })`. By default, Quartz will sort by date and then tie break lexographically. The sort function should be a function that has the signature `(f1: QuartzPluginData, f2: QuartzPluginData) => number`. See `byDateAndAlphabetical` in `quartz/components/PageList.tsx` for an example.
+diff --git a/docs/features/syntax highlighting.md b/docs/features/syntax highlighting.md
+index 68436c2da..bf9baaeee 100644
+--- a/docs/features/syntax highlighting.md	
++++ b/docs/features/syntax highlighting.md	
+@@ -1,7 +1,7 @@
+ ---
+ title: Syntax Highlighting
+ tags:
+-  - plugin/transformer
++  - feature/transformer
+ ---
+ 
+ Syntax highlighting in Quartz is completely done at build-time. This means that Quartz only ships pre-calculated CSS to highlight the right words so there is no heavy client-side bundle that does the syntax highlighting.
+@@ -95,6 +95,16 @@ const [age, setAge] = useState(50)
+ const [name, setName] = useState("Taylor")
+ ```
+ 
++### Inline Highlighting
++
++Append {:lang} to the end of inline code to highlight it like a regular code block.
++
++```
++This is an array `[1, 2, 3]{:js}` of numbers 1 through 3.
++```
++
++This is an array `[1, 2, 3]{:js}` of numbers 1 through 3.
++
+ ### Line numbers
+ 
+ Syntax highlighting has line numbers configured automatically. If you want to start line numbers at a specific number, use `showLineNumbers{number}`:
+@@ -130,6 +140,4 @@ const [name, setName] = useState('Taylor');
+ 
+ ## Customization
+ 
+-- Removing syntax highlighting: delete all usages of `Plugin.SyntaxHighlighting()` from `quartz.config.ts`.
+-- Style: By default, Quartz uses derivatives of the GitHub light and dark themes. You can customize the colours in the `quartz/styles/syntax.scss` file.
+-- Plugin: `quartz/plugins/transformers/syntax.ts`
++Syntax highlighting is a functionality of the [[SyntaxHighlighting]] plugin. See the plugin page for customization options.
+diff --git a/docs/features/table of contents.md b/docs/features/table of contents.md
+deleted file mode 100644
+index 0298ffaab..000000000
+--- a/docs/features/table of contents.md	
++++ /dev/null
+@@ -1,26 +0,0 @@
+----
+-title: "Table of Contents"
+-tags:
+-  - component
+-  - plugin/transformer
+----
+-
+-Quartz can automatically generate a table of contents from a list of headings on each page. It will also show you your current scroll position on the site by marking headings you've scrolled through with a different colour.
+-
+-By default, it will show all headers from H1 (`# Title`) all the way to H3 (`### Title`) and will only show the table of contents if there is more than 1 header on the page.
+-You can also hide the table of contents on a page by adding `enableToc: false` to the frontmatter for that page.
+-
+-> [!info]
+-> This feature requires both `Plugin.TableOfContents` in your `quartz.config.ts` and `Component.TableOfContents` in your `quartz.layout.ts` to function correctly.
+-
+-## Customization
+-
+-- Removing table of contents: remove all instances of `Plugin.TableOfContents()` from `quartz.config.ts`. and `Component.TableOfContents()` from `quartz.layout.ts`
+-- Changing the max depth: pass in a parameter to `Plugin.TableOfContents({ maxDepth: 4 })`
+-- Changing the minimum number of entries in the Table of Contents before it renders: pass in a parameter to `Plugin.TableOfContents({ minEntries: 3 })`
+-- Collapse the table of content by default: pass in a parameter to `Plugin.TableOfContents({ collapseByDefault: true })`
+-- Component: `quartz/components/TableOfContents.tsx`
+-- Style:
+-  - Modern (default): `quartz/components/styles/toc.scss`
+-  - Legacy Quartz 3 style: `quartz/components/styles/legacyToc.scss`
+-- Script: `quartz/components/scripts/toc.inline.ts`
+diff --git a/docs/features/upcoming features.md b/docs/features/upcoming features.md
+deleted file mode 100644
+index 76adda00e..000000000
+--- a/docs/features/upcoming features.md	
++++ /dev/null
+@@ -1,23 +0,0 @@
+----
+-draft: true
+----
+-
+-## high priority backlog
+-
+-- static dead link detection
+-- block links: https://help.obsidian.md/Linking+notes+and+files/Internal+links#Link+to+a+block+in+a+note
+-- note/header/block transcludes: https://help.obsidian.md/Linking+notes+and+files/Embedding+files
+-- docker support
+-
+-## misc backlog
+-
+-- breadcrumbs component
+-- cursor chat extension
+-- https://giscus.app/ extension
+-- sidenotes? https://github.com/capnfabs/paperesque
+-- direct match in search using double quotes
+-- https://help.obsidian.md/Advanced+topics/Using+Obsidian+URI
+-- audio/video embed styling
+-- Canvas
+-- parse all images in page: use this for page lists if applicable?
+-- CV mode? with print stylesheet
+diff --git a/docs/features/wikilinks.md b/docs/features/wikilinks.md
+index 1b005327c..ad4f2d779 100644
+--- a/docs/features/wikilinks.md
++++ b/docs/features/wikilinks.md
+@@ -4,7 +4,7 @@ title: Wikilinks
+ 
+ Wikilinks were pioneered by earlier internet wikis to make it easier to write links across pages without needing to write Markdown or HTML links each time.
+ 
+-Quartz supports Wikilinks by default and these links are resolved by Quartz using `Plugin.CrawlLinks`. See the [Obsidian Help page on Internal Links](https://help.obsidian.md/Linking+notes+and+files/Internal+links) for more information on Wikilink syntax.
++Quartz supports Wikilinks by default and these links are resolved by Quartz using the [[CrawlLinks]] plugin. See the [Obsidian Help page on Internal Links](https://help.obsidian.md/Linking+notes+and+files/Internal+links) for more information on Wikilink syntax.
+ 
+ This is enabled as a part of [[Obsidian compatibility]] and can be configured and enabled/disabled from that plugin.
+ 
+diff --git a/docs/hosting.md b/docs/hosting.md
+index e6340d293..e5ef9a615 100644
+--- a/docs/hosting.md
++++ b/docs/hosting.md
+@@ -30,7 +30,7 @@ Press "Save and deploy" and Cloudflare should have a deployed version of your si
+ To add a custom domain, check out [Cloudflare's documentation](https://developers.cloudflare.com/pages/platform/custom-domains/).
+ 
+ > [!warning]
+-> Cloudflare Pages only allows shallow `git` clones so if you rely on `git` for timestamps, it is recommended you either add dates to your frontmatter (see [[authoring content#Syntax]]) or use another hosting provider.
++> Cloudflare Pages performs a shallow clone by default, so if you rely on `git` for timestamps, it is recommended that you add `git fetch --unshallow &&` to the beginning of the build command (e.g., `git fetch --unshallow && npx quartz build`).
+ 
+ ## GitHub Pages
+ 
+@@ -228,3 +228,43 @@ pages:
+ When `.gitlab-ci.yaml` is committed, GitLab will build and deploy the website as a GitLab Page. You can find the url under `Deploy > Pages` in the sidebar.
+ 
+ By default, the page is private and only visible when logged in to a GitLab account with access to the repository but can be opened in the settings under `Deploy` -> `Pages`.
++
++## Self-Hosting
++
++Copy the `public` directory to your web server and configure it to serve the files. You can use any web server to host your site. Since Quartz generates links that do not include the `.html` extension, you need to let your web server know how to deal with it.
++
++### Using Nginx
++
++Here's an example of how to do this with Nginx:
++
++```nginx title="nginx.conf"
++server {
++    listen 80;
++    server_name example.com;
++    root /path/to/quartz/public;
++    index index.html;
++    error_page 404 /404.html;
++
++    location / {
++        try_files $uri $uri.html $uri/ =404;
++    }
++}
++```
++
++### Using Caddy
++
++Here's and example of how to do this with Caddy:
++
++```caddy title="Caddyfile"
++example.com {
++    root * /path/to/quartz/public
++    try_files {path} {path}.html {path}/ =404
++    file_server
++    encode gzip
++
++    handle_errors {
++        rewrite * /{err.status_code}.html
++        file_server
++    }
++}
++```
+diff --git a/docs/index.md b/docs/index.md
+index cbf8719d1..87cf024a3 100644
+--- a/docs/index.md
++++ b/docs/index.md
+@@ -31,7 +31,7 @@ If you prefer instructions in a video format you can try following Nicole van de
+ 
+ ## 🔧 Features
+ 
+-- [[Obsidian compatibility]], [[full-text search]], [[graph view]], note transclusion, [[wikilinks]], [[backlinks]], [[Latex]], [[syntax highlighting]], [[popover previews]], [[Docker Support]], and [many more](./features) right out of the box
++- [[Obsidian compatibility]], [[full-text search]], [[graph view]], note transclusion, [[wikilinks]], [[backlinks]], [[features/Latex|Latex]], [[syntax highlighting]], [[popover previews]], [[Docker Support]], [[i18n|internationalization]] and [many more](./features) right out of the box
+ - Hot-reload for both configuration and content
+ - Simple JSX layouts and [[creating components|page components]]
+ - [[SPA Routing|Ridiculously fast page loads]] and tiny bundle sizes
+diff --git a/docs/plugins/AliasRedirects.md b/docs/plugins/AliasRedirects.md
+new file mode 100644
+index 000000000..8c0365377
+--- /dev/null
++++ b/docs/plugins/AliasRedirects.md
+@@ -0,0 +1,37 @@
++---
++title: AliasRedirects
++tags:
++  - plugin/emitter
++---
++
++This plugin emits HTML redirect pages for aliases and permalinks defined in the frontmatter of content files.
++
++For example, A `foo.md` has the following frontmatter
++
++```md title="foo.md"
++---
++title: "Foo"
++alias:
++  - "bar"
++---
++```
++
++The target `host.me/bar` will be redirected to `host.me/foo`
++
++Note that these are permanent redirect.
++
++The emitter supports the following aliases:
++
++- `aliases`
++- `alias`
++
++> [!note]
++> For information on how to add, remove or configure plugins, see the [[configuration#Plugins|Configuration]] page.
++
++This plugin has no configuration options.
++
++## API
++
++- Category: Emitter
++- Function name: `Plugin.AliasRedirects()`.
++- Source: [`quartz/plugins/emitters/aliases.ts`](https://github.com/jackyzha0/quartz/blob/v4/quartz/plugins/emitters/aliases.ts).
+diff --git a/docs/plugins/Assets.md b/docs/plugins/Assets.md
+new file mode 100644
+index 000000000..47589b2c3
+--- /dev/null
++++ b/docs/plugins/Assets.md
+@@ -0,0 +1,20 @@
++---
++title: Assets
++tags:
++  - plugin/emitter
++---
++
++This plugin emits all non-Markdown static assets in your content folder (like images, videos, HTML, etc). The plugin respects the `ignorePatterns` in the global [[configuration]].
++
++Note that all static assets will then be accessible through its path on your generated site, i.e: `host.me/path/to/static.pdf`
++
++> [!note]
++> For information on how to add, remove or configure plugins, see the [[configuration#Plugins|Configuration]] page.
++
++This plugin has no configuration options.
++
++## API
++
++- Category: Emitter
++- Function name: `Plugin.Assets()`.
++- Source: [`quartz/plugins/emitters/assets.ts`](https://github.com/jackyzha0/quartz/blob/v4/quartz/plugins/emitters/assets.ts).
+diff --git a/docs/plugins/CNAME.md b/docs/plugins/CNAME.md
+new file mode 100644
+index 000000000..bc12b5acc
+--- /dev/null
++++ b/docs/plugins/CNAME.md
+@@ -0,0 +1,22 @@
++---
++title: CNAME
++tags:
++  - plugin/emitter
++---
++
++This plugin emits a `CNAME` record that points your subdomain to the default domain of your site.
++
++If you want to use a custom domain name like `quartz.example.com` for the site, then this is needed.
++
++See [[hosting|Hosting]] for more information.
++
++> [!note]
++> For information on how to add, remove or configure plugins, see the [[configuration#Plugins|Configuration]] page.
++
++This plugin has no configuration options.
++
++## API
++
++- Category: Emitter
++- Function name: `Plugin.CNAME()`.
++- Source: [`quartz/plugins/emitters/cname.ts`](https://github.com/jackyzha0/quartz/blob/v4/quartz/plugins/emitters/cname.ts).
+diff --git a/docs/plugins/ComponentResources.md b/docs/plugins/ComponentResources.md
+new file mode 100644
+index 000000000..6e8c82ef8
+--- /dev/null
++++ b/docs/plugins/ComponentResources.md
+@@ -0,0 +1,18 @@
++---
++title: ComponentResources
++tags:
++  - plugin/emitter
++---
++
++This plugin manages and emits the static resources required for the Quartz framework. This includes CSS stylesheets and JavaScript scripts that enhance the functionality and aesthetics of the generated site. See also the `cdnCaching` option in the `theme` section of the [[configuration]].
++
++> [!note]
++> For information on how to add, remove or configure plugins, see the [[configuration#Plugins|Configuration]] page.
++
++This plugin has no configuration options.
++
++## API
++
++- Category: Emitter
++- Function name: `Plugin.ComponentResources()`.
++- Source: [`quartz/plugins/emitters/componentResources.ts`](https://github.com/jackyzha0/quartz/blob/v4/quartz/plugins/emitters/componentResources.ts).
+diff --git a/docs/plugins/ContentIndex.md b/docs/plugins/ContentIndex.md
+new file mode 100644
+index 000000000..eb7265d47
+--- /dev/null
++++ b/docs/plugins/ContentIndex.md
+@@ -0,0 +1,26 @@
++---
++title: ContentIndex
++tags:
++  - plugin/emitter
++---
++
++This plugin emits both RSS and an XML sitemap for your site. The [[RSS Feed]] allows users to subscribe to content on your site and the sitemap allows search engines to better index your site. The plugin also emits a `contentIndex.json` file which is used by dynamic frontend components like search and graph.
++
++This plugin emits a comprehensive index of the site's content, generating additional resources such as a sitemap, an RSS feed, and a
++
++> [!note]
++> For information on how to add, remove or configure plugins, see the [[configuration#Plugins|Configuration]] page.
++
++This plugin accepts the following configuration options:
++
++- `enableSiteMap`: If `true` (default), generates a sitemap XML file (`sitemap.xml`) listing all site URLs for search engines in content discovery.
++- `enableRSS`: If `true` (default), produces an RSS feed (`index.xml`) with recent content updates.
++- `rssLimit`: Defines the maximum number of entries to include in the RSS feed, helping to focus on the most recent or relevant content. Defaults to `10`.
++- `rssFullHtml`: If `true`, the RSS feed includes full HTML content. Otherwise it includes just summaries.
++- `includeEmptyFiles`: If `true` (default), content files with no body text are included in the generated index and resources.
++
++## API
++
++- Category: Emitter
++- Function name: `Plugin.ContentIndex()`.
++- Source: [`quartz/plugins/emitters/contentIndex.ts`](https://github.com/jackyzha0/quartz/blob/v4/quartz/plugins/emitters/contentIndex.ts).
+diff --git a/docs/plugins/ContentPage.md b/docs/plugins/ContentPage.md
+new file mode 100644
+index 000000000..bd33e4ee1
+--- /dev/null
++++ b/docs/plugins/ContentPage.md
+@@ -0,0 +1,18 @@
++---
++title: ContentPage
++tags:
++  - plugin/emitter
++---
++
++This plugin is a core component of the Quartz framework. It generates the HTML pages for each piece of Markdown content. It emits the full-page [[layout]], including headers, footers, and body content, among others.
++
++> [!note]
++> For information on how to add, remove or configure plugins, see the [[configuration#Plugins|Configuration]] page.
++
++This plugin has no configuration options.
++
++## API
++
++- Category: Emitter
++- Function name: `Plugin.ContentPage()`.
++- Source: [`quartz/plugins/emitters/contentPage.tsx`](https://github.com/jackyzha0/quartz/blob/v4/quartz/plugins/emitters/contentPage.tsx).
+diff --git a/docs/plugins/CrawlLinks.md b/docs/plugins/CrawlLinks.md
+new file mode 100644
+index 000000000..47b7bdd77
+--- /dev/null
++++ b/docs/plugins/CrawlLinks.md
+@@ -0,0 +1,30 @@
++---
++title: CrawlLinks
++tags:
++  - plugin/transformer
++---
++
++This plugin parses links and processes them to point to the right places. It is also needed for embedded links (like images). See [[Obsidian compatibility]] for more information.
++
++> [!note]
++> For information on how to add, remove or configure plugins, see the [[configuration#Plugins|Configuration]] page.
++
++This plugin accepts the following configuration options:
++
++- `markdownLinkResolution`: Sets the strategy for resolving Markdown paths, can be `"absolute"` (default), `"relative"` or `"shortest"`. You should use the same setting here as in [[Obsidian compatibility|Obsidian]].
++  - `absolute`: Path relative to the root of the content folder.
++  - `relative`: Path relative to the file you are linking from.
++  - `shortest`: Name of the file. If this isn't enough to identify the file, use the full absolute path.
++- `prettyLinks`: If `true` (default), simplifies links by removing folder paths, making them more user friendly (e.g. `folder/deeply/nested/note` becomes `note`).
++- `openLinksInNewTab`: If `true`, configures external links to open in a new tab. Defaults to `false`.
++- `lazyLoad`: If `true`, adds lazy loading to resource elements (`img`, `video`, etc.) to improve page load performance. Defaults to `false`.
++- `externalLinkIcon`: Adds an icon next to external links when `true` (default) to visually distinguishing them from internal links.
++
++> [!warning]
++> Removing this plugin is _not_ recommended and will likely break the page.
++
++## API
++
++- Category: Transformer
++- Function name: `Plugin.CrawlLinks()`.
++- Source: [`quartz/plugins/transformers/links.ts`](https://github.com/jackyzha0/quartz/blob/v4/quartz/plugins/transformers/links.ts).
+diff --git a/docs/plugins/CreatedModifiedDate.md b/docs/plugins/CreatedModifiedDate.md
+new file mode 100644
+index 000000000..5d772aaa0
+--- /dev/null
++++ b/docs/plugins/CreatedModifiedDate.md
+@@ -0,0 +1,25 @@
++---
++title: "CreatedModifiedDate"
++tags:
++  - plugin/transformer
++---
++
++This plugin determines the created, modified, and published dates for a document using three potential data sources: frontmatter metadata, Git history, and the filesystem. See [[authoring content#Syntax]] for more information.
++
++> [!note]
++> For information on how to add, remove or configure plugins, see the [[configuration#Plugins|Configuration]] page.
++
++This plugin accepts the following configuration options:
++
++- `priority`: The data sources to consult for date information. Highest priority first. Possible values are `"frontmatter"`, `"git"`, and `"filesystem"`. Defaults to `"frontmatter", "git", "filesystem"]`.
++
++> [!warning]
++> If you rely on `git` for dates, make sure `defaultDateType` is set to `modified` in `quartz.config.ts`.
++>
++> Depending on how you [[hosting|host]] your Quartz, the `filesystem` dates of your local files may not match the final dates. In these cases, it may be better to use `git` or `frontmatter` to guarantee correct dates.
++
++## API
++
++- Category: Transformer
++- Function name: `Plugin.CreatedModifiedDate()`.
++- Source: [`quartz/plugins/transformers/lastmod.ts`](https://github.com/jackyzha0/quartz/blob/v4/quartz/plugins/transformers/lastmod.ts).
+diff --git a/docs/plugins/Description.md b/docs/plugins/Description.md
+new file mode 100644
+index 000000000..af1c8b7c2
+--- /dev/null
++++ b/docs/plugins/Description.md
+@@ -0,0 +1,23 @@
++---
++title: Description
++tags:
++  - plugin/transformer
++---
++
++This plugin generates descriptions that are used as metadata for the HTML `head`, the [[RSS Feed]] and in [[folder and tag listings]] if there is no main body content, the description is used as the text between the title and the listing.
++
++If the frontmatter contains a `description` property, it is used (see [[authoring content#Syntax]]). Otherwise, the plugin will do its best to use the first few sentences of the content to reach the target description length.
++
++> [!note]
++> For information on how to add, remove or configure plugins, see the [[configuration#Plugins|Configuration]] page.
++
++This plugin accepts the following configuration options:
++
++- `descriptionLength`: the maximum length of the generated description. Default is 150 characters. The cut off happens after the first _sentence_ that ends after the given length.
++- `replaceExternalLinks`: If `true` (default), replace external links with their domain and path in the description (e.g. `https://domain.tld/some_page/another_page?query=hello&target=world` is replaced with `domain.tld/some_page/another_page`).
++
++## API
++
++- Category: Transformer
++- Function name: `Plugin.Description()`.
++- Source: [`quartz/plugins/transformers/description.ts`](https://github.com/jackyzha0/quartz/blob/v4/quartz/plugins/transformers/description.ts).
+diff --git a/docs/plugins/ExplicitPublish.md b/docs/plugins/ExplicitPublish.md
+new file mode 100644
+index 000000000..2fd929b92
+--- /dev/null
++++ b/docs/plugins/ExplicitPublish.md
+@@ -0,0 +1,18 @@
++---
++title: ExplicitPublish
++tags:
++  - plugin/filter
++---
++
++This plugin filters content based on an explicit `publish` flag in the frontmatter, allowing only content that is explicitly marked for publication to pass through. It's the opt-in version of [[RemoveDrafts]]. See [[private pages]] for more information.
++
++> [!note]
++> For information on how to add, remove or configure plugins, see the [[configuration#Plugins|Configuration]] page.
++
++This plugin has no configuration options.
++
++## API
++
++- Category: Filter
++- Function name: `Plugin.ExplicitPublish()`.
++- Source: [`quartz/plugins/filters/explicit.ts`](https://github.com/jackyzha0/quartz/blob/v4/quartz/plugins/filters/explicit.ts).
+diff --git a/docs/plugins/FolderPage.md b/docs/plugins/FolderPage.md
+new file mode 100644
+index 000000000..ead8e75ff
+--- /dev/null
++++ b/docs/plugins/FolderPage.md
+@@ -0,0 +1,22 @@
++---
++title: FolderPage
++tags:
++  - plugin/emitter
++---
++
++This plugin generates index pages for folders, creating a listing page for each folder that contains multiple content files. See [[folder and tag listings]] for more information.
++
++Example: [[advanced/|Advanced]]
++
++> [!note]
++> For information on how to add, remove or configure plugins, see the [[configuration#Plugins|Configuration]] page.
++
++This plugin has no configuration options.
++
++The pages are displayed using the `defaultListPageLayout` in `quartz.layouts.ts`. For the content, the `FolderContent` component is used. If you want to modify the layout, you must edit it directly (`quartz/components/pages/FolderContent.tsx`).
++
++## API
++
++- Category: Emitter
++- Function name: `Plugin.FolderPage()`.
++- Source: [`quartz/plugins/emitters/folderPage.tsx`](https://github.com/jackyzha0/quartz/blob/v4/quartz/plugins/emitters/folderPage.tsx).
+diff --git a/docs/plugins/Frontmatter.md b/docs/plugins/Frontmatter.md
+new file mode 100644
+index 000000000..879d087db
+--- /dev/null
++++ b/docs/plugins/Frontmatter.md
+@@ -0,0 +1,24 @@
++---
++title: "Frontmatter"
++tags:
++  - plugin/transformer
++---
++
++This plugin parses the frontmatter of the page using the [gray-matter](https://github.com/jonschlinkert/gray-matter) library. See [[authoring content#Syntax]], [[Obsidian compatibility]] and [[OxHugo compatibility]] for more information.
++
++> [!note]
++> For information on how to add, remove or configure plugins, see the [[configuration#Plugins|Configuration]] page.
++
++This plugin accepts the following configuration options:
++
++- `delimiters`: the delimiters to use for the frontmatter. Can have one value (e.g. `"---"`) or separate values for opening and closing delimiters (e.g. `["---", "~~~"]`). Defaults to `"---"`.
++- `language`: the language to use for parsing the frontmatter. Can be `yaml` (default) or `toml`.
++
++> [!warning]
++> This plugin must not be removed, otherwise Quartz will break.
++
++## API
++
++- Category: Transformer
++- Function name: `Plugin.Frontmatter()`.
++- Source: [`quartz/plugins/transformers/frontmatter.ts`](https://github.com/jackyzha0/quartz/blob/v4/quartz/plugins/transformers/frontmatter.ts).
+diff --git a/docs/plugins/GitHubFlavoredMarkdown.md b/docs/plugins/GitHubFlavoredMarkdown.md
+new file mode 100644
+index 000000000..41fab6b23
+--- /dev/null
++++ b/docs/plugins/GitHubFlavoredMarkdown.md
+@@ -0,0 +1,23 @@
++---
++title: GitHubFlavoredMarkdown
++tags:
++  - plugin/transformer
++---
++
++This plugin enhances Markdown processing to support GitHub Flavored Markdown (GFM) which adds features like autolink literals, footnotes, strikethrough, tables and tasklists.
++
++In addition, this plugin adds optional features for typographic refinement (such as converting straight quotes to curly quotes, dashes to en-dashes/em-dashes, and ellipses) and automatic heading links as a symbol that appears next to the heading on hover.
++
++> [!note]
++> For information on how to add, remove or configure plugins, see the [[configuration#Plugins|Configuration]] page.
++
++This plugin accepts the following configuration options:
++
++- `enableSmartyPants`: When true, enables typographic enhancements. Default is true.
++- `linkHeadings`: When true, automatically adds links to headings. Default is true.
++
++## API
++
++- Category: Transformer
++- Function name: `Plugin.GitHubFlavoredMarkdown()`.
++- Source: [`quartz/plugins/transformers/gfm.ts`](https://github.com/jackyzha0/quartz/blob/v4/quartz/plugins/transformers/gfm.ts).
+diff --git a/docs/plugins/HardLineBreaks.md b/docs/plugins/HardLineBreaks.md
+new file mode 100644
+index 000000000..e24f7e129
+--- /dev/null
++++ b/docs/plugins/HardLineBreaks.md
+@@ -0,0 +1,18 @@
++---
++title: HardLineBreaks
++tags:
++  - plugin/transformer
++---
++
++This plugin automatically converts single line breaks in Markdown text into hard line breaks in the HTML output. This plugin is not enabled by default as this doesn't follow the semantics of actual Markdown but you may enable it if you'd like parity with [[Obsidian compatibility|Obsidian]].
++
++> [!note]
++> For information on how to add, remove or configure plugins, see the [[configuration#Plugins|Configuration]] page.
++
++This plugin has no configuration options.
++
++## API
++
++- Category: Transformer
++- Function name: `Plugin.HardLineBreaks()`.
++- Source: [`quartz/plugins/transformers/linebreaks.ts`](https://github.com/jackyzha0/quartz/blob/v4/quartz/plugins/transformers/linebreaks.ts).
+diff --git a/docs/plugins/Latex.md b/docs/plugins/Latex.md
+new file mode 100644
+index 000000000..ac4367841
+--- /dev/null
++++ b/docs/plugins/Latex.md
+@@ -0,0 +1,20 @@
++---
++title: "Latex"
++tags:
++  - plugin/transformer
++---
++
++This plugin adds LaTeX support to Quartz. See [[features/Latex|Latex]] for more information.
++
++> [!note]
++> For information on how to add, remove or configure plugins, see the [[configuration#Plugins|Configuration]] page.
++
++This plugin accepts the following configuration options:
++
++- `renderEngine`: the engine to use to render LaTeX equations. Can be `"katex"` for [KaTeX](https://katex.org/) or `"mathjax"` for [MathJax](https://www.mathjax.org/) [SVG rendering](https://docs.mathjax.org/en/latest/output/svg.html). Defaults to KaTeX.
++
++## API
++
++- Category: Transformer
++- Function name: `Plugin.Latex()`.
++- Source: [`quartz/plugins/transformers/latex.ts`](https://github.com/jackyzha0/quartz/blob/v4/quartz/plugins/transformers/latex.ts).
+diff --git a/docs/plugins/NotFoundPage.md b/docs/plugins/NotFoundPage.md
+new file mode 100644
+index 000000000..b67994329
+--- /dev/null
++++ b/docs/plugins/NotFoundPage.md
+@@ -0,0 +1,18 @@
++---
++title: NotFoundPage
++tags:
++  - plugin/emitter
++---
++
++This plugin emits a 404 (Not Found) page for broken or non-existent URLs.
++
++> [!note]
++> For information on how to add, remove or configure plugins, see the [[configuration#Plugins|Configuration]] page.
++
++This plugin has no configuration options.
++
++## API
++
++- Category: Emitter
++- Function name: `Plugin.NotFoundPage()`.
++- Source: [`quartz/plugins/emitters/404.tsx`](https://github.com/jackyzha0/quartz/blob/v4/quartz/plugins/emitters/404.tsx).
+diff --git a/docs/plugins/ObsidianFlavoredMarkdown.md b/docs/plugins/ObsidianFlavoredMarkdown.md
+new file mode 100644
+index 000000000..30d1f7179
+--- /dev/null
++++ b/docs/plugins/ObsidianFlavoredMarkdown.md
+@@ -0,0 +1,34 @@
++---
++title: ObsidianFlavoredMarkdown
++tags:
++  - plugin/transformer
++---
++
++This plugin provides support for [[Obsidian compatibility]].
++
++> [!note]
++> For information on how to add, remove or configure plugins, see the [[configuration#Plugins|Configuration]] page.
++
++This plugin accepts the following configuration options:
++
++- `comments`: If `true` (default), enables parsing of `%%` style Obsidian comment blocks.
++- `highlight`: If `true` (default), enables parsing of `==` style highlights within content.
++- `wikilinks`:If `true` (default), turns [[wikilinks]] into regular links.
++- `callouts`: If `true` (default), adds support for [[callouts|callout]] blocks for emphasizing content.
++- `mermaid`: If `true` (default), enables [[Mermaid diagrams|Mermaid diagram]] rendering within Markdown files.
++- `parseTags`: If `true` (default), parses and links tags within the content.
++- `parseArrows`: If `true` (default), transforms arrow symbols into their HTML character equivalents.
++- `parseBlockReferences`: If `true` (default), handles block references, linking to specific content blocks.
++- `enableInHtmlEmbed`: If `true`, allows embedding of content directly within HTML. Defaults to `false`.
++- `enableYouTubeEmbed`: If `true` (default), enables the embedding of YouTube videos and playlists using external image Markdown syntax.
++- `enableVideoEmbed`: If `true` (default), enables the embedding of video files.
++- `enableCheckbox`: If `true`, adds support for interactive checkboxes in content. Defaults to `false`.
++
++> [!warning]
++> Don't remove this plugin if you're using [[Obsidian compatibility|Obsidian]] to author the content!
++
++## API
++
++- Category: Transformer
++- Function name: `Plugin.ObsidianFlavoredMarkdown()`.
++- Source: [`quartz/plugins/transformers/toc.ts`](https://github.com/jackyzha0/quartz/blob/v4/quartz/plugins/transformers/toc.ts).
+diff --git a/docs/plugins/OxHugoFlavoredMarkdown.md b/docs/plugins/OxHugoFlavoredMarkdown.md
+new file mode 100644
+index 000000000..5c2afeea6
+--- /dev/null
++++ b/docs/plugins/OxHugoFlavoredMarkdown.md
+@@ -0,0 +1,29 @@
++---
++title: OxHugoFlavoredMarkdown
++tags:
++  - plugin/transformer
++---
++
++This plugin provides support for [ox-hugo](https://github.com/kaushalmodi/ox-hugo) compatibility. See [[OxHugo compatibility]] for more information.
++
++> [!note]
++> For information on how to add, remove or configure plugins, see the [[configuration#Plugins|Configuration]] page.
++
++This plugin accepts the following configuration options:
++
++- `wikilinks`: If `true` (default), converts Hugo `{{ relref }}` shortcodes to Quartz [[wikilinks]].
++- `removePredefinedAnchor`: If `true` (default), strips predefined anchors from headings.
++- `removeHugoShortcode`: If `true` (default), removes Hugo shortcode syntax (`{{}}`) from the content.
++- `replaceFigureWithMdImg`: If `true` (default), replaces `<figure/>` with `![]()`.
++- `replaceOrgLatex`: If `true` (default), converts Org-mode [[features/Latex|Latex]] fragments to Quartz-compatible LaTeX wrapped in `$` (for inline) and `$$` (for block equations).
++
++> [!warning]
++> While you can use this together with [[ObsidianFlavoredMarkdown]], it's not recommended because it might mutate the file in unexpected ways. Use with caution.
++>
++> If you use `toml` frontmatter, make sure to configure the [[Frontmatter]] plugin accordingly. See [[OxHugo compatibility]] for an example.
++
++## API
++
++- Category: Transformer
++- Function name: `Plugin.OxHugoFlavoredMarkdown()`.
++- Source: [`quartz/plugins/transformers/oxhugofm.ts`](https://github.com/jackyzha0/quartz/blob/v4/quartz/plugins/transformers/oxhugofm.ts).
+diff --git a/docs/plugins/RemoveDrafts.md b/docs/plugins/RemoveDrafts.md
+new file mode 100644
+index 000000000..07fb4d0e4
+--- /dev/null
++++ b/docs/plugins/RemoveDrafts.md
+@@ -0,0 +1,18 @@
++---
++title: RemoveDrafts
++tags:
++  - plugin/filter
++---
++
++This plugin filters out content from your vault, so that only finalized content is made available. This prevents [[private pages]] from being published. By default, it filters out all pages with `draft: true` in the frontmatter and leaves all other pages intact.
++
++> [!note]
++> For information on how to add, remove or configure plugins, see the [[configuration#Plugins|Configuration]] page.
++
++This plugin has no configuration options.
++
++## API
++
++- Category: Filter
++- Function name: `Plugin.RemoveDrafts()`.
++- Source: [`quartz/plugins/filters/draft.ts`](https://github.com/jackyzha0/quartz/blob/v4/quartz/plugins/filters/draft.ts).
+diff --git a/docs/plugins/Static.md b/docs/plugins/Static.md
+new file mode 100644
+index 000000000..80bf5a158
+--- /dev/null
++++ b/docs/plugins/Static.md
+@@ -0,0 +1,21 @@
++---
++title: Static
++tags:
++  - plugin/emitter
++---
++
++This plugin emits all static resources needed by Quartz. This is used, for example, for fonts and images that need a stable position, such as banners and icons. The plugin respects the `ignorePatterns` in the global [[configuration]].
++
++> [!important]
++> This is different from [[Assets]]. The resources from the [[Static]] plugin are located under `quartz/static`, whereas [[Assets]] renders all static resources under `content` and is used for images, videos, audio, etc. that are directly referenced by your markdown content.
++
++> [!note]
++> For information on how to add, remove or configure plugins, see the [[configuration#Plugins|Configuration]] page.
++
++This plugin has no configuration options.
++
++## API
++
++- Category: Emitter
++- Function name: `Plugin.Static()`.
++- Source: [`quartz/plugins/emitters/static.ts`](https://github.com/jackyzha0/quartz/blob/v4/quartz/plugins/emitters/static.ts).
+diff --git a/docs/plugins/SyntaxHighlighting.md b/docs/plugins/SyntaxHighlighting.md
+new file mode 100644
+index 000000000..6fb67dba0
+--- /dev/null
++++ b/docs/plugins/SyntaxHighlighting.md
+@@ -0,0 +1,23 @@
++---
++title: "SyntaxHighlighting"
++tags:
++  - plugin/transformer
++---
++
++This plugin is used to add syntax highlighting to code blocks in Quartz. See [[syntax highlighting]] for more information.
++
++> [!note]
++> For information on how to add, remove or configure plugins, see the [[configuration#Plugins|Configuration]] page.
++
++This plugin accepts the following configuration options:
++
++- `theme`: a separate id of one of the [themes bundled with Shikiji](https://shikiji.netlify.app/themes). One for light mode and one for dark mode. Defaults to `theme: { light: "github-light", dark: "github-dark" }`.
++- `keepBackground`: If set to `true`, the background of the Shikiji theme will be used. With `false` (default) the Quartz theme color for background will be used instead.
++
++In addition, you can further override the colours in the `quartz/styles/syntax.scss` file.
++
++## API
++
++- Category: Transformer
++- Function name: `Plugin.SyntaxHighlighting()`.
++- Source: [`quartz/plugins/transformers/syntax.ts`](https://github.com/jackyzha0/quartz/blob/v4/quartz/plugins/transformers/syntax.ts).
+diff --git a/docs/plugins/TableOfContents.md b/docs/plugins/TableOfContents.md
+new file mode 100644
+index 000000000..0e9e4ea73
+--- /dev/null
++++ b/docs/plugins/TableOfContents.md
+@@ -0,0 +1,26 @@
++---
++title: TableOfContents
++tags:
++  - plugin/transformer
++---
++
++This plugin generates a table of contents (TOC) for Markdown documents. See [[table of contents]] for more information.
++
++> [!note]
++> For information on how to add, remove or configure plugins, see the [[configuration#Plugins|Configuration]] page.
++
++This plugin accepts the following configuration options:
++
++- `maxDepth`: Limits the depth of headings included in the TOC, ranging from `1` (top level headings only) to `6` (all heading levels). Default is `3`.
++- `minEntries`: The minimum number of heading entries required for the TOC to be displayed. Default is `1`.
++- `showByDefault`: If `true` (default), the TOC should be displayed by default. Can be overridden by frontmatter settings.
++- `collapseByDefault`: If `true`, the TOC will start in a collapsed state. Default is `false`.
++
++> [!warning]
++> This plugin needs the `Component.TableOfContents` component in `quartz.layout.ts` to determine where to display the TOC. Without it, nothing will be displayed. They should always be added or removed together.
++
++## API
++
++- Category: Transformer
++- Function name: `Plugin.TableOfContents()`.
++- Source: [`quartz/plugins/transformers/toc.ts`](https://github.com/jackyzha0/quartz/blob/v4/quartz/plugins/transformers/toc.ts).
+diff --git a/docs/plugins/TagPage.md b/docs/plugins/TagPage.md
+new file mode 100644
+index 000000000..9c704b380
+--- /dev/null
++++ b/docs/plugins/TagPage.md
+@@ -0,0 +1,20 @@
++---
++title: TagPage
++tags:
++  - plugin/emitter
++---
++
++This plugin emits dedicated pages for each tag used in the content. See [[folder and tag listings]] for more information.
++
++> [!note]
++> For information on how to add, remove or configure plugins, see the [[configuration#Plugins|Configuration]] page.
++
++This plugin has no configuration options.
++
++The pages are displayed using the `defaultListPageLayout` in `quartz.layouts.ts`. For the content, the `TagContent` component is used. If you want to modify the layout, you must edit it directly (`quartz/components/pages/TagContent.tsx`).
++
++## API
++
++- Category: Emitter
++- Function name: `Plugin.TagPage()`.
++- Source: [`quartz/plugins/emitters/tagPage.tsx`](https://github.com/jackyzha0/quartz/blob/v4/quartz/plugins/emitters/tagPage.tsx).
+diff --git a/docs/plugins/index.md b/docs/plugins/index.md
+new file mode 100644
+index 000000000..298ff164c
+--- /dev/null
++++ b/docs/plugins/index.md
+@@ -0,0 +1,3 @@
++---
++title: Plugins
++---
+diff --git a/docs/showcase.md b/docs/showcase.md
+index cdef5fc50..9cff3a5f7 100644
+--- a/docs/showcase.md
++++ b/docs/showcase.md
+@@ -25,5 +25,9 @@ Want to see what Quartz can do? Here are some cool community gardens:
+ - [Scaling Synthesis - A hypertext research notebook](https://scalingsynthesis.com/)
+ - [Data Dictionary 🧠](https://glossary.airbyte.com/)
+ - [sspaeti.com's Second Brain](https://brain.sspaeti.com/)
++- [🪴Aster's notebook](https://notes.asterhu.com)
++- [🥷🏻🌳🍃 Computer Science & Thinkering Garden](https://notes.yxy.ninja)
++- [A Pattern Language - Christopher Alexander (Architecture)](https://patternlanguage.cc/)
++- [Gatekeeper Wiki](https://www.gatekeeper.wiki)
+ 
+ If you want to see your own on here, submit a [Pull Request adding yourself to this file](https://github.com/jackyzha0/quartz/blob/v4/docs/showcase.md)!
+diff --git a/docs/tags/component.md b/docs/tags/component.md
+deleted file mode 100644
+index 57592e8cd..000000000
+--- a/docs/tags/component.md
++++ /dev/null
+@@ -1,5 +0,0 @@
+----
+-title: Components
+----
+-
+-Want to create your own custom component? Check out the advanced guide on [[creating components]] for more information.
+diff --git a/docs/tags/plugin.md b/docs/tags/plugin.md
+new file mode 100644
+index 000000000..298ff164c
+--- /dev/null
++++ b/docs/tags/plugin.md
+@@ -0,0 +1,3 @@
++---
++title: Plugins
++---

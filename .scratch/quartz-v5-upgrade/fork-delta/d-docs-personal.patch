@@ -1,0 +1,621 @@
+diff --git a/docs/Changelog.md b/docs/Changelog.md
+new file mode 100644
+index 000000000..db1c9f524
+--- /dev/null
++++ b/docs/Changelog.md
+@@ -0,0 +1,34 @@
++---
++share: true
++Date: 2024-01-07
++---
++
++# Changelog
++| File                                                                                                                                                          | Folder  | Created           | Updated                     |
++| ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- | ----------------- | --------------------------- |
++| [[atomics/ego_depletion.md\|ego_depletion]]                                                                                                                   | atomics | January 13, 2024  | 11:10 PM - January 13, 2024 |
++| [[Changelog.md\|Changelog]]                                                                                                                                   |         | January 07, 2024  | 11:43 PM - January 07, 2024 |
++| [[atomics/Readwise.md\|Readwise]]                                                                                                                             | atomics | January 07, 2024  | 5:53 PM - January 07, 2024  |
++| [[reviews/index.md\|index]]                                                                                                                                   | reviews | January 03, 2024  | 5:52 PM - January 07, 2024  |
++| [[reviews/How to Take Smart Notes in Obsidian.md\|How to Take Smart Notes in Obsidian]]                                                                       | reviews | January 07, 2024  | 5:49 PM - January 07, 2024  |
++| [[atomics/strategic_life_unit_area.md\|strategic_life_unit_area]]                                                                                             | atomics | January 04, 2024  | 9:13 AM - January 04, 2024  |
++| [[atomics/permav.md\|permav]]                                                                                                                                 | atomics | January 04, 2024  | 9:07 AM - January 04, 2024  |
++| [[atomics/Cost of Attrition.md\|Cost of Attrition]]                                                                                                           | atomics | February 15, 2022 | 11:56 PM - January 03, 2024 |
++| [[graph.md\|graph]]                                                                                                                                           |         | \-                | 11:53 PM - January 03, 2024 |
++| [[reviews/Manage Your Day-to-Day.md\|Manage Your Day-to-Day]]                                                                                                 | reviews | January 03, 2024  | 1:42 PM - January 03, 2024  |
++| [[reviews/Connect The Dots.md\|Connect The Dots]]                                                                                                             | reviews | January 03, 2024  | 1:27 PM - January 03, 2024  |
++| [[atomics/Strength of Weak Ties.md\|Strength of Weak Ties]]                                                                                                   | atomics | December 08, 2023 | 1:17 PM - January 03, 2024  |
++| [[reviews/The Tipping Point.md\|The Tipping Point]]                                                                                                           | reviews | January 03, 2024  | 1:11 PM - January 03, 2024  |
++| [[atomics/Biases, Fallacies, and Paradoxes.md\|Biases, Fallacies, and Paradoxes]]                                                                             | atomics | December 29, 2022 | 1:03 PM - January 03, 2024  |
++| [[reviews/4 Professional Poker Lessons to Help You Think Clearly and Live Wisely.md\|4 Professional Poker Lessons to Help You Think Clearly and Live Wisely]] | reviews | January 03, 2024  | 1:03 PM - January 03, 2024  |
++| [[atomics/atomics.md\|atomics]]                                                                                                                               | atomics | January 02, 2024  | 11:59 AM - January 03, 2024 |
++| [[atomics/DigitalGarden.md\|DigitalGarden]]                                                                                                                   | atomics | July 06, 2022     | 11:59 AM - January 03, 2024 |
++| [[atomics/Documentation.md\|Documentation]]                                                                                                                   | atomics | January 02, 2024  | 11:59 AM - January 03, 2024 |
++| [[atomics/Hugo.md\|Hugo]]                                                                                                                                     | atomics | July 09, 2022     | 11:59 AM - January 03, 2024 |
++| [[atomics/mkdocs.md\|mkdocs]]                                                                                                                                 | atomics | January 03, 2024  | 11:59 AM - January 03, 2024 |
++| [[atomics/mqtt.md\|mqtt]]                                                                                                                                     | atomics | January 02, 2024  | 11:59 AM - January 03, 2024 |
++| [[atomics/Obsidian.md\|Obsidian]]                                                                                                                             | atomics | July 06, 2022     | 11:59 AM - January 03, 2024 |
++| [[atomics/PowerShell.md\|PowerShell]]                                                                                                                         | atomics | July 09, 2022     | 11:59 AM - January 03, 2024 |
++| [[index.md\|index]]                                                                                                                                           |         | July 06, 2022     | 11:58 AM - January 03, 2024 |
++| [[how-to/Installing MQTT.md\|Installing MQTT]]                                                                                                                | how-to  | January 02, 2023  | 11:58 AM - January 03, 2024 |
++
+diff --git a/docs/atomics/Biases, Fallacies, and Paradoxes.md b/docs/atomics/Biases, Fallacies, and Paradoxes.md
+new file mode 100644
+index 000000000..fe591891b
+--- /dev/null
++++ b/docs/atomics/Biases, Fallacies, and Paradoxes.md	
+@@ -0,0 +1,34 @@
++---
++Date: 2022-12-29
++tags:
++  - psychology
++aliases:
++  - bias
++  - fallacy
++share: true
++---
++
++I enjoy learning about and observing biases. They impact our day-to-day lives and can be insideous if not kept in check. By learning about these, I can try to be more aware of them to reduce them in both myself and call them out in others (politely of course!).
++# Bias
++## Confirmation Bias
++You only pay attention to facts that confirm what you already believe. This happens all the time. Poker. The news. Etc.
++
++## Status Quo Bias
++The belief that it must be done this way because it's always been done this way.
++
++# Fallacy
++## Sunk Cost Fallacy
++An example: you have $600 in a pot, but all the facts tell you that you won't win your hand. But you still put in more because "you've already put this much".
++
++## Information-Action Fallacy
++If given the right information, you would change your behaviors.
++
++# Paradoxes
++An idea that seems counterintuitive or self contradictory.
++## [[Strength of Weak Ties|Strength of Weak Ties]]
++A paradox that shows we learn more from folks from outside of typical community.
++
++
++---
++# References
++[[4 Professional Poker Lessons to Help You Think Clearly and Live Wisely|4 Professional Poker Lessons to Help You Think Clearly and Live Wisely]]
+\ No newline at end of file
+diff --git a/docs/atomics/Cost of Attrition.md b/docs/atomics/Cost of Attrition.md
+new file mode 100644
+index 000000000..ed7bd6f32
+--- /dev/null
++++ b/docs/atomics/Cost of Attrition.md	
+@@ -0,0 +1,15 @@
++---
++Date: 2022-02-15
++tags:
++  - ideas
++  - leadership
++share: true
++---
++
++# Cost of Attrition
++When people leave a company the cost isn't just felt in the immediate team.
++When people move between teams, it actually improves the interconnectedness.
++
++---
++# References
++https://benjiweber.co.uk/blog/2022/01/12/cost-of-attrition/
+\ No newline at end of file
+diff --git a/docs/atomics/DigitalGarden.md b/docs/atomics/DigitalGarden.md
+new file mode 100644
+index 000000000..a15f2f0dc
+--- /dev/null
++++ b/docs/atomics/DigitalGarden.md
+@@ -0,0 +1,7 @@
++---
++date: 2022-07-06
++title: Digital Garden
++share: true
++---
++
++A digital garden is when you have all your notes in the public.
+diff --git a/docs/atomics/Documentation.md b/docs/atomics/Documentation.md
+new file mode 100644
+index 000000000..423e5eb9f
+--- /dev/null
++++ b/docs/atomics/Documentation.md
+@@ -0,0 +1,14 @@
++---
++date: 2024-01-02
++share: true
++---
++
++# Documentation
++Documentation can take many forms and can be hot button issue.
++## Types
++My favorite take on this subject has been [Daniele Procida's talk at PyCon Australia 2017](https://www.youtube.com/watch?v=t4vKPhjcMZg). He argues that there are four types: Tutorials, How-To Guides, Discussions, and Reference. 
++
++- Tutorials: Lessons that take the reader by the hand through a series of steps to complete a project.
++- How-To Guides: Guides that take the reader through the steps required to solve a common problem.
++- Discussions: Explanations that clarify and illuminate a particular topic.
++- Reference: Technical descriptions of the machinery and how to operate it.
+\ No newline at end of file
+diff --git a/docs/atomics/Hugo.md b/docs/atomics/Hugo.md
+new file mode 100644
+index 000000000..31f954d61
+--- /dev/null
++++ b/docs/atomics/Hugo.md
+@@ -0,0 +1,7 @@
++---
++date: 2022-07-09
++share: true
++---
++
++# Hugo
++A static site generator.
+\ No newline at end of file
+diff --git a/docs/atomics/Obsidian.md b/docs/atomics/Obsidian.md
+new file mode 100644
+index 000000000..1b6e90aeb
+--- /dev/null
++++ b/docs/atomics/Obsidian.md
+@@ -0,0 +1,6 @@
++---
++date: 2022-07-06
++share: true
++---
++
++Obsidian is a note taking app. Your notes are written in Markdown. The real magic of Obsidian is it's use of links and the graph it creates.
+diff --git a/docs/atomics/PowerShell.md b/docs/atomics/PowerShell.md
+new file mode 100644
+index 000000000..88d4081d9
+--- /dev/null
++++ b/docs/atomics/PowerShell.md
+@@ -0,0 +1,15 @@
++---
++date: 2022-07-09
++share: true
++tags:
++  - powershell
++  - tech
++---
++
++# PowerShell
++PowerShell is a cross platform shell that leverages .Net while also creating an easy to use experience for end users. It has access to all existing applications in the path like any other shell.
++
++## Functions aka Cmdlets
++Functions are typically written with end users in mind. These follow an approved Verb-Noun format. There is also a set of approved verb's which improves discoverability.
++
++#powershell #tech
+\ No newline at end of file
+diff --git a/docs/atomics/Readwise.md b/docs/atomics/Readwise.md
+new file mode 100644
+index 000000000..dfd86543c
+--- /dev/null
++++ b/docs/atomics/Readwise.md
+@@ -0,0 +1,8 @@
++---
++Date: 2024-01-07
++share: true
++---
++
++An amazing tool to regularly review your notes. There's no point in reading a book if you aren't going to remember it. 
++
++You can sign up with my referral link for one free month: https://readwise.io/i/gilbert37
+\ No newline at end of file
+diff --git a/docs/atomics/Strength of Weak Ties.md b/docs/atomics/Strength of Weak Ties.md
+new file mode 100644
+index 000000000..86ad1ff75
+--- /dev/null
++++ b/docs/atomics/Strength of Weak Ties.md	
+@@ -0,0 +1,16 @@
++---
++Date: 2023-12-08
++tags:
++  - psychology
++aliases: 
++share: true
++---
++
++This is a paradox where making connections with folks who don't normally interact with can offer a new perspective. 
++
++> Why is this? Granovetter argues that it is because when it comes to finding out about new jobs—or, for that matter, new information, or new ideas—“weak ties” are always more important than strong ties. Your friends, after all, occupy the same world that you do. They might work with you, or live near you, and go to the same churches, schools, or parties. How much, then, would they know that you wouldn’t know? Your acquaintances, on the other hand, by definition occupy a very different world than you. They are much more likely to know something that you don’t. - From [The Tipping Point](reviews/The Tipping Point.md)
++
++---
++# References
++[[reviews/The Tipping Point|The Tipping Point]]
++[[Biases, Fallacies, and Paradoxes#Paradoxes|Biases, Fallacies, and Paradoxes > Paradoxes]]
+\ No newline at end of file
+diff --git a/docs/atomics/ego_depletion.md b/docs/atomics/ego_depletion.md
+new file mode 100644
+index 000000000..9be3db315
+--- /dev/null
++++ b/docs/atomics/ego_depletion.md
+@@ -0,0 +1,20 @@
++---
++date: 2024-01-13
++title: Ego Depletion
++share: true
++tags:
++  - psychology
++aliases: 
++---
++
++# Ego Depletion
++
++The expenditure of a finite amount of will. This can result in poor self-control choices. 
++
++
++
++One example that comes to mind is that fact that certain folks like Zuck or Jobs would pre-define their wardrobe as a way to avoid ego depletion[^1]. 
++
++---
++## References
++- [^1]https://theweek.com/speedreads/442337/mark-zuckerberg-wears-same-tshirt-every-day-because-doesnt-like-making-decisions 
+\ No newline at end of file
+diff --git a/docs/atomics/index.md b/docs/atomics/index.md
+new file mode 100644
+index 000000000..d6859614c
+--- /dev/null
++++ b/docs/atomics/index.md
+@@ -0,0 +1,15 @@
++---
++date: 2024-01-02
++title: Atomics
++share: true
++---
++
++# Atomics
++
++Atomic notes are single ideas. These can refer to other things, but should be able to convey the idea without REQUIRING to refer to other things.
++
++Because atomic notes are self contained it makes them useful for composing a new idea by combining multiple atomic ideas.
++
++As far as this digital garden is concerned I'll try to keep the notes atomic, but it's more a guideline then a hard rule.
++
++I consider atomics like Reference [[Documentation|Documentation]].
+\ No newline at end of file
+diff --git a/docs/atomics/mkdocs.md b/docs/atomics/mkdocs.md
+new file mode 100644
+index 000000000..a0eed77ce
+--- /dev/null
++++ b/docs/atomics/mkdocs.md
+@@ -0,0 +1,11 @@
++---
++date: 2024-01-03
++title: MkDocs
++share: true
++---
++
++# MkDocs
++MkDocs is a python tool to generate documentation from [[Markdown|Markdown]]. This site specifically uses [mkdocs-material](https://squidfunk.github.io/mkdocs-material/) to theme the site.
++
++----
++## References
+\ No newline at end of file
+diff --git a/docs/atomics/mqtt.md b/docs/atomics/mqtt.md
+new file mode 100644
+index 000000000..f51f20bca
+--- /dev/null
++++ b/docs/atomics/mqtt.md
+@@ -0,0 +1,16 @@
++---
++date: 2024-01-02
++share: true
++title: MQTT
++---
++
++# MQTT
++A lightweight pub/sub model that allows various tools to communicate their state to be used in a larger context. You can subscribe to topics to learn when a state changes.
++
++This is heavily used by IOT devices.
++
++## Protocol
++Works over TCP/IP port 1883. Three message types: Connect, Disconnect, and Publish.
++
++## Broker
++This is where messages are published to, as well as where clients subscribe to topics.
+\ No newline at end of file
+diff --git a/docs/atomics/permav.md b/docs/atomics/permav.md
+new file mode 100644
+index 000000000..3c3cfa945
+--- /dev/null
++++ b/docs/atomics/permav.md
+@@ -0,0 +1,24 @@
++---
++date: 2024-01-04
++title: PERMAV
++share: true
++tags:
++  - psychology
++aliases: 
++---
++
++# PERMAV
++Created by Psychologist Martin Seligman.
++- P: Positive Emotions
++- E: Engagament
++  - Are you engaged in your work.
++- R: Relationships
++- M: Meaning
++  - Do you find meaning in your relationships and work.
++- A: Achievement
++- V: Vitality
++  - “If you are healthy you have a thousand problems, but if you are ill you only have one problem.”
++
++---
++## References
++- YouTube: Use Strategic Thinking to Create the Life You Want – Harvard Business Review 
+\ No newline at end of file
+diff --git a/docs/atomics/strategic_life_unit_area.md b/docs/atomics/strategic_life_unit_area.md
+new file mode 100644
+index 000000000..065181862
+--- /dev/null
++++ b/docs/atomics/strategic_life_unit_area.md
+@@ -0,0 +1,58 @@
++---
++date: 2024-01-04
++title: Strategic Life Unit
++share: true
++tags:
++  - psychology
++aliases: 
++---
++
++# Strategic Life Unit's (SLU) and Areas (SLA)
++
++## SLU's
++1. Signifcant other
++2. Family
++3. Relationship
++4. Physical health/sports
++5. Mental health/mindfulness
++6. Spirtuality/faith
++7. Community/citizenship
++8. Societal engagement
++9. Job/career
++10. Education/learning
++11. Finances
++12. Hobbies/interests
++13. Online entertainment
++14. Offline entertainment
++15. Physiological needs
++16. Activities of daily living
++
++## SLA's
++SLU's boil down to 6 SLA's.
++1. Relationships
++  1. Signifcant other
++  2. Family
++  3. Friends
++2. Body, mind, and spirituality
++  1. Physical health/sports
++  2. Mental health/mindfulness
++  3. Spirtuality/faith
++3. Community and society
++  1. Community/citizenship
++  2. Societal engagement
++4. Job, learning, and finances,
++  1. Job/career
++  2. Education/learning
++  3. Finances
++5. Interests and entertainment
++  1. Hobbies/interests
++  2. Online entertainment
++  3. Offline entertainment
++6. Personal Care
++  1. Physiological needs
++  2. Activities of daily living
++
++
++---
++## References
++- YouTube: Use Strategic Thinking to Create the Life You Want – Harvard Business Review 
+\ No newline at end of file
+diff --git a/docs/graph.md b/docs/graph.md
+new file mode 100644
+index 000000000..11ebada71
+--- /dev/null
++++ b/docs/graph.md
+@@ -0,0 +1,14 @@
++---
++share: true
++---
++
++<iframe id="test"
++        title='test'
++        src="../assets/graph.html"
++        class="graph"
++        width="750px"
++        height="750px"
++        allowtransparency="true"
++        style="border: 0px; margin: 0px; padding: 0px; overflow: hidden;"
++        scrolling="no">
++</iframe>
+\ No newline at end of file
+diff --git a/docs/how-to/Installing MQTT.md b/docs/how-to/Installing MQTT.md
+new file mode 100644
+index 000000000..fc523c253
+--- /dev/null
++++ b/docs/how-to/Installing MQTT.md	
+@@ -0,0 +1,39 @@
++---
++share: true
++date: 2023-01-02
++---
++
++I've needed to install [[mqtt|mqtt]] DLL's to call them from [[PowerShell|PowerShell]] and this is how I did it.
++```
++$> nuget sources add -Name "nuget.org" -Source https://api.nuget.org/v3/index.json
++Package source with Name: nuget.org added successfully.
++$> nuget install m2mqtt -o .
++Feeds used:
++  https://api.nuget.org/v3/index.json
++
++Installing package 'm2mqtt' to 'C:\Users\gsanchez\repos\MeetingMqtt\MeetingMqtt\lib'.
++  GET https://api.nuget.org/v3/registration5-gz-semver2/m2mqtt/index.json
++  OK https://api.nuget.org/v3/registration5-gz-semver2/m2mqtt/index.json 448ms
++
++
++Attempting to gather dependency information for package 'm2mqtt.4.3.0' with respect to project 'C:\Users\gsanchez\repos\MeetingMqtt\MeetingMqtt\lib', targeting 'Any,Version=v0.0'
++Gathering dependency information took 24 ms
++Attempting to resolve dependencies for package 'm2mqtt.4.3.0' with DependencyBehavior 'Lowest'
++Resolving dependency information took 0 ms
++Resolving actions to install package 'm2mqtt.4.3.0'
++Resolved actions to install package 'm2mqtt.4.3.0'
++Retrieving package 'M2Mqtt 4.3.0' from 'nuget.org'.
++  GET https://api.nuget.org/v3-flatcontainer/m2mqtt/4.3.0/m2mqtt.4.3.0.nupkg
++  OK https://api.nuget.org/v3-flatcontainer/m2mqtt/4.3.0/m2mqtt.4.3.0.nupkg 110ms
++Installed M2Mqtt 4.3.0 from https://api.nuget.org/v3/index.json with content hash 2A1uM20uxuovQKPA0dkZUqD9gUpIMaX7KxdLiVM7IEXdPRL709hGuudHnvlDxm2/6b2LcOjshrYGVG9vdpipag==.
++Adding package 'M2Mqtt.4.3.0' to folder 'C:\Users\gsanchez\repos\MeetingMqtt\MeetingMqtt\lib'
++Added package 'M2Mqtt.4.3.0' to folder 'C:\Users\gsanchez\repos\MeetingMqtt\MeetingMqtt\lib'
++Successfully installed 'M2Mqtt 4.3.0' to C:\Users\gsanchez\repos\MeetingMqtt\MeetingMqtt\lib
++Executing nuget actions took 980 ms
++```
++
++I used this in my [Controlling a Cheap "Neon" LED, Pt 2](https://gilbertsanchez.com/posts/controlling-a-cheap-neon-led-pt-2/)
++
++---
++## References
++https://jackgruber.github.io/2019-06-05-ps-mqtt/
+\ No newline at end of file
+diff --git a/docs/reviews/4 Professional Poker Lessons to Help You Think Clearly and Live Wisely.md b/docs/reviews/4 Professional Poker Lessons to Help You Think Clearly and Live Wisely.md
+new file mode 100644
+index 000000000..fd31ecad5
+--- /dev/null
++++ b/docs/reviews/4 Professional Poker Lessons to Help You Think Clearly and Live Wisely.md	
+@@ -0,0 +1,30 @@
++---
++Date: 2024-01-03
++share: true
++tags:
++  - youtube
++---
++
++**Original**: https://youtu.be/FVamrGf8UYA
++
++Liv Boeree covers some biases that show up in our day-to-day lives that we often can see in poker.
++## Confirmation Bias
++  > The most damaging bias that can come up in poker and I also think very often in life is what's known as confirmation bias.
++
++The desire to want something to and to overvalue evidence that would confirm that, and undervalue evidence that disproves that.
++## Status Quo Bias
++> Status quo bias is basically when we [...] whenever we catch ourselves saying well it's always been done this way, or it's worked for me like this in the past and this is my way of doing things.
++
++In poker this could mean playing with a certain style that doesn't account for the other players.
++## Sunk Cost Fallacy
++> Another classic one that comes up in poker is the sunk cost fallacy where again you'll have a lot of chips perhap salmost all of your stack is in the middle and yet you are 85 to 90 percent confident that you have the worst hand and [...] you're putting another chip in the pot is probably not a good idea but we'll often go to ourselves "oh well I put I've gone this far I've put this much in I might as well see it through to the end"
++
++A very common situation where we fail to consider new information.
++## Emotional Difference
++> it's interesting to observe sort of the difference in emotion you can have when you end up in a very similar situation.
++
++Example she gives is where she loses a number of chips to get to N vs when she's won a hand to get the same number of chips. This gain or loss could affect you emotionally when in reality you have the same number of chips.
++
++---
++## References
++- [[Biases, Fallacies, and Paradoxes|Biases, Fallacies, and Paradoxes]]
+diff --git a/docs/reviews/Connect The Dots.md b/docs/reviews/Connect The Dots.md
+new file mode 100644
+index 000000000..f1ad77fc3
+--- /dev/null
++++ b/docs/reviews/Connect The Dots.md	
+@@ -0,0 +1,8 @@
++---
++share: true
++Date: 2024-01-03
++---
++
++**Original**: https://www.goodreads.com/book/show/22080447-connect-the-dots?from_search=true&from_srp=true&qid=yDAL3uTNuT&rank=4
++
++A book by Paul Jun. This was a very fun read on how to approach self education.
+diff --git a/docs/reviews/How to Take Smart Notes in Obsidian.md b/docs/reviews/How to Take Smart Notes in Obsidian.md
+new file mode 100644
+index 000000000..d133ceaf3
+--- /dev/null
++++ b/docs/reviews/How to Take Smart Notes in Obsidian.md	
+@@ -0,0 +1,16 @@
++---
++Date: 2024-01-07
++share: true
++---
++
++**Original**: https://a.co/d/846JhRj
++
++Book by [Josh Duffney](https://duffney.io/) about taking notes in [[Obsidian|Obsidian]]. 
++
++My all time favorite quote which I like to use regularly when talking about [[Systems|Systems]]:
++> Systems that allow complexity to build up in the wrong places eventually force you to choose between usability and usefulness.
++
++Josh talks about a few things such as atomic notes, where Zettelkasten came from, and a few other bits. Very easy and quick read. 
++
++Another excellent call out is: 
++> When taking permanent notes, use your own words and never copy word for word, unless you're capturing a quote.
+\ No newline at end of file
+diff --git a/docs/reviews/Manage Your Day-to-Day.md b/docs/reviews/Manage Your Day-to-Day.md
+new file mode 100644
+index 000000000..36234163c
+--- /dev/null
++++ b/docs/reviews/Manage Your Day-to-Day.md	
+@@ -0,0 +1,16 @@
++---
++share: true
++date: 2024-01-03
++review: incomplete
++---
++
++**Original**: https://www.goodreads.com/book/show/17606014-manage-your-day-to-day
++Review: Incomplete
++
++An easy read that is a collection of various creative folks.
++## Expertise
++The section on “Honing Your Creative Practice” touches on the topic of doing creative things in the public.
++
++> This is hard to do for two reasons: (1) it opens you to criticism, and (2) it puts you into the world as someone who knows what you are doing, which means tomorrow you also have to know what you are doing, and you have just signed up for a lifetime of knowing what you are doing.
++
++This really resonated with me and had a clear line to my apprehension to blog or speak. I would say that the antidote to this fear is realizing that expertise is not knowing everything, but rather knowing something extremely well from the basis of your experience. An example could be being an expert of a piece of software that you've only ever run it on-prem. You may not have the experience of running it in the cloud, but that lack of experience is ok. Humility and openess to continue learning new things and the acceptance that it is impossible to know everything.
+\ No newline at end of file
+diff --git a/docs/reviews/The Tipping Point.md b/docs/reviews/The Tipping Point.md
+new file mode 100644
+index 000000000..ac081cd5b
+--- /dev/null
++++ b/docs/reviews/The Tipping Point.md	
+@@ -0,0 +1,25 @@
++---
++share: true
++Date: 2024-01-03
++tags:
++  - books
++  - psychology
++---
++
++**Original**: https://goodreads.com/book/show/2612.The_Tipping_Point
++
++The Tipping Point is a book by Malcolm Gladwell that talks about social epidemics.
++
++## [[Strength of Weak Ties|Strength of Weak Ties]]
++This is the idea that people who are not in your normal social circle can introduce to new perspectives.
++
++> Why is this? Granovetter argues that it is because when it comes to finding out about new jobs—or, for that matter, new information, or new ideas—“weak ties” are always more important than strong ties. Your friends, after all, occupy the same world that you do. They might work with you, or live near you, and go to the same churches, schools, or parties. How much, then, would they know that you wouldn’t know? Your acquaintances, on the other hand, by definition occupy a very different world than you. They are much more likely to know something that you don’t. 
++
++^600245
++
++This reminds me of the immense value of conferences and “hallway tracks”.
++
++## Three Rules of the Tipping Point
++> The three rules of the Tipping Point—the Law of the Few, the Stickiness Factor, the Power of Context
++
++These rules allow us to try to study and influence if/when a tipping point may occur.
+\ No newline at end of file
+diff --git a/docs/reviews/index.md b/docs/reviews/index.md
+new file mode 100644
+index 000000000..e397a2950
+--- /dev/null
++++ b/docs/reviews/index.md
+@@ -0,0 +1,10 @@
++---
++Date: 2024-01-03
++share: true
++title: index
++---
++
++# Reviews
++These are my rough notes on various pieces of media that I've reviewed. This will include things such as books, YouTube videos, web articles, etc.
++
++The original notes are usually gathered inline (e.g. Kindle notes) but almost all go through [[Readwise|Readwise]], so I can review them on a regular cadence. I then make the notes you find here. This will ensure I only add my outlook and not accidently share more then I intend.
+\ No newline at end of file

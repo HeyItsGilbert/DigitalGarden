@@ -43,6 +43,10 @@ export default (() => {
       <head>
         <title>{title}</title>
         <meta charSet="utf-8" />
+        <meta
+          http-equiv="Content-Security-Policy"
+          content="font-src 'self' data: https://fonts.gstatic.com https://cdnjs.cloudflare.com https://*.fontawesome.com;"
+        />
         {coreStylesheet && <link rel="preload" href={coreStylesheet} as="style" />}
         {coreScript && coreScript.contentType === "external" && (
           <link rel="preload" href={coreScript.src} as="script" />
@@ -58,6 +62,9 @@ export default (() => {
           </>
         )}
         <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://use.fontawesome.com" />
+        <link rel="preconnect" href="https://use.fontawesome.com" crossOrigin="anonymous" />
+        <script src="https://kit.fontawesome.com/1c9394c211.js" crossOrigin="anonymous"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <meta name="og:site_name" content={cfg.pageTitle}></meta>

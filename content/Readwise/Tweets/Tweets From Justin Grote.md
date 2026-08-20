@@ -1,0 +1,40 @@
+---
+id: 33462152
+updated: 2023-10-23
+title: Tweets From Justin Grote
+author:
+  - "@JustinWGrote on Twitter"
+share: true
+readwise_url:
+uri: https://readwise.io/bookreview/33462152
+tags:
+  - readwise
+  - tweets
+created: 2023-10-22
+---
+  
+  
+%%  
+ID: 33462152  
+Updated: 2023-10-23  
+%%  
+  
+> [!WARNING] Auto Generated via Readwise  
+> These are my highlights created/synced via [Readwise.io - Referral Link](https://readwise.io/i/gilbert37)  
+  
+![]( https://pbs.twimg.com/profile_images/1540885800870547456/RLrq7HzS.jpg)  
+  
+# About  
+  
+Title: [[Tweets From Justin Grote|Tweets From Justin Grote]]  
+Authors: [[@JustinWGrote on Twitter|@JustinWGrote on Twitter]]  
+Category: #tweets  
+Number of Highlights: ==0==  
+Source URL: https://twitter.com/JustinWGrote  
+Date: [[2023-10-23|2023-10-23]]  
+Last Highlighted: **  
+  
+---  
+  
+# Highlights  
+  

@@ -1,0 +1,13 @@
+---
+modified: 2024-02-11T07:58:25-08:00
+date: 2024-02-01
+share: true
+tags:
+  - technology
+  - coding
+aliases:
+created: 2024-02-01
+---
+[GitHub Publisher](obsidian://show-plugin?id=obsidian-mkdocs-publisher) is an extension by the wonderful Mara-Li. It allows you to push your notes to a GitHub repo. That combined with a variety of static site generators will allow you to create a site.  
+  
+One of the beauties of the extension is that it will take things like dataview tables and render them into [[Markdown|Markdown]] tables. This means that what is uploaded is a table vs a scriptblock.

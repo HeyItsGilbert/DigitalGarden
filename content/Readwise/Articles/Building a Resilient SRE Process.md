@@ -1,0 +1,40 @@
+---
+id: 21758391
+updated: 2022-12-12
+title: Building a Resilient SRE Process
+author:
+  - arun
+share: true
+readwise_url:
+uri: https://readwise.io/bookreview/21758391
+tags:
+  - readwise
+  - articles
+created: 2022-12-10
+---
+  
+  
+%%  
+ID: 21758391  
+Updated: 2022-12-12  
+%%  
+  
+> [!WARNING] Auto Generated via Readwise  
+> These are my highlights created/synced via [Readwise.io - Referral Link](https://readwise.io/i/gilbert37)  
+  
+![]( https://miro.medium.com/max/1000/0*9JINTTY8FnPUqCjj)  
+  
+# About  
+  
+Title: [[Building a Resilient SRE Process|Building a Resilient SRE Process]]  
+Authors: [[arun|arun]]  
+Category: #articles  
+Number of Highlights: ==0==  
+Source URL: https://engineering.reputation.com/building-a-resilient-sre-process-42e659714743  
+Date: [[2022-12-12|2022-12-12]]  
+Last Highlighted: *2022-12-12*  
+  
+---  
+  
+# Highlights  
+  

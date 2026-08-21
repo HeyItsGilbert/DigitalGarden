@@ -55,6 +55,25 @@ $light-blue: #4385BE;
 $light-purple: #8B7EC8;
 $light-magenta: #CE5D97;
 
+// @quartz-themes/core (theme: default) injects a hardcoded Obsidian export at
+// :root:root[saved-theme="..."] that overrides our config's --accent-h/-s/-l
+// and hardcodes --text-highlight-bg to yellow (rgba(255, 208, 0, 0.4)), which
+// bleeds into --highlight (internal-link pill backgrounds) and --textHighlight.
+// Force it back to Flexoki purple.
+:root:root[saved-theme="dark"] {
+    --accent-h: 259 !important;
+    --accent-s: 42% !important;
+    --accent-l: 43% !important;
+    --text-highlight-bg: #{rgba($dark-purple, 0.15)} !important;
+}
+
+:root:root[saved-theme="light"] {
+    --accent-h: 259 !important;
+    --accent-s: 42% !important;
+    --accent-l: 43% !important;
+    --text-highlight-bg: #{rgba($dark-purple, 0.15)} !important;
+}
+
 // These are my MOC images
 [saved-theme="dark"] div.moc img {
     filter: invert(70%);

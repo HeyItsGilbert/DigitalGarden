@@ -249,10 +249,12 @@ plugins:
     options:
       title: Recent Notes
       limit: 5
-      showTags: false
+      showTags: true
+      hideTagPages: true
+      hideFolderPages: true
     layout:
       position: left
-      priority: 40
+      priority: 55
       display: desktop-only
   - source: "@quartz-community/spacer"
     enabled: true

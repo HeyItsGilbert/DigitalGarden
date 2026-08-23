@@ -248,8 +248,8 @@ plugins:
     enabled: true
     options:
       title: Recent Notes
-      limit: 5
-      showTags: true
+      limit: 10
+      showTags: false
       hideTagPages: true
       hideFolderPages: true
     layout:

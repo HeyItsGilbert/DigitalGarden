@@ -104,17 +104,29 @@ div.mocitem {
 
 // Recent notes on the sidebar should be smaller size
 div.left.sidebar {
-    .recent-notes>ul.recent-ul {
-        font-size: smaller;
-        margin: 0;
-        line-height: 0;
+    .recent-notes {
+        h3 {
+            font-size: 0.9rem;
+            margin: 0.5rem 0;
+        }
 
-        li.recent-li {
-            margin: 0;
+        >ul.recent-ul {
             font-size: smaller;
+            margin: 0;
+            line-height: 0;
 
-            a.internal.tag-link {
+            li.recent-li {
+                margin: 0 0 0.35rem;
                 font-size: smaller;
+
+                h3 {
+                    font-size: 0.85rem;
+                    margin: 0;
+                }
+
+                a.internal.tag-link {
+                    font-size: smaller;
+                }
             }
         }
     }
